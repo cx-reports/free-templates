@@ -4,4 +4,8 @@ This repository contains a collection of free templates designed to help you get
 
 **Invoices**
 
-- [Striking Invoice](./invoice-striking/)
+- [Striking Invoice](./invoices/striking-invoice/)
+
+**Lab Results**
+
+- [Blood Test Results](./lab-results/blood-test-results-standard/)

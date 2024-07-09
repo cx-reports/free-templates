@@ -1,0 +1,2292 @@
+{
+  "check": "CxReports",
+  "created": "2024-02-21T13:03:04.1254338+01:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Blood Test Results",
+        "isEmbeddable": false,
+        "themeName": "Hemolab",
+        "reportTypeCode": "other",
+        "reportTypeName": "Other",
+        "reportTemplateName": "Hemolab",
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "Lab results",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "d6f8c9e0f30",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": true
+                  },
+                  "children": [
+                    {
+                      "id": "6c27f33fe84",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false
+                    },
+                    {
+                      "id": "1824e65062b",
+                      "tag": "h3",
+                      "text": "Blood Test Results",
+                      "type": "heading",
+                      "style": {
+                        "alignSelf": "center",
+                        "textAlign": "center"
+                      },
+                      "theme": {
+                        "text": {
+                          "h3": {
+                            "color": "var(--primary)"
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "65px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "marginTop": "0",
+                          "flexShrink": "0",
+                          "paddingTop": "0"
+                        },
+                        "cssClasses": null
+                      },
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "06c2784f1f4",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "15px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "406c2784f1f",
+                      "type": "separator",
+                      "style": {
+                        "background": "rgba(225,225,225,1)"
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "orientation": "horizontal"
+                    },
+                    {
+                      "id": "fe8406c2784",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "children": [
+                        {
+                          "id": "d9721972129",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "children": [
+                            {
+                              "id": "219721296c2",
+                              "text": "{$data.patientDetails.name}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null,
+                                    "fontFamily": null,
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "cssClasses": null
+                              }
+                            },
+                            {
+                              "id": "c27f33fe840",
+                              "size": "normal",
+                              "type": "spacer",
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "minHeight": "4px",
+                                  "flexShrink": "0"
+                                },
+                                "cssClasses": null
+                              }
+                            },
+                            {
+                              "id": "19721296c27",
+                              "data": [
+                                {
+                                  "id": "27f33fe8406",
+                                  "key": "Age:",
+                                  "value": "{$data.patientDetails.age}",
+                                  "$editor": null,
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "7f33fe8406c",
+                                  "key": "Gender:",
+                                  "value": "{$data.patientDetails.gender}",
+                                  "$editor": null,
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "f33fe8406c2",
+                                  "key": "Email:",
+                                  "value": "{$data.patientDetails.email}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "color": null,
+                                    "fontSize": "12px",
+                                    "lineHeight": "16px"
+                                  },
+                                  "key-value-grid-value": {
+                                    "color": null,
+                                    "fontSize": "12px",
+                                    "fontWeight": "700",
+                                    "lineHeight": "16px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "keyWidth": "60px",
+                                "dividerText": null
+                              },
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "cssClasses": null
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "backgroundColor": null
+                            },
+                            "cssClasses": null
+                          }
+                        },
+                        {
+                          "id": "f1f48298439",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "children": [
+                            {
+                              "id": "784f1f48298",
+                              "text": "Processing Details",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null,
+                                    "fontFamily": null,
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": null,
+                                "cssClasses": null
+                              }
+                            },
+                            {
+                              "id": "84f1f482984",
+                              "size": "normal",
+                              "type": "spacer",
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "minHeight": "4px",
+                                  "flexShrink": "0"
+                                },
+                                "cssClasses": null
+                              }
+                            },
+                            {
+                              "id": "4f1f4829843",
+                              "data": [
+                                {
+                                  "id": "94843159204",
+                                  "key": "Sample:",
+                                  "value": "{$data.time.sampleCollection}",
+                                  "$editor": null,
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "48431592044",
+                                  "key": "Results:",
+                                  "value": "{$data.time.resultCompletion}",
+                                  "$editor": null,
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "84315920442",
+                                  "key": "Verified by:",
+                                  "value": "{$data.time.doctor}",
+                                  "$editor": null,
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "color": null,
+                                    "fontSize": "12px",
+                                    "lineHeight": "16px"
+                                  },
+                                  "key-value-grid-value": {
+                                    "color": null,
+                                    "fontSize": "12px",
+                                    "fontWeight": "700",
+                                    "lineHeight": "16px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "keyWidth": "80px",
+                                "dividerText": null
+                              },
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "cssClasses": null
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "backgroundColor": null
+                            },
+                            "cssClasses": null
+                          }
+                        },
+                        {
+                          "id": "97219721296",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "children": [
+                            {
+                              "id": "33fe8406c27",
+                              "text": "{$data.labDetails.labName}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null,
+                                    "fontFamily": null,
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "cssClasses": null
+                              }
+                            },
+                            {
+                              "id": "3fe8406c278",
+                              "text": "{$data.labDetails.address.street}, {$data.labDetails.address.city}\n{$data.labDetails.address.zipCode} {$data.labDetails.address.state},\n{$data.labDetails.address.country}",
+                              "type": "text",
+                              "style": {
+                                "whiteSpace": "pre"
+                              },
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null,
+                                    "fontSize": "12px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "marginTop": "4px"
+                                },
+                                "cssClasses": null
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "backgroundColor": null
+                            },
+                            "cssClasses": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "78px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "backgroundColor": null
+                        },
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "e8406c2784f",
+                      "type": "separator",
+                      "style": {
+                        "background": "rgba(225,225,225,1)"
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "cssClasses": null
+                      },
+                      "orientation": "horizontal"
+                    },
+                    {
+                      "id": "78e5fde9849",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "98af6959b96",
+                          "tag": "h6",
+                          "text": "Hematology",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "layout": {
+                            "collapsibleSections": {
+                              "headingOptions": true
+                            }
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "e5fde984977",
+                          "type": "data-table",
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "bloodTest.hematology"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": null,
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        },
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "de984977f28",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "e984977f287",
+                          "tag": "h6",
+                          "text": "Biochemistry",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "984977f2878",
+                          "type": "data-table",
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "bloodTest.biochemistry"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "2954cfe93f8",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "954cfe93f8c",
+                          "tag": "h6",
+                          "text": "Liver Function",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "54cfe93f8ca",
+                          "type": "data-table",
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "bloodTest.liverFunctionTests"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "4cfe93f8ca3",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "cfe93f8ca3b",
+                          "tag": "h6",
+                          "text": "Kidney Function",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "fe93f8ca3bd",
+                          "type": "data-table",
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "bloodTest.kidneyFunctionTests"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "e93f8ca3bd9",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "93f8ca3bd97",
+                          "tag": "h6",
+                          "text": "Electrolytes",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "3f8ca3bd972",
+                          "type": "data-table",
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "bloodTest.electrolytes"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "f8ca3bd9721",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "8ca3bd97219",
+                          "tag": "h6",
+                          "text": "Thyroid Function",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "ca3bd972197",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "header": {
+                                "color": null,
+                                "backgroundColor": null,
+                                "borderTop-header": null,
+                                "borderLeft-header": null,
+                                "borderRight-header": null,
+                                "borderBottom-header": null
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "cssClasses": null
+                          },
+                          "stylingFor": "header",
+                          "gridOptions": {
+                            "dataSource": "bloodTest.thyroidFunctionTests"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "a3bd9721972",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "3bd97219721",
+                          "tag": "h6",
+                          "text": "Lipid Profile",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "bd972197212",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "header": {
+                                "color": null,
+                                "backgroundColor": null,
+                                "borderTop-header": null,
+                                "borderLeft-header": null,
+                                "borderRight-header": null,
+                                "borderBottom-header": null
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "columns": [
+                            {
+                              "field": "testName",
+                              "width": 250,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Test",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "unit",
+                              "width": 80,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Unit",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "referenceRangeLow",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Reference Range",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "result",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "formatType": "number",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            },
+                            {
+                              "align": "center",
+                              "field": "resultStatus",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Result Status",
+                                "type": "text",
+                                "htmlTpl": null
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "classExpression": null,
+                              "styleExpression": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "cssClasses": null
+                          },
+                          "stylingFor": "header",
+                          "gridOptions": {
+                            "dataSource": "bloodTest.lipidProfile"
+                          },
+                          "formatOptions": {
+                            "date": null,
+                            "number": "n",
+                            "percent": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "44266900c0c",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                        {
+                          "id": "4266900c0c0",
+                          "tag": "h6",
+                          "text": "Notes",
+                          "type": "heading",
+                          "theme": {
+                            "text": {
+                              "h3": {
+                                "color": null
+                              },
+                              "h4": {
+                                "color": null
+                              },
+                              "h5": {
+                                "color": null
+                              },
+                              "h6": {
+                                "color": null,
+                                "fontSize": "14px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "paddingLeft": "4px"
+                            },
+                            "cssClasses": null
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "66900c0c04e",
+                          "text": "The data for this report was generated using Chat GPT. Any similarity to real-world entities is purely coincidental.",
+                          "type": "text",
+                          "theme": {
+                            "text": {
+                              "p": {
+                                "color": null,
+                                "fontSize": "13px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "border": "1px dashed lightgray",
+                              "height": "136px",
+                              "padding": "8px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            },
+                            "cssClasses": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        }
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true,
+                  "boxStyles": {
+                    "cssClasses": null
+                  }
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "bloodTest",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Blood Test Results",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\n    \u0022hematology\u0022: [\n      {\n        \u0022testName\u0022: \u0022White Blood Cell Count\u0022,\n        \u0022result\u0022: 7.2,\n        \u0022referenceRangeLow\u0022: 4.0,\n        \u0022referenceRangeHigh\u0022: 11.0,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Red Blood Cell Count\u0022,\n        \u0022result\u0022: 4.5,\n        \u0022referenceRangeLow\u0022: 4.2,\n        \u0022referenceRangeHigh\u0022: 5.9,\n        \u0022unit\u0022: \u0022x10^12/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hemoglobin\u0022,\n        \u0022result\u0022: 13.5,\n        \u0022referenceRangeLow\u0022: 13.2,\n        \u0022referenceRangeHigh\u0022: 16.6,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hematocrit\u0022,\n        \u0022result\u0022: 40.1,\n        \u0022referenceRangeLow\u0022: 38.3,\n        \u0022referenceRangeHigh\u0022: 48.6,\n        \u0022unit\u0022: \u0022%\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Platelet Count\u0022,\n        \u0022result\u0022: 250,\n        \u0022referenceRangeLow\u0022: 150,\n        \u0022referenceRangeHigh\u0022: 450,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022biochemistry\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glucose\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 70,\n        \u0022referenceRangeHigh\u0022: 99,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Creatinine\u0022,\n        \u0022result\u0022: 0.9,\n        \u0022referenceRangeLow\u0022: 0.6,\n        \u0022referenceRangeHigh\u0022: 1.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Urea\u0022,\n        \u0022result\u0022: 29,\n        \u0022referenceRangeLow\u0022: 15,\n        \u0022referenceRangeHigh\u0022: 50,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alanine Aminotransferase (ALT)\u0022,\n        \u0022result\u0022: 25,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 56,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022liverFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Aspartate Aminotransferase (AST)\u0022,\n        \u0022result\u0022: 30,\n        \u0022referenceRangeLow\u0022: 8,\n        \u0022referenceRangeHigh\u0022: 48,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alkaline Phosphatase (ALP)\u0022,\n        \u0022result\u0022: 70,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 129,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Bilirubin\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.3,\n        \u0022referenceRangeHigh\u0022: 1.9,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Albumin\u0022,\n        \u0022result\u0022: 4.5,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.5,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022kidneyFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glomerular Filtration Rate (GFR)\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 60,\n        \u0022referenceRangeHigh\u0022: 120,\n        \u0022unit\u0022: \u0022mL/min/1.73m\u00B2\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Blood Urea Nitrogen (BUN)\u0022,\n        \u0022result\u0022: 14,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 20,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022electrolytes\u0022: [\n      {\n        \u0022testName\u0022: \u0022Sodium\u0022,\n        \u0022result\u0022: 140,\n        \u0022referenceRangeLow\u0022: 135,\n        \u0022referenceRangeHigh\u0022: 145,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Potassium\u0022,\n        \u0022result\u0022: 4.2,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.1,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Calcium\u0022,\n        \u0022result\u0022: 9.5,\n        \u0022referenceRangeLow\u0022: 8.6,\n        \u0022referenceRangeHigh\u0022: 10.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022thyroidFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Thyroid Stimulating Hormone (TSH)\u0022,\n        \u0022result\u0022: 2.1,\n        \u0022referenceRangeLow\u0022: 0.5,\n        \u0022referenceRangeHigh\u0022: 4.5,\n        \u0022unit\u0022: \u0022\u03BCIU/mL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Free Thyroxine (FT4)\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.9,\n        \u0022referenceRangeHigh\u0022: 1.7,\n        \u0022unit\u0022: \u0022ng/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022lipidProfile\u0022: [\n      {\n        \u0022testName\u0022: \u0022Total Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Low-Density Lipoprotein (LDL)\u0022,\n        \u0022result\u0022: 100,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 100,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022High-Density Lipoprotein (HDL)\u0022,\n        \u0022result\u0022: 55,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 60,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Triglycerides\u0022,\n        \u0022result\u0022: 150,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 150,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ]\n  }"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "patientDetails",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Patient Details",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "csv": {
+                  "delimiter": ","
+                },
+                "json": "{\n    \u0022name\u0022: \u0022Johnatan Doe\u0022,\n    \u0022age\u0022: 30,\n    \u0022gender\u0022: \u0022Male\u0022,\n    \u0022email\u0022: \u0022johndoe@example.com\u0022\n  }"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "labDetails",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Lab Details",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\n    \u0022labName\u0022: \u0022Central Health Laboratory\u0022,\n    \u0022address\u0022: {\n      \u0022street\u0022: \u0022123 Health Ave\u0022,\n      \u0022city\u0022: \u0022Medicity\u0022,\n      \u0022state\u0022: \u0022Wellbeing\u0022,\n      \u0022zipCode\u0022: \u002212345\u0022,\n      \u0022country\u0022: \u0022Healthland\u0022\n    }\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "time",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Time",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\n    \u0022sampleCollection\u0022: \u00222024-01-20 08:30 AM\u0022,\n    \u0022resultCompletion\u0022: \u00222024-01-22 03:00 PM\u0022,\n    \u0022doctor\u0022: \u0022Dr. Emily Johnson\u0022\n  }"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Hemolab",
+        "defaultPaperMargins": "12.7mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Hemolab",
+        "pages": [
+          {
+            "name": "Standard page",
+            "description": "Standard page",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page"
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "e0082d978ed",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "children": [
+                  {
+                    "id": "d978edfc83e",
+                    "url": "/Hemolab.png",
+                    "type": "img",
+                    "style": {
+                      "objectFit": "contain"
+                    },
+                    "$level": 1,
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "47px",
+                        "height": "36px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      }
+                    },
+                    "fromFileSystem": true
+                  },
+                  {
+                    "id": "bf9e11824e6",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "9px",
+                        "height": "18px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2d978edfc83",
+                    "text": "Hemolab",
+                    "type": "text",
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": null,
+                          "fontSize": "30px",
+                          "fontWeight": "700"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "hideExpr": null,
+                    "$expanded": false
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  },
+                  "alignItems": "center"
+                }
+              },
+              {
+                "id": "f9e11824e65",
+                "size": "normal",
+                "type": "spacer",
+                "$level": 0,
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "height": "-4px",
+                    "flexGrow": "0",
+                    "flexBasis": "auto",
+                    "minHeight": "5px",
+                    "flexShrink": "0",
+                    "borderBottom": "3px solid var(--primary)"
+                  },
+                  "cssClasses": null
+                }
+              },
+              {
+                "id": "be0e0082d97",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              },
+              {
+                "id": "15920442669",
+                "text": "Page {$page.number} of {$report.pageCount}",
+                "type": "text",
+                "style": {
+                  "alignSelf": "flex-end",
+                  "textAlign": "center"
+                },
+                "theme": {
+                  "text": {
+                    "p": {
+                      "color": null,
+                      "fontSize": "11px",
+                      "fontFamily": null
+                    }
+                  }
+                },
+                "$level": 0,
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "height": "21px",
+                    "flexGrow": "0",
+                    "borderTop": "1px solid var(--primary)",
+                    "flexBasis": "auto",
+                    "flexShrink": "0"
+                  },
+                  "cssClasses": null
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Hemolab",
+        "content": {
+          "text": {
+            "h1": {
+              "color": null,
+              "fontSize": "32px",
+              "fontWeight": "600"
+            },
+            "h2": {
+              "color": null,
+              "fontSize": "28px",
+              "marginTop": "1rem",
+              "fontWeight": "600",
+              "marginBottom": "0.25em"
+            },
+            "h3": {
+              "color": null,
+              "fontSize": "24px",
+              "marginTop": "1rem",
+              "fontWeight": "600",
+              "marginBottom": "0.25em"
+            },
+            "h4": {
+              "color": null,
+              "fontSize": "22px",
+              "marginTop": "1rem",
+              "fontWeight": "600",
+              "marginBottom": "0.25em"
+            },
+            "h5": {
+              "color": null,
+              "fontSize": "18px",
+              "marginTop": "1rem",
+              "fontWeight": "600",
+              "marginBottom": "0.25em"
+            },
+            "h6": {
+              "color": null,
+              "fontSize": "16px",
+              "marginTop": "1rem",
+              "fontWeight": "600",
+              "marginBottom": "0.25em"
+            },
+            "body": {
+              "color": null,
+              "fontSize": "14px",
+              "fontFamily": "Roboto"
+            }
+          },
+          "chart": {
+            "colorA": {
+              "fill": null
+            },
+            "colorB": {
+              "fill": null
+            },
+            "colorC": {
+              "fill": null
+            },
+            "colorD": {
+              "fill": null
+            },
+            "colorE": {
+              "fill": null
+            },
+            "colorF": {
+              "fill": null
+            },
+            "colorG": {
+              "fill": null
+            },
+            "colorH": {
+              "fill": null
+            },
+            "colorI": {
+              "fill": null
+            },
+            "colorJ": {
+              "fill": null
+            },
+            "colorK": {
+              "fill": null
+            },
+            "colorL": {
+              "fill": null
+            },
+            "colorM": {
+              "fill": null
+            },
+            "colorN": {
+              "fill": null
+            },
+            "colorO": {
+              "fill": null
+            },
+            "colorP": {
+              "fill": null
+            }
+          },
+          "table": {
+            "cell": {
+              "color": null,
+              "borderTop-cell": null,
+              "backgroundColor": null,
+              "borderLeft-cell": null,
+              "paddingTop-cell": "2px",
+              "borderRight-cell": null,
+              "paddingLeft-cell": "4px",
+              "borderBottom-cell": null,
+              "paddingRight-cell": "4px",
+              "paddingBottom-cell": "2px"
+            },
+            "table": {
+              "color": null,
+              "fontSize": "12px",
+              "fontFamily": null,
+              "oddRowColor": null,
+              "evenRowColor": null,
+              "backgroundColor": null,
+              "borderTop-table": null,
+              "borderLeft-table": null,
+              "borderRight-table": null,
+              "borderBottom-table": null
+            },
+            "header": {
+              "color": "var(--primary)",
+              "fontSize": "11px",
+              "fontFamily": null,
+              "fontWeight": "700",
+              "textTransform": "uppercase",
+              "backgroundColor": null,
+              "borderTop-header": null,
+              "borderLeft-header": null,
+              "paddingTop-header": "2px",
+              "borderRight-header": null,
+              "paddingLeft-header": "4px",
+              "borderBottom-header": null,
+              "paddingRight-header": "4px",
+              "paddingBottom-header": "2px"
+            }
+          },
+          "legend": {
+            "shape": "null",
+            "config": {}
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--primary",
+                "value": "#9b0d17",
+                "displayName": "primary"
+              }
+            ]
+          },
+          "guideline": {
+            "border": {
+              "stroke": null
+            }
+          },
+          "chartLabel": {
+            "text": {},
+            "axisLabels": {}
+          },
+          "zeroMarker": {
+            "zeroMarkerX": {
+              "stroke": null
+            },
+            "zeroMarkerY": {
+              "stroke": null
+            }
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Other",
+        "description": "Default",
+        "code": "other"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page"
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null
+  }
+}
