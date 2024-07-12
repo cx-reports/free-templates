@@ -1,0 +1,3666 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-12T12:58:22.1985027+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Real Estate",
+        "isEmbeddable": false,
+        "themeName": "Real Estate",
+        "reportTypeCode": "Ads",
+        "reportTypeName": "Ads",
+        "reportTemplateName": "Real Estate",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "House For Sale",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "97b9fc7faea",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master"
+                  },
+                  "children": [
+                    {
+                      "id": "7b9fc7faea8",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "layout": {},
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "b9fc7faea8c",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {},
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "9fc7faea8c1",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "layout": {},
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "fc7faea8c1a",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "3d5eb311399",
+                                      "tag": "h1",
+                                      "text": "{$data.data.real_estate.property_type}\nFOR\n{$data.data.real_estate.sale_type}",
+                                      "type": "heading",
+                                      "theme": {
+                                        "text": {
+                                          "h1": {
+                                            "color": null
+                                          },
+                                          "h3": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "158px",
+                                          "height": "126px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "marginTop": "20px",
+                                          "flexShrink": "0",
+                                          "marginLeft": "20px"
+                                        }
+                                      },
+                                      "includeInTOC": true
+                                    },
+                                    {
+                                      "id": "faea8c1a6c0",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "d5eb311399d",
+                                          "url": "/Location%20icon.svg",
+                                          "type": "img",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": null
+                                          }
+                                        },
+                                        {
+                                          "id": "aea8c1a6c0a",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {},
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "19px",
+                                              "height": "27.44px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0",
+                                              "backgroundColor": null
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "5eb311399db",
+                                          "tag": "h3",
+                                          "text": "{$data.data.real_estate.location}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": null
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "176px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          },
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "a8c1a6c0a10",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {},
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "156px",
+                                              "height": "38px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0",
+                                              "marginLeft": "8px",
+                                              "backgroundColor": null
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "marginTop": "15px",
+                                          "flexShrink": "1",
+                                          "marginLeft": "16px",
+                                          "backgroundColor": null
+                                        },
+                                        "alignItems": "center",
+                                        "justifyContent": "flex-start"
+                                      }
+                                    },
+                                    {
+                                      "id": "c1a6c0a10f1",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "1a6c0a10f19",
+                                          "tag": "h3",
+                                          "text": "PRICE STARTS FROM",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": null
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "flexShrink": "1",
+                                          "marginLeft": "16px",
+                                          "backgroundColor": null
+                                        },
+                                        "alignItems": "flex-end"
+                                      }
+                                    },
+                                    {
+                                      "id": "a6c0a10f198",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "6c0a10f198f",
+                                          "tag": "h2",
+                                          "text": "{$data.data.real_estate.starting_price}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h2": {
+                                                "color": null
+                                              },
+                                              "h3": {
+                                                "color": null
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": null
+                                          },
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "flexShrink": "1",
+                                          "marginLeft": "16px",
+                                          "backgroundColor": null
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "243px",
+                                      "height": "342px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "borderRadius": "4px",
+                                      "backgroundColor": "var(--warm-orange-brown)"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "c0a10f198f1",
+                                  "type": "spacer",
+                                  "style": {
+                                    "background": null
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "b311399dbc9",
+                                  "url": "{$data.data.real_estate.images.main}",
+                                  "type": "img",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "500px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "borderRadius": "4px"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "755px",
+                                  "height": "342px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "backgroundColor": null
+                                }
+                              }
+                            },
+                            {
+                              "id": "10f198f1d19",
+                              "type": "spacer",
+                              "$level": 3,
+                              "version": 0,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "12px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "0f198f1d19f",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "layout": {},
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "f198f1d19ff",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "198f1d19ffa",
+                                      "url": "{$data.data.real_estate.images.image1}",
+                                      "type": "img",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "borderRadius": "4px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "244px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "98f1d19ffae",
+                                  "type": "spacer",
+                                  "style": {
+                                    "background": null
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "12px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "8f1d19ffae3",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "f1d19ffae36",
+                                      "url": "{$data.data.real_estate.images.image2}",
+                                      "type": "img",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "borderRadius": "4px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "244px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "1d19ffae369",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "version": 0,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "12px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "d19ffae3695",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "19ffae36957",
+                                      "url": "{$data.data.real_estate.images.image3}",
+                                      "type": "img",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "borderRadius": "4px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "244px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "170px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "backgroundColor": null
+                                }
+                              }
+                            },
+                            {
+                              "id": "9ffae36957a",
+                              "type": "spacer",
+                              "style": {
+                                "background": null
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": null
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "height": "524px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0",
+                              "backgroundColor": null
+                            }
+                          }
+                        },
+                        {
+                          "id": "ffae36957a3",
+                          "type": "spacer",
+                          "style": {
+                            "background": null
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "height": "12px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "fae36957a30",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "layout": {},
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ae36957a305",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "layout": {},
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "e36957a305f",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "af725f02ae1",
+                                      "tag": "h4",
+                                      "text": "ABOUT THE PROPERTY",
+                                      "type": "heading",
+                                      "style": {
+                                        "alignSelf": "flex-end"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": null
+                                          },
+                                          "h4": {
+                                            "color": null
+                                          },
+                                          "h5": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginLeft": ""
+                                        }
+                                      },
+                                      "includeInTOC": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "85px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "4d7f73f44f4",
+                                  "size": "3px",
+                                  "type": "separator",
+                                  "style": {
+                                    "height": "3px",
+                                    "background": "var(--warm-orange-brown)"
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "37px",
+                                      "marginTop": "11px",
+                                      "marginBottom": "11px"
+                                    }
+                                  },
+                                  "orientation": "horizontal",
+                                  "containerStyle": {}
+                                },
+                                {
+                                  "id": "11399dbc990",
+                                  "text": "This house features a classic exterior with a mix of stone and wood siding, complemented by a steeply pitched roof with multiple gables. Large windows allow natural light to flood the interior, highlighting the spacious and well-lit rooms. The lush, well-manicured lawn and landscaped garden add to its curb appeal. The interior likely follows a traditional yet modern design with cozy and inviting spaces, perfect for family living.",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "color": "var(--black)",
+                                        "fontSize": "16px",
+                                        "fontFamily": "Roboto",
+                                        "fontWeight": "400",
+                                        "lineHeight": "18.75px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "180px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "paddingRight": "39px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "6957a305f07",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "560cd7c746d",
+                                      "tag": "h4",
+                                      "text": "PROPERTY FEATURES",
+                                      "type": "heading",
+                                      "style": {
+                                        "alignSelf": "flex-end"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": null
+                                          },
+                                          "h4": {
+                                            "color": null
+                                          },
+                                          "h5": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "includeInTOC": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "58px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "7f73f44f402",
+                                  "size": "3px",
+                                  "type": "separator",
+                                  "style": {
+                                    "height": "3px",
+                                    "background": "var(--warm-orange-brown)"
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "37px",
+                                      "marginTop": "11px",
+                                      "marginBottom": "11px"
+                                    }
+                                  },
+                                  "orientation": "horizontal",
+                                  "containerStyle": {}
+                                },
+                                {
+                                  "id": "957a305f070",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "84f103bf3c0",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "f103bf3c0ce",
+                                          "type": "list",
+                                          "theme": {
+                                            "list": {
+                                              "bullet": {
+                                                "color": "var(--warm-orange-brown)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "config": {
+                                            "start": null,
+                                            "listStyle": {
+                                              "listItemType": "disc",
+                                              "listStyleType": "disc"
+                                            },
+                                            "listItemStyle": null
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "children": [
+                                            {
+                                              "id": "03bf3c0ce32",
+                                              "text": "{$data.data.real_estate.property_features.bedrooms}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "c0ce328023a",
+                                              "text": "{$data.data.real_estate.property_features.bathrooms}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "ce328023ab2",
+                                              "text": "{$data.data.real_estate.property_features.kitchen}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "328023ab2da",
+                                              "text": "{$data.data.real_estate.property_features.swimming_pool}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1,
+                                          "backgroundColor": null
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "4f103bf3c0c",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "103bf3c0ce3",
+                                          "type": "list",
+                                          "theme": {
+                                            "list": {
+                                              "bullet": {
+                                                "color": "var(--warm-orange-brown)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "config": {
+                                            "start": null,
+                                            "listStyle": {
+                                              "listItemType": "disc",
+                                              "listStyleType": "disc"
+                                            }
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "children": [
+                                            {
+                                              "id": "28023ab2dad",
+                                              "text": "{$data.data.real_estate.property_features.laundry_room}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "8023ab2dad5",
+                                              "text": "{$data.data.real_estate.property_features.outdoor_dining}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "023ab2dad56",
+                                              "text": "{$data.data.real_estate.property_features.guest_room}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "23ab2dad56d",
+                                              "text": "{$data.data.real_estate.property_features.area_sqft}",
+                                              "type": "text",
+                                              "style": null,
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--dark-blue)",
+                                                    "fontSize": "16px",
+                                                    "fontFamily": "Roboto",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "18.75px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1,
+                                          "backgroundColor": null
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1,
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "1",
+                                  "backgroundColor": null
+                                }
+                              }
+                            },
+                            {
+                              "id": "57a305f0709",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "layout": {},
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "7a305f07093",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "a305f070935",
+                                      "url": "{$data.data.real_estate.realtor.realtor_image}",
+                                      "type": "img",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "100px",
+                                          "height": "104.04px",
+                                          "marginTop": "12px",
+                                          "marginLeft": "12px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1,
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "305f0709350",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "5c37fddd5be",
+                                      "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.name}, {$data.data.real_estate.realtor.occupation}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.phone_number}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.email}\u003C/span\u003E\u003C/p\u003E",
+                                      "type": "rich-text-editor",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginLeft": "12px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "112px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "5f0709350a3",
+                                  "size": "3px",
+                                  "type": "separator",
+                                  "style": {
+                                    "height": "3px",
+                                    "background": "var(--warm-orange-brown)"
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "37px",
+                                      "marginLeft": "13px"
+                                    }
+                                  },
+                                  "orientation": "horizontal",
+                                  "containerStyle": {}
+                                },
+                                {
+                                  "id": "f0709350a38",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "bff24d7f73f",
+                                      "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ECALL US NOW\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EPhone: {$data.data.real_estate.agency.phone_number}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EEmail: {$data.data.real_estate.agency.email}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EAddress: {$data.data.real_estate.agency.address}\u003C/span\u003E\u003C/p\u003E",
+                                      "type": "rich-text-editor",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "231px",
+                                          "height": "110px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0",
+                                          "marginLeft": "12px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1,
+                                      "backgroundColor": null
+                                    },
+                                    "alignItems": "flex-end"
+                                  }
+                                },
+                                {
+                                  "id": "709350a385f",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "layout": {},
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "09350a385fb",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "9350a385fb3",
+                                          "url": "/RealEstateCompanyLogo.png",
+                                          "type": "img",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": null
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "96px",
+                                          "height": "71px",
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "flexShrink": "1"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "350a385fb33",
+                                      "type": "spacer",
+                                      "$level": 5,
+                                      "version": 0,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "50a385fb338",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "layout": {},
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "0a385fb3382",
+                                          "type": "qr-code",
+                                          "color": null,
+                                          "$level": 6,
+                                          "imgUrl": null,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0"
+                                            }
+                                          },
+                                          "qrCodeData": "https://www.cx-reports.com/",
+                                          "fromFileSystem": false,
+                                          "backgroundColor": null
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "74px",
+                                          "height": "74px",
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "flexShrink": "1",
+                                          "backgroundColor": null
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": "1",
+                                      "flexBasis": "0",
+                                      "flexShrink": "1",
+                                      "marginLeft": "10px"
+                                    },
+                                    "alignItems": "center"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "244px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "borderRadius": "4px",
+                                  "backgroundColor": "var(--dark-blue)"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "height": "547px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0",
+                              "backgroundColor": null
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": "1",
+                          "flexBasis": "0",
+                          "backgroundColor": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "9de98de982a",
+                      "type": "spacer",
+                      "style": {
+                        "background": "var(--warm-orange-brown)",
+                        "borderRadius": "4px"
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "width": "499px",
+                          "height": "12px",
+                          "marginBottom": "1px"
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "data",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Data",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\r\n  \u0022real_estate\u0022: {\r\n    \u0022property_type\u0022: \u0022HOUSE\u0022,\r\n    \u0022sale_type\u0022: \u0022SALE\u0022,\r\n    \u0022location\u0022: \u0022123 Seaside Avenue, Malibu, California\u0022,\r\n    \u0022starting_price\u0022: \u0022$1,500,000\u0022,\r\n    \u0022images\u0022: {\r\n      \u0022main\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image_main.png\u0022,\r\n      \u0022image1\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image1.png\u0022,\r\n      \u0022image2\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image2.png\u0022,\r\n      \u0022image3\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image3.png\u0022\r\n    },\r\n    \u0022realtor\u0022: {\r\n      \u0022name\u0022: \u0022Madelyn Vetrovs\u0022,\r\n      \u0022realtor_image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/RealtorImage.png.png\u0022,\r\n      \u0022occupation\u0022: \u0022Realtor\u0022,\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022madelyn.v@realestate.com\u0022\r\n    },\r\n    \u0022agency\u0022: {\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022real.estate@listing.com\u0022,\r\n      \u0022address\u0022: \u0022Horizon Street 15, San Francisco 9416\u0022,\r\n      \u0022company_logo\u0022: \u0022/RealEstateCompanyLogo.png\u0022\r\n    },\r\n    \u0022property_features\u0022: {\r\n      \u0022bedrooms\u0022: \u00226 Bedrooms\u0022,\r\n      \u0022bathrooms\u0022: \u00224 Bathrooms\u0022,\r\n      \u0022kitchen\u0022: \u0022Indoor \u0026 Outdoor Kitchen\u0022,\r\n      \u0022swimming_pool\u0022: \u0022Swimming Pool\u0022,\r\n      \u0022laundry_room\u0022: \u0022Laundry Room\u0022,\r\n      \u0022outdoor_dining\u0022: \u0022Outdoor Dinning\u0022,\r\n      \u0022guest_room\u0022: \u0022Guest Room\u0022,\r\n      \u0022area_sqft\u0022: \u0022420sqft\u0022\r\n    }\r\n  }\r\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Real Estate",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Real Estate",
+        "pages": [
+          {
+            "name": "Rotated page",
+            "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages.",
+            "pageType": {
+              "name": "Rotated page",
+              "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
+            },
+            "inactive": true,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "7012225fbfa",
+                "type": "content-placeholder",
+                "config": {
+                  "name": "master"
+                },
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          },
+          {
+            "name": "Standard page",
+            "description": "Standard page following the company template.",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page following the company template."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "4af1f7bf7ae",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "children": [
+                  {
+                    "id": "faa3c416968",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "vertical"
+                    },
+                    "layout": {},
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "a525f79e54a",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "layout": {},
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "525f79e54a7",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "horizontal"
+                            },
+                            "layout": {},
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "25f79e54a7f",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "vertical"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "5f79e54a7fa",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "horizontal"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "f79e54a7faf",
+                                        "tag": "h1",
+                                        "text": "{$data.data.real_estate.property_type}\nFOR\n{$data.data.real_estate.sale_type}",
+                                        "type": "heading",
+                                        "theme": {
+                                          "text": {
+                                            "h1": {
+                                              "color": null
+                                            },
+                                            "h3": {
+                                              "color": null
+                                            }
+                                          }
+                                        },
+                                        "$level": 6,
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 0,
+                                        "hideExpr": null,
+                                        "$expanded": false,
+                                        "boxStyles": {
+                                          "style": {
+                                            "width": "158px",
+                                            "height": "126px",
+                                            "flexGrow": "0",
+                                            "flexBasis": "auto",
+                                            "marginTop": "20px",
+                                            "flexShrink": "0",
+                                            "marginLeft": "20px"
+                                          }
+                                        },
+                                        "includeInTOC": true
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "fwidth": "158px",
+                                        "height": "126px",
+                                        "flexGrow": "0",
+                                        "flexBasis": "auto",
+                                        "flexShrink": "0",
+                                        "backgroundColor": null
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "79e54a7faf4",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "horizontal"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "9e54a7faf46",
+                                        "type": "flow",
+                                        "$level": 6,
+                                        "config": {
+                                          "orientation": "vertical"
+                                        },
+                                        "layout": {},
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 3,
+                                        "children": [
+                                          {
+                                            "id": "e54a7faf460",
+                                            "url": "/Location%20icon.svg",
+                                            "type": "img",
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "hideExpr": null,
+                                            "$expanded": false,
+                                            "boxStyles": {
+                                              "style": null
+                                            }
+                                          }
+                                        ],
+                                        "hideExpr": null,
+                                        "$expanded": true,
+                                        "boxStyles": {
+                                          "style": {
+                                            "width": "19px",
+                                            "height": "27.44px",
+                                            "flexGrow": "0",
+                                            "flexBasis": "auto",
+                                            "flexShrink": "0",
+                                            "backgroundColor": null
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "54a7faf4608",
+                                        "type": "flow",
+                                        "$level": 6,
+                                        "config": {
+                                          "orientation": "vertical"
+                                        },
+                                        "layout": {},
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 3,
+                                        "children": [
+                                          {
+                                            "id": "4a7faf46086",
+                                            "tag": "h3",
+                                            "text": "{$data.data.real_estate.location}",
+                                            "type": "heading",
+                                            "theme": {
+                                              "text": {
+                                                "h3": {
+                                                  "color": null
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "hideExpr": null,
+                                            "$expanded": false,
+                                            "includeInTOC": true
+                                          }
+                                        ],
+                                        "hideExpr": null,
+                                        "$expanded": true,
+                                        "boxStyles": {
+                                          "style": {
+                                            "width": "156px",
+                                            "height": "38px",
+                                            "flexGrow": "0",
+                                            "flexBasis": "auto",
+                                            "flexShrink": "0",
+                                            "marginLeft": "8px",
+                                            "backgroundColor": null
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "marginTop": "15px",
+                                        "flexShrink": "1",
+                                        "marginLeft": "16px",
+                                        "backgroundColor": null
+                                      },
+                                      "alignItems": "center",
+                                      "justifyContent": "flex-start"
+                                    }
+                                  },
+                                  {
+                                    "id": "a7faf46086f",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "horizontal"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "7faf46086ff",
+                                        "tag": "h3",
+                                        "text": "PRICE STARTS FROM",
+                                        "type": "heading",
+                                        "theme": {
+                                          "text": {
+                                            "h3": {
+                                              "color": null
+                                            }
+                                          }
+                                        },
+                                        "$level": 6,
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "hideExpr": null,
+                                        "$expanded": false,
+                                        "includeInTOC": true
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "flexShrink": "1",
+                                        "marginLeft": "16px"
+                                      },
+                                      "alignItems": "flex-end"
+                                    }
+                                  },
+                                  {
+                                    "id": "faf46086ff2",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "horizontal"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "af46086ff27",
+                                        "tag": "h2",
+                                        "text": "{$data.data.real_estate.starting_price}",
+                                        "type": "heading",
+                                        "theme": {
+                                          "text": {
+                                            "h2": {
+                                              "color": null
+                                            },
+                                            "h3": {
+                                              "color": null
+                                            }
+                                          }
+                                        },
+                                        "$level": 6,
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "hideExpr": null,
+                                        "$expanded": false,
+                                        "boxStyles": {
+                                          "style": null
+                                        },
+                                        "includeInTOC": true
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "flexShrink": "1",
+                                        "marginLeft": "16px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "243px",
+                                    "height": "342px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "borderRadius": "4px",
+                                    "backgroundColor": "var(--warm-orange-brown)"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "f46086ff27b",
+                                "type": "spacer",
+                                "style": {
+                                  "background": null
+                                },
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "12px"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "46086ff27b6",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "vertical"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "6086ff27b65",
+                                    "url": "{$data.data.real_estate.images.main}",
+                                    "type": "img",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "borderRadius": "4px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "499px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "height": "342px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0"
+                              }
+                            }
+                          },
+                          {
+                            "id": "086ff27b657",
+                            "type": "spacer",
+                            "$level": 3,
+                            "version": 0,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "height": "12px"
+                              }
+                            }
+                          },
+                          {
+                            "id": "86ff27b6578",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "horizontal"
+                            },
+                            "layout": {},
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "6ff27b65782",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "vertical"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "ff27b657826",
+                                    "url": "{$data.data.real_estate.images.image1}",
+                                    "type": "img",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "borderRadius": "4px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "244px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "f27b6578262",
+                                "type": "spacer",
+                                "style": {
+                                  "background": null
+                                },
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "12px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "27b65782623",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "vertical"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "7b657826230",
+                                    "url": "{$data.data.real_estate.images.image2}",
+                                    "type": "img",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "borderRadius": "4px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "244px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "b6578262307",
+                                "type": "spacer",
+                                "$level": 4,
+                                "version": 0,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "12px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "65782623072",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "vertical"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "57826230720",
+                                    "url": "{$data.data.real_estate.images.image3}",
+                                    "type": "img",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "borderRadius": "4px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "244px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "height": "170px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0",
+                                "backgroundColor": null
+                              }
+                            }
+                          },
+                          {
+                            "id": "78262307205",
+                            "type": "spacer",
+                            "style": {
+                              "background": null
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": null
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "height": "524px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0",
+                            "backgroundColor": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "82623072056",
+                        "type": "spacer",
+                        "style": {
+                          "background": null
+                        },
+                        "$level": 2,
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 0,
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "height": "12px"
+                          }
+                        }
+                      },
+                      {
+                        "id": "26230720565",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "layout": {},
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "62307205653",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "layout": {},
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "23072056532",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "3072056532f",
+                                    "tag": "h4",
+                                    "text": "ABOUT THE PROPERTY",
+                                    "type": "heading",
+                                    "style": {
+                                      "alignSelf": "flex-end"
+                                    },
+                                    "theme": {
+                                      "text": {
+                                        "h3": {
+                                          "color": null
+                                        },
+                                        "h4": {
+                                          "color": null
+                                        },
+                                        "h5": {
+                                          "color": null
+                                        }
+                                      }
+                                    },
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 0,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "marginLeft": ""
+                                      }
+                                    },
+                                    "includeInTOC": false
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "85px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "072056532f8",
+                                "size": "3px",
+                                "type": "separator",
+                                "style": {
+                                  "height": "3px",
+                                  "background": "var(--warm-orange-brown)"
+                                },
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "37px",
+                                    "marginTop": "11px",
+                                    "marginBottom": "11px"
+                                  }
+                                },
+                                "orientation": "horizontal",
+                                "containerStyle": {}
+                              },
+                              {
+                                "id": "72056532f85",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "2056532f85a",
+                                    "text": "REPLACE WITH PROPERTY DESCRIPTION",
+                                    "type": "text",
+                                    "theme": {
+                                      "text": {
+                                        "p": {
+                                          "color": "var(--black)",
+                                          "fontSize": "16px",
+                                          "fontFamily": "Roboto",
+                                          "fontWeight": "400",
+                                          "lineHeight": "18.75px"
+                                        }
+                                      }
+                                    },
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 0,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "height": "175px",
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "paddingRight": "39px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "153px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "056532f85ab",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "56532f85ab2",
+                                    "tag": "h4",
+                                    "text": "PROPERT FEATURES",
+                                    "type": "heading",
+                                    "style": {
+                                      "alignSelf": "flex-end"
+                                    },
+                                    "theme": {
+                                      "text": {
+                                        "h3": {
+                                          "color": null
+                                        },
+                                        "h4": {
+                                          "color": null
+                                        },
+                                        "h5": {
+                                          "color": null
+                                        }
+                                      }
+                                    },
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 0,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": null
+                                    },
+                                    "includeInTOC": false
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "58px",
+                                    "flexGrow": "0",
+                                    "flexBasis": "auto",
+                                    "flexShrink": "0",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "6532f85ab23",
+                                "size": "3px",
+                                "type": "separator",
+                                "style": {
+                                  "height": "3px",
+                                  "background": "var(--warm-orange-brown)"
+                                },
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "37px",
+                                    "marginTop": "11px",
+                                    "marginBottom": "11px"
+                                  }
+                                },
+                                "orientation": "horizontal",
+                                "containerStyle": {}
+                              },
+                              {
+                                "id": "532f85ab233",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "32f85ab233f",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "2f85ab233fd",
+                                        "type": "list",
+                                        "theme": {
+                                          "list": {
+                                            "bullet": {
+                                              "color": "var(--warm-orange-brown)"
+                                            }
+                                          }
+                                        },
+                                        "$level": 6,
+                                        "config": {
+                                          "start": null,
+                                          "listStyle": {
+                                            "listItemType": "disc",
+                                            "listStyleType": "disc"
+                                          },
+                                          "listItemStyle": null
+                                        },
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 0,
+                                        "children": [
+                                          {
+                                            "id": "f85ab233fdd",
+                                            "text": "{$data.data.real_estate.property_features.bedrooms}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "85ab233fdd5",
+                                            "text": "{$data.data.real_estate.property_features.bathrooms}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "5ab233fdd52",
+                                            "text": "{$data.data.real_estate.property_features.kitchen}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "ab233fdd52d",
+                                            "text": "{$data.data.real_estate.property_features.swimming_pool}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          }
+                                        ],
+                                        "hideExpr": null,
+                                        "$expanded": true
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1,
+                                        "backgroundColor": null
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "b233fdd52df",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "233fdd52dfe",
+                                        "type": "list",
+                                        "theme": {
+                                          "list": {
+                                            "bullet": {
+                                              "color": "var(--warm-orange-brown)"
+                                            }
+                                          }
+                                        },
+                                        "$level": 6,
+                                        "config": {
+                                          "start": null,
+                                          "listStyle": {
+                                            "listItemType": "disc",
+                                            "listStyleType": "disc"
+                                          }
+                                        },
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 0,
+                                        "children": [
+                                          {
+                                            "id": "33fdd52dfe0",
+                                            "text": "{$data.data.real_estate.property_features.laundry_room}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "3fdd52dfe0b",
+                                            "text": "{$data.data.real_estate.property_features.outdoor_dining}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "fdd52dfe0b8",
+                                            "text": "{$data.data.real_estate.property_features.guest_room}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          },
+                                          {
+                                            "id": "dd52dfe0b81",
+                                            "text": "{$data.data.real_estate.property_features.area_sqft}",
+                                            "type": "text",
+                                            "style": null,
+                                            "theme": {
+                                              "text": {
+                                                "p": {
+                                                  "color": "var(--dark-blue)",
+                                                  "fontSize": "16px",
+                                                  "fontFamily": "Roboto",
+                                                  "fontWeight": "500",
+                                                  "lineHeight": "18.75px"
+                                                }
+                                              }
+                                            },
+                                            "$level": 7,
+                                            "repeat": {
+                                              "alias": null,
+                                              "dataSource": null,
+                                              "repeatable": false
+                                            },
+                                            "version": 0,
+                                            "hideExpr": null,
+                                            "$expanded": false
+                                          }
+                                        ],
+                                        "hideExpr": null,
+                                        "$expanded": true
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1,
+                                        "backgroundColor": null
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": 1,
+                                    "flexBasis": "0",
+                                    "flexShrink": 1,
+                                    "backgroundColor": null
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": "1",
+                                "flexBasis": "0",
+                                "flexShrink": "1",
+                                "backgroundColor": null
+                              }
+                            }
+                          },
+                          {
+                            "id": "d52dfe0b812",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "layout": {},
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "52dfe0b8127",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "2dfe0b8127d",
+                                    "url": "{$data.data.real_estate.realtor.realtor_image}",
+                                    "type": "img",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "width": "100px",
+                                        "height": "104.04px",
+                                        "marginTop": "12px",
+                                        "marginLeft": "12px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": 1,
+                                    "flexBasis": "0",
+                                    "flexShrink": 1,
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "dfe0b8127d5",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "fe0b8127d5f",
+                                    "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.name}, {$data.data.real_estate.realtor.occupation}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.phone_number}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.real_estate.realtor.email}\u003C/span\u003E\u003C/p\u003E",
+                                    "type": "rich-text-editor",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 0,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "width": "194px",
+                                        "height": "65px",
+                                        "flexGrow": "0",
+                                        "flexBasis": "auto",
+                                        "flexShrink": "0",
+                                        "marginLeft": "12px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": "1",
+                                    "flexBasis": "0",
+                                    "flexShrink": "1",
+                                    "backgroundColor": null
+                                  }
+                                }
+                              },
+                              {
+                                "id": "e0b8127d5fa",
+                                "size": "3px",
+                                "type": "separator",
+                                "style": {
+                                  "height": "3px",
+                                  "background": "var(--warm-orange-brown)"
+                                },
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "width": "37px",
+                                    "marginLeft": "13px"
+                                  }
+                                },
+                                "orientation": "horizontal",
+                                "containerStyle": {}
+                              },
+                              {
+                                "id": "0b8127d5faa",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "b8127d5faa3",
+                                    "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ECALL US NOW\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EPhone: {$data.data.real_estate.agency.phone_number}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EEmail: {$data.data.real_estate.agency.email}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EAddress: {$data.data.real_estate.agency.address}\u003C/span\u003E\u003C/p\u003E",
+                                    "type": "rich-text-editor",
+                                    "$level": 5,
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 0,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "width": "231px",
+                                        "height": "110px",
+                                        "flexGrow": "0",
+                                        "flexBasis": "auto",
+                                        "flexShrink": "0",
+                                        "marginLeft": "12px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": 1,
+                                    "flexBasis": "0",
+                                    "flexShrink": 1,
+                                    "backgroundColor": null
+                                  },
+                                  "alignItems": "flex-end"
+                                }
+                              },
+                              {
+                                "id": "8127d5faa3c",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "layout": {},
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "127d5faa3c4",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "27d5faa3c41",
+                                        "url": "{$data.data.real_estate.agency.company_logo}",
+                                        "type": "img",
+                                        "$level": 6,
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "hideExpr": null,
+                                        "$expanded": false,
+                                        "boxStyles": {
+                                          "style": null
+                                        }
+                                      }
+                                    ],
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "width": "96px",
+                                        "height": "71px",
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "flexShrink": "1"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "7d5faa3c416",
+                                    "type": "spacer",
+                                    "$level": 5,
+                                    "version": 0,
+                                    "$expanded": false
+                                  },
+                                  {
+                                    "id": "d5faa3c4169",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "layout": {},
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [
+                                      {
+                                        "id": "5faa3c41696",
+                                        "type": "qr-code",
+                                        "color": null,
+                                        "$level": 6,
+                                        "repeat": {
+                                          "alias": null,
+                                          "dataSource": null,
+                                          "repeatable": false
+                                        },
+                                        "version": 0,
+                                        "hideExpr": null,
+                                        "$expanded": false,
+                                        "boxStyles": {
+                                          "style": {
+                                            "flexGrow": 1,
+                                            "flexBasis": "0"
+                                          }
+                                        },
+                                        "qrCodeData": "https://www.cx-reports.com/",
+                                        "backgroundColor": null
+                                      }
+                                    ],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "width": "74px",
+                                        "height": "74px",
+                                        "flexGrow": "1",
+                                        "flexBasis": "0",
+                                        "flexShrink": "1",
+                                        "backgroundColor": null
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": "1",
+                                    "flexBasis": "0",
+                                    "flexShrink": "1",
+                                    "marginLeft": "10px"
+                                  },
+                                  "alignItems": "center"
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "width": "244px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0",
+                                "borderRadius": "4px",
+                                "backgroundColor": "var(--dark-blue)"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "height": "547px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0",
+                            "backgroundColor": null
+                          }
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": "1",
+                        "flexBasis": "0",
+                        "backgroundColor": null
+                      }
+                    }
+                  },
+                  {
+                    "id": "a3c41696817",
+                    "type": "spacer",
+                    "style": {
+                      "background": "var(--warm-orange-brown)",
+                      "borderRadius": "4px"
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 0,
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "499px",
+                        "height": "12px",
+                        "marginBottom": "1px"
+                      }
+                    }
+                  }
+                ],
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Real Estate",
+        "content": {
+          "toc": {
+            "level1": {
+              "color": null
+            },
+            "undefined": {
+              "color": null
+            }
+          },
+          "text": {
+            "p": {
+              "color": "rgba(255,255,255,1)",
+              "fontSize": "16px",
+              "fontFamily": "Roboto",
+              "fontWeight": "400",
+              "lineHeight": "18.75px"
+            },
+            "h1": {
+              "color": "rgba(255,255,255,1)",
+              "fontSize": "44px",
+              "fontFamily": "Poppins",
+              "fontWeight": "800",
+              "lineHeight": "42px"
+            },
+            "h2": {
+              "color": "var(--dark-blue)",
+              "fontSize": "36px",
+              "fontFamily": "Poppins",
+              "fontWeight": "700",
+              "lineHeight": "54px"
+            },
+            "h3": {
+              "color": "var(--brown)",
+              "fontSize": "16px",
+              "fontFamily": "Roboto",
+              "fontWeight": "500",
+              "lineHeight": "18.75px"
+            },
+            "h4": {
+              "color": "var(--dark-blue)",
+              "fontSize": "18px",
+              "fontFamily": "Roboto",
+              "fontWeight": "700",
+              "lineHeight": "21.09px"
+            },
+            "h5": {
+              "color": null
+            },
+            "h6": {
+              "color": null
+            },
+            "body": {
+              "color": null,
+              "fontFamily": null
+            }
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--brown",
+                "value": "#7D6542",
+                "displayName": "Brown"
+              },
+              {
+                "name": "--warm-orange-brown",
+                "value": "#E8BB79",
+                "displayName": "Warm Orange Brown"
+              },
+              {
+                "name": "--dark-blue",
+                "value": "#364258",
+                "displayName": "Dark Blue"
+              },
+              {
+                "name": "--black",
+                "value": "#212030",
+                "displayName": "Black"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900\u0026display=swap"
+              },
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Ads",
+        "description": "A type of report which category is related to any sort of ad material",
+        "code": "Ads"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
