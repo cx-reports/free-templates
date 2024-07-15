@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-12T12:58:22.1985027+02:00",
+  "created": "2024-07-12T13:51:15.2357331+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -1727,7 +1727,7 @@
               "type": 1,
               "externalDatabaseName": null,
               "config": {
-                "json": "{\r\n  \u0022real_estate\u0022: {\r\n    \u0022property_type\u0022: \u0022HOUSE\u0022,\r\n    \u0022sale_type\u0022: \u0022SALE\u0022,\r\n    \u0022location\u0022: \u0022123 Seaside Avenue, Malibu, California\u0022,\r\n    \u0022starting_price\u0022: \u0022$1,500,000\u0022,\r\n    \u0022images\u0022: {\r\n      \u0022main\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image_main.png\u0022,\r\n      \u0022image1\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image1.png\u0022,\r\n      \u0022image2\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image2.png\u0022,\r\n      \u0022image3\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image3.png\u0022\r\n    },\r\n    \u0022realtor\u0022: {\r\n      \u0022name\u0022: \u0022Madelyn Vetrovs\u0022,\r\n      \u0022realtor_image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/RealtorImage.png.png\u0022,\r\n      \u0022occupation\u0022: \u0022Realtor\u0022,\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022madelyn.v@realestate.com\u0022\r\n    },\r\n    \u0022agency\u0022: {\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022real.estate@listing.com\u0022,\r\n      \u0022address\u0022: \u0022Horizon Street 15, San Francisco 9416\u0022,\r\n      \u0022company_logo\u0022: \u0022/RealEstateCompanyLogo.png\u0022\r\n    },\r\n    \u0022property_features\u0022: {\r\n      \u0022bedrooms\u0022: \u00226 Bedrooms\u0022,\r\n      \u0022bathrooms\u0022: \u00224 Bathrooms\u0022,\r\n      \u0022kitchen\u0022: \u0022Indoor \u0026 Outdoor Kitchen\u0022,\r\n      \u0022swimming_pool\u0022: \u0022Swimming Pool\u0022,\r\n      \u0022laundry_room\u0022: \u0022Laundry Room\u0022,\r\n      \u0022outdoor_dining\u0022: \u0022Outdoor Dinning\u0022,\r\n      \u0022guest_room\u0022: \u0022Guest Room\u0022,\r\n      \u0022area_sqft\u0022: \u0022420sqft\u0022\r\n    }\r\n  }\r\n}"
+                "json": "{\r\n  \u0022real_estate\u0022: {\r\n    \u0022property_type\u0022: \u0022HOUSE\u0022,\r\n    \u0022sale_type\u0022: \u0022SALE\u0022,\r\n    \u0022location\u0022: \u0022123 Seaside Avenue, Malibu, California\u0022,\r\n    \u0022starting_price\u0022: \u0022$1,500,000\u0022,\r\n    \u0022images\u0022: {\r\n      \u0022main\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image_main.png\u0022,\r\n      \u0022image1\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image1.png\u0022,\r\n      \u0022image2\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image2.png\u0022,\r\n      \u0022image3\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image3.png\u0022\r\n    },\r\n    \u0022realtor\u0022: {\r\n      \u0022name\u0022: \u0022Madelyn Vetrovs\u0022,\r\n      \u0022realtor_image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/RealtorImage.png\u0022,\r\n      \u0022occupation\u0022: \u0022Realtor\u0022,\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022madelyn.v@realestate.com\u0022\r\n    },\r\n    \u0022agency\u0022: {\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022real.estate@listing.com\u0022,\r\n      \u0022address\u0022: \u0022Horizon Street 15, San Francisco 9416\u0022,\r\n      \u0022company_logo\u0022: \u0022/RealEstateCompanyLogo.png\u0022\r\n    },\r\n    \u0022property_features\u0022: {\r\n      \u0022bedrooms\u0022: \u00226 Bedrooms\u0022,\r\n      \u0022bathrooms\u0022: \u00224 Bathrooms\u0022,\r\n      \u0022kitchen\u0022: \u0022Indoor \u0026 Outdoor Kitchen\u0022,\r\n      \u0022swimming_pool\u0022: \u0022Swimming Pool\u0022,\r\n      \u0022laundry_room\u0022: \u0022Laundry Room\u0022,\r\n      \u0022outdoor_dining\u0022: \u0022Outdoor Dinning\u0022,\r\n      \u0022guest_room\u0022: \u0022Guest Room\u0022,\r\n      \u0022area_sqft\u0022: \u0022420sqft\u0022\r\n    }\r\n  }\r\n}"
               },
               "resultType": 0,
               "detectObjectsFromFieldNames": false
@@ -1748,31 +1748,6 @@
         "defaultPaperOrientation": 0,
         "themeName": "Real Estate",
         "pages": [
-          {
-            "name": "Rotated page",
-            "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages.",
-            "pageType": {
-              "name": "Rotated page",
-              "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
-            },
-            "inactive": true,
-            "isCountable": false,
-            "content": [
-              {
-                "id": "7012225fbfa",
-                "type": "content-placeholder",
-                "config": {
-                  "name": "master"
-                },
-                "boxStyles": {
-                  "style": {
-                    "flex": "1 1 0"
-                  }
-                }
-              }
-            ],
-            "paperOrientation": null
-          },
           {
             "name": "Standard page",
             "description": "Standard page following the company template.",
