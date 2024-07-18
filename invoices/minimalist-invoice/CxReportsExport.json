@@ -1,0 +1,2409 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-18T08:55:54.8224249+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Minimalist Invoice",
+        "isEmbeddable": false,
+        "themeName": "Minimalist Invoice Theme",
+        "reportTypeCode": "invoice",
+        "reportTypeName": "Invoice",
+        "reportTemplateName": "Minimalist Invoice Template",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "Minimalist Invoice",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "113cd049804",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": false
+                  },
+                  "repeat": {
+                    "alias": null,
+                    "dataSource": null,
+                    "repeatable": false
+                  },
+                  "children": [
+                    {
+                      "id": "8045419d0fa",
+                      "type": "data-table",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "columns": [
+                        {
+                          "line": "line1",
+                          "field": "sku",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": "Sku",
+                            "type": "text",
+                            "colSpan": null,
+                            "conditionalStyling": [
+                              {
+                                "id": "56d47ac4-8801-40a8-90dc-255de31e7a07",
+                                "class": null,
+                                "style": "background-color: #F2D951;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "header2": {
+                            "type": "text"
+                          },
+                          "header3": {
+                            "type": "text"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "line": "line1",
+                          "field": "description",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": "Description",
+                            "type": "text",
+                            "conditionalStyling": [
+                              {
+                                "id": "caaea113-79f1-4164-9c82-104f616d5825",
+                                "class": null,
+                                "style": "padding-left: 30px;\nbackground-color: #F2D951;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": [
+                            {
+                              "id": "482cd500-1cf1-44fc-903c-14c8f195daaa",
+                              "class": null,
+                              "style": "padding-left: 30px;",
+                              "expression": null,
+                              "useExpression": false
+                            }
+                          ]
+                        },
+                        {
+                          "line": "line1",
+                          "align": "right",
+                          "field": "quantity",
+                          "footer": {
+                            "show": true,
+                            "text": "s",
+                            "format": null,
+                            "formatType": null,
+                            "conditionalStyling": [
+                              {
+                                "id": "a4a773f7-c3de-462e-9f4a-5feeb27936f3",
+                                "class": null,
+                                "style": "background-color: #CACACA;\ncolor: #CACACA;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "header": {
+                            "show": true,
+                            "text": "Quantity",
+                            "type": "text",
+                            "conditionalStyling": [
+                              {
+                                "id": "f92d966b-d711-4870-bb8d-34fd0ee26a27",
+                                "class": null,
+                                "style": "background-color: #F2D951;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "formatType": "number",
+                          "weightField": null,
+                          "aggregateField": null
+                        },
+                        {
+                          "line": "line1",
+                          "align": "right",
+                          "field": "unit_price",
+                          "footer": {
+                            "show": true,
+                            "text": "Subtotal:",
+                            "format": null,
+                            "formatType": "custom",
+                            "conditionalStyling": [
+                              {
+                                "id": "49e4f15b-f60d-4873-b458-ca7d32f5018f",
+                                "class": null,
+                                "style": "background-color: #CACACA;\nfont-weight: bold;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "format": "currency;EUR;2;2",
+                          "header": {
+                            "show": true,
+                            "text": "Unit Price",
+                            "type": "text",
+                            "align": "right",
+                            "verticalAlign": null,
+                            "conditionalStyling": [
+                              {
+                                "id": "441cc452-1112-4000-aefb-7977e85674ad",
+                                "class": null,
+                                "style": "padding-left: 30px;\nwhite-space: nowrap;\nbackground-color: #F2D951;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null
+                        },
+                        {
+                          "line": "line1",
+                          "align": "right",
+                          "field": "subtotal",
+                          "footer": {
+                            "show": true,
+                            "text": null,
+                            "format": "currency;EUR;2;2",
+                            "formatType": "custom",
+                            "conditionalStyling": [
+                              {
+                                "id": "f3a1e544-aeba-4eab-87ca-19ead19c756f",
+                                "class": null,
+                                "style": "background-color: #CACACA;\nfont-weight: bold;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "format": "currency;EUR;2;2",
+                          "header": {
+                            "show": true,
+                            "text": "Subtotal",
+                            "type": "text",
+                            "align": "right",
+                            "conditionalStyling": [
+                              {
+                                "id": "b31b4945-3bfe-45d5-be9b-5dec9e7e662a",
+                                "class": null,
+                                "style": "padding-left: 30px;\nbackground-color: #F2D951;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "header2": {
+                            "type": "text"
+                          },
+                          "header3": {
+                            "type": "text"
+                          },
+                          "aggregate": "sum",
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateAlias": null,
+                          "aggregateField": "subtotal",
+                          "conditionalStyling": []
+                        }
+                      ],
+                      "version": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": null
+                      },
+                      "gridOptions": {
+                        "isTree": false,
+                        "dataSource": "data.invoice.items"
+                      },
+                      "formatOptions": {
+                        "date": "d",
+                        "number": "n;0;6",
+                        "percent": "p;0;2"
+                      }
+                    },
+                    {
+                      "id": "35215568865",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "5419d0fab78",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ec75ae85f20",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "248e383c42d",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "0248e383c42",
+                                      "type": "spacer",
+                                      "style": {
+                                        "background": "var(--chinese-silver)"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "102px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "521px",
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1
+                                    },
+                                    "justifyContent": "flex-end"
+                                  }
+                                },
+                                {
+                                  "id": "f20248e383c",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "5f20248e383",
+                                      "type": "spacer",
+                                      "style": {
+                                        "background": "var(--chinese-silver)"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "101px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "40px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    },
+                                    "justifyContent": "flex-end"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "520px",
+                                  "height": "81px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            },
+                            {
+                              "id": "c75ae85f202",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "75ae85f2024",
+                                  "type": "spacer",
+                                  "style": {
+                                    "background": "var(--yellow)"
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "100px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "flexShrink": 1
+                                },
+                                "justifyContent": "flex-end"
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "width": "519px",
+                              "height": "133px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "419d0fab78f",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "19d0fab78fb",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "9d0fab78fbf",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "d0fab78fbfe",
+                                      "text": "Tax({$data.data.invoice.invoice_details.tax:p;2}):",
+                                      "type": "text",
+                                      "style": null,
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "var(--black)",
+                                            "fontFamily": null,
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "81px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "110px",
+                                      "height": "40px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": "var(--chinese-silver)"
+                                    },
+                                    "alignItems": "flex-end",
+                                    "justifyContent": "center"
+                                  }
+                                },
+                                {
+                                  "id": "0fab78fbfee",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "fab78fbfeee",
+                                      "text": "{[{$data.Tax} * {$data.data.invoice.invoice_details.tax}]:currency;EUR;2;2}",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "layout": {
+                                        "collapsibleSections": {
+                                          "textOptions": true
+                                        }
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginRight": "14px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "40px",
+                                      "flexGrow": "1",
+                                      "flexBasis": "0",
+                                      "flexShrink": "1",
+                                      "backgroundColor": "var(--chinese-silver)"
+                                    },
+                                    "alignItems": "flex-end",
+                                    "justifyContent": "center"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "40px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "borderBottom": "1px dotted #D8D8D8"
+                                }
+                              }
+                            },
+                            {
+                              "id": "ab78fbfeee3",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "b78fbfeee33",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "78fbfeee335",
+                                      "text": "Shipping Fee:",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "var(--black)",
+                                            "fontFamily": null,
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "110px",
+                                      "height": "40px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": "var(--chinese-silver)"
+                                    },
+                                    "alignItems": "flex-end",
+                                    "justifyContent": "center"
+                                  }
+                                },
+                                {
+                                  "id": "8fbfeee3352",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "fbfeee33521",
+                                      "text": "{$data.data.invoice.invoice_details.shipping_fee:currency;EUR;2;2}",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "var(--black)",
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginRight": "14px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "40px",
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1,
+                                      "backgroundColor": "var(--chinese-silver)"
+                                    },
+                                    "alignItems": "flex-end",
+                                    "justifyContent": "center"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "40px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                },
+                                "alignItems": "center",
+                                "justifyContent": "center"
+                              }
+                            },
+                            {
+                              "id": "bfeee335215",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "feee3352155",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "eee33521556",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "ee335215568",
+                                          "tag": "h3",
+                                          "text": "Total: ",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": "var(--black)",
+                                                "fontFamily": null,
+                                                "fontWeight": "500"
+                                              }
+                                            }
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "height": "53px",
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        },
+                                        "alignItems": "center",
+                                        "justifyContent": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "e3352155688",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "33521556886",
+                                          "text": "{[{$data.Tax} \u002B {$data.Tax} * {$data.data.invoice.invoice_details.tax} \u002B {$data.data.invoice.invoice_details.shipping_fee}]:currency;EUR;2;2}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "color": "var(--black)",
+                                                "fontWeight": "700"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginRight": "14px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        },
+                                        "alignItems": "flex-end",
+                                        "justifyContent": "center"
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "51px",
+                                      "flexGrow": "1",
+                                      "flexBasis": "0",
+                                      "flexShrink": "1"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "53px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "backgroundColor": "var(--yellow)"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "height": "121px",
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "131px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "c22c1418b23",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "7a07aa3d146",
+                          "type": "spacer",
+                          "style": {
+                            "background": "var(--gainsboro)"
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "337px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0"
+                        },
+                        "justifyContent": "flex-end"
+                      }
+                    },
+                    {
+                      "id": "88a597f5ed9",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "cca888a597f",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ca888a597f5",
+                              "tag": "h4",
+                              "text": "TERMS AND CONDITIONS",
+                              "type": "heading",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "paddingBottom": "8px"
+                                }
+                              },
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "a888a597f5e",
+                              "text": "Lorem ipsum dolor sit amet consectetur. Nisi pharetra pellentesque feugiat diam a phasellus etiam eget convallis. Risus placerat turpis massa nulla feugiat adipiscing ut fermentum scelerisque. ",
+                              "type": "text",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": "1",
+                              "flexBasis": "0",
+                              "paddingTop": "15px",
+                              "paddingLeft": "25px",
+                              "paddingRight": "25px",
+                              "paddingBottom": "25px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "888a597f5ed",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "width": "337px",
+                              "backgroundColor": "var(--gainsboro)"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {}
+                      }
+                    },
+                    {
+                      "id": "2a371f85b20",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "9bfe72a371f",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "bfe72a371f8",
+                              "tag": "h3",
+                              "text": "Thank you for your business!",
+                              "type": "heading",
+                              "style": null,
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "paddingLeft": "10px"
+                                }
+                              },
+                              "includeInTOC": true
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            },
+                            "alignItems": "center",
+                            "justifyContent": "flex-start"
+                          }
+                        },
+                        {
+                          "id": "fe72a371f85",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "e72a371f85b",
+                              "url": "/logo.svg",
+                              "type": "img",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "48.66px",
+                                  "height": "48.66px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "72a371f85b2",
+                              "text": "Tech Solutions Inc.",
+                              "type": "text",
+                              "style": {
+                                "alignSelf": "center"
+                              },
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "var(--black)",
+                                    "fontSize": "18px",
+                                    "marginTop": null,
+                                    "fontFamily": null,
+                                    "fontWeight": "600",
+                                    "lineHeight": "21.94px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "collapsibleSections": {
+                                  "boxStyleCollapsed": false
+                                }
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "marginLeft": "10px"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            },
+                            "alignItems": "center",
+                            "justifyContent": "flex-end"
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "103px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "paddingTop": "15px",
+                          "paddingLeft": "15px",
+                          "paddingRight": "15px",
+                          "paddingBottom": "15px",
+                          "backgroundColor": "var(--concrete)"
+                        },
+                        "justifyContent": "flex-start"
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "data",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Data",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\r\n  \u0022invoice\u0022: {\r\n    \u0022company\u0022: {\r\n      \u0022name\u0022: \u0022Tech Solutions Inc.\u0022,\r\n      \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022456 Innovation Drive\u0022,\r\n        \u0022zipcode_city\u0022: \u002294016 San Francisco\u0022,\r\n        \u0022state_county\u0022: \u0022California\u0022\r\n      },\r\n      \u0022contact\u0022: {\r\n        \u0022phone_number\u0022: \u0022\u002B1 555-789-0123\u0022,\r\n        \u0022email\u0022: \u0022info@techsolutions.com\u0022,\r\n        \u0022city\u0022: \u0022San Francisco\u0022\r\n      }\r\n    },\r\n    \u0022invoice_details\u0022: {\r\n      \u0022invoice_no\u0022: \u0022INV-2024-00789\u0022,\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022due_date\u0022: \u00222024-08-11\u0022,\r\n      \u0022tax\u0022: 0.07,\r\n      \u0022shipping_fee\u0022: 25\r\n    },\r\n    \u0022items\u0022: [\r\n      {\r\n        \u0022sku\u0022: \u0022200001\u0022,\r\n        \u0022description\u0022: \u0022Intel Core i9-12900K Processor\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 500.00,\r\n        \u0022subtotal\u0022: 2500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200002\u0022,\r\n        \u0022description\u0022: \u0022ASUS ROG Strix Z690-E Gaming WiFi 6E LGA 1700 ATX Motherboard\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 350.00,\r\n        \u0022subtotal\u0022: 1750.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200003\u0022,\r\n        \u0022description\u0022: \u0022Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16 Desktop Memory\u0022,\r\n        \u0022quantity\u0022: 10,\r\n        \u0022unit_price\u0022: 150.00,\r\n        \u0022subtotal\u0022: 1500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200004\u0022,\r\n        \u0022description\u0022: \u0022Samsung 970 EVO Plus SSD 2TB - NVMe M.2\u0022,\r\n        \u0022quantity\u0022: 6,\r\n        \u0022unit_price\u0022: 230.00,\r\n        \u0022subtotal\u0022: 1380.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200005\u0022,\r\n        \u0022description\u0022: \u0022EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12GB GDDR6X\u0022,\r\n        \u0022quantity\u0022: 3,\r\n        \u0022unit_price\u0022: 1200.00,\r\n        \u0022subtotal\u0022: 3600.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200006\u0022,\r\n        \u0022description\u0022: \u0022Corsair RM850x, 850 Watt, 80\u002B Gold Certified, Fully Modular Power Supply\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 140.00,\r\n        \u0022subtotal\u0022: 700.00\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "Tax",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Tax",
+              "type": 4,
+              "externalDatabaseName": null,
+              "config": {
+                "js": "(params, data) =\u003E {\r\n    let subtotal = 0;\r\n    data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}",
+                "json": "(params, data) =\u003E {\r\n    let subtotal = 0;\r\n    data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Minimalist Invoice Template",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Minimalist Invoice Theme",
+        "pages": [
+          {
+            "name": "Standard page",
+            "description": "Standard page following the company template.",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page following the company template."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "b28406d1e6f",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "3a112dc2fd3",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "vertical"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "d3361e3319e",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "2fd3361e331",
+                            "url": "/logo.png",
+                            "type": "img",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "width": "48.66px",
+                                "height": "48.66px"
+                              }
+                            }
+                          },
+                          {
+                            "id": "fd3361e3319",
+                            "text": "Tech Solutions Inc.",
+                            "type": "text",
+                            "style": {
+                              "alignSelf": "center"
+                            },
+                            "theme": {
+                              "text": {
+                                "p": {
+                                  "color": "var(--black)",
+                                  "fontSize": "18px",
+                                  "marginTop": null,
+                                  "fontFamily": "\u0027Monseratt\u0027",
+                                  "fontWeight": "600",
+                                  "lineHeight": "21.94px"
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "layout": {
+                              "collapsibleSections": {
+                                "boxStyleCollapsed": false
+                              }
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "width": "268px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0",
+                                "marginLeft": "10px"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "width": "326px",
+                            "marginTop": "20px"
+                          }
+                        }
+                      },
+                      {
+                        "id": "7db0a911653",
+                        "type": "spacer",
+                        "$level": 2,
+                        "version": 0,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "height": "30px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0"
+                          }
+                        }
+                      },
+                      {
+                        "id": "3319ef5c7ca",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "61e3319ef5c",
+                            "tag": "h1",
+                            "text": "INVOICE",
+                            "type": "heading",
+                            "theme": {
+                              "text": {
+                                "h1": {
+                                  "fontFamily": null
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "width": "333px",
+                                "marginRight": "25px"
+                              }
+                            },
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "1e3319ef5c7",
+                            "type": "spacer",
+                            "style": {
+                              "height": "20px"
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false
+                          },
+                          {
+                            "id": "e3319ef5c7c",
+                            "data": [
+                              {
+                                "id": "cdf43c2e-c041-4198-96b7-4a63b79e9d45",
+                                "key": "Invoice No.:",
+                                "value": "{$data.data.invoice.invoice_details.invoice_no}",
+                                "hideexpr": null
+                              },
+                              {
+                                "id": "7e412e78-1b36-4983-9ad6-982e15593bbf",
+                                "key": "Date:",
+                                "value": "{$data.data.invoice.invoice_details.date}",
+                                "hideexpr": null
+                              },
+                              {
+                                "id": "a79235c7-e8c0-4be8-b15d-f6abb56d2fb4",
+                                "key": "Due date:",
+                                "value": "{$data.data.invoice.invoice_details.due_date}",
+                                "hideexpr": null
+                              }
+                            ],
+                            "type": "key-value-grid",
+                            "theme": {
+                              "text": {
+                                "key-value-grid-value": {
+                                  "marginTop": null
+                                },
+                                "key-value-grid-common": {
+                                  "fontFamily": null
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "layout": {
+                              "key": {
+                                "textAlign": "left"
+                              },
+                              "value": {
+                                "textAlign": "left"
+                              },
+                              "keyWidth": "100px",
+                              "rowHeight": null
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "marginRight": "25px"
+                              }
+                            },
+                            "keyValueGridStyle": "key-value-grid-value"
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "width": "349px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0"
+                          }
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "419px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a112dc2fd33",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "vertical"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "319ef5c7ca5",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "layout": {
+                          "collapsibleSections": {
+                            "flowOptions": false
+                          }
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "hideExpr": null,
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "height": "67px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0",
+                            "backgroundColor": "var(--gainsboro)"
+                          }
+                        }
+                      },
+                      {
+                        "id": "0a911653844",
+                        "type": "spacer",
+                        "style": {
+                          "background": "var(--gainsboro)"
+                        },
+                        "$level": 2,
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 0,
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "height": "30px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0"
+                          }
+                        }
+                      },
+                      {
+                        "id": "c7ca5630a8b",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "ef5c7ca5630",
+                            "tag": "h3",
+                            "text": "INVOICE TO:",
+                            "type": "heading",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "f5c7ca5630a",
+                            "tag": "h2",
+                            "text": "{$data.data.invoice.company.name}",
+                            "type": "heading",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {}
+                            },
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "5c7ca5630a8",
+                            "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.invoice.company.address.street}\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.invoice.company.address.zipcode_city}\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.invoice.company.address.state_county}\u003C/span\u003E\u003C/p\u003E",
+                            "type": "rich-text-editor",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0"
+                              }
+                            },
+                            "updateCounter": 2
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": "1",
+                            "flexBasis": "0",
+                            "paddingTop": "25px",
+                            "paddingLeft": "100px",
+                            "backgroundColor": "var(--gainsboro)"
+                          },
+                          "alignItems": "flex-start",
+                          "justifyContent": "flex-start"
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0"
+                      }
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "height": "321px",
+                    "flexGrow": "0",
+                    "flexBasis": "auto",
+                    "flexShrink": "0"
+                  }
+                }
+              },
+              {
+                "id": "1d456b28406",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flexGrow": 1,
+                    "flexBasis": "0"
+                  }
+                }
+              },
+              {
+                "id": "1b269b79c41",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "vertical"
+                },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "e559b6481e5",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "559b6481e54",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "59b6481e549",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "9b6481e5494",
+                                "url": "/phone.png",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0"
+                              },
+                              "alignItems": "flex-start",
+                              "justifyContent": "center"
+                            }
+                          },
+                          {
+                            "id": "b6481e54943",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "6481e549437",
+                                "text": "{$data.data.invoice.company.contact.phone_number}",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "marginLeft": "18px"
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0",
+                                "flexShrink": 1
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0"
+                          },
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        }
+                      },
+                      {
+                        "id": "afa8f9a14be",
+                        "type": "spacer",
+                        "$level": 2,
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 0,
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0"
+                          }
+                        }
+                      },
+                      {
+                        "id": "481e5494372",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "81e5494372a",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "1e5494372aa",
+                                "url": "/mail.png",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "width": "34px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0"
+                              },
+                              "alignItems": "flex-start",
+                              "justifyContent": "center"
+                            }
+                          },
+                          {
+                            "id": "e5494372aa6",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "5494372aa63",
+                                "text": "{$data.data.invoice.company.contact.email}",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "marginLeft": "18px"
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0",
+                                "flexShrink": 1
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": "1",
+                            "flexBasis": "0"
+                          },
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        }
+                      },
+                      {
+                        "id": "fa8f9a14be5",
+                        "type": "spacer",
+                        "$level": 2,
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 0,
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0"
+                          }
+                        }
+                      },
+                      {
+                        "id": "494372aa632",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "horizontal"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "94372aa632f",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "4372aa632fc",
+                                "url": "/location-marker.png",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0"
+                              },
+                              "alignItems": "flex-start",
+                              "justifyContent": "center"
+                            }
+                          },
+                          {
+                            "id": "372aa632fc9",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "72aa632fc9b",
+                                "text": "{$data.data.invoice.company.contact.city}",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": null
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": "1",
+                                "flexBasis": "0",
+                                "flexShrink": "1",
+                                "marginLeft": "18px"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0"
+                          },
+                          "alignItems": "center",
+                          "justifyContent": "center"
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": true,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "marginTop": "15px",
+                        "flexShrink": "0",
+                        "marginLeft": "15px"
+                      }
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {}
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Minimalist Invoice Theme",
+        "content": {
+          "text": {
+            "h1": {
+              "color": "var(--black)",
+              "fontSize": "38px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "700",
+              "lineHeight": "46.32px"
+            },
+            "h2": {
+              "color": "var(--black)",
+              "fontSize": "20px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "700",
+              "lineHeight": "24.38px"
+            },
+            "h3": {
+              "color": "var(--black)",
+              "fontSize": "16px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "700",
+              "lineHeight": "19.5px"
+            },
+            "h4": {
+              "color": "var(--black)",
+              "fontSize": "14px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "700",
+              "lineHeight": "17.07px"
+            },
+            "body": {
+              "color": "var(--black)",
+              "fontSize": "14px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "500",
+              "lineHeight": "17.07px"
+            }
+          },
+          "table": {
+            "cell": {
+              "color": "var(--black)",
+              "fontSize": "14px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "500",
+              "paddingTop-cell": "3.5px",
+              "paddingLeft-cell": "14px",
+              "paddingRight-cell": "14px",
+              "paddingBottom-cell": "3.5px"
+            },
+            "table": {
+              "oddRowColor": "var(--white-smoke)",
+              "paddingTop-table": null,
+              "paddingBottom-table": null
+            },
+            "group1": {
+              "fontFamily": "\u0027Montserrat\u0027"
+            },
+            "header": {
+              "color": "var(--black)",
+              "fontSize": "13px",
+              "fontFamily": "\u0027Montserrat\u0027",
+              "fontWeight": "700",
+              "textTransform": "UPPERCASE",
+              "backgroundColor": "var(--gray49)",
+              "paddingTop-header": "14px",
+              "paddingLeft-header": "14px",
+              "paddingRight-header": "14px",
+              "paddingBottom-header": "14px"
+            },
+            "footer1": {
+              "fontFamily": "\u0027Montserrat\u0027",
+              "paddingTop-footer1": "11.5px",
+              "paddingLeft-footer1": null,
+              "paddingRight-footer1": "14px",
+              "paddingBottom-footer1": "11.5px"
+            }
+          },
+          "custom": null,
+          "legend": {
+            "shape": "null"
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--green",
+                "value": "#1C9198",
+                "displayName": "Green"
+              },
+              {
+                "name": "--yellow",
+                "value": "#F2D951",
+                "displayName": "Yellow"
+              },
+              {
+                "name": "--gray49",
+                "value": "#d7d7d7",
+                "displayName": "Gray49"
+              },
+              {
+                "name": "--white-smoke",
+                "value": "#f1f1f1",
+                "displayName": "White Smoke"
+              },
+              {
+                "name": "--chinese-silver",
+                "value": "#CACACA",
+                "displayName": "Chinese Silver"
+              },
+              {
+                "name": "--gainsboro",
+                "value": "#DFDFDF",
+                "displayName": "Gainsboro"
+              },
+              {
+                "name": "--black",
+                "value": "#212030",
+                "displayName": "Black"
+              },
+              {
+                "name": "--white",
+                "value": "rgba(255,255,255,1)",
+                "displayName": "White"
+              },
+              {
+                "name": "--concrete",
+                "value": "#f2f2f2",
+                "displayName": "Concrete"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Invoice",
+        "description": "Invoices",
+        "code": "invoice"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
