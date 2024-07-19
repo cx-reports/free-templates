@@ -1,0 +1,532 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-19T13:14:44.581705+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Income Statement Report",
+        "isEmbeddable": false,
+        "themeName": "Orange Theme",
+        "reportTypeCode": "other",
+        "reportTypeName": "Other",
+        "reportTemplateName": "Orange Finance",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 4.0000,
+            "name": "Income Statement",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "168d8ac28db",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": true
+                  },
+                  "children": [
+                    {
+                      "id": "8d8ac28dbf8",
+                      "tag": "h2",
+                      "text": "Income Statement",
+                      "type": "heading",
+                      "theme": {
+                        "text": {
+                          "h2": {
+                            "color": null,
+                            "fontSize": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "42px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      },
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "d8ac28dbf83",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "8ac28dbf83a",
+                          "type": "data-table",
+                          "$level": 2,
+                          "config": {},
+                          "layout": {
+                            "breakIntoMultiplePages": true
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "field": "category_title",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Title",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "field": "category_description",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Description",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "align": "right",
+                              "field": "current_period",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "format": "n;0",
+                              "header": {
+                                "tpl": null,
+                                "text": "Current Period",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "aggregateAlias": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "align": "right",
+                              "field": "previous_period",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "format": "n;0",
+                              "header": {
+                                "tpl": null,
+                                "text": "Previous Period",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "aggregateAlias": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "align": "right",
+                              "field": "change",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Change",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "valueExpression": "{[{$record.current_period}/{$record.previous_period}-1]:p;1}",
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            }
+                          ],
+                          "version": 1,
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "cssClasses": null
+                          },
+                          "gridOptions": {
+                            "dataSource": "income",
+                            "groupingConfig": [
+                              {
+                                "keys": [
+                                  "category_index",
+                                  "item_category"
+                                ],
+                                "enabled": false,
+                                "captionTpl": "{$group.item_category}",
+                                "showFooter": true,
+                                "showCaption": true
+                              },
+                              {
+                                "keys": [
+                                  "item_category"
+                                ],
+                                "enabled": false,
+                                "captionTpl": "{$group.item_category}",
+                                "showFooter": true,
+                                "showCaption": true,
+                                "displayInColumns": false
+                              },
+                              {
+                                "enabled": false,
+                                "showCaption": true
+                              }
+                            ]
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;2",
+                            "percent": "p;2"
+                          }
+                        },
+                        {
+                          "id": "ffed8089e9b",
+                          "size": "normal",
+                          "type": "spacer",
+                          "style": {
+                            "background": null
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "height": "21px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "cb4ce63c2b8",
+                          "tag": "h3",
+                          "text": "Expenses",
+                          "type": "heading",
+                          "$level": 2,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "b4ce63c2b89",
+                          "type": "data-table",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "field": "item_title",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Item",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateAlias": null,
+                              "aggregateField": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "field": "item_description",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Description",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "current_period",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "format": "n;0",
+                              "header": {
+                                "tpl": null,
+                                "text": "Current Period",
+                                "type": "text",
+                                "align": "right",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "aggregate": "sum",
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateAlias": null,
+                              "aggregateField": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "previous_period",
+                              "width": null,
+                              "footer": {
+                                "tpl": null,
+                                "text": null,
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "format": "n;0",
+                              "header": {
+                                "tpl": null,
+                                "text": "Previous Period",
+                                "type": "text",
+                                "align": "right",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "aggregate": "sum",
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateAlias": null,
+                              "aggregateField": null,
+                              "valueExpression": null,
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "align": "right",
+                              "field": "change",
+                              "width": null,
+                              "footer": {
+                                "tpl": "{[{$group.current_period}/{$group.previous_period}-1]:p;1}",
+                                "text": "{[{$group.current_period}/{$group.previous_period}-1]:p;1}",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "tpl": null,
+                                "text": "Change",
+                                "type": "text",
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
+                              },
+                              "valueType": "value",
+                              "aggregateAlias": null,
+                              "valueExpression": "{[{$record.current_period}/{$record.previous_period}-1]:p;1}",
+                              "formatExpression": null,
+                              "visibleExpression": null,
+                              "conditionalStyling": []
+                            }
+                          ],
+                          "version": 1,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "expenses"
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;2",
+                            "percent": "p;2"
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "flexShrink": 1
+                        }
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "income",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Income",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "[\n  {\n    \u0022category_id\u0022: \u0022CAT001\u0022,\n    \u0022category_title\u0022: \u0022Revenues\u0022,\n    \u0022category_description\u0022: \u0022Total income from goods sold or services provided.\u0022,\n    \u0022current_period\u0022: 500000.00,\n    \u0022previous_period\u0022: 450000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT002\u0022,\n    \u0022category_title\u0022: \u0022Expenses\u0022,\n    \u0022category_description\u0022: \u0022All costs and expenses associated with the company\u0027s operations.\u0022,\n    \u0022current_period\u0022: 350000.00,\n    \u0022previous_period\u0022: 320000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT003\u0022,\n    \u0022category_title\u0022: \u0022Gross Profit\u0022,\n    \u0022category_description\u0022: \u0022Revenue minus the cost of goods sold.\u0022,\n    \u0022current_period\u0022: 150000.00,\n    \u0022previous_period\u0022: 130000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT004\u0022,\n    \u0022category_title\u0022: \u0022Operating Income\u0022,\n    \u0022category_description\u0022: \u0022Income from operations after operating expenses are deducted.\u0022,\n    \u0022current_period\u0022: 50000.00,\n    \u0022previous_period\u0022: 60000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT005\u0022,\n    \u0022category_title\u0022: \u0022Pre-tax Income\u0022,\n    \u0022category_description\u0022: \u0022Net income before income tax expense has been deducted.\u0022,\n    \u0022current_period\u0022: 35000.00,\n    \u0022previous_period\u0022: 45000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT006\u0022,\n    \u0022category_title\u0022: \u0022Tax\u0022,\n    \u0022category_description\u0022: \u0022Income tax expense.\u0022,\n    \u0022current_period\u0022: 15000.00,\n    \u0022previous_period\u0022: 20000.00\n  },\n  {\n    \u0022category_id\u0022: \u0022CAT007\u0022,\n    \u0022category_title\u0022: \u0022Net Income\u0022,\n    \u0022category_description\u0022: \u0022Total profit or loss after all expenses, including taxes.\u0022,\n    \u0022current_period\u0022: 20000.00,\n    \u0022previous_period\u0022: 25000.00\n  }\n]"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "expenses",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Expenses",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "[\n  \n  {\n    \u0022item_id\u0022: \u0022INC004\u0022,\n    \u0022item_title\u0022: \u0022Operating Expenses\u0022,\n    \u0022item_description\u0022: \u0022Expenses incurred from normal business operations.\u0022,\n    \u0022item_category\u0022: \u0022Expenses\u0022,\n    \u0022category_index\u0022: 2,\n    \u0022current_period\u0022: 100000.00,\n    \u0022previous_period\u0022: 95000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022INC005\u0022,\n    \u0022item_title\u0022: \u0022Salary Expenses\u0022,\n    \u0022item_description\u0022: \u0022Total salaries paid to employees.\u0022,\n    \u0022item_category\u0022: \u0022Expenses\u0022,\n    \u0022category_index\u0022: 2,\n    \u0022current_period\u0022: 150000.00,\n    \u0022previous_period\u0022: 140000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022INC006\u0022,\n    \u0022item_title\u0022: \u0022Marketing and Advertising\u0022,\n    \u0022item_description\u0022: \u0022Costs related to marketing and promotion of the company\u0027s products or services.\u0022,\n    \u0022item_category\u0022: \u0022Expenses\u0022,\n    \u0022category_index\u0022: 2,\n    \u0022current_period\u0022: 50000.00,\n    \u0022previous_period\u0022: 45000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022INC007\u0022,\n    \u0022item_title\u0022: \u0022Depreciation and Amortization\u0022,\n    \u0022item_description\u0022: \u0022Allocation of the cost of tangible and intangible assets over their useful lives.\u0022,\n    \u0022item_category\u0022: \u0022Expenses\u0022,\n    \u0022category_index\u0022: 2,\n    \u0022current_period\u0022: 30000.00,\n    \u0022previous_period\u0022: 25000.00\n  } , {\n    \u0022item_id\u0022: \u0022INC009\u0022,\n    \u0022item_title\u0022: \u0022Interest Expense\u0022,\n    \u0022item_description\u0022: \u0022Cost of debt that the company has incurred.\u0022,\n    \u0022item_category\u0022: \u0022Expenses\u0022,\n    \u0022category_index\u0022: 2,\n    \u0022current_period\u0022: 20000.00,\n    \u0022previous_period\u0022: 15000.00\n  }\n]\n"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": null,
+    "themes": null,
+    "globalParameters": null,
+    "reportTypes": null,
+    "languages": null,
+    "pageTypes": null,
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}

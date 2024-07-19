@@ -1,0 +1,229 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-19T13:18:37.436101+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Cash Flow Report",
+        "isEmbeddable": false,
+        "themeName": "Orange Theme",
+        "reportTypeCode": "other",
+        "reportTypeName": "Other",
+        "reportTemplateName": "Orange Finance",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 5.0000,
+            "name": "Cash Flow",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "0fa3cb406ec",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master"
+                  },
+                  "children": [
+                    {
+                      "id": "fa3cb406ece",
+                      "tag": "h2",
+                      "text": "Cash Flow",
+                      "type": "heading",
+                      "theme": {
+                        "text": {
+                          "h2": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "$theme": {
+                        "text": {
+                          "h2": {
+                            "marginTop": "16px"
+                          }
+                        }
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "40px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      },
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "a3cb406eceb",
+                      "type": "data-table",
+                      "$level": 1,
+                      "columns": [
+                        {
+                          "field": "section_title",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "htmlTpl": null,
+                            "conditionalStyling": []
+                          },
+                          "header": {
+                            "tpl": null,
+                            "text": "Item",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "aggregateAlias": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "field": "section_description",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "htmlTpl": null,
+                            "conditionalStyling": []
+                          },
+                          "header": {
+                            "tpl": null,
+                            "text": "Description",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "aggregateAlias": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "field": "current_period",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "htmlTpl": null,
+                            "conditionalStyling": []
+                          },
+                          "header": {
+                            "tpl": null,
+                            "text": "Current Period",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "aggregateAlias": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "field": "previous_period",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "htmlTpl": null,
+                            "conditionalStyling": []
+                          },
+                          "header": {
+                            "tpl": null,
+                            "text": "Previous Period",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "aggregateAlias": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        }
+                      ],
+                      "version": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "gridOptions": {
+                        "dataSource": "cashFlow"
+                      },
+                      "formatOptions": {
+                        "date": "d",
+                        "number": "n;2",
+                        "percent": "p;2"
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "cashFlow",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "CashFlow",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "[\n  {\n    \u0022section_id\u0022: \u0022CF001\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Operating Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports a company\u0027s net cash from operating activities, it is concerned with the transactions and events that enter into the determination of net income.\u0022,\n    \u0022current_period\u0022: 120000.00,\n    \u0022previous_period\u0022: 115000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF002\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Investing Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports a company\u0027s purchases and sales of long-term investments, property, plant, and equipment.\u0022,\n    \u0022current_period\u0022: -50000.00,\n    \u0022previous_period\u0022: -75000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF003\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Financing Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports the net flows of cash that are used to fund the company overall, including dividends, equity, and debt.\u0022,\n    \u0022current_period\u0022: -30000.00,\n    \u0022previous_period\u0022: -25000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF004\u0022,\n    \u0022section_title\u0022: \u0022Net Increase in Cash\u0022,\n    \u0022section_description\u0022: \u0022This section reports the net changes in cash and cash equivalents, summing up the cash flows from operating, investing, and financing activities.\u0022,\n    \u0022current_period\u0022: 40000.00,\n    \u0022previous_period\u0022: 15000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF005\u0022,\n    \u0022section_title\u0022: \u0022Cash at Beginning of Period\u0022,\n    \u0022section_description\u0022: \u0022This section reports the amount of cash and cash equivalents at the beginning of the reporting period.\u0022,\n    \u0022current_period\u0022: 50000.00,\n    \u0022previous_period\u0022: 35000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF006\u0022,\n    \u0022section_title\u0022: \u0022Cash at End of Period\u0022,\n    \u0022section_description\u0022: \u0022This section reports the total amount of cash and cash equivalents at the end of the reporting period.\u0022,\n    \u0022current_period\u0022: 90000.00,\n    \u0022previous_period\u0022: 50000.00\n  }\n]"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": null,
+    "themes": null,
+    "globalParameters": null,
+    "reportTypes": null,
+    "languages": null,
+    "pageTypes": null,
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
