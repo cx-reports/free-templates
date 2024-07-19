@@ -1,0 +1,1671 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-19T14:28:59.8276911+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Trade Report",
+        "isEmbeddable": false,
+        "themeName": "Trade Report",
+        "reportTypeCode": "other",
+        "reportTypeName": "Other",
+        "reportTemplateName": "Trade Report",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "Trade Report",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "79fe8941775",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": false
+                  },
+                  "repeat": {
+                    "alias": null,
+                    "dataSource": null,
+                    "repeatable": false
+                  },
+                  "children": [
+                    {
+                      "id": "9fe89417758",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "7758c030d7c",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "758c030d7cb",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "layout": {
+                                "gap": null
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "89417758c03",
+                                  "url": "/trade-report-logo.png",
+                                  "type": "img",
+                                  "style": null,
+                                  "$level": 3,
+                                  "layout": {
+                                    "collapsibleSections": {
+                                      "boxStyleCollapsed": false
+                                    }
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "45px",
+                                      "height": "45px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "75px",
+                                  "height": "63px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "paddingTop": "10px",
+                                  "paddingLeft": "10px",
+                                  "paddingRight": "10px",
+                                  "paddingBottom": "10px"
+                                },
+                                "alignItems": "flex-start",
+                                "justifyContent": "center"
+                              }
+                            },
+                            {
+                              "id": "58c030d7cb8",
+                              "text": "Pinnacle Brokers",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "rgba(255,255,255,1)",
+                                    "fontSize": "20px",
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "209px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "height": "64px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            },
+                            "alignItems": "center",
+                            "justifyContent": "flex-start"
+                          }
+                        },
+                        {
+                          "id": "c030d7cb866",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "c41fb53e2d5",
+                              "text": "Trade Report for Order",
+                              "type": "text",
+                              "style": {
+                                "alignSelf": "flex-end",
+                                "textAlign": "right"
+                              },
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "rgba(255,255,255,1)",
+                                    "fontSize": "32px",
+                                    "fontWeight": "700",
+                                    "marginBottom": "15px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "456px",
+                                  "height": "67px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            },
+                            {
+                              "id": "f8c41fb53e2",
+                              "text": "#{$data.trade_report.order_id}",
+                              "type": "text",
+                              "style": {
+                                "alignSelf": "flex-end",
+                                "textAlign": "left"
+                              },
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "var(--mint)",
+                                    "fontSize": "32px",
+                                    "fontWeight": "700",
+                                    "marginBottom": "15px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "247px",
+                                  "height": "67px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "marginLeft": "10px"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {}
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "borderRadius": "4px 4px 0px 0px",
+                          "backgroundColor": "var(--blue-sapphire)"
+                        },
+                        "alignItems": "flex-start",
+                        "justifyContent": "flex-start"
+                      }
+                    },
+                    {
+                      "id": "c1f697bcbc5",
+                      "type": "data-table",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "columns": [
+                        {
+                          "line": "line1",
+                          "field": "field",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": "Client",
+                            "type": "text",
+                            "conditionalStyling": [
+                              {
+                                "id": "7f7903ee-7454-424a-be07-1b19e9e23cb5",
+                                "class": null,
+                                "style": "font-weight: bold;\npadding-top: 8px;\npadding-bottom: 8px;",
+                                "expression": null,
+                                "useExpression": false
+                              }
+                            ]
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null
+                        },
+                        {
+                          "line": "line1",
+                          "field": "value",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": null,
+                            "type": "text"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": [
+                            {
+                              "id": "66951c62-5b92-47e7-aecc-c995e13ffd45",
+                              "class": null,
+                              "style": "font-weight: bold;",
+                              "expression": null,
+                              "useExpression": false
+                            }
+                          ]
+                        }
+                      ],
+                      "version": 1,
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "212px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      },
+                      "stylingFor": "header",
+                      "gridOptions": {
+                        "dataSource": "trade_report.clientTable"
+                      },
+                      "formatOptions": {
+                        "date": "d",
+                        "number": "n;0;6",
+                        "percent": "p;0;2"
+                      }
+                    },
+                    {
+                      "id": "1f697bcbc56",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "094aa70c84c",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "d7115463094",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "115463094aa",
+                                  "text": "Order Receipt",
+                                  "type": "text",
+                                  "style": {
+                                    "paddingTop": "5px",
+                                    "paddingLeft": "8px",
+                                    "paddingBottom": "5px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "14px",
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "backgroundColor": "var(--pastel-blue)",
+                                  "borderTopLeftRadius": "6px",
+                                  "borderTopRightRadius": "6px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "7115463094a",
+                              "data": [
+                                {
+                                  "id": "d7a2aa49-97e7-40f1-9b4a-d2f9f2c543c5",
+                                  "key": "Client:",
+                                  "value": "{$data.trade_report.orderReceipt.client}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "67d7c4e0-65bf-4ae7-8cf4-597cdece0ed4",
+                                  "key": "Submission Method:",
+                                  "value": "{$data.trade_report.orderReceipt.submissionMethod}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "48f94d5d-832f-4c4f-9419-fbf82cf1d045",
+                                  "key": "Submission Time:",
+                                  "value": "{$data.trade_report.orderReceipt.submissionTime}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "db89ad54-441b-4b4a-99c4-3d81007a02d7",
+                                  "key": "Order Start Date:",
+                                  "value": "1/20/2024, 09:20 AM",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "7c478df8-df4c-4a98-a026-bb5d56989608",
+                                  "key": "Order End Date:",
+                                  "value": "1/20/2024, 09:20 AM",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "fontWeight": "300"
+                                  },
+                                  "key-value-grid-value": {
+                                    "fontWeight": "600"
+                                  },
+                                  "key-value-grid-common": {
+                                    "marginTop": "5px",
+                                    "marginBottom": "5px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "key": {
+                                  "textAlign": "left"
+                                },
+                                "value": {
+                                  "textAlign": "left"
+                                },
+                                "keyWidth": "50%"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "176px",
+                                  "padding": "10px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "background": "#F1F1F1",
+                                  "flexShrink": "0",
+                                  "borderBottomLeftRadius": "6px",
+                                  "borderBottomRightRadius": "6px"
+                                }
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "b5440b500f2",
+                          "type": "spacer",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "35px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "94aa70c84c5",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "4aa70c84c5e",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "aa70c84c5eb",
+                                  "text": "Order Details",
+                                  "type": "text",
+                                  "style": {
+                                    "paddingTop": "5px",
+                                    "paddingLeft": "8px",
+                                    "paddingBottom": "5px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "14px",
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "backgroundColor": "var(--pastel-blue)",
+                                  "borderTopLeftRadius": "6px",
+                                  "borderTopRightRadius": "6px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "a70c84c5eb7",
+                              "data": [
+                                {
+                                  "id": "d7a2aa49-97e7-40f1-9b4a-d2f9f2c543c5",
+                                  "key": "Transaction Type:",
+                                  "value": "{$data.trade_report.orderDetails.transactionType}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "67d7c4e0-65bf-4ae7-8cf4-597cdece0ed4",
+                                  "key": "Instrument:",
+                                  "value": "{$data.trade_report.orderDetails.instrument}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "48f94d5d-832f-4c4f-9419-fbf82cf1d045",
+                                  "key": "Order Type:",
+                                  "value": "{$data.trade_report.orderDetails.type}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "db89ad54-441b-4b4a-99c4-3d81007a02d7",
+                                  "key": "Quantity:",
+                                  "value": "{$data.trade_report.orderDetails.quantity:n;0}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "7c478df8-df4c-4a98-a026-bb5d56989608",
+                                  "key": "Price:",
+                                  "value": "{$data.trade_report.orderDetails.price}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "cb1f29dc-1d76-44a1-934e-3b96419b1749",
+                                  "key": "Conditions:",
+                                  "value": "{$data.trade_report.orderDetails.conditions}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "fontWeight": "300"
+                                  },
+                                  "key-value-grid-value": {
+                                    "fontWeight": "600"
+                                  },
+                                  "key-value-grid-common": {
+                                    "marginTop": "5px",
+                                    "marginBottom": "5px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "key": {
+                                  "textAlign": "left"
+                                },
+                                "value": {
+                                  "textAlign": "left"
+                                },
+                                "keyWidth": "45%"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "padding": "10px",
+                                  "background": "#F1F1F1",
+                                  "borderBottomLeftRadius": "6px",
+                                  "borderBottomRightRadius": "6px"
+                                }
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "213px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "marginTop": "15px",
+                          "flexShrink": "0"
+                        },
+                        "alignItems": "center",
+                        "justifyContent": "flex-start"
+                      }
+                    },
+                    {
+                      "id": "fe88cafe489",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "13275584bae",
+                          "text": "Trades",
+                          "type": "text",
+                          "style": {
+                            "alignSelf": "center",
+                            "textAlign": "left"
+                          },
+                          "theme": {
+                            "text": {
+                              "p": {
+                                "color": "var(--dark-gunmetal)",
+                                "fontSize": "14px",
+                                "fontFamily": "\u0027Inter\u0027",
+                                "fontWeight": "700",
+                                "lineHeight": "19.36px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "width": "60px",
+                              "height": "32px",
+                              "background": "#F1F1F1",
+                              "paddingLeft": "5px",
+                              "borderRadius": "4px 4px 0px 0px",
+                              "marginBottom": "2px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "e88cafe4891",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "header": {
+                                "fontWeight": "600"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "config": {},
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "align": "left",
+                              "field": "id",
+                              "footer": {
+                                "show": true,
+                                "text": null,
+                                "format": null,
+                                "formatType": "custom",
+                                "conditionalStyling": []
+                              },
+                              "header": {
+                                "show": true,
+                                "text": "Transaction Id",
+                                "type": "text",
+                                "align": "left",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "7957f1f7-c560-44e8-b63e-3197859cfd1e",
+                                    "class": null,
+                                    "style": "padding-top: 8px;\npadding-bottom: 8px;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "caption": {
+                                "show": true,
+                                "text": "Trade",
+                                "format": "s",
+                                "formatType": "custom"
+                              },
+                              "formatType": "number",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "field": "time",
+                              "footer": {
+                                "show": true,
+                                "format": null,
+                                "formatType": "custom",
+                                "conditionalStyling": []
+                              },
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": "Time",
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "field": null,
+                              "footer": {
+                                "show": true,
+                                "format": null,
+                                "formatType": "custom",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "790f8fc2-1fc9-4116-b8a2-759d1b4c5aef",
+                                    "class": null,
+                                    "style": "background: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "format": null,
+                              "header": {
+                                "text": null,
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "field": null,
+                              "footer": {
+                                "show": true,
+                                "text": null,
+                                "format": null,
+                                "formatType": "custom",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "75a26e79-d910-47bd-a0c6-090110d28917",
+                                    "class": null,
+                                    "style": "background: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "format": null,
+                              "header": {
+                                "text": null,
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "field": null,
+                              "footer": {
+                                "show": true,
+                                "format": null,
+                                "formatType": "custom",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "922fa4fb-ecf0-403a-949c-e2c8f5205f2c",
+                                    "class": null,
+                                    "style": "background: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "format": null,
+                              "header": {
+                                "text": null,
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "quantity",
+                              "footer": {
+                                "show": true,
+                                "text": null,
+                                "formatType": "number",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "a5c70826-39d9-4297-b012-56258965732b",
+                                    "class": null,
+                                    "style": "font-weight: bold;\nbackground: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "header": {
+                                "show": true,
+                                "text": "Quantity",
+                                "type": "text"
+                              },
+                              "aggregate": "sum",
+                              "formatType": "number",
+                              "weightField": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "price",
+                              "footer": {
+                                "show": true,
+                                "format": "currency;EUR;0;2",
+                                "formatType": "custom",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "61075765-9cce-4fb7-a394-3318a533bbfa",
+                                    "class": null,
+                                    "style": "font-weight: bold;\nbackground: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "format": "currency;EUR;0;2",
+                              "header": {
+                                "show": true,
+                                "text": "Price",
+                                "type": "text"
+                              },
+                              "aggregate": "avg",
+                              "formatType": "custom",
+                              "weightField": "quantity",
+                              "aggregateAlias": null,
+                              "aggregateField": null
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": null,
+                              "footer": {
+                                "show": true,
+                                "format": "currency;EUR;0;2",
+                                "formatType": "custom",
+                                "conditionalStyling": [
+                                  {
+                                    "id": "a9d474a2-836c-41a2-95fb-7fba45e84b52",
+                                    "class": null,
+                                    "style": "font-weight: bold;\nbackground: #f1f1f1;",
+                                    "expression": null,
+                                    "useExpression": false
+                                  }
+                                ]
+                              },
+                              "format": "currency;EUR;0;2",
+                              "header": {
+                                "text": "Value",
+                                "type": "text",
+                                "align": "right"
+                              },
+                              "aggregate": "sum",
+                              "valueType": "value",
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateAlias": "test",
+                              "aggregateField": null,
+                              "aggregateValue": "{$record.quantity} * {$record.price}",
+                              "valueExpression": "{[{$record.quantity} * {$record.price}]:currency;EUR;0;2}"
+                            }
+                          ],
+                          "version": 1,
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {}
+                          },
+                          "stylingFor": "table",
+                          "gridOptions": {
+                            "dataSource": "trade_report.transactions",
+                            "groupingConfig": [
+                              {
+                                "enabled": false,
+                                "captionTpl": "test",
+                                "showFooter": false,
+                                "showCaption": true
+                              },
+                              {
+                                "enabled": false,
+                                "showCaption": true
+                              },
+                              {
+                                "enabled": false,
+                                "showCaption": true
+                              }
+                            ]
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;0;6",
+                            "percent": "p;0;2"
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "marginTop": "15px"
+                        }
+                      }
+                    },
+                    {
+                      "id": "8e82e5bd356",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "88465bc0da3",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "a6888465bc0",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "6888465bc0d",
+                                  "text": "Calculation",
+                                  "type": "text",
+                                  "style": {
+                                    "paddingTop": "5px",
+                                    "paddingLeft": "8px",
+                                    "paddingBottom": "5px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "14px",
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "backgroundColor": "var(--pastel-blue)",
+                                  "borderTopLeftRadius": "6px",
+                                  "borderTopRightRadius": "6px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "888465bc0da",
+                              "data": [
+                                {
+                                  "id": "d7a2aa49-97e7-40f1-9b4a-d2f9f2c543c5",
+                                  "key": "Trade Value:",
+                                  "value": "{$data.trade_report.calculation.tradeValue:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "67d7c4e0-65bf-4ae7-8cf4-597cdece0ed4",
+                                  "key": "Interest:",
+                                  "value": "{$data.trade_report.calculation.interest:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "48f94d5d-832f-4c4f-9419-fbf82cf1d045",
+                                  "key": "Commission:",
+                                  "value": "{$data.trade_report.calculation.commission:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "db89ad54-441b-4b4a-99c4-3d81007a02d7",
+                                  "key": "Total:",
+                                  "value": "{[{$data.trade_report.calculation.commission} \u002B {$data.trade_report.calculation.interest} \u002B {$data.trade_report.calculation.tradeValue}]:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "fontWeight": "300"
+                                  },
+                                  "key-value-grid-value": {
+                                    "fontWeight": "600"
+                                  },
+                                  "key-value-grid-common": {
+                                    "marginTop": "5px",
+                                    "marginBottom": "5px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "key": {
+                                  "textAlign": "left"
+                                },
+                                "value": {
+                                  "textAlign": "left"
+                                },
+                                "keyWidth": "50%",
+                                "collapsibleSections": {
+                                  "configuration": false
+                                }
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "150px",
+                                  "padding": "10px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "background": "#F1F1F1",
+                                  "flexShrink": "0",
+                                  "borderBottomLeftRadius": "6px",
+                                  "borderBottomRightRadius": "6px"
+                                }
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "69ea9c673f8",
+                          "type": "spacer",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "35px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "bc0da370006",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "465bc0da370",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "65bc0da3700",
+                                  "text": "Commission",
+                                  "type": "text",
+                                  "style": {
+                                    "paddingTop": "5px",
+                                    "paddingLeft": "8px",
+                                    "paddingBottom": "5px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "14px",
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "backgroundColor": "var(--pastel-blue)",
+                                  "borderTopLeftRadius": "6px",
+                                  "borderTopRightRadius": "6px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "5bc0da37000",
+                              "data": [
+                                {
+                                  "id": "d7a2aa49-97e7-40f1-9b4a-d2f9f2c543c5",
+                                  "key": "Broker:",
+                                  "value": "{$data.trade_report.commission.broker:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "67d7c4e0-65bf-4ae7-8cf4-597cdece0ed4",
+                                  "key": "Depository:",
+                                  "value": "{$data.trade_report.commission.depository:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "48f94d5d-832f-4c4f-9419-fbf82cf1d045",
+                                  "key": "Stock Exchange:",
+                                  "value": "{$data.trade_report.commission.stockExchange:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "db89ad54-441b-4b4a-99c4-3d81007a02d7",
+                                  "key": "Total:",
+                                  "value": "{$data.trade_report.commission.total:currency;EUR;0;2}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "7c478df8-df4c-4a98-a026-bb5d56989608",
+                                  "key": "Settlement Date:",
+                                  "value": "{$data.trade_report.commission.settlementDate}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "fontWeight": "300"
+                                  },
+                                  "key-value-grid-value": {
+                                    "fontWeight": "600"
+                                  },
+                                  "key-value-grid-common": {
+                                    "marginTop": "5px",
+                                    "marginBottom": "5px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "key": {
+                                  "textAlign": "left"
+                                },
+                                "value": {
+                                  "textAlign": "left"
+                                },
+                                "keyWidth": "45%"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "padding": "10px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "background": "#F1F1F1",
+                                  "flexShrink": "0",
+                                  "borderBottomLeftRadius": "6px",
+                                  "borderBottomRightRadius": "6px"
+                                }
+                              },
+                              "keyValueGridStyle": "key-value-grid-key"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "marginTop": "10px"
+                        },
+                        "alignItems": "baseline",
+                        "justifyContent": "flex-start"
+                      }
+                    },
+                    {
+                      "id": "25ec427f2ee",
+                      "type": "spacer",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "6c15733b982",
+                      "text": "DISCLAIMER: The data for this report was generated using Chat GPT. Any similarity to real-world entities is purely coincidental.",
+                      "type": "text",
+                      "theme": {
+                        "text": {
+                          "p": {
+                            "color": "rgba(33,32,48,0.7)",
+                            "fontSize": "12px",
+                            "fontFamily": null,
+                            "lineHeight": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "borderBottom": "1px solid #212030"
+                        }
+                      }
+                    },
+                    {
+                      "id": "863da2a74d0",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "hideExpr": null,
+                      "$expanded": false
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "trade_report",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Trade Report",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\n    \u0022order_id\u0022: 1123344,\n    \u0022clientTable\u0022: [\n        {\n            \u0022field\u0022: \u0022Client:\u0022,\n            \u0022value\u0022: \u0022Delta Industries Ltd.\u0022\n        },\n        {\n            \u0022field\u0022: \u0022Address\u0022,\n            \u0022value\u0022: \u00221234 Business Avenue, Capital City, 10001\u0022\n        },\n        {\n            \u0022field\u0022: \u0022Contact Number:\u0022,\n            \u0022value\u0022: \u00223345/2024\u0022\n        },\n        {\n            \u0022field\u0022: \u0022Account Number:\u0022,\n            \u0022value\u0022: \u0022D45678901\u0022\n        },\n        {\n            \u0022field\u0022: \u0022Phone/Email:\u0022,\n            \u0022value\u0022: \u0022D45678901\u0022\n        },\n        {\n            \u0022field\u0022: \u0022Bank Account\u0022,\n            \u0022value\u0022: \u0022800123-98765432-00\u0022\n        }\n    ],\n    \u0022orderReceipt\u0022: {\n        \u0022client\u0022: \u0022Ivan Petrovic\u0022,\n        \u0022submissionTime\u0022: \u00221/20/2024, 09:20 AM\u0022,\n        \u0022submissionMethod\u0022: \u0022Online Platform\u0022,\n        \u0022date\u0022: \u00221/20/2024, 09:20 AM\u0022\n    },\n    \u0022orderDetails\u0022: {\n        \u0022transactionType\u0022: \u0022Buy\u0022,\n        \u0022instrument\u0022: \u0022ENRG-X EnergyX Solutions\u0022,\n        \u0022type\u0022: \u0022Market\u0022,\n        \u0022quantity\u0022: 10000,\n        \u0022price\u0022: \u0022Market\u0022,\n        \u0022conditions\u0022: \u0022Immediate or Cancel\u0022\n    },\n    \u0022transactions\u0022: [\n        {\n            \u0022id\u0022: 876543,\n            \u0022time\u0022: \u00221/20/2024, 09:35 AM\u0022,\n            \u0022quantity\u0022: 10000,\n            \u0022price\u0022: 50\n        },\n        {\n            \u0022id\u0022: 876544,\n            \u0022time\u0022: \u00221/20/2024, 10:35 AM\u0022,\n            \u0022quantity\u0022: 5000,\n            \u0022price\u0022: 52\n        },\n        {\n            \u0022id\u0022: 876545,\n            \u0022time\u0022: \u00221/20/2024, 11:35 AM\u0022,\n            \u0022quantity\u0022: 8000,\n            \u0022price\u0022: 51.50\n        }\n    ],\n    \u0022calculation\u0022: {\n        \u0022tradeValue\u0022: 500000,\n        \u0022interest\u0022: 0,\n        \u0022commission\u0022: 2250,\n        \u0022total\u0022: 502250\n    },\n    \u0022commission\u0022: {\n        \u0022broker\u0022: 1000,\n        \u0022depository\u0022: 500,\n        \u0022stockExchange\u0022: 750,\n        \u0022total\u0022: 2250,\n        \u0022settlementDate\u0022: \u002201/23/2024\u0022\n    }\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Trade Report",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Trade Report",
+        "pages": [
+          {
+            "name": "Standard page",
+            "description": "Standard page",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page"
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "ed91ab9be48",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flexGrow": 1,
+                    "flexBasis": "0"
+                  }
+                }
+              },
+              {
+                "id": "9825ec427f2",
+                "text": "Page {$page.number} of {$report.pageCount}",
+                "type": "text",
+                "style": {
+                  "textAlign": "right"
+                },
+                "$level": 0,
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 0,
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {}
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Trade Report",
+        "content": {
+          "text": {
+            "p": {
+              "fontSize": "11px"
+            },
+            "body": {
+              "color": "var(--dark-gunmetal)",
+              "fontSize": null,
+              "fontFamily": "Inter",
+              "fontWeight": "400"
+            }
+          },
+          "table": {
+            "cell": {
+              "paddingTop-cell": "7px",
+              "paddingLeft-cell": null,
+              "paddingRight-cell": null,
+              "paddingBottom-cell": "7px"
+            },
+            "table": {
+              "fontFamily": "Inter",
+              "fontWeight": "400",
+              "oddRowColor": "#f1f1f1"
+            },
+            "header": {
+              "backgroundColor": "var(--pastel-blue)"
+            }
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--blue-sapphire",
+                "value": "#195568",
+                "displayName": "blue sapphire"
+              },
+              {
+                "name": "--pastel-blue",
+                "value": "#ADD2D0",
+                "displayName": "pastel blue"
+              },
+              {
+                "name": "--dark-gunmetal",
+                "value": "#212030",
+                "displayName": "dark gunmetal"
+              },
+              {
+                "name": "--mint",
+                "value": "#99DBD7",
+                "displayName": "mint"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Sales",
+        "description": "A type of reports which usually refers to sales performance",
+        "code": "sales"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page"
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
