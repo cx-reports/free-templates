@@ -1,0 +1,635 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-22T11:09:54.160852+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Minimalist Invoice",
+        "isEmbeddable": false,
+        "themeName": null,
+        "reportTypeCode": "invoice",
+        "reportTypeName": "Invoice",
+        "reportTemplateName": "Standard",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "Invoice",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "da81f6acf0b",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": false
+                  },
+                  "children": [
+                    {
+                      "id": "5dd6f161a6f",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "37px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "35dd6f161a6",
+                      "text": "Invoice #{$data.invoice.invoiceNumber}",
+                      "type": "text",
+                      "style": {
+                        "textAlign": "center"
+                      },
+                      "theme": {
+                        "text": {
+                          "p": {
+                            "color": null,
+                            "fontSize": "24px",
+                            "fontWeight": "700"
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "dd6f161a6f3",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "37px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "d6f161a6f3f",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "6f161a6f3f6",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {},
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "f161a6f3f6e",
+                              "text": "BILL TO",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "var(--primary)",
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "$expanded": true
+                            },
+                            {
+                              "id": "161a6f3f6e8",
+                              "text": "{$data.invoice.recipient.name}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null,
+                                    "fontSize": "20px",
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "$expanded": false
+                            },
+                            {
+                              "id": "61a6f3f6e8d",
+                              "text": "{$data.invoice.recipient.address}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "$expanded": true
+                            },
+                            {
+                              "id": "1a6f3f6e8df",
+                              "text": "{$data.invoice.recipient.phone}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": true
+                            },
+                            {
+                              "id": "a6f3f6e8df9",
+                              "text": "{$data.invoice.recipient.email}",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": null
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": true
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "backgroundColor": null
+                            },
+                            "cssClasses": null
+                          }
+                        },
+                        {
+                          "id": "19d7c1c0ac5",
+                          "size": "normal",
+                          "type": "spacer",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "width": "94px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            },
+                            "cssClasses": null
+                          }
+                        },
+                        {
+                          "id": "9d7c1c0ac5e",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {},
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "d7c1c0ac5ea",
+                              "text": "DETAILS",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "var(--primary)",
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "hideExpr": null,
+                              "$expanded": false
+                            },
+                            {
+                              "id": "7c1c0ac5ea9",
+                              "data": [
+                                {
+                                  "id": "5ea9cdbb995",
+                                  "key": "Issue Date:",
+                                  "value": "{$data.invoice.dateIssued:d}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "ea9cdbb995c",
+                                  "key": "Due Date:",
+                                  "value": "{$data.invoice.dueDate:d}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-value": {
+                                    "color": null,
+                                    "fontWeight": "700"
+                                  }
+                                }
+                              },
+                              "layout": {
+                                "keyWidth": "100px"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "keyValueGridStyle": "key-value-grid-value"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "backgroundColor": null
+                            },
+                            "cssClasses": null
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "backgroundColor": null
+                        },
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "9cdbb995c39",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "22px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "cdbb995c39e",
+                      "text": "ITEMS",
+                      "type": "text",
+                      "theme": {
+                        "text": {
+                          "p": {
+                            "color": "var(--primary)",
+                            "fontWeight": "700"
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false
+                    },
+                    {
+                      "id": "dbb995c39e8",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "5px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "a9cdbb995c3",
+                      "type": "data-table",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "columns": [
+                        {
+                          "field": "description",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": "TOTAL",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "formatExpression": null,
+                            "conditionalStyling": []
+                          },
+                          "header": {
+                            "tpl": null,
+                            "text": "Description",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "weightField": null,
+                          "aggregateAlias": null,
+                          "classExpression": null,
+                          "styleExpression": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "align": "right",
+                          "field": "quantity",
+                          "header": {
+                            "text": "Quantity",
+                            "type": "text",
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "formatType": "number",
+                          "conditionalStyling": []
+                        },
+                        {
+                          "align": "right",
+                          "field": "unitPrice",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "htmlTpl": null,
+                            "conditionalStyling": []
+                          },
+                          "format": "currency;USD;2",
+                          "header": {
+                            "tpl": null,
+                            "text": "Unit Price",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "valueType": "value",
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateAlias": null,
+                          "classExpression": null,
+                          "styleExpression": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        },
+                        {
+                          "align": "right",
+                          "field": "total",
+                          "width": null,
+                          "footer": {
+                            "tpl": null,
+                            "text": null,
+                            "format": "currency;USD;2",
+                            "htmlTpl": null,
+                            "formatType": "custom",
+                            "formatExpression": null,
+                            "conditionalStyling": []
+                          },
+                          "format": "currency;USD;2",
+                          "header": {
+                            "tpl": null,
+                            "text": "Total",
+                            "type": "text",
+                            "htmlTpl": null,
+                            "conditinalStyling": [],
+                            "conditionalStyling": []
+                          },
+                          "aggregate": "sum",
+                          "valueType": "value",
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateAlias": null,
+                          "classExpression": null,
+                          "styleExpression": null,
+                          "valueExpression": null,
+                          "formatExpression": null,
+                          "visibleExpression": null,
+                          "conditionalStyling": []
+                        }
+                      ],
+                      "version": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "gridOptions": {
+                        "dataSource": "invoice.items"
+                      },
+                      "formatOptions": {
+                        "date": null,
+                        "number": null,
+                        "percent": null
+                      }
+                    },
+                    {
+                      "id": "bf96d4588ce",
+                      "size": "normal",
+                      "type": "spacer",
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "24px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "0bf96d4588c",
+                      "text": "NOTES",
+                      "type": "text",
+                      "theme": {
+                        "text": {
+                          "p": {
+                            "color": "var(--primary)",
+                            "fontWeight": "700"
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {}
+                      }
+                    },
+                    {
+                      "id": "f96d4588ce6",
+                      "text": "{$data.invoice.notes}",
+                      "type": "text",
+                      "theme": {
+                        "text": {
+                          "p": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "border": "1px dashed lightgray",
+                          "padding": "8px",
+                          "minHeight": "100px"
+                        },
+                        "cssClasses": null
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "invoice",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Invoice",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\n  \u0022invoiceNumber\u0022: \u002212345\u0022,\n  \u0022dateIssued\u0022: \u00222024-01-27\u0022,\n  \u0022dueDate\u0022: \u00222024-02-10\u0022,\n  \u0022issuer\u0022: {\n    \u0022name\u0022: \u0022XYZ Corporation\u0022,\n    \u0022address\u0022: \u0022123 Business Rd, Business City, BC 12345\u0022,\n    \u0022phone\u0022: \u0022123-456-7890\u0022,\n    \u0022email\u0022: \u0022contact@xyzcorporation.com\u0022\n  },\n  \u0022recipient\u0022: {\n    \u0022name\u0022: \u0022ABC Enterprises\u0022,\n    \u0022address\u0022: \u0022456 Enterprise Blvd, Commerce City, CC 67890\u0022,\n    \u0022phone\u0022: \u0022987-654-3210\u0022,\n    \u0022email\u0022: \u0022info@abcenterprises.com\u0022\n  },\n  \u0022items\u0022: [\n    {\n      \u0022description\u0022: \u0022Product 1\u0022,\n      \u0022quantity\u0022: 10,\n      \u0022unitPrice\u0022: 29.99,\n      \u0022total\u0022: 299.90\n    },\n    {\n      \u0022description\u0022: \u0022Product 2\u0022,\n      \u0022quantity\u0022: 5,\n      \u0022unitPrice\u0022: 49.99,\n      \u0022total\u0022: 249.95\n    }\n  ],\n  \u0022subTotal\u0022: 549.85,\n  \u0022taxRate\u0022: 0.07,\n  \u0022taxAmount\u0022: 38.49,\n  \u0022total\u0022: 588.34,\n  \u0022notes\u0022: \u0022Thank you for your business. Please make payment by the due date.\u0022\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": null,
+    "themes": null,
+    "globalParameters": null,
+    "reportTypes": null,
+    "languages": null,
+    "pageTypes": null,
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
