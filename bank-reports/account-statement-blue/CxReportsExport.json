@@ -1,0 +1,1562 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-22T11:23:07.060916+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Bank Account Statement Blue",
+        "isEmbeddable": false,
+        "themeName": "Bank Account Statement Blue",
+        "reportTypeCode": "BR",
+        "reportTypeName": "Bank Reports",
+        "reportTemplateName": "Bank Account Statement",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "New Page 1",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "6f2b58e398b",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": true
+                  },
+                  "repeat": {
+                    "alias": null,
+                    "dataSource": null,
+                    "repeatable": false
+                  },
+                  "children": [
+                    {
+                      "id": "97ed7be4cf8",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "be4cf8d9729",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {
+                            "gap": null
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "8d9729b5de5",
+                              "tag": "h1",
+                              "text": "Account Statement",
+                              "type": "heading",
+                              "theme": {
+                                "text": {
+                                  "h1": {
+                                    "color": "var(--dark-slate-blue)",
+                                    "marginTop": null,
+                                    "marginBottom": null
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": null
+                              },
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "5f3b45af4fd",
+                              "data": [
+                                {
+                                  "id": "52f45efa7bb",
+                                  "key": "ACCOUNT NUMBER:",
+                                  "value": "{$data.statement.accountNumber}",
+                                  "hideexpr": null
+                                },
+                                {
+                                  "id": "2f45efa7bb7",
+                                  "key": "STATEMENT DATE:",
+                                  "value": "{$data.statement.statementPeriod.to:d}",
+                                  "hideexpr": "true"
+                                },
+                                {
+                                  "id": "f45efa7bb71",
+                                  "key": "PERIOD COVERED:",
+                                  "value": "{$data.statement.statementPeriod.from:dt;yyyyMMMdd} - {$data.statement.statementPeriod.to:dt;yyyyMMMdd}",
+                                  "hideexpr": null
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "text": {
+                                  "key-value-grid-key": {
+                                    "color": null,
+                                    "fontWeight": null
+                                  },
+                                  "key-value-grid-value": {
+                                    "color": null,
+                                    "marginTop": null,
+                                    "fontWeight": "700",
+                                    "lineHeight": null,
+                                    "marginBottom": null
+                                  },
+                                  "key-value-grid-common": {
+                                    "marginTop": "14px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "keyWidth": "160px",
+                                "rowHeight": "24px"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "74px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "keyValueGridStyle": "key-value-grid-common"
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "width": "387px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "marginTop": "20px",
+                              "flexShrink": "0",
+                              "marginLeft": "10px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "e4cf8d9729b",
+                          "type": "spacer",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "225px",
+                              "height": "12px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "3b45af4fd8e",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "b45af4fd8ed",
+                              "url": "/BankCompanyLogo.png",
+                              "type": "img",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "92px",
+                                  "height": "67px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            },
+                            {
+                              "id": "af4fd8ed512",
+                              "tag": "h2",
+                              "text": "Sterling",
+                              "type": "heading",
+                              "theme": {
+                                "text": {
+                                  "h2": {
+                                    "color": "var(--dark-slate-blue)",
+                                    "marginTop": "4px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "28px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "fd8ed51256f",
+                              "text": "BANKING",
+                              "type": "text",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "color": "var(--dark-slate-blue)",
+                                    "fontSize": "12px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "19px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "114px",
+                              "height": "110px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "marginTop": "22px",
+                              "flexShrink": "0",
+                              "marginRight": "22px"
+                            },
+                            "alignItems": "center"
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "width": "757\nflex-grow: 0",
+                          "height": "144px",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "borderRadius": "4px",
+                          "backgroundColor": "var(--gainsboro)"
+                        },
+                        "alignItems": "flex-start",
+                        "justifyContent": "flex-start"
+                      }
+                    },
+                    {
+                      "id": "f07724c1c72",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "bbf6dd3b2f3",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {
+                            "gap": "2px"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "f6dd3b2f391",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "391057adbcc",
+                                  "tag": "h3",
+                                  "text": "CUSTOMER:",
+                                  "type": "heading",
+                                  "theme": {
+                                    "text": {
+                                      "h3": {
+                                        "fontWeight": null
+                                      }
+                                    }
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "hideExpr": null,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "97px",
+                                      "height": "23px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "marginLeft": "16px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "168px",
+                                  "height": "40px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "borderRadius": "4px",
+                                  "backgroundColor": "var(--gainsboro)"
+                                },
+                                "alignItems": "center",
+                                "justifyContent": "flex-start"
+                              }
+                            },
+                            {
+                              "id": "057adbccf07",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "layout": {
+                                "gap": "8px"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "cf07724c1c7",
+                                  "text": "{$data.statement.customerName}",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontWeight": "700",
+                                        "textTransform": "UPPERCASE"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "161px",
+                                      "height": "19px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "bccf07724c1",
+                                  "text": "{$data.statement.address.street}",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "textTransform": "UPPERCASE"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "168px",
+                                      "height": "19px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "ccf07724c1c",
+                                  "text": "{$data.statement.address.city},\n{$data.statement.address.state}\n{$data.statement.address.zipCode},\n{$data.statement.address.country}",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "textTransform": "UPPERCASE"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "240px"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "--flow-gap": "8px",
+                                  "paddingTop": "16px",
+                                  "paddingLeft": "16px",
+                                  "borderRadius": "4px",
+                                  "backgroundColor": "var(--gainsboro)"
+                                },
+                                "alignItems": "baseline",
+                                "justifyContent": "flex-start"
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "--flow-gap": "2px",
+                              "flexShrink": 1
+                            }
+                          }
+                        },
+                        {
+                          "id": "3b2f391057a",
+                          "type": "spacer",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "hideExpr": null,
+                          "$expanded": false
+                        },
+                        {
+                          "id": "bf6dd3b2f39",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "layout": {
+                            "gap": "2px"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "dd3b2f39105",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "91057adbccf",
+                                  "tag": "h3",
+                                  "text": "CUSTOMER:",
+                                  "type": "heading",
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "hideExpr": null,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "97px",
+                                      "height": "23px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "marginLeft": "16px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "168px",
+                                  "height": "40px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "borderRadius": "4px",
+                                  "backgroundColor": "var(--gainsboro)"
+                                },
+                                "alignItems": "center",
+                                "justifyContent": "flex-start"
+                              }
+                            },
+                            {
+                              "id": "07724c1c722",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "layout": {
+                                "gap": null
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "3dda509691b",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "dda509691ba",
+                                      "text": "Starting Balance:",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "da509691ba9",
+                                      "text": "{$data.statement.startingBalance:currency;USD;2}",
+                                      "type": "text",
+                                      "style": {
+                                        "textAlign": "left"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null,
+                                            "fontWeight": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginBottom": "8px",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "a509691ba9c",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "509691ba9c7",
+                                      "text": "Income:",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "c99843a8bc5",
+                                      "text": "{$data.statement.creditTotal:currency;USD;2}",
+                                      "type": "text",
+                                      "style": {
+                                        "textAlign": "left"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null,
+                                            "fontWeight": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginBottom": "8px",
+                                      "paddingBottom": null,
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "f370c25e865",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "691ba9c78be",
+                                      "text": "Expenses:",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "91ba9c78be3",
+                                      "text": "{[-{$data.statement.debitTotal}]:currency;USD;2}",
+                                      "type": "text",
+                                      "style": {
+                                        "textAlign": "left"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null,
+                                            "fontWeight": null
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginBottom": "4px",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "370c25e8656",
+                                  "type": "separator",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "240px",
+                                      "height": "10px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  },
+                                  "orientation": "horizontal"
+                                },
+                                {
+                                  "id": "7f370c25e86",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "ba9c78be308",
+                                      "text": "Closing Balance:",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null,
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "a9c78be3089",
+                                      "text": "{$data.statement.closingBalance:currency;USD;2}",
+                                      "type": "text",
+                                      "style": {
+                                        "textAlign": "left"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": null,
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "166px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginTop": "4px",
+                                      "backgroundColor": null
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "paddingTop": "16px",
+                                  "paddingLeft": "16px",
+                                  "borderRadius": "4px",
+                                  "backgroundColor": "var(--gainsboro)"
+                                },
+                                "alignItems": "baseline",
+                                "justifyContent": "flex-start"
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "--flow-gap": "2px",
+                              "flexShrink": 1
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "190px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "marginTop": "16px",
+                          "flexShrink": "0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "c25e86569f7",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "layout": {
+                        "gap": "2px"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "25e86569f70",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "5e86569f706",
+                              "tag": "h3",
+                              "text": "TRANSACTIONS:",
+                              "type": "heading",
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "hideExpr": null,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "141px",
+                                  "height": "23px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "marginLeft": "16px"
+                                }
+                              },
+                              "includeInTOC": true
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "width": "168px",
+                              "height": "40px",
+                              "flexGrow": "0",
+                              "flexBasis": "auto",
+                              "flexShrink": "0",
+                              "borderRadius": "4px",
+                              "marginBottom": null,
+                              "backgroundColor": "var(--gainsboro)"
+                            },
+                            "alignItems": "center",
+                            "justifyContent": "flex-start"
+                          }
+                        },
+                        {
+                          "id": "569f706c2d3",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "69f706c2d36",
+                              "type": "data-table",
+                              "theme": {
+                                "table": {
+                                  "cell": {
+                                    "paddingTop-cell": "7px",
+                                    "paddingBottom-cell": "7px"
+                                  }
+                                }
+                              },
+                              "$level": 2,
+                              "layout": {
+                                "formattingCollapsed": false,
+                                "breakIntoMultiplePages": true
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "columns": [
+                                {
+                                  "field": "date",
+                                  "width": null,
+                                  "footer": {
+                                    "tpl": null,
+                                    "text": "TOTAL",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
+                                  },
+                                  "format": "dt;yyyyMMdd",
+                                  "header": {
+                                    "tpl": null,
+                                    "text": "Date",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "aggregate": null,
+                                  "valueType": "value",
+                                  "formatType": "custom",
+                                  "aggregateAlias": null,
+                                  "classExpression": null,
+                                  "styleExpression": null,
+                                  "valueExpression": null,
+                                  "formatExpression": null,
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
+                                },
+                                {
+                                  "field": "description",
+                                  "header": {
+                                    "text": "Description",
+                                    "type": "text",
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "conditionalStyling": []
+                                },
+                                {
+                                  "align": "right",
+                                  "field": "debit",
+                                  "width": null,
+                                  "footer": {
+                                    "tpl": null,
+                                    "text": null,
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
+                                  },
+                                  "header": {
+                                    "tpl": null,
+                                    "text": "Debit",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "aggregate": "sum",
+                                  "valueType": "value",
+                                  "formatType": "number",
+                                  "aggregateAlias": null,
+                                  "classExpression": null,
+                                  "styleExpression": null,
+                                  "valueExpression": null,
+                                  "formatExpression": null,
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
+                                },
+                                {
+                                  "align": "right",
+                                  "field": "credit",
+                                  "width": null,
+                                  "footer": {
+                                    "tpl": null,
+                                    "text": null,
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
+                                  },
+                                  "header": {
+                                    "tpl": null,
+                                    "text": "Credit",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "aggregate": "sum",
+                                  "valueType": "value",
+                                  "formatType": "number",
+                                  "aggregateAlias": null,
+                                  "classExpression": null,
+                                  "styleExpression": null,
+                                  "valueExpression": null,
+                                  "formatExpression": null,
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
+                                },
+                                {
+                                  "field": "category",
+                                  "width": null,
+                                  "footer": {
+                                    "tpl": null,
+                                    "text": null,
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
+                                  },
+                                  "header": {
+                                    "tpl": null,
+                                    "text": "Category",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "valueType": "value",
+                                  "aggregateAlias": null,
+                                  "classExpression": null,
+                                  "styleExpression": null,
+                                  "valueExpression": null,
+                                  "formatExpression": null,
+                                  "visibleExpression": "false",
+                                  "conditionalStyling": []
+                                },
+                                {
+                                  "align": "right",
+                                  "field": "balance",
+                                  "width": null,
+                                  "footer": {
+                                    "tpl": null,
+                                    "text": null,
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
+                                  },
+                                  "header": {
+                                    "tpl": null,
+                                    "text": "Balance",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "tplParams": [],
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
+                                  },
+                                  "aggregate": "last",
+                                  "valueType": "value",
+                                  "formatType": "number",
+                                  "aggregateAlias": null,
+                                  "classExpression": null,
+                                  "styleExpression": null,
+                                  "valueExpression": null,
+                                  "formatExpression": null,
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
+                                }
+                              ],
+                              "version": 1,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              },
+                              "stylingFor": "cell",
+                              "gridOptions": {
+                                "dataSource": "statement.transactions",
+                                "groupingConfig": [
+                                  {
+                                    "keys": [],
+                                    "enabled": true,
+                                    "captionTpl": "{$group.category}",
+                                    "showFooter": true,
+                                    "showHeader": false,
+                                    "showCaption": false
+                                  },
+                                  {
+                                    "keys": [
+                                      "category"
+                                    ],
+                                    "enabled": false,
+                                    "captionTpl": "{$group.category}",
+                                    "showFooter": true,
+                                    "showHeader": true,
+                                    "showCaption": true
+                                  },
+                                  {
+                                    "enabled": false,
+                                    "showCaption": true
+                                  }
+                                ],
+                                "line2VisibleExpression": null,
+                                "line3VisibleExpression": null
+                              },
+                              "formatOptions": {
+                                "date": null,
+                                "number": "currency;USD;2",
+                                "percent": null
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "marginTop": "16px",
+                          "--flow-gap": "2px"
+                        }
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "statement",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Statement",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\r\n  \u0022accountNumber\u0022: \u00221234567890\u0022,\r\n  \u0022customerName\u0022: \u0022John Doe\u0022,\r\n  \u0022address\u0022: {\r\n    \u0022street\u0022: \u0022123 Elm Street\u0022,\r\n    \u0022city\u0022: \u0022Springfield\u0022,\r\n    \u0022state\u0022: \u0022SP\u0022,\r\n    \u0022zipCode\u0022: \u002212345\u0022,\r\n    \u0022country\u0022: \u0022USA\u0022\r\n  },\r\n  \u0022statementPeriod\u0022: {\r\n    \u0022from\u0022: \u00222024-01-01\u0022,\r\n    \u0022to\u0022: \u00222024-01-31\u0022\r\n  },\r\n  \u0022transactions\u0022: [\r\n    {\r\n      \u0022date\u0022: \u00222024-01-01\u0022,\r\n      \u0022description\u0022: \u0022ATM Withdrawal at Bank Branch\u0022,\r\n      \u0022debit\u0022: 100,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022ATM Withdrawal\u0022,\r\n      \u0022balance\u0022: 5221\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-02\u0022,\r\n      \u0022description\u0022: \u0022Coffee at Central Perk Cafe\u0022,\r\n      \u0022debit\u0022: 5.75,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 5215.25\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-03\u0022,\r\n      \u0022description\u0022: \u0022Groceries at Daily Mart\u0022,\r\n      \u0022debit\u0022: 60,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Groceries\u0022,\r\n      \u0022balance\u0022: 5155.25\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-04\u0022,\r\n      \u0022description\u0022: \u0022Netflix Monthly Subscription\u0022,\r\n      \u0022debit\u0022: 12.99,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 5142.26\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-05\u0022,\r\n      \u0022description\u0022: \u0022Monthly Salary Deposit from Acme Corp\u0022,\r\n      \u0022debit\u0022: null,\r\n      \u0022credit\u0022: 2000,\r\n      \u0022category\u0022: \u0022Salary\u0022,\r\n      \u0022balance\u0022: 7142.26\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-06\u0022,\r\n      \u0022description\u0022: \u0022Dinner at Italiano Restaurant\u0022,\r\n      \u0022debit\u0022: 45.2,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 7097.06\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-07\u0022,\r\n      \u0022description\u0022: \u0022Fuel at Green Gas Station\u0022,\r\n      \u0022debit\u0022: 35,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Transportation\u0022,\r\n      \u0022balance\u0022: 7062.06\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-08\u0022,\r\n      \u0022description\u0022: \u0022Medication from HealthPlus Pharmacy\u0022,\r\n      \u0022debit\u0022: 23.5,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Healthcare\u0022,\r\n      \u0022balance\u0022: 7038.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-09\u0022,\r\n      \u0022description\u0022: \u0022Books from ReadMore Bookstore\u0022,\r\n      \u0022debit\u0022: 30,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Education\u0022,\r\n      \u0022balance\u0022: 7008.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-10\u0022,\r\n      \u0022description\u0022: \u0022Transfer to Savings Account #987654321\u0022,\r\n      \u0022debit\u0022: 500,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Savings\u0022,\r\n      \u0022balance\u0022: 6508.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-11\u0022,\r\n      \u0022description\u0022: \u0022Gift Purchase at GiftGalore Store\u0022,\r\n      \u0022debit\u0022: 80,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Gifts\u0022,\r\n      \u0022balance\u0022: 6428.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-12\u0022,\r\n      \u0022description\u0022: \u0022Refund from Electronics Store\u0022,\r\n      \u0022debit\u0022: null,\r\n      \u0022credit\u0022: 150,\r\n      \u0022category\u0022: \u0022Refunds\u0022,\r\n      \u0022balance\u0022: 6578.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-13\u0022,\r\n      \u0022description\u0022: \u0022Movie Theater Tickets at CineMax\u0022,\r\n      \u0022debit\u0022: 25,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 6553.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-14\u0022,\r\n      \u0022description\u0022: \u0022Utility Bill Payment to City Utilities\u0022,\r\n      \u0022debit\u0022: 110,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Utilities\u0022,\r\n      \u0022balance\u0022: 6443.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-15\u0022,\r\n      \u0022description\u0022: \u0022Gym Membership at FitNow Gym\u0022,\r\n      \u0022debit\u0022: 45,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Fitness\u0022,\r\n      \u0022balance\u0022: 6398.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-16\u0022,\r\n      \u0022description\u0022: \u0022Car Loan Repayment to AutoBank\u0022,\r\n      \u0022debit\u0022: 250,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Loan Payment\u0022,\r\n      \u0022balance\u0022: 6148.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-17\u0022,\r\n      \u0022description\u0022: \u0022Music Purchase at Online Music Store\u0022,\r\n      \u0022debit\u0022: 15.99,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 6132.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-18\u0022,\r\n      \u0022description\u0022: \u0022Train Ticket for City Transit\u0022,\r\n      \u0022debit\u0022: 30,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Transportation\u0022,\r\n      \u0022balance\u0022: 6102.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-19\u0022,\r\n      \u0022description\u0022: \u0022Online Shopping at eShop.com\u0022,\r\n      \u0022debit\u0022: 120,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Shopping\u0022,\r\n      \u0022balance\u0022: 5982.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-20\u0022,\r\n      \u0022description\u0022: \u0022Hair Salon Appointment at GlamHair\u0022,\r\n      \u0022debit\u0022: 70,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Personal Care\u0022,\r\n      \u0022balance\u0022: 5912.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-21\u0022,\r\n      \u0022description\u0022: \u0022Pet Supplies from PetWorld\u0022,\r\n      \u0022debit\u0022: 50,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Pet Care\u0022,\r\n      \u0022balance\u0022: 5862.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-22\u0022,\r\n      \u0022description\u0022: \u0022Dental Checkup at BrightSmile Clinic\u0022,\r\n      \u0022debit\u0022: 85,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Healthcare\u0022,\r\n      \u0022balance\u0022: 5777.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-23\u0022,\r\n      \u0022description\u0022: \u0022Insurance Premium to SafeLife Insurance\u0022,\r\n      \u0022debit\u0022: 200,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Insurance\u0022,\r\n      \u0022balance\u0022: 5577.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-24\u0022,\r\n      \u0022description\u0022: \u0022Home Decor Purchase at DecorPlus\u0022,\r\n      \u0022debit\u0022: 150,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Home Improvement\u0022,\r\n      \u0022balance\u0022: 5427.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-25\u0022,\r\n      \u0022description\u0022: \u0022Theater Tickets for Broadway Show\u0022,\r\n      \u0022debit\u0022: 180,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 5247.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-26\u0022,\r\n      \u0022description\u0022: \u0022Grocery Shopping at FreshFoods Market\u0022,\r\n      \u0022debit\u0022: 95,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Groceries\u0022,\r\n      \u0022balance\u0022: 5152.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-27\u0022,\r\n      \u0022description\u0022: \u0022Electronics Purchase at TechWorld\u0022,\r\n      \u0022debit\u0022: 220,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Electronics\u0022,\r\n      \u0022balance\u0022: 4932.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-28\u0022,\r\n      \u0022description\u0022: \u0022Dining at Chez Gourmet Restaurant\u0022,\r\n      \u0022debit\u0022: 130,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 4802.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-29\u0022,\r\n      \u0022description\u0022: \u0022Yoga Studio Membership at ZenYoga\u0022,\r\n      \u0022debit\u0022: 60,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Fitness\u0022,\r\n      \u0022balance\u0022: 4742.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-30\u0022,\r\n      \u0022description\u0022: \u0022Art Supplies from CreativeArts Store\u0022,\r\n      \u0022debit\u0022: 45,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Hobbies\u0022,\r\n      \u0022balance\u0022: 4697.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-31\u0022,\r\n      \u0022description\u0022: \u0022Charity Donation to HelpFund\u0022,\r\n      \u0022debit\u0022: 100,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Charity\u0022,\r\n      \u0022balance\u0022: 4597.570000000001\r\n    }\r\n  ],\r\n  \u0022closingBalance\u0022: 4597.570000000001,\r\n  \u0022startingBalance\u0022: 5321,\r\n  \u0022debitTotal\u0022: 2873.4300000000003,\r\n  \u0022creditTotal\u0022: 2150\r\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "expenseCategories",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Expense Categories",
+              "type": 4,
+              "externalDatabaseName": null,
+              "config": {
+                "js": "($params, $data) =\u003E {\r\n let cats = {};\r\n  for (let t of ($data?.statement?.transactions ?? [])) {\r\n    if (t.debit) \r\n    \tcats[t.category] = (cats[t.category] ?? 0) \u002B t.debit;\r\n  }\r\n  let result = Object.keys(cats).map(k =\u003E ({ category: k, amount: cats[k] }));\r\n  result.sort((a, b) =\u003E a.amount - b.amount);\r\n  return result;  \r\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Bank Account Statement",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Bank Account Statement Blue",
+        "pages": [
+          {
+            "name": "Standard page",
+            "description": "Standard page following the company template.",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page following the company template."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "675b240947f",
+                "type": "content-placeholder",
+                "config": {
+                  "name": "master"
+                },
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Bank Account Statement Blue",
+        "content": {
+          "text": {
+            "p": {
+              "fontSize": null,
+              "fontFamily": null
+            },
+            "h1": {
+              "fontSize": "38px",
+              "fontFamily": "Poppins",
+              "fontWeight": "700"
+            },
+            "h2": {
+              "fontSize": "20px",
+              "fontWeight": "700"
+            },
+            "h3": {
+              "fontFamily": "poppins",
+              "fontWeight": "600"
+            },
+            "body": {
+              "fontSize": "16px",
+              "fontFamily": "roboto"
+            }
+          },
+          "table": {
+            "table": {
+              "evenRowColor": "#f1f1f1"
+            },
+            "header": {
+              "color": "rgba(255,255,255,1)",
+              "backgroundColor": "var(--dark-slate-blue)"
+            },
+            "footer1": {
+              "borderTop-footer1": "1px solid "
+            }
+          },
+          "legend": {
+            "shape": "null"
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--dark-slate-blue",
+                "value": "#44516b",
+                "displayName": "Dark Slate Blue"
+              },
+              {
+                "name": "--gainsboro",
+                "value": "#dfe2e6",
+                "displayName": "Gainsboro"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900"
+              },
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Bank Reports",
+        "description": "Bank Reports",
+        "code": "BR"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
