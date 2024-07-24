@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-23T12:57:23.8967789+02:00",
+  "created": "2024-07-24T15:20:57.7165468+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -56,25 +56,44 @@
                           "version": 3,
                           "children": [
                             {
-                              "id": "e36f34e62ab",
-                              "html": "\u003Csvg width=\u002240\u0022 height=\u002240\u0022 viewBox=\u00220 0 40 40\u0022 fill=\u0022none\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003E\n\u003Ccircle cx=\u002220\u0022 cy=\u002220\u0022 r=\u002220\u0022 fill=\u0022white\u0022/\u003E\n\u003Cpath d=\u0022M14.7511 7.59893C14.874 7.38682 15.0744 7.2332 15.3083 7.17185C15.5421 7.1105 15.7903 7.14643 15.9982 7.27176L17.0086 7.88149L28.2381 14.4584C28.4476 14.5812 28.6007 14.7838 28.6638 15.0218C28.7269 15.2598 28.6948 15.5136 28.5745 15.7275C28.4542 15.9413 28.2556 16.0975 28.0224 16.1619C27.7892 16.2263 27.5404 16.1935 27.3309 16.0707L26.3072 15.4709L24.4795 18.6906L24.4771 18.6881L21.3707 16.8651C21.267 16.8021 21.152 16.7607 21.0324 16.7435C20.9128 16.7262 20.7911 16.7334 20.6743 16.7646C20.5575 16.7958 20.4479 16.8503 20.352 16.9251C20.256 16.9999 20.1756 17.0934 20.1154 17.2002C20.0551 17.307 20.0163 17.425 20.0012 17.5472C19.9861 17.6695 19.9949 17.7936 20.0272 17.9123C20.0595 18.0311 20.1146 18.1421 20.1893 18.2389C20.264 18.3357 20.3568 18.4163 20.4623 18.4762L23.5663 20.298L22.3993 22.3552L22.3969 22.354L17.2928 19.3573C17.189 19.2943 17.074 19.253 16.9545 19.2357C16.8349 19.2184 16.7132 19.2256 16.5964 19.2568C16.4796 19.288 16.37 19.3425 16.274 19.4173C16.1781 19.4921 16.0976 19.5857 16.0374 19.6925C15.9772 19.7993 15.9384 19.9172 15.9233 20.0395C15.9081 20.1617 15.917 20.2858 15.9492 20.4045C15.9815 20.5233 16.0366 20.6343 16.1113 20.7311C16.186 20.8279 16.2789 20.9086 16.3844 20.9684L21.4849 23.9638L20.4101 25.8587L20.4077 25.8562L17.2345 23.9935C17.0254 23.8749 16.779 23.8451 16.5485 23.9103C16.318 23.9756 16.1219 24.1308 16.0026 24.3424C15.8833 24.554 15.8503 24.805 15.9109 25.0412C15.9714 25.2774 16.1206 25.4797 16.3261 25.6046L19.4969 27.466L18.1368 29.8603C17.3519 31.2377 16.0645 32.2418 14.556 32.6528C13.0476 33.0639 11.441 32.8486 10.0878 32.0539C9.4184 31.6621 8.83141 31.1392 8.3605 30.5153C7.88959 29.8914 7.54403 29.1787 7.34365 28.4182C7.14326 27.6577 7.092 26.8643 7.1928 26.0835C7.2936 25.3027 7.54447 24.55 7.93103 23.8684L16.0942 9.48886L16.0869 9.48514L15.0717 8.87293C14.9686 8.81082 14.8785 8.72858 14.8066 8.63091C14.7347 8.53325 14.6823 8.42208 14.6526 8.30375C14.6228 8.18543 14.6162 8.06228 14.6331 7.94134C14.65 7.8204 14.6901 7.70405 14.7511 7.59893ZM28.9995 26.6617C30.3414 26.6617 31.4283 25.5055 31.4283 24.0803C31.4283 23.188 30.4774 21.997 29.7646 21.2299C29.6666 21.1229 29.5482 21.0376 29.4166 20.9792C29.285 20.9209 29.143 20.8908 28.9995 20.8908C28.856 20.8908 28.7141 20.9209 28.5824 20.9792C28.4508 21.0376 28.3324 21.1229 28.2344 21.2299C27.5216 21.997 26.5707 23.188 26.5707 24.0803C26.5707 25.5055 27.6576 26.6617 28.9995 26.6617Z\u0022 fill=\u0022#212030\u0022/\u003E\n\u003C/svg\u003E\n",
-                              "type": "html",
-                              "$level": 3,
+                              "id": "79e87e82a25",
+                              "type": "flow",
+                              "config": {
+                                "orientation": "vertical"
+                              },
                               "repeat": {
                                 "alias": null,
                                 "dataSource": null,
                                 "repeatable": false
                               },
-                              "version": 0,
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "9e87e82a254",
+                                  "url": "/vial-logo.png",
+                                  "type": "img",
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "40px",
+                                      "height": "40px"
+                                    }
+                                  }
+                                }
+                              ],
                               "hideExpr": null,
-                              "$expanded": false,
                               "boxStyles": {
                                 "style": {
                                   "width": "122px",
-                                  "background": "unset"
+                                  "height": "40px"
                                 }
-                              },
-                              "editorMode": "rich"
+                              }
                             },
                             {
                               "id": "36f34e62ab2",
@@ -1900,12 +1919,182 @@
         ]
       }
     ],
-    "templates": null,
-    "themes": null,
+    "templates": [
+      {
+        "name": "Blood Test Result - Red",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Blood Test Result - Red",
+        "pages": [
+          {
+            "name": "Standard page",
+            "description": "Standard page following the company template.",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page following the company template."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "0d17b11b7bf",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "children": [],
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              },
+              {
+                "id": "83b73529ebf",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "vertical"
+                },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "283b73529eb",
+                    "text": "Page {$page.number} of {$report.pageCount}",
+                    "type": "text",
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": "var(--dark-gray)"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 0,
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "color": "gray"
+                      }
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "height": "23px",
+                    "flexGrow": "0",
+                    "borderTop": "2px solid var(--gray)",
+                    "flexBasis": "auto",
+                    "marginTop": null,
+                    "flexShrink": "0",
+                    "marginLeft": "7mm",
+                    "marginRight": "7mm"
+                  },
+                  "alignItems": "center",
+                  "justifyContent": "center"
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Blood Test Result - Red",
+        "content": {
+          "text": {
+            "h4": {
+              "color": "var(--tertiary)",
+              "fontSize": "16px"
+            },
+            "body": {
+              "fontFamily": "Open Sans"
+            }
+          },
+          "table": {
+            "header": {
+              "fontWeight": "700",
+              "textTransform": "UPPERCASE",
+              "borderBottom-header": "1px solid var(--gray)"
+            }
+          },
+          "custom": ".cxb-grid table tbody:nth-of-type(2) tr td{\n    padding-top: 12px; \n}\n\n.cxb-grid table tbody tr td {\n    line-height: 13px;\n}",
+          "legend": {
+            "shape": "null"
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--primary",
+                "value": "#FBCBCB",
+                "displayName": "primary"
+              },
+              {
+                "name": "--secundary",
+                "value": "#D97979",
+                "displayName": "secundary"
+              },
+              {
+                "name": "--tertiary",
+                "value": "#077CA0",
+                "displayName": "tertiary"
+              },
+              {
+                "name": "--gray",
+                "value": "#D3D3D3",
+                "displayName": "gray"
+              },
+              {
+                "name": "--dark-gray",
+                "value": "#212030",
+                "displayName": "dark gray"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Open\u002BSans:ital,wght@0,300..800;1,300..800\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
     "globalParameters": null,
-    "reportTypes": null,
+    "reportTypes": [
+      {
+        "name": "Lab Results",
+        "description": "A type of reports related to any kind of lab work",
+        "code": "lab"
+      }
+    ],
     "languages": null,
-    "pageTypes": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      }
+    ],
     "parametersDefinitions": null,
     "additionalDataSources": null,
     "globalDataSources": null,
