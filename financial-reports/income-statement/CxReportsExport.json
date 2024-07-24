@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-19T13:14:44.581705+02:00",
+  "created": "2024-07-24T14:32:02.7963836+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -517,16 +517,417 @@
         ]
       }
     ],
-    "templates": null,
-    "themes": null,
+    "templates": [
+      {
+        "name": "Orange Finance",
+        "defaultPaperMargins": "12.7mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Orange Theme",
+        "pages": [
+          {
+            "name": "Cover page",
+            "description": "Cover page",
+            "pageType": {
+              "name": "Cover Page",
+              "description": "Cover page"
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "812502bca90",
+                "type": "content-placeholder",
+                "config": {
+                  "name": "master"
+                },
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          },
+          {
+            "name": "Rotated page",
+            "description": "Rotated page",
+            "pageType": {
+              "name": "Rotated page",
+              "description": "Rotated page"
+            },
+            "inactive": false,
+            "isCountable": true,
+            "content": [
+              {
+                "id": "3d3a6487a62",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "vertical"
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "d3a6487a628",
+                    "text": "Company Logo Here",
+                    "type": "text",
+                    "style": {
+                      "color": "white",
+                      "fontSize": "22px",
+                      "alignSelf": "center",
+                      "textAlign": "center"
+                    },
+                    "$level": 1,
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "266px",
+                        "height": "47px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "background": "var(--primary)",
+                        "flexShrink": "0"
+                      },
+                      "cssClasses": null
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true
+              },
+              {
+                "id": "ede73d3a648",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "children": [
+                  {
+                    "id": "de73d3a6487",
+                    "type": "flow",
+                    "$level": 0,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "e73d3a6487a",
+                        "text": "Company Logo Here",
+                        "type": "text",
+                        "style": {
+                          "color": "white",
+                          "fontSize": "22px",
+                          "alignSelf": "center",
+                          "textAlign": "center"
+                        },
+                        "hideExpr": null,
+                        "boxStyles": {
+                          "style": {
+                            "width": "266px",
+                            "height": "47px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "background": "var(--primary)",
+                            "flexShrink": "0"
+                          },
+                          "cssClasses": null
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {},
+                      "alignItems": "center",
+                      "cssClasses": null
+                    }
+                  }
+                ],
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              },
+              {
+                "id": "7a5daafed81",
+                "text": "Page {$page.number} of {$report.pageCount}",
+                "type": "text",
+                "style": {
+                  "textAlign": "right"
+                },
+                "$level": 0,
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "cssClasses": null
+                }
+              }
+            ],
+            "paperOrientation": 1
+          },
+          {
+            "name": "Standard page",
+            "description": "Standard page",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page"
+            },
+            "inactive": false,
+            "isCountable": true,
+            "content": [
+              {
+                "id": "e643ea34447",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "children": [
+                  {
+                    "id": "614d9638653",
+                    "url": "/orange-finance.png",
+                    "type": "img",
+                    "style": {
+                      "marginLeft": "-5px"
+                    },
+                    "hideExpr": null,
+                    "boxStyles": {
+                      "style": {
+                        "height": "44px"
+                      }
+                    },
+                    "fromFileSystem": true
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  },
+                  "alignItems": "center",
+                  "cssClasses": null
+                }
+              },
+              {
+                "id": "14d96386535",
+                "type": "spacer",
+                "$level": 0,
+                "$expanded": false
+              },
+              {
+                "id": "1e643ea3444",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  },
+                  "cssClasses": null
+                }
+              },
+              {
+                "id": "3ea34447573",
+                "text": "Page {$page.number} of {$report.pageCount}",
+                "type": "text",
+                "style": {
+                  "textAlign": "right"
+                },
+                "theme": {
+                  "text": {
+                    "p": {
+                      "color": "var(--primary)"
+                    }
+                  }
+                },
+                "$level": 0,
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "cssClasses": null
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Orange Theme",
+        "content": {
+          "text": {
+            "h1": {
+              "color": null,
+              "fontSize": "32px",
+              "fontWeight": "bold"
+            },
+            "h2": {
+              "color": null,
+              "fontSize": "24px",
+              "fontWeight": "bold"
+            },
+            "h3": {
+              "color": "var(--primary)",
+              "fontSize": "22px",
+              "fontWeight": "bold"
+            },
+            "h4": {
+              "fontSize": "18px",
+              "fontWeight": "bold"
+            },
+            "body": {
+              "color": null,
+              "fontSize": "13px",
+              "fontFamily": "Poppins"
+            }
+          },
+          "chart": {
+            "colorA": {
+              "fill": "#e74900"
+            },
+            "colorB": {
+              "fill": "#f77c39"
+            },
+            "colorC": {
+              "fill": "#5ba2a0"
+            },
+            "colorD": {
+              "fill": "#32dbd6"
+            },
+            "colorE": {
+              "fill": "#b87a58"
+            },
+            "colorF": {
+              "fill": null
+            },
+            "colorG": {
+              "fill": null
+            },
+            "colorH": {
+              "fill": null
+            },
+            "colorI": {
+              "fill": null
+            },
+            "colorJ": {
+              "fill": null
+            },
+            "colorK": {
+              "fill": null
+            },
+            "colorL": {
+              "fill": null
+            },
+            "colorM": {
+              "fill": null
+            },
+            "colorN": {
+              "fill": null
+            },
+            "colorO": {
+              "fill": null
+            },
+            "colorP": {
+              "fill": null
+            }
+          },
+          "table": {
+            "cell": {
+              "paddingTop": "6px",
+              "paddingLeft": "10px",
+              "borderBottom": "1px dashed lightgray;",
+              "paddingRight": "10px",
+              "paddingBottom": "6px"
+            },
+            "header": {
+              "color": "rgba(255,255,255,1)",
+              "fontSize": "12px",
+              "borderTop": null,
+              "fontFamily": null,
+              "fontWeight": "bold",
+              "paddingTop": "8px",
+              "paddingLeft": "10px",
+              "paddingRight": "10px",
+              "paddingBottom": "8px",
+              "textTransform": "uppercase",
+              "backgroundColor": "var(--primary)"
+            }
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--primary",
+                "value": "#e24817",
+                "displayName": "primary"
+              }
+            ]
+          },
+          "guideline": {
+            "border": {
+              "stroke": null
+            }
+          },
+          "zeroMarker": {
+            "zeroMarkerX": {
+              "stroke": null
+            },
+            "zeroMarkerY": {
+              "stroke": null
+            }
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
     "globalParameters": null,
-    "reportTypes": null,
+    "reportTypes": [
+      {
+        "name": "Other",
+        "description": "Default",
+        "code": "other"
+      }
+    ],
     "languages": null,
-    "pageTypes": null,
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page"
+      }
+    ],
     "parametersDefinitions": null,
     "additionalDataSources": null,
     "globalDataSources": null,
     "dictionaries": null,
-    "parameterGroups": null
+    "parameterGroups": [
+      {
+        "name": "Default",
+        "orderIndex": 0
+      }
+    ]
   }
 }
