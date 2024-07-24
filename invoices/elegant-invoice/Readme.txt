@@ -1,4 +1,4 @@
-Follow these steps in order to successfully add this report to your workspace:
+Follow these steps to successfully add this report to your workspace:
 
 1. Log in to your local CxReport instance
 2. Upload the logo.png logo to Reporting > File Management

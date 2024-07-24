@@ -1,4 +1,4 @@
-Follow these steps in order to successfully add this report to your workspace:
+Follow these steps to successfully add this report to your workspace:
 
 1. Log in to your local CxReport instance
 2. Go to Workspace Configuration > Data Import and import the CxReportsExportData.json
