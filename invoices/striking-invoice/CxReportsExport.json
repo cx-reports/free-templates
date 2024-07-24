@@ -1692,11 +1692,13 @@
     "languages": [
       {
         "name": "English",
-        "code": "en"
+        "code": "en",
+        "cultureCode": "en"
       },
       {
         "name": "Srpski",
-        "code": "sr"
+        "code": "sr",
+        "cultureCode": "sr"
       }
     ],
     "pageTypes": [
