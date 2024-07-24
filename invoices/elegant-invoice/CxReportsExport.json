@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-18T08:56:23.0675909+02:00",
+  "created": "2024-07-24T14:41:20.8745791+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -1048,7 +1048,7 @@
               "type": 4,
               "externalDatabaseName": null,
               "config": {
-                "js": "(params, data) =\u003E {\r\n    let subtotal = 0;\r\n    data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}"
+                "js": "({$data}) =\u003E {\r\n    let subtotal = 0;\r\n    $data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}"
               },
               "resultType": 0,
               "detectObjectsFromFieldNames": false
