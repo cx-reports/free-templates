@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-24T14:32:02.7963836+02:00",
+  "created": "2024-07-25T13:53:13.7033865+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -42,6 +42,11 @@
                         }
                       },
                       "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
                       "hideExpr": null,
                       "$expanded": false,
                       "boxStyles": {
@@ -917,6 +922,26 @@
       {
         "name": "Standard page",
         "description": "Standard page"
+      },
+      {
+        "name": "Rotated page",
+        "description": "Rotated page"
+      },
+      {
+        "name": "Chapter",
+        "description": "a4"
+      },
+      {
+        "name": "Cover Page",
+        "description": "Cover page"
+      },
+      {
+        "name": "Blue header",
+        "description": "Blue Heder"
+      },
+      {
+        "name": "Back Cover Page",
+        "description": "Cover"
       }
     ],
     "parametersDefinitions": null,
