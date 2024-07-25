@@ -1,0 +1,2207 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-25T15:33:06.1170166+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Modern Concert Ticket",
+        "isEmbeddable": false,
+        "themeName": "Modern Ticket Theme",
+        "reportTypeCode": "ticket",
+        "reportTypeName": "Ticket",
+        "reportTemplateName": "Modern Ticket Template",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 1.0000,
+            "name": "Modern Concert Ticket",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "e2176747e06",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master"
+                  },
+                  "children": [
+                    {
+                      "id": "2176747e06b",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "176747e06bd",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "cb428368290",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "0fde31dc596",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "1dc596ede7f",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "ede7f0e3a99",
+                                          "type": "qr-code",
+                                          "color": null,
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "93px",
+                                              "height": "61px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          },
+                                          "qrCodeData": "https://www.cx-reports.com/",
+                                          "backgroundColor": null
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {},
+                                        "alignItems": "center",
+                                        "justifyContent": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "dc596ede7f0",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "de7f0e3a994",
+                                          "tag": "h1",
+                                          "text": "CONCERT TICKET",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h1": {
+                                                "fontSize": null,
+                                                "fontWeight": "700"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {}
+                                          },
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "412px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        },
+                                        "alignItems": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "c596ede7f0e",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "e7f0e3a9947",
+                                          "url": "/logo.png",
+                                          "type": "img",
+                                          "style": {
+                                            "objectFit": "scale-down"
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "fde31dc596e",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "de31dc596ed",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "3c32ae4bb3b",
+                                          "tag": "h3",
+                                          "text": "Booking",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": "var(--red)",
+                                                "fontFamily": "\u0027Source Sans 3\u0027",
+                                                "fontWeight": "600"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "c32ae4bb3b6",
+                                          "data": [
+                                            {
+                                              "id": "59d861bb-2bc2-4dba-9109-42bf4769debf",
+                                              "key": "Name:",
+                                              "value": "{$data.data.booking_details.name}",
+                                              "hideexpr": null
+                                            },
+                                            {
+                                              "id": "aba0ed87-8ee8-4212-b5f3-c79df89ebb2e",
+                                              "key": "Surname:",
+                                              "value": "{$data.data.booking_details.surname}",
+                                              "hideexpr": null
+                                            },
+                                            {
+                                              "id": "247c8768-a45f-44bd-b0fb-35139843efae",
+                                              "key": "Order number:",
+                                              "value": "{$data.data.booking_details.order_number}",
+                                              "hideexpr": null
+                                            }
+                                          ],
+                                          "type": "key-value-grid",
+                                          "theme": {
+                                            "text": {
+                                              "key-value-grid-common": {
+                                                "color": "var(--textcolor)",
+                                                "fontSize": "18px",
+                                                "fontFamily": "\u0027Source Sans 3\u0027",
+                                                "lineHeight": "22.63px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "paddingTop": "20px"
+                                            }
+                                          },
+                                          "keyValueGridStyle": "key-value-grid-common"
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "229px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "ae4bb3b64f3",
+                                      "type": "spacer",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "50px"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "e31dc596ede",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "32ae4bb3b64",
+                                          "type": "spacer",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "height": "23px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "2ae4bb3b64f",
+                                          "data": [
+                                            {
+                                              "id": "774dbc4a-ca3c-4373-bb8c-169397df70d8",
+                                              "key": "Booking:",
+                                              "value": "{$data.data.booking_details.booking.date}, {$data.data.booking_details.booking.time}",
+                                              "hideexpr": null
+                                            },
+                                            {
+                                              "id": "637ae9d6-2293-4495-9813-b9acdc857d1e",
+                                              "key": "Ticket code:",
+                                              "value": "{$data.data.booking_details.ticket_code}",
+                                              "hideexpr": null
+                                            },
+                                            {
+                                              "id": "d0826432-d883-4d14-bddf-0e1cdfe1e2db",
+                                              "key": "Method of payment:",
+                                              "value": "{$data.data.booking_details.method_of_payment}",
+                                              "hideexpr": null
+                                            }
+                                          ],
+                                          "type": "key-value-grid",
+                                          "theme": {
+                                            "text": {
+                                              "key-value-grid-common": {
+                                                "color": "var(--textcolor)",
+                                                "fontSize": "18px",
+                                                "fontFamily": "\u0027Source Sans 3\u0027",
+                                                "lineHeight": "22.63px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "273px",
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "paddingTop": "20px"
+                                            }
+                                          },
+                                          "keyValueGridStyle": "key-value-grid-common"
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "31dc596ede7",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "237px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "paddingLeft": "30px",
+                                  "paddingRight": "30px",
+                                  "backgroundColor": "var(--bright-gray)"
+                                }
+                              }
+                            },
+                            {
+                              "id": "90fde31dc59",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "368290fde31",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "68290fde31d",
+                                      "type": "spacer",
+                                      "style": {
+                                        "borderBottom": "1px dashed black"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "685px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "8290fde31dc",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "290fde31dc5",
+                                      "text": "Fold mark 2",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "fontSize": "13px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginLeft": "5px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        },
+                        {
+                          "id": "76747e06bd7",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "9e04bb50fe3",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "596ede7f0e3",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "dfc677a4925",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "c677a49250a",
+                                          "tag": "h1",
+                                          "text": "{$data.data.concert_information.performer}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h1": {
+                                                "color": "var(--red)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "287px"
+                                            }
+                                          },
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "677a49250a7",
+                                          "tag": "h1",
+                                          "text": "{$data.data.concert_information.type_of_concert}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h1": {
+                                                "color": "var(--textcolor)",
+                                                "fontWeight": "600"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "fc677a49250",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "a49250a7188",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "horizontal"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "50a718850c8",
+                                              "type": "flow",
+                                              "$level": 7,
+                                              "config": {
+                                                "orientation": "vertical"
+                                              },
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 3,
+                                              "children": [
+                                                {
+                                                  "id": "718850c89a5",
+                                                  "tag": "h3",
+                                                  "text": "Gate",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h3": {
+                                                        "color": "var(--red)",
+                                                        "fontWeight": "600"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                },
+                                                {
+                                                  "id": "18850c89a5c",
+                                                  "tag": "h2",
+                                                  "text": "{$data.data.concert_information.gate}",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h2": {
+                                                        "color": "var(--textcolor)"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                }
+                                              ],
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": 1,
+                                                  "flexBasis": "0",
+                                                  "flexShrink": 1
+                                                },
+                                                "justifyContent": "flex-end"
+                                              }
+                                            },
+                                            {
+                                              "id": "777f138cf31",
+                                              "type": "flow",
+                                              "$level": 7,
+                                              "config": {
+                                                "orientation": "vertical"
+                                              },
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 3,
+                                              "children": [
+                                                {
+                                                  "id": "ea777f138cf",
+                                                  "tag": "h3",
+                                                  "text": "Row",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h3": {
+                                                        "color": "var(--red)",
+                                                        "fontWeight": "600"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                },
+                                                {
+                                                  "id": "a777f138cf3",
+                                                  "tag": "h2",
+                                                  "text": "{$data.data.concert_information.row}",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h2": {
+                                                        "color": "var(--textcolor)"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                }
+                                              ],
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": 1,
+                                                  "flexBasis": "0",
+                                                  "flexShrink": 1
+                                                },
+                                                "justifyContent": "flex-end"
+                                              }
+                                            },
+                                            {
+                                              "id": "138cf31ff23",
+                                              "type": "flow",
+                                              "$level": 7,
+                                              "config": {
+                                                "orientation": "vertical"
+                                              },
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 3,
+                                              "children": [
+                                                {
+                                                  "id": "7f138cf31ff",
+                                                  "tag": "h3",
+                                                  "text": "Seat",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h3": {
+                                                        "color": "var(--red)",
+                                                        "fontWeight": "600"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                },
+                                                {
+                                                  "id": "f138cf31ff2",
+                                                  "tag": "h2",
+                                                  "text": "{$data.data.concert_information.seat}",
+                                                  "type": "heading",
+                                                  "theme": {
+                                                    "text": {
+                                                      "h2": {
+                                                        "color": "var(--textcolor)"
+                                                      }
+                                                    }
+                                                  },
+                                                  "$level": 8,
+                                                  "repeat": {
+                                                    "alias": null,
+                                                    "dataSource": null,
+                                                    "repeatable": false
+                                                  },
+                                                  "hideExpr": null,
+                                                  "$expanded": false,
+                                                  "includeInTOC": true
+                                                }
+                                              ],
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": 1,
+                                                  "flexBasis": "0",
+                                                  "flexShrink": 1
+                                                },
+                                                "justifyContent": "flex-end"
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "49250a71885",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "421px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "96ede7f0e3a",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "38cf31ff236",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "cf31ff23614",
+                                          "tag": "h3",
+                                          "text": "{$data.data.concert_information.performance.date} / {$data.data.concert_information.performance.time}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": "var(--textcolor)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "f31ff236142",
+                                          "tag": "h3",
+                                          "text": "{$data.data.concert_information.place_of_performance}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": "var(--textcolor)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0"
+                                        },
+                                        "alignItems": "flex-start",
+                                        "justifyContent": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "8cf31ff2361",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "31ff236142d",
+                                          "tag": "h3",
+                                          "text": "Ticket price",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "color": "var(--textcolor)"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "1ff236142dc",
+                                          "tag": "h2",
+                                          "text": "{$data.data.concert_information.full_price}",
+                                          "type": "heading",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        },
+                                        "alignItems": "flex-start",
+                                        "justifyContent": "flex-end"
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "172px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "6ede7f0e3a9",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "849e343321c",
+                                      "type": "barcode",
+                                      "$level": 5,
+                                      "format": "CODE128",
+                                      "margin": 0,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "content": "https://www.cx-reports.com/",
+                                      "hideExpr": null,
+                                      "rotation": "90-ccw",
+                                      "showText": true,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "54px",
+                                          "height": "206px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0",
+                                          "marginLeft": "10px"
+                                        }
+                                      },
+                                      "codeColor": null,
+                                      "textAlign": "center",
+                                      "backgroundColor": "#ffffff"
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "125px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    },
+                                    "alignItems": "center",
+                                    "justifyContent": "center"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "237px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0",
+                                  "paddingLeft": "30px",
+                                  "paddingRight": "30px",
+                                  "backgroundColor": "var(--bright-gray)"
+                                }
+                              }
+                            },
+                            {
+                              "id": "59e04bb50fe",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "e04bb50fe31",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "bb50fe310cc",
+                                      "type": "spacer",
+                                      "style": {
+                                        "borderBottom": "1px dashed black"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "width": "685px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "04bb50fe310",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "b50fe310ccb",
+                                      "text": "Fold mark 1",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "fontSize": "13px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginLeft": "5px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "flexShrink": 1
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "flexShrink": 1
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0"
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard Report Page",
+                "description": "Standard Report Page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "data",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Data",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\r\n  \u0022booking_details\u0022: {\r\n    \u0022name\u0022: \u0022John\u0022,\r\n    \u0022surname\u0022: \u0022Doe\u0022,\r\n    \u0022order_number\u0022: \u0022ORD123456789\u0022,\r\n    \u0022booking\u0022: {\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022time\u0022: \u002215:30\u0022\r\n    },\r\n    \u0022ticket_code\u0022: \u0022TCKT987654321\u0022,\r\n    \u0022method_of_payment\u0022: \u0022Credit Card\u0022\r\n  },\r\n  \u0022concert_information\u0022: {\r\n    \u0022performer\u0022: \u0022The Rolling Stones\u0022,\r\n    \u0022type_of_concert\u0022: \u0022World Tour\u0022,\r\n    \u0022performance\u0022: {\r\n      \u0022date\u0022: \u002217. June, 2024.\u0022,\r\n      \u0022time\u0022: \u002219:00\u0022\r\n    },\r\n    \u0022place_of_performance\u0022: \u0022Madison Square Garden, New York, NY\u0022,\r\n    \u0022gate\u0022: \u0022A\u0022,\r\n    \u0022row\u0022: \u002215\u0022,\r\n    \u0022seat\u0022: \u002222\u0022,\r\n    \u0022full_price\u0022: \u0022\u20AC150.00\u0022\r\n  }\r\n}\r\n"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Modern Ticket Template",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Modern Ticket Theme",
+        "pages": [
+          {
+            "name": "Standard Report Page",
+            "description": "Standard Report Page",
+            "pageType": {
+              "name": "Standard Report Page",
+              "description": "Standard Report Page"
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "fb67fc5526e",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              },
+              {
+                "id": "7fc5526e9d5",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "vertical"
+                },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "fc5526e9d5c",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "5526e9d5caa",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "800983fd619",
+                            "tag": "h4",
+                            "text": "INSTRUCTIONS FOR USE",
+                            "type": "heading",
+                            "theme": {
+                              "text": {
+                                "h4": {
+                                  "fontWeight": null
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "345d62b91dc",
+                            "type": "spacer",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0"
+                              }
+                            }
+                          },
+                          {
+                            "id": "2345d62b91d",
+                            "text": "To help avoi complications at admission, please observe the following instructions for use:",
+                            "type": "text",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false
+                          },
+                          {
+                            "id": "45d62b91dc8",
+                            "type": "spacer",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0"
+                              }
+                            }
+                          },
+                          {
+                            "id": "50032bfae42",
+                            "type": "list",
+                            "$level": 3,
+                            "config": {
+                              "start": 1,
+                              "listStyle": {
+                                "listItemType": "disc",
+                                "listStyleType": "disc",
+                                "paddingInlineStart": "15px"
+                              },
+                              "listItemStyle": null
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "children": [
+                              {
+                                "id": "d62b91dc83a",
+                                "text": "The ticket is only valid as a complete A4 printout.",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              },
+                              {
+                                "id": "62b91dc83ad",
+                                "text": "Please ensure that the ticket is folded according to the folding instructions\nopposite.\n",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              },
+                              {
+                                "id": "2b91dc83ad3",
+                                "text": "The ticket must be printed clearly in order to be read by the scanner at the\nentrance.\n",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              },
+                              {
+                                "id": "b91dc83ad31",
+                                "text": "Please protect the ticket from moisture and dirt.\n",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              },
+                              {
+                                "id": "91dc83ad315",
+                                "text": "Treat the ticket like cash.",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              },
+                              {
+                                "id": "dc83ad31500",
+                                "text": "The ticket is valid for one admission only and will be validated upon admission.",
+                                "type": "text",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": false
+                          },
+                          {
+                            "id": "32bfae42a65",
+                            "type": "spacer",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0"
+                              }
+                            }
+                          },
+                          {
+                            "id": "032bfae42a6",
+                            "text": "Enjoy the event!",
+                            "type": "text",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          }
+                        }
+                      },
+                      {
+                        "id": "5a03b3481ab",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "bfae42a6569",
+                            "tag": "h4",
+                            "text": "FOLDING INSTRUCTIONS",
+                            "type": "heading",
+                            "theme": {
+                              "text": {
+                                "h4": {
+                                  "fontWeight": null
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "a03b3481ab7",
+                            "type": "spacer",
+                            "$level": 3,
+                            "version": 0,
+                            "$expanded": false
+                          },
+                          {
+                            "id": "ae42a656902",
+                            "text": "FOLDING INSTRUCTIONS",
+                            "type": "text",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false
+                          },
+                          {
+                            "id": "42a6569025a",
+                            "type": "list",
+                            "$level": 3,
+                            "config": {
+                              "start": 1,
+                              "listStyle": {
+                                "listItemType": "disc",
+                                "listStyleType": "decimal",
+                                "paddingInlineStart": "15px"
+                              },
+                              "listItemStyle": null
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "children": [
+                              {
+                                "id": "03b3481ab74",
+                                "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EFOLD THE TICKET ALONG THE MIDDLE\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003Eon the dotted line (fold mark 1), so that the printed side is on the outside.\u003C/span\u003E\u003C/p\u003E",
+                                "type": "rich-text-editor",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "updateCounter": 1
+                              },
+                              {
+                                "id": "3b3481ab748",
+                                "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EFOLD THE TICKET AGAIN\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003Ealong the second dotted line (fold mark 2) so that the\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003Efolding instructions are hidden on the inside.\u003C/span\u003E\u003Cbr\u003E\u003C/p\u003E",
+                                "type": "rich-text-editor",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "updateCounter": 1
+                              },
+                              {
+                                "id": "b3481ab748c",
+                                "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EDONE!\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ENow you will have the original ticket on one side, booking details\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003Eand the barcode on the other side. You are ready for check-in.\u003C/span\u003E\u003Cbr\u003E\u003C/p\u003E",
+                                "type": "rich-text-editor",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 0,
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "updateCounter": 2
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true
+                          },
+                          {
+                            "id": "025a03b3481",
+                            "type": "spacer",
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          }
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": true,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0",
+                        "flexShrink": 1
+                      }
+                    }
+                  },
+                  {
+                    "id": "c5526e9d5ca",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "dd01879b76f",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "01879b76f39",
+                            "type": "barcode",
+                            "$level": 3,
+                            "format": "CODE128",
+                            "margin": 0,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "content": "https://www.cx-reports.com/",
+                            "hideExpr": null,
+                            "showText": true,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": "height: 70px"
+                            },
+                            "codeColor": null,
+                            "textAlign": "center",
+                            "backgroundColor": null
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          }
+                        }
+                      },
+                      {
+                        "id": "879b76f3923",
+                        "type": "spacer",
+                        "$level": 2,
+                        "version": 0,
+                        "$expanded": false
+                      },
+                      {
+                        "id": "d01879b76f3",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "1879b76f392",
+                            "type": "qr-code",
+                            "color": null,
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "hideExpr": null,
+                            "$expanded": false,
+                            "boxStyles": {
+                              "style": {
+                                "width": "75px",
+                                "height": "74px",
+                                "flexGrow": "0",
+                                "flexBasis": "auto",
+                                "flexShrink": "0"
+                              }
+                            },
+                            "qrCodeData": "https://www.cx-reports.com/",
+                            "backgroundColor": null
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": false,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          },
+                          "alignItems": "center"
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": true,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0",
+                        "flexShrink": 1
+                      },
+                      "alignItems": "center",
+                      "justifyContent": "flex-start"
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flexGrow": "1",
+                    "flexBasis": "0",
+                    "paddingTop": "70px"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Modern Ticket Theme",
+        "content": {
+          "text": {
+            "p": {
+              "fontFamily": null
+            },
+            "h1": {
+              "color": "var(--white)",
+              "fontSize": "36px",
+              "marginTop": null,
+              "fontFamily": "Montserrat",
+              "fontWeight": null,
+              "lineHeight": "43.88px",
+              "textTransform": "UPPERCASE"
+            },
+            "h2": {
+              "color": "var(--white)",
+              "fontSize": "36px",
+              "fontFamily": "\u0027Source Sans 3\u0027",
+              "fontWeight": "700",
+              "lineHeight": "45.25px"
+            },
+            "h3": {
+              "fontSize": "18px",
+              "fontFamily": "\u0027Source Sans 3\u0027",
+              "lineHeight": "22.63px"
+            },
+            "h4": {
+              "fontSize": "16px",
+              "fontFamily": "\u0027Source Sans 3\u0027",
+              "fontWeight": "600",
+              "lineHeight": "20.11px"
+            },
+            "h5": {
+              "fontFamily": null
+            },
+            "body": {
+              "fontSize": "14px",
+              "fontFamily": "\u0027Source Sans 3\u0027",
+              "fontWeight": null,
+              "lineHeight": "17.6px"
+            }
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--bright-gray",
+                "value": "#3B0E84",
+                "displayName": "Bright Gray"
+              },
+              {
+                "name": "--red",
+                "value": "#69C7F6",
+                "displayName": "Red"
+              },
+              {
+                "name": "--purple",
+                "value": "#3B0E84",
+                "displayName": "Purple"
+              },
+              {
+                "name": "--light-blue",
+                "value": "#69C7F6",
+                "displayName": "Light Blue"
+              },
+              {
+                "name": "--white",
+                "value": "rgba(255,255,255,1)",
+                "displayName": "White"
+              },
+              {
+                "name": "--textcolor",
+                "value": "rgba(238,238,238,1)",
+                "displayName": "textcolor"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Source\u002BSans\u002B3:ital,wght@0,200..900;1,200..900\u0026display=swap"
+              },
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900\u0026display=swap"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Ticket",
+        "description": "A type of any sort of ticket",
+        "code": "ticket"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard Report Page",
+        "description": "Standard Report Page"
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
