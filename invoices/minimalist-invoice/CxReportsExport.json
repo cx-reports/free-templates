@@ -1,13 +1,13 @@
 {
   "check": "CxReports",
-  "created": "2024-07-22T11:09:54.160852+02:00",
+  "created": "2024-07-25T14:49:07.0140795+02:00",
   "version": "1",
   "data": {
     "reports": [
       {
         "name": "Minimalist Invoice",
         "isEmbeddable": false,
-        "themeName": null,
+        "themeName": "Company theme",
         "reportTypeCode": "invoice",
         "reportTypeName": "Invoice",
         "reportTemplateName": "Standard",
@@ -620,12 +620,1040 @@
         ]
       }
     ],
-    "templates": null,
-    "themes": null,
+    "templates": [
+      {
+        "name": "Standard",
+        "defaultPaperMargins": "12.7mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Company theme",
+        "pages": [
+          {
+            "name": "Standard",
+            "description": "Standard page with Margins",
+            "pageType": {
+              "name": "Standard page",
+              "description": "Standard page following the company template."
+            },
+            "inactive": false,
+            "isCountable": true,
+            "content": [
+              {
+                "id": "a2e8eda81f6",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "layout": {},
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "79db6fe27a6",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 0 1px 1px"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "2e8eda81f6a",
+                    "text": "Company Name",
+                    "type": "text",
+                    "style": {
+                      "alignSelf": "center"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": "var(--primary)",
+                          "fontSize": "24px",
+                          "fontWeight": "700"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "6fe27a68048",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 1px 1px 0"
+                      },
+                      "cssClasses": null
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  }
+                }
+              },
+              {
+                "id": "e8eda81f6ac",
+                "size": "normal",
+                "type": "spacer",
+                "$level": 0,
+                "hideExpr": null,
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "height": "18px",
+                    "flexGrow": "0",
+                    "flexBasis": "auto",
+                    "flexShrink": "0"
+                  }
+                }
+              },
+              {
+                "id": "fda2e8eda81",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  },
+                  "cssClasses": null
+                }
+              },
+              {
+                "id": "1c6e7cc453d",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "layout": {},
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "6e7cc453d3a",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c6e7cc453d3",
+                    "text": "Page {$page.number} of {$report.pageCount}",
+                    "type": "text",
+                    "style": {
+                      "textAlign": "right"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": null,
+                          "fontSize": "12px"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          },
+          {
+            "name": "Cover page",
+            "description": "The first page of a larger report.",
+            "pageType": {
+              "name": "Cover page",
+              "description": "The first page of a larger report."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "337774acab2",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "layout": {},
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "d3a337774ac",
+                    "size": "normal",
+                    "type": "spacer",
+                    "style": {
+                      "background": null
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 0 1px 1px"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "3a337774aca",
+                    "text": "Company Name",
+                    "type": "text",
+                    "style": {
+                      "alignSelf": "center"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": "var(--primary)",
+                          "fontSize": "24px",
+                          "fontWeight": "700"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "a337774acab",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 1px 1px 0"
+                      },
+                      "cssClasses": null
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  }
+                }
+              },
+              {
+                "id": "453d3a33777",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "title"
+                },
+                "children": [
+                  {
+                    "id": "8b8881cf838",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "height": "328px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "197029078b8",
+                    "text": "Report Title",
+                    "type": "text",
+                    "style": {
+                      "alignSelf": "center",
+                      "textAlign": "center"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": null,
+                          "fontSize": "32px",
+                          "fontWeight": "700"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "height": "99px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "7029078b888",
+                    "size": "normal",
+                    "type": "spacer",
+                    "style": {
+                      "background": "#0099cc"
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false
+                  },
+                  {
+                    "id": "029078b8881",
+                    "size": "normal",
+                    "type": "spacer",
+                    "style": {
+                      "background": "#ff9933"
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false
+                  },
+                  {
+                    "id": "81cf838412c",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "height": "293px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      }
+                    }
+                  },
+                  {
+                    "id": "cf838412c6e",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "layout": {},
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "26560ffaf5d",
+                        "size": "normal",
+                        "type": "spacer",
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "hideExpr": null,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0"
+                          },
+                          "cssClasses": null
+                        }
+                      },
+                      {
+                        "id": "b26560ffaf5",
+                        "type": "qr-code",
+                        "color": null,
+                        "imgUrl": null,
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "hideExpr": null,
+                        "boxStyles": {
+                          "style": {
+                            "width": "63px",
+                            "height": "61px",
+                            "flexGrow": "0",
+                            "flexBasis": "auto",
+                            "flexShrink": "0"
+                          },
+                          "cssClasses": null
+                        },
+                        "qrCodeData": "https://www.example.com",
+                        "fromFileSystem": false,
+                        "backgroundColor": null
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "backgroundColor": null
+                      }
+                    }
+                  },
+                  {
+                    "id": "838412c6ee6",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus ex tortor, at sagittis nulla tincidunt efficitur. Donec sit amet.",
+                    "type": "text",
+                    "style": {
+                      "alignSelf": "center",
+                      "textAlign": "center"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": null
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "height": "89px",
+                        "padding": "0 100px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "f838412c6ee",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0"
+                      }
+                    }
+                  }
+                ],
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "flexGrow": 1,
+                    "flexBasis": "0"
+                  },
+                  "cssClasses": null
+                },
+                "placeholder": "Title"
+              }
+            ],
+            "paperOrientation": null
+          },
+          {
+            "name": "Blank page",
+            "description": "A page with no content.",
+            "pageType": {
+              "name": "Blank page",
+              "description": "A page with no content."
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "7a6804881e1",
+                "type": "content-placeholder",
+                "config": {
+                  "name": "master"
+                },
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                },
+                "placeholder": null
+              }
+            ],
+            "paperOrientation": null
+          },
+          {
+            "name": "Rotated page",
+            "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages.",
+            "pageType": {
+              "name": "Rotated page",
+              "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
+            },
+            "inactive": false,
+            "isCountable": true,
+            "content": [
+              {
+                "id": "1e1c6e7cc45",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "layout": {},
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "4881e1c6e7c",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 0 1px 1px"
+                      },
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "881e1c6e7cc",
+                    "text": "Company Name",
+                    "type": "text",
+                    "style": {
+                      "alignSelf": "center"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": "var(--primary)",
+                          "fontSize": "24px",
+                          "fontWeight": "700"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "cssClasses": null
+                    }
+                  },
+                  {
+                    "id": "81e1c6e7cc4",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "7px",
+                        "height": "56px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0",
+                        "borderColor": "var(--primary)",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px 1px 1px 0"
+                      },
+                      "cssClasses": null
+                    }
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  }
+                }
+              },
+              {
+                "id": "a6804881e1c",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "$expanded": false,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              },
+              {
+                "id": "c453d3a3377",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "layout": {},
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "7cc453d3a33",
+                    "size": "normal",
+                    "type": "spacer",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0"
+                      }
+                    }
+                  },
+                  {
+                    "id": "cc453d3a337",
+                    "text": "Page {$page.number} of {$report.pageCount}",
+                    "type": "text",
+                    "style": {
+                      "textAlign": "right"
+                    },
+                    "theme": {
+                      "text": {
+                        "p": {
+                          "color": null,
+                          "fontSize": "12px"
+                        }
+                      }
+                    },
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "hideExpr": null,
+                    "$expanded": false
+                  }
+                ],
+                "hideExpr": null,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "backgroundColor": null
+                  }
+                }
+              }
+            ],
+            "paperOrientation": 1
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Company theme",
+        "content": {
+          "text": {
+            "p": {
+              "color": null,
+              "marginBottom": "0.25rem"
+            },
+            "h1": {
+              "color": null,
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "h2": {
+              "color": null,
+              "fontSize": "28px",
+              "marginTop": "0.5em",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "h3": {
+              "color": null,
+              "fontSize": "24px",
+              "marginTop": "0.5em",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "h4": {
+              "color": null,
+              "fontSize": "20px",
+              "marginTop": "0.5em",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "h5": {
+              "color": null,
+              "fontSize": "16px",
+              "marginTop": "0.5em",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "h6": {
+              "color": null,
+              "marginTop": "0.5em",
+              "fontWeight": "700",
+              "marginBottom": "0.25rem"
+            },
+            "body": {
+              "color": null,
+              "fontSize": "14px",
+              "fontFamily": "Inter"
+            }
+          },
+          "chart": {
+            "colorA": {
+              "fill": null
+            },
+            "colorB": {
+              "fill": null
+            },
+            "colorC": {
+              "fill": null
+            },
+            "colorD": {
+              "fill": null
+            },
+            "colorE": {
+              "fill": null
+            },
+            "colorF": {
+              "fill": null
+            },
+            "colorG": {
+              "fill": null
+            },
+            "colorH": {
+              "fill": null
+            },
+            "colorI": {
+              "fill": null
+            },
+            "colorJ": {
+              "fill": null
+            },
+            "colorK": {
+              "fill": null
+            },
+            "colorL": {
+              "fill": null
+            },
+            "colorM": {
+              "fill": null
+            },
+            "colorN": {
+              "fill": null
+            },
+            "colorO": {
+              "fill": null
+            },
+            "colorP": {
+              "fill": null
+            }
+          },
+          "table": {
+            "cell": {
+              "color": null,
+              "fontSize": "13px",
+              "borderTop-cell": null,
+              "backgroundColor": null,
+              "borderLeft-cell": null,
+              "paddingTop-cell": "6px",
+              "borderRight-cell": null,
+              "borderBottom-cell": "1px dashed lightgray",
+              "paddingBottom-cell": "6px"
+            },
+            "table": {
+              "color": null,
+              "oddRowColor": null,
+              "evenRowColor": null,
+              "backgroundColor": null,
+              "borderTop-table": null,
+              "borderLeft-table": null,
+              "borderRight-table": null,
+              "borderBottom-table": null
+            },
+            "header": {
+              "color": null,
+              "fontSize": "11px",
+              "fontFamily": null,
+              "fontWeight": "700",
+              "textTransform": "uppercase",
+              "backgroundColor": null,
+              "borderTop-header": null,
+              "borderLeft-header": null,
+              "borderRight-header": null,
+              "borderBottom-header": "1px solid black"
+            }
+          },
+          "legend": {
+            "shape": "null",
+            "config": {}
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--secondary",
+                "value": "#ff9933",
+                "displayName": "secondary"
+              },
+              {
+                "name": "--primary",
+                "value": "#0099cc",
+                "displayName": "primary"
+              }
+            ]
+          },
+          "guideline": {
+            "border": {
+              "stroke": null
+            }
+          },
+          "chartLabel": {
+            "text": {},
+            "axisLabels": {
+              "fontSize": "12px"
+            }
+          },
+          "zeroMarker": {
+            "zeroMarkerX": {
+              "stroke": null
+            },
+            "zeroMarkerY": {
+              "stroke": null
+            }
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
     "globalParameters": null,
-    "reportTypes": null,
+    "reportTypes": [
+      {
+        "name": "Invoice",
+        "description": "Invoices",
+        "code": "invoice"
+      }
+    ],
     "languages": null,
-    "pageTypes": null,
+    "pageTypes": [
+      {
+        "name": "Blank page",
+        "description": "A page with no content."
+      },
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      },
+      {
+        "name": "Rotated page",
+        "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
+      },
+      {
+        "name": "Cover page",
+        "description": "The first page of a larger report."
+      }
+    ],
     "parametersDefinitions": null,
     "additionalDataSources": null,
     "globalDataSources": null,
