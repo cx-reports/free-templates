@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-24T14:45:51.4959719+02:00",
+  "created": "2024-07-25T14:37:11.571129+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -1178,7 +1178,7 @@
                           "children": [
                             {
                               "id": "e72a371f85b",
-                              "url": "/logo.svg",
+                              "url": "/logo.png",
                               "type": "img",
                               "$level": 3,
                               "repeat": {
@@ -1294,7 +1294,7 @@
               "type": 1,
               "externalDatabaseName": null,
               "config": {
-                "json": "{\r\n  \u0022invoice\u0022: {\r\n    \u0022company\u0022: {\r\n      \u0022name\u0022: \u0022Tech Solutions Inc.\u0022,\r\n      \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022456 Innovation Drive\u0022,\r\n        \u0022zipcode_city\u0022: \u002294016 San Francisco\u0022,\r\n        \u0022state_county\u0022: \u0022California\u0022\r\n      },\r\n      \u0022contact\u0022: {\r\n        \u0022phone_number\u0022: \u0022\u002B1 555-789-0123\u0022,\r\n        \u0022email\u0022: \u0022info@techsolutions.com\u0022,\r\n        \u0022city\u0022: \u0022San Francisco\u0022\r\n      }\r\n    },\r\n    \u0022invoice_details\u0022: {\r\n      \u0022invoice_no\u0022: \u0022INV-2024-00789\u0022,\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022due_date\u0022: \u00222024-08-11\u0022,\r\n      \u0022tax\u0022: 0.07,\r\n      \u0022shipping_fee\u0022: 25\r\n    },\r\n    \u0022items\u0022: [\r\n      {\r\n        \u0022sku\u0022: \u0022200001\u0022,\r\n        \u0022description\u0022: \u0022Intel Core i9-12900K Processor\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 500.00,\r\n        \u0022subtotal\u0022: 2500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200002\u0022,\r\n        \u0022description\u0022: \u0022ASUS ROG Strix Z690-E Gaming WiFi 6E LGA 1700 ATX Motherboard\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 350.00,\r\n        \u0022subtotal\u0022: 1750.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200003\u0022,\r\n        \u0022description\u0022: \u0022Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16 Desktop Memory\u0022,\r\n        \u0022quantity\u0022: 10,\r\n        \u0022unit_price\u0022: 150.00,\r\n        \u0022subtotal\u0022: 1500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200004\u0022,\r\n        \u0022description\u0022: \u0022Samsung 970 EVO Plus SSD 2TB - NVMe M.2\u0022,\r\n        \u0022quantity\u0022: 6,\r\n        \u0022unit_price\u0022: 230.00,\r\n        \u0022subtotal\u0022: 1380.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200005\u0022,\r\n        \u0022description\u0022: \u0022EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12GB GDDR6X\u0022,\r\n        \u0022quantity\u0022: 3,\r\n        \u0022unit_price\u0022: 1200.00,\r\n        \u0022subtotal\u0022: 3600.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200006\u0022,\r\n        \u0022description\u0022: \u0022Corsair RM850x, 850 Watt, 80\u002B Gold Certified, Fully Modular Power Supply\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 140.00,\r\n        \u0022subtotal\u0022: 700.00\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
+                "json": "{\r\n  \u0022invoice\u0022: {\r\n    \u0022company\u0022: {\r\n      \u0022name\u0022: \u0022Tech Solutions Inc.\u0022,\r\n      \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022456 Innovation Drive\u0022,\r\n        \u0022zipcode_city\u0022: \u002294016 San Francisco\u0022,\r\n        \u0022state_county\u0022: \u0022California\u0022,\r\n        \u0022location_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/location-marker.png\u0022\r\n      },\r\n      \u0022contact\u0022: {\r\n        \u0022phone_number\u0022: \u0022\u002B1 555-789-0123\u0022,\r\n        \u0022phone_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/phone.png\u0022,\r\n        \u0022email\u0022: \u0022info@techsolutions.com\u0022,\r\n        \u0022email_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/mail.png\u0022,\r\n        \u0022city\u0022: \u0022San Francisco\u0022\r\n      }\r\n    },\r\n    \u0022invoice_details\u0022: {\r\n      \u0022invoice_no\u0022: \u0022INV-2024-00789\u0022,\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022due_date\u0022: \u00222024-08-11\u0022,\r\n      \u0022tax\u0022: 0.07,\r\n      \u0022shipping_fee\u0022: 25\r\n    },\r\n    \u0022items\u0022: [\r\n      {\r\n        \u0022sku\u0022: \u0022200001\u0022,\r\n        \u0022description\u0022: \u0022Intel Core i9-12900K Processor\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 500.00,\r\n        \u0022subtotal\u0022: 2500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200002\u0022,\r\n        \u0022description\u0022: \u0022ASUS ROG Strix Z690-E Gaming WiFi 6E LGA 1700 ATX Motherboard\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 350.00,\r\n        \u0022subtotal\u0022: 1750.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200003\u0022,\r\n        \u0022description\u0022: \u0022Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16 Desktop Memory\u0022,\r\n        \u0022quantity\u0022: 10,\r\n        \u0022unit_price\u0022: 150.00,\r\n        \u0022subtotal\u0022: 1500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200004\u0022,\r\n        \u0022description\u0022: \u0022Samsung 970 EVO Plus SSD 2TB - NVMe M.2\u0022,\r\n        \u0022quantity\u0022: 6,\r\n        \u0022unit_price\u0022: 230.00,\r\n        \u0022subtotal\u0022: 1380.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200005\u0022,\r\n        \u0022description\u0022: \u0022EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12GB GDDR6X\u0022,\r\n        \u0022quantity\u0022: 3,\r\n        \u0022unit_price\u0022: 1200.00,\r\n        \u0022subtotal\u0022: 3600.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200006\u0022,\r\n        \u0022description\u0022: \u0022Corsair RM850x, 850 Watt, 80\u002B Gold Certified, Fully Modular Power Supply\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 140.00,\r\n        \u0022subtotal\u0022: 700.00\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
               },
               "resultType": 0,
               "detectObjectsFromFieldNames": false
@@ -1865,7 +1865,7 @@
                             "children": [
                               {
                                 "id": "9b6481e5494",
-                                "url": "/phone.png",
+                                "url": "{$data.data.invoice.company.contact.phone_icon}",
                                 "type": "img",
                                 "$level": 4,
                                 "repeat": {
@@ -1998,7 +1998,7 @@
                             "children": [
                               {
                                 "id": "1e5494372aa",
-                                "url": "/mail.png",
+                                "url": "{$data.data.invoice.company.contact.email_icon}",
                                 "type": "img",
                                 "$level": 4,
                                 "repeat": {
@@ -2132,7 +2132,7 @@
                             "children": [
                               {
                                 "id": "4372aa632fc",
-                                "url": "/location-marker.png",
+                                "url": "{$data.data.invoice.company.address.location_icon}",
                                 "type": "img",
                                 "$level": 4,
                                 "repeat": {
