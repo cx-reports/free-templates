@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-26T11:51:12.3862793+02:00",
+  "created": "2024-07-26T12:14:17.0844741+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -85,7 +85,7 @@
                                   "children": [
                                     {
                                       "id": "a37a19e7440",
-                                      "url": "/CompanyLogo.png",
+                                      "url": "/AirlineCompanyLogoBlue.png",
                                       "type": "img",
                                       "$level": 5,
                                       "repeat": {
@@ -1271,7 +1271,7 @@
                                         },
                                         {
                                           "id": "650a51de905",
-                                          "url": "/AirplainIcon.png",
+                                          "url": "{$data.boarding.images.airplaneIcon}",
                                           "type": "img",
                                           "$level": 6,
                                           "repeat": {
@@ -2539,7 +2539,7 @@
                                           "children": [
                                             {
                                               "id": "ed50fa0636c",
-                                              "url": "/BagSizes.png",
+                                              "url": "{$data.boarding.images.bagSizes}",
                                               "type": "img",
                                               "$level": 5,
                                               "repeat": {
@@ -2718,7 +2718,7 @@
                                         },
                                         {
                                           "id": "636cc7d27c1",
-                                          "url": "/Plane.png",
+                                          "url": "{$data.boarding.images.plane}",
                                           "type": "img",
                                           "$level": 6,
                                           "repeat": {
@@ -2786,11 +2786,11 @@
                                       "boxStyles": {
                                         "style": {
                                           "border": "1px solid var(--light-gray)",
-                                          "paddingTop": "16px",
+                                          "paddingTop": "14px",
                                           "paddingLeft": "16px",
                                           "borderRadius": "8px",
                                           "paddingRight": "16px",
-                                          "paddingBottom": "16px"
+                                          "paddingBottom": "14px"
                                         }
                                       }
                                     }
@@ -2868,7 +2868,7 @@
               "type": 1,
               "externalDatabaseName": null,
               "config": {
-                "json": "{\r\n  \u0022flightNumber\u0022: \u0022AR2125\u0022,\r\n  \u0022terminal\u0022: \u00221\u0022,\r\n  \u0022gate\u0022: \u0022J24\u0022,\r\n  \u0022departure\u0022: \u002216:50\u0022,\r\n  \u0022arrival\u0022: \u002218:50\u0022,\r\n  \u0022seat\u0022: \u002234D\u0022,\r\n  \u0022fullName\u0022: \u0022JONH SMITH\u0022,\r\n  \u0022class\u0022: \u0022B - BUSINESS\u0022,\r\n  \u0022from\u0022: \u0022Barcelona\u0022,\r\n  \u0022fromShortcut\u0022: \u0022BCN\u0022,\r\n  \u0022to\u0022: \u0022Frankfurt\u0022,\r\n  \u0022toShortcut\u0022: \u0022FRA\u0022,\r\n  \u0022date\u0022: \u002203/04/2024\u0022,\r\n  \u0022bn\u0022: \u0022008\u0022,\r\n  \u0022travelPlan\u0022: [\r\n    {\r\n      \u0022time\u0022: \u0022-------\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at the airport\u0022,\r\n      \u0022notes\u0022: \u0022You need to arrive at least 2 hours before your scheduled flight. Don\u0027t forget your Photo ID.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002214:50\u0022,\r\n      \u0022activity\u0022: \u0022Bag drop\u0022,\r\n      \u0022notes\u0022: \u0022Give yourself a little extra time in case there\u0027s a queue.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:10\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at gate\u0022,\r\n      \u0022notes\u0022: \u0022The gate closes 16:20 before flight departure. Watch the airport monitors for your gate number.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:50\u0022,\r\n      \u0022activity\u0022: \u0022Flight departs\u0022,\r\n      \u0022notes\u0022: \u0022Your flight will take 2 hours, settle in for a tasty coffee.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002219:00\u0022,\r\n      \u0022activity\u0022: \u0022Flight arrives\u0022,\r\n      \u0022notes\u0022: \u0022Your local time is 19:00\u0022,\r\n      \u0022showSeparator\u0022: false\r\n    }\r\n  ]\r\n}"
+                "json": "{\r\n  \u0022images\u0022: {\r\n  \u0022airplaneIcon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/tickets/modern-boarding-pass/images/AirplaneIcon.png\u0022,\r\n  \u0022bagSizes\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/tickets/modern-boarding-pass/images/BagSizes.png\u0022,\r\n  \u0022plane\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/tickets/modern-boarding-pass/images/Plane.png\u0022\r\n  },\r\n  \u0022flightNumber\u0022: \u0022AR2125\u0022,\r\n  \u0022terminal\u0022: \u00221\u0022,\r\n  \u0022gate\u0022: \u0022J24\u0022,\r\n  \u0022departure\u0022: \u002216:50\u0022,\r\n  \u0022arrival\u0022: \u002218:50\u0022,\r\n  \u0022seat\u0022: \u002234D\u0022,\r\n  \u0022fullName\u0022: \u0022JONH SMITH\u0022,\r\n  \u0022class\u0022: \u0022B - BUSINESS\u0022,\r\n  \u0022from\u0022: \u0022Barcelona\u0022,\r\n  \u0022fromShortcut\u0022: \u0022BCN\u0022,\r\n  \u0022to\u0022: \u0022Frankfurt\u0022,\r\n  \u0022toShortcut\u0022: \u0022FRA\u0022,\r\n  \u0022date\u0022: \u002203/04/2024\u0022,\r\n  \u0022bn\u0022: \u0022008\u0022,\r\n  \u0022travelPlan\u0022: [\r\n    {\r\n      \u0022time\u0022: \u0022-------\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at the airport\u0022,\r\n      \u0022notes\u0022: \u0022You need to arrive at least 2 hours before your scheduled flight. Don\u0027t forget your Photo ID.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002214:50\u0022,\r\n      \u0022activity\u0022: \u0022Bag drop\u0022,\r\n      \u0022notes\u0022: \u0022Give yourself a little extra time in case there\u0027s a queue.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:10\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at gate\u0022,\r\n      \u0022notes\u0022: \u0022The gate closes 16:20 before flight departure. Watch the airport monitors for your gate number.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:50\u0022,\r\n      \u0022activity\u0022: \u0022Flight departs\u0022,\r\n      \u0022notes\u0022: \u0022Your flight will take 2 hours, settle in for a tasty coffee.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002219:00\u0022,\r\n      \u0022activity\u0022: \u0022Flight arrives\u0022,\r\n      \u0022notes\u0022: \u0022Your local time is 19:00\u0022,\r\n      \u0022showSeparator\u0022: false\r\n    }\r\n  ]\r\n}"
               },
               "resultType": 0,
               "detectObjectsFromFieldNames": false
@@ -2977,6 +2977,11 @@
                 "name": "--middle-gray",
                 "value": "#878787",
                 "displayName": "Middle Gray"
+              },
+              {
+                "name": "--goldenrod",
+                "value": "#f3cd45",
+                "displayName": "Goldenrod"
               }
             ]
           },
