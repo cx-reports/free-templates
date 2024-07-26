@@ -1,0 +1,3015 @@
+{
+  "check": "CxReports",
+  "created": "2024-07-26T11:51:12.3862793+02:00",
+  "version": "1",
+  "data": {
+    "reports": [
+      {
+        "name": "Modern Boarding Pass",
+        "isEmbeddable": false,
+        "themeName": "Modern Boarding Pass",
+        "reportTypeCode": "ticket",
+        "reportTypeName": "Ticket",
+        "reportTemplateName": "Boarding Pass",
+        "reportLanguageCode": null,
+        "reportPageContainers": [
+          {
+            "number": 2.0000,
+            "name": "New Page 1",
+            "configuration": null,
+            "page": {
+              "content": [
+                {
+                  "id": "73589250618",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master"
+                  },
+                  "children": [
+                    {
+                      "id": "250618e8bc3",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "61482469d2b",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "618e8bc3092",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "8bc30926b66",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "a37a19e7440",
+                                      "url": "/CompanyLogo.png",
+                                      "type": "img",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "39px",
+                                          "height": "39px",
+                                          "marginLeft": "16px"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "f14a8a13164",
+                                      "text": "AIRLINE COMPANY",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "var(--royal-blue)",
+                                            "fontSize": null,
+                                            "fontFamily": null,
+                                            "fontWeight": "700"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "112px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0",
+                                          "marginLeft": "16px"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "a8a13164a97",
+                                      "type": "spacer",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "55px",
+                                          "height": "17px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "4a8a13164a9",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "64a9706ad6c",
+                                          "text": "B",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "color": "#ffff",
+                                                "fontSize": "60px",
+                                                "fontWeight": "700"
+                                              }
+                                            }
+                                          },
+                                          "$level": 2,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginRight": "14px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "backgroundColor": "var(--royal-blue)"
+                                        },
+                                        "alignItems": "flex-end",
+                                        "justifyContent": "center"
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "alignItems": "center"
+                                  }
+                                },
+                                {
+                                  "id": "f132a36b8ea",
+                                  "text": "Name",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "color": "var(--gray)",
+                                        "marginTop": "16px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "6ad6c6f22c8",
+                                  "text": "{$data.boarding.fullName}",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "16px",
+                                        "marginTop": "1px",
+                                        "fontWeight": "600",
+                                        "marginBottom": "20px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": true
+                                },
+                                {
+                                  "id": "ad6c6f22c8d",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "b1bcdf7db84",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "eb61482469d",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "8db1bcdf7db",
+                                              "text": "Destination",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "db1bcdf7db8",
+                                              "text": "{$data.boarding.to}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "2c8db1bcdf7",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "1bcdf7db84e",
+                                              "text": "BN",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "bcdf7db84e7",
+                                              "text": "{$data.boarding.bn}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "c8db1bcdf7d",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "cdf7db84e7a",
+                                              "text": "Class",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "df7db84e7a4",
+                                              "text": "{$data.boarding.class}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginBottom": "12px"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "f22c8db1bcd",
+                                      "type": "separator",
+                                      "style": {
+                                        "background": "var(--gray)"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "orientation": "horizontal"
+                                    },
+                                    {
+                                      "id": "4f83f3c23c5",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "84e7a40714f",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "4e7a40714f8",
+                                              "text": "Date",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "e7a40714f83",
+                                              "text": "{$data.boarding.date}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "7a40714f83f",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "a40714f83f3",
+                                              "text": "Time",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "40714f83f3c",
+                                              "text": "{$data.boarding.departure}H",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "0714f83f3c2",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "714f83f3c23",
+                                              "text": "Flight No.",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "14f83f3c23c",
+                                              "text": "{$data.boarding.flightNumber}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginTop": "12px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "166px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "paddingTop": "24px",
+                                      "paddingLeft": "16px",
+                                      "borderRadius": "4px",
+                                      "marginBottom": null,
+                                      "paddingRight": "16px",
+                                      "paddingBottom": "24px",
+                                      "backgroundColor": "var(--very-light-gray)"
+                                    },
+                                    "justifyContent": "center"
+                                  }
+                                },
+                                {
+                                  "id": "c9149214db0",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "49214db03e2",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "437668bb443",
+                                          "type": "barcode",
+                                          "$level": 6,
+                                          "format": "CODE128",
+                                          "margin": 0,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "content": "{$data.boarding}",
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "rotation": "none",
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "height": "93px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          },
+                                          "codeColor": null,
+                                          "textAlign": "center",
+                                          "backgroundColor": null
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "width": "277px",
+                                          "height": "90px",
+                                          "heigth": "200px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "209px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0"
+                                    },
+                                    "alignItems": "center",
+                                    "justifyContent": "center"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "1",
+                                  "marginRight": "8px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "0d684cdb9c2",
+                              "size": "0px",
+                              "type": "separator",
+                              "style": {
+                                "width": "0px"
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "1px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "borderLeft": "1px dashed var(--gray)",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "orientation": "vertical",
+                              "containerStyle": {
+                                "paddingLeft": null,
+                                "paddingRight": null
+                              }
+                            },
+                            {
+                              "id": "18e8bc30926",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "4a9706ad6c6",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "706ad6c6f22",
+                                      "text": "Boarding Pass",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "#ffff",
+                                            "fontSize": "16px",
+                                            "fontFamily": null,
+                                            "fontWeight": "700",
+                                            "marginBottom": "14px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginLeft": "14px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "69px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "flexShrink": "0",
+                                      "backgroundColor": "var(--royal-blue)"
+                                    },
+                                    "alignItems": "baseline",
+                                    "justifyContent": "flex-end"
+                                  }
+                                },
+                                {
+                                  "id": "27c161d02ed",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "ceb61482469",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "7198059732b",
+                                          "text": "{$data.boarding.from}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "color": "var(--gray)",
+                                                "marginTop": "16px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginLeft": "14px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "e7198059732",
+                                          "tag": "h3",
+                                          "text": "{$data.boarding.fromShortcut}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "fontSize": null,
+                                                "marginTop": "1px",
+                                                "fontWeight": "600"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginLeft": "14px"
+                                            }
+                                          },
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "b61482469d2",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "993f132a36b",
+                                          "text": "{$data.boarding.to}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "color": "var(--gray)",
+                                                "marginTop": "16px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "93f132a36b8",
+                                          "tag": "h3",
+                                          "text": "{$data.boarding.toShortcut}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "marginTop": "1px",
+                                                "fontWeight": "600"
+                                              }
+                                            }
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "includeInTOC": true
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginBottom": "20px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "565005eda02",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {
+                                    "gap": null
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "552fb19888a",
+                                      "type": "spacer",
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "ed7650a51de",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {
+                                        "gap": "8px"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "d7650a51de9",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "59732bca14e",
+                                              "size": "0px",
+                                              "type": "separator",
+                                              "style": {
+                                                "height": "0px"
+                                              },
+                                              "$level": 6,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "width": "8px",
+                                                  "height": "8px",
+                                                  "borderRadius": "50%",
+                                                  "backgroundColor": "grey"
+                                                }
+                                              },
+                                              "orientation": "horizontal"
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "20px",
+                                              "border": "1px solid gray",
+                                              "height": "20px",
+                                              "display": "flex",
+                                              "alignItems": "center",
+                                              "borderRadius": "50%",
+                                              "justifyContent": "center",
+                                              "backgroundColor": "transparent"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "7650a51de90",
+                                          "type": "separator",
+                                          "style": {
+                                            "background": "var(--gray)"
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "120px",
+                                              "height": "9px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          },
+                                          "orientation": "horizontal"
+                                        },
+                                        {
+                                          "id": "650a51de905",
+                                          "url": "/AirplainIcon.png",
+                                          "type": "img",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "28px",
+                                              "height": "28px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "0a51de905d2",
+                                          "type": "separator",
+                                          "style": {
+                                            "background": "var(--gray)"
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "120px"
+                                            }
+                                          },
+                                          "orientation": "horizontal"
+                                        },
+                                        {
+                                          "id": "a51de905d2f",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "732bca14ed7",
+                                              "size": "0px",
+                                              "type": "separator",
+                                              "style": {
+                                                "height": "0px"
+                                              },
+                                              "$level": 6,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "width": "8px",
+                                                  "height": "8px",
+                                                  "borderRadius": "50%",
+                                                  "backgroundColor": "grey"
+                                                }
+                                              },
+                                              "orientation": "horizontal"
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "20px",
+                                              "border": "1px solid gray",
+                                              "height": "20px",
+                                              "display": "flex",
+                                              "alignItems": "center",
+                                              "borderRadius": "50%",
+                                              "justifyContent": "center",
+                                              "backgroundColor": "transparent"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "--flow-gap": "8px"
+                                        },
+                                        "alignItems": "center",
+                                        "justifyContent": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "e905d2f87f5",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "5ce06270273",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "ce06270273f",
+                                              "text": "Departure",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": "0",
+                                                  "flexBasis": "auto",
+                                                  "flexShrink": "0"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "id": "fc9149214db",
+                                              "text": "{$data.boarding.date}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "marginTop": "4px",
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "06270273f7f",
+                                              "text": "{$data.boarding.departure}H",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "3f132a36b8e",
+                                          "type": "spacer",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "172px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "05d2f87f515",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "6270273f7f6",
+                                              "text": "Arrival",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--gray)",
+                                                    "lineHeight": null,
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "270273f7f6a",
+                                              "text": "{$data.boarding.date}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "marginTop": "4px",
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "70273f7f6a0",
+                                              "text": "{$data.boarding.arrival}H",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "marginTop": "12px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "166px",
+                                      "flexGrow": "0",
+                                      "flexBasis": "auto",
+                                      "--flow-gap": "8px",
+                                      "flexShrink": "0",
+                                      "paddingTop": "24px",
+                                      "paddingLeft": "16px",
+                                      "borderRadius": "4px",
+                                      "paddingRight": "16px",
+                                      "paddingBottom": "24px",
+                                      "backgroundColor": "var(--very-light-gray)"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "f2ff79e5d49",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {
+                                    "gap": null
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "2ff79e5d49e",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "f79e5d49e7a",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {
+                                            "gap": null
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "d49e7aac835",
+                                              "text": "Terminal",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--middle-gray)",
+                                                    "fontSize": "16px",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "1975b63b9f5",
+                                              "text": "{$data.boarding.terminal}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600",
+                                                    "marginBottom": null
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "height": "23px",
+                                                  "flexGrow": "0",
+                                                  "flexBasis": "auto",
+                                                  "flexShrink": "0"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "--flow-gap": null
+                                            },
+                                            "justifyContent": "flex-start"
+                                          }
+                                        },
+                                        {
+                                          "id": "79e5d49e7aa",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "49e7aac8358",
+                                              "text": "Gate",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--middle-gray)",
+                                                    "fontSize": "16px",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "f561c9cb89f",
+                                              "text": "{$data.boarding.gate}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "c81972041e9",
+                                              "type": "flow",
+                                              "$level": 7,
+                                              "config": {
+                                                "orientation": "horizontal"
+                                              },
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 3,
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": 1,
+                                                  "flexBasis": "0",
+                                                  "flexShrink": 1
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "9e5d49e7aac",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "9e7aac83581",
+                                              "text": "Boarding",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--middle-gray)",
+                                                    "fontSize": "16px",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": true
+                                            },
+                                            {
+                                              "id": "561c9cb89f3",
+                                              "text": "{$data.boarding.departure}H",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "e5d49e7aac8",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "e7aac835819",
+                                              "text": "Seat",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "color": "var(--middle-gray)",
+                                                    "fontSize": "16px",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "f3a39c4f8c8",
+                                              "text": "{$data.boarding.seat}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "paddingTop": null,
+                                          "marginBottom": null
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "5d49e7aac83",
+                                      "type": "separator",
+                                      "style": {
+                                        "background": "var(--gray)"
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "orientation": "horizontal"
+                                    },
+                                    {
+                                      "id": "81972041e9b",
+                                      "text": "Your flight will take 2h 10min",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "color": "var(--middle-gray)",
+                                            "marginTop": "8px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginTop": "16px",
+                                      "paddingTop": "36px",
+                                      "paddingLeft": "16px",
+                                      "borderRadius": "4px",
+                                      "paddingRight": "16px",
+                                      "paddingBottom": "36px",
+                                      "backgroundColor": "var(--light-goldenrod-yellow)"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "1"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        },
+                        {
+                          "id": "0618e8bc309",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "8e8bc30926b",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "23c5cb41e7a",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "3c5cb41e7a4",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "layout": {
+                                        "gap": null
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "c5cb41e7a4d",
+                                          "text": "Travel Plan",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "fontWeight": "600"
+                                              }
+                                            }
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginLeft": "20px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "height": "30px",
+                                          "flexGrow": "0",
+                                          "flexBasis": "auto",
+                                          "flexShrink": "0",
+                                          "marginBottom": "8px",
+                                          "backgroundColor": "var(--light-gray)",
+                                          "borderTopLeftRadius": "8px",
+                                          "borderTopRightRadius": "8px"
+                                        },
+                                        "alignItems": "flex-start",
+                                        "justifyContent": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "5cb41e7a4d2",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {
+                                        "gap": "12px"
+                                      },
+                                      "repeat": {
+                                        "alias": "travelPlan",
+                                        "dataSource": "{$data.boarding.travelPlan}",
+                                        "repeatable": true
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "cb41e7a4d27",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {
+                                            "gap": null
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "b41e7a4d278",
+                                              "text": "{$it.travelPlan.time}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontSize": "12px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "50px",
+                                              "marginTop": null,
+                                              "--flow-gap": null,
+                                              "marginRight": null
+                                            },
+                                            "alignItems": "flex-end",
+                                            "justifyContent": "flex-start"
+                                          }
+                                        },
+                                        {
+                                          "id": "41e7a4d278e",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {
+                                            "gap": "4px"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "1e7a4d278e3",
+                                              "size": "0px",
+                                              "type": "separator",
+                                              "style": {
+                                                "width": "0px"
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "width": "8px",
+                                                  "height": "8px",
+                                                  "borderRadius": "50%",
+                                                  "backgroundColor": "var(--goldenrod)"
+                                                }
+                                              },
+                                              "orientation": "vertical",
+                                              "containerStyle": {
+                                                "paddingTop": null
+                                              }
+                                            },
+                                            {
+                                              "id": "e7a4d278e39",
+                                              "size": "2px",
+                                              "type": "separator",
+                                              "style": {
+                                                "width": "2px"
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": "{$it.travelPlan.showSeparator}",
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "flexGrow": 1,
+                                                  "flexBasis": "0"
+                                                }
+                                              },
+                                              "orientation": "vertical"
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginTop": "3px",
+                                              "--flow-gap": "4px"
+                                            },
+                                            "alignItems": "baseline"
+                                          }
+                                        },
+                                        {
+                                          "id": "7a4d278e392",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {
+                                            "gap": null
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "53150719f39",
+                                              "text": "{$it.travelPlan.activity}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "marginTop": null,
+                                                    "fontWeight": "600",
+                                                    "marginBottom": "4px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {}
+                                              }
+                                            },
+                                            {
+                                              "id": "8adf5315071",
+                                              "text": "{$it.travelPlan.notes}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "marginTop": null,
+                                                    "marginBottom": null
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "layout": {
+                                                "collapsibleSections": {
+                                                  "boxStyleCollapsed": false
+                                                }
+                                              },
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": true,
+                                              "boxStyles": {
+                                                "style": null,
+                                                "additionalCss": [
+                                                  {
+                                                    "id": "3150719f394ffc3",
+                                                    "class": null,
+                                                    "style": "border-bottom: 1px solid var(--light-gray);\npadding-bottom: 6px;",
+                                                    "expression": "{$it.travelPlan.showSeparator}",
+                                                    "useExpression": true
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "--flow-gap": null,
+                                              "paddingBottom": "8px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "--flow-gap": "12px",
+                                          "paddingTop": "4px",
+                                          "paddingLeft": "16px",
+                                          "paddingRight": "16px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "border": "1px solid var(--light-gray)",
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "marginTop": "16px",
+                                      "borderRadius": "8px"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "440px",
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "marginRight": "8px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "684cdb9c230",
+                              "size": "0px",
+                              "type": "separator",
+                              "style": {
+                                "width": "0px"
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "width": "1px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "borderLeft": "1px dashed var(--gray)",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "orientation": "vertical",
+                              "containerStyle": {
+                                "paddingLeft": null,
+                                "paddingRight": null
+                              }
+                            },
+                            {
+                              "id": "e8bc30926b6",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "392ed50fa06",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "layout": {
+                                    "gap": "12px"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "92ed50fa063",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {
+                                        "gap": null
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "2ed50fa0636",
+                                          "type": "flow",
+                                          "$level": 4,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "ed50fa0636c",
+                                              "url": "/BagSizes.png",
+                                              "type": "img",
+                                              "$level": 5,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "width": "89px",
+                                                  "height": "90px"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginRight": "16px"
+                                            },
+                                            "alignItems": "flex-start",
+                                            "justifyContent": "center"
+                                          }
+                                        },
+                                        {
+                                          "id": "d50fa0636cc",
+                                          "type": "flow",
+                                          "$level": 4,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "layout": {
+                                            "gap": "16px"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "50fa0636cc7",
+                                              "tag": "h3",
+                                              "text": "Cabin Bag Sizes",
+                                              "type": "heading",
+                                              "theme": {
+                                                "text": {
+                                                  "h3": {
+                                                    "fontSize": "14px",
+                                                    "marginTop": null,
+                                                    "fontWeight": "600"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 5,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": null
+                                              },
+                                              "includeInTOC": true
+                                            },
+                                            {
+                                              "id": "0fa0636cc7d",
+                                              "text": "To bring 2 cabin bags on board, you must add Priority \u0026 Cabin Bags  to your booking. Oversized or extra bags or items which are brought to the boarding gate will be charged a fee up to $69,99 or local currency equivalent the boarding gate.",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "p": {
+                                                    "fontSize": null
+                                                  }
+                                                }
+                                              },
+                                              "$level": 5,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 0,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": "1",
+                                              "flexBasis": "0",
+                                              "--flow-gap": "16px",
+                                              "flexShrink": "1"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "border": "1px solid var(--light-gray)",
+                                          "marginTop": "16px",
+                                          "paddingTop": "16px",
+                                          "paddingLeft": "16px",
+                                          "borderRadius": "8px",
+                                          "paddingRight": "16px",
+                                          "paddingBottom": "16px"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "fa0636cc7d2",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "layout": {
+                                        "gap": null
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "a0636cc7d27",
+                                          "text": "Please board using front stairs",
+                                          "type": "text",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": null
+                                          }
+                                        },
+                                        {
+                                          "id": "0636cc7d27c",
+                                          "type": "spacer",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "36px",
+                                              "height": "10px",
+                                              "flexGrow": "0",
+                                              "flexBasis": "auto",
+                                              "flexShrink": "0"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "636cc7d27c1",
+                                          "url": "/Plane.png",
+                                          "type": "img",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "103px",
+                                              "height": "33px",
+                                              "marginRight": "11px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "border": "1px solid var(--light-gray)",
+                                          "--flow-gap": null,
+                                          "paddingTop": "24px",
+                                          "paddingLeft": "12px",
+                                          "borderRadius": "8px",
+                                          "paddingRight": "11px",
+                                          "paddingBottom": "24px"
+                                        },
+                                        "alignItems": "center"
+                                      }
+                                    },
+                                    {
+                                      "id": "36cc7d27c16",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "6cc7d27c161",
+                                          "text": "If you are denied boarding or if your flight is cancelled or delayed for at least two hours, ask at the ticket counter or boarding gate for the text stating your rights, particularly with regard to compensation and assistance.",
+                                          "type": "text",
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "border": "1px solid var(--light-gray)",
+                                          "paddingTop": "16px",
+                                          "paddingLeft": "16px",
+                                          "borderRadius": "8px",
+                                          "paddingRight": "16px",
+                                          "paddingBottom": "16px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0",
+                                      "--flow-gap": "12px",
+                                      "flexShrink": 1
+                                    },
+                                    "justifyContent": "flex-start"
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "1"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": "1",
+                              "borderTop": "1px dashed  var(--gray)",
+                              "flexBasis": "0",
+                              "flexShrink": "1"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0"
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "paperOrientation": null,
+              "paperMargins": null,
+              "pageType": {
+                "name": "Standard Page",
+                "description": "Standard Page"
+              }
+            },
+            "embeddedReportName": null
+          }
+        ],
+        "reportDictionaries": [],
+        "reportParameters": [],
+        "reportDataSources": [
+          {
+            "name": "boarding",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Boarding",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{\r\n  \u0022flightNumber\u0022: \u0022AR2125\u0022,\r\n  \u0022terminal\u0022: \u00221\u0022,\r\n  \u0022gate\u0022: \u0022J24\u0022,\r\n  \u0022departure\u0022: \u002216:50\u0022,\r\n  \u0022arrival\u0022: \u002218:50\u0022,\r\n  \u0022seat\u0022: \u002234D\u0022,\r\n  \u0022fullName\u0022: \u0022JONH SMITH\u0022,\r\n  \u0022class\u0022: \u0022B - BUSINESS\u0022,\r\n  \u0022from\u0022: \u0022Barcelona\u0022,\r\n  \u0022fromShortcut\u0022: \u0022BCN\u0022,\r\n  \u0022to\u0022: \u0022Frankfurt\u0022,\r\n  \u0022toShortcut\u0022: \u0022FRA\u0022,\r\n  \u0022date\u0022: \u002203/04/2024\u0022,\r\n  \u0022bn\u0022: \u0022008\u0022,\r\n  \u0022travelPlan\u0022: [\r\n    {\r\n      \u0022time\u0022: \u0022-------\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at the airport\u0022,\r\n      \u0022notes\u0022: \u0022You need to arrive at least 2 hours before your scheduled flight. Don\u0027t forget your Photo ID.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002214:50\u0022,\r\n      \u0022activity\u0022: \u0022Bag drop\u0022,\r\n      \u0022notes\u0022: \u0022Give yourself a little extra time in case there\u0027s a queue.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:10\u0022,\r\n      \u0022activity\u0022: \u0022Arrive at gate\u0022,\r\n      \u0022notes\u0022: \u0022The gate closes 16:20 before flight departure. Watch the airport monitors for your gate number.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002216:50\u0022,\r\n      \u0022activity\u0022: \u0022Flight departs\u0022,\r\n      \u0022notes\u0022: \u0022Your flight will take 2 hours, settle in for a tasty coffee.\u0022,\r\n      \u0022showSeparator\u0022: true\r\n    },\r\n    {\r\n      \u0022time\u0022: \u002219:00\u0022,\r\n      \u0022activity\u0022: \u0022Flight arrives\u0022,\r\n      \u0022notes\u0022: \u0022Your local time is 19:00\u0022,\r\n      \u0022showSeparator\u0022: false\r\n    }\r\n  ]\r\n}"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "name": "Boarding Pass",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": 0,
+        "defaultPaperOrientation": 0,
+        "themeName": "Modern Boarding Pass",
+        "pages": [
+          {
+            "name": "Standard Page",
+            "description": "Standard Page",
+            "pageType": {
+              "name": "Standard Page",
+              "description": "Standard Page"
+            },
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "e5b70a00ee4",
+                "type": "content-placeholder",
+                "config": {
+                  "name": "master"
+                },
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": null
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Modern Boarding Pass",
+        "content": {
+          "toc": {
+            "level1": {
+              "fontFamily": null
+            }
+          },
+          "text": {
+            "p": {
+              "fontSize": "14px"
+            },
+            "h3": {
+              "fontWeight": null
+            },
+            "h4": {
+              "color": "var(--gray)",
+              "fontSize": "12px"
+            },
+            "body": {
+              "fontSize": null,
+              "fontFamily": "Inter",
+              "fontWeight": null
+            }
+          },
+          "legend": {
+            "shape": "null"
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--royal-blue",
+                "value": "#4588ed",
+                "displayName": "Royal Blue"
+              },
+              {
+                "name": "--very-light-gray",
+                "value": "#eeeeee",
+                "displayName": "Very Light Gray"
+              },
+              {
+                "name": "--light-gray",
+                "value": "#d9d9d9",
+                "displayName": "Light Gray"
+              },
+              {
+                "name": "--gray",
+                "value": "#ABABAB",
+                "displayName": "Gray"
+              },
+              {
+                "name": "--light-goldenrod-yellow",
+                "value": "#feeeb7",
+                "displayName": "Light Goldenrod Yellow"
+              },
+              {
+                "name": "--middle-gray",
+                "value": "#878787",
+                "displayName": "Middle Gray"
+              }
+            ]
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Inter:wght@100..900"
+              }
+            ]
+          }
+        },
+        "config": null
+      }
+    ],
+    "globalParameters": null,
+    "reportTypes": [
+      {
+        "name": "Ticket",
+        "description": "A type of any sort of ticket",
+        "code": "ticket"
+      }
+    ],
+    "languages": null,
+    "pageTypes": [
+      {
+        "name": "Standard Page",
+        "description": "Standard Page"
+      }
+    ],
+    "parametersDefinitions": null,
+    "additionalDataSources": null,
+    "globalDataSources": null,
+    "dictionaries": null,
+    "parameterGroups": null
+  }
+}
