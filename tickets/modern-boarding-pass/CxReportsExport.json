@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-26T12:14:17.0844741+02:00",
+  "created": "2024-07-26T13:07:16.7777002+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -228,6 +228,7 @@
                                     "text": {
                                       "p": {
                                         "color": "var(--gray)",
+                                        "fontSize": null,
                                         "marginTop": "16px"
                                       }
                                     }
@@ -1085,6 +1086,7 @@
                                             "text": {
                                               "p": {
                                                 "color": "var(--gray)",
+                                                "fontSize": null,
                                                 "marginTop": "16px"
                                               }
                                             }
@@ -2155,7 +2157,7 @@
                                           "flexBasis": "auto",
                                           "flexShrink": "0",
                                           "marginBottom": "8px",
-                                          "backgroundColor": "var(--light-gray)",
+                                          "backgroundColor": "#D9D9D9",
                                           "borderTopLeftRadius": "8px",
                                           "borderTopRightRadius": "8px"
                                         },
@@ -2280,10 +2282,10 @@
                                             },
                                             {
                                               "id": "e7a4d278e39",
-                                              "size": "2px",
+                                              "size": "1px",
                                               "type": "separator",
                                               "style": {
-                                                "width": "2px"
+                                                "width": "1px"
                                               },
                                               "$level": 7,
                                               "repeat": {
@@ -2388,7 +2390,7 @@
                                                   {
                                                     "id": "3150719f394ffc3",
                                                     "class": null,
-                                                    "style": "border-bottom: 1px solid var(--light-gray);\npadding-bottom: 6px;",
+                                                    "style": "border-bottom: 1px solid #D9D9D9;\npadding-bottom: 6px;",
                                                     "expression": "{$it.travelPlan.showSeparator}",
                                                     "useExpression": true
                                                   }
