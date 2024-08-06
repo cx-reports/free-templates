@@ -14,7 +14,7 @@
         "reportLanguageCode": null,
         "reportPageContainers": [
           {
-            "number": 2.0000,
+            "number": 2.0,
             "name": "Warehouse",
             "configuration": null,
             "page": {
@@ -153,7 +153,7 @@
                                   "children": [
                                     {
                                       "id": "da1cb275827",
-                                      "url": "logo.png",
+                                      "url": "/logo.png",
                                       "type": "img",
                                       "style": {
                                         "objectFit": "fill"
