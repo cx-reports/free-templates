@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-07-12T07:52:28.5670999+02:00",
+  "created": "2024-08-06T10:16:28.5597683+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -153,7 +153,7 @@
                                   "children": [
                                     {
                                       "id": "da1cb275827",
-                                      "url": "/logo.png",
+                                      "url": "logo.png",
                                       "type": "img",
                                       "style": {
                                         "objectFit": "fill"
@@ -526,8 +526,9 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "content": "{record.serial_number}",
+                                  "content": "{$it.record.serial_number}",
                                   "hideExpr": null,
+                                  "rotation": "none",
                                   "showText": false,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -598,7 +599,7 @@
                                     },
                                     {
                                       "id": "f9da418184e",
-                                      "text": " {record.product_code}",
+                                      "text": " {$it.record.product_code}",
                                       "type": "text",
                                       "theme": {
                                         "text": {
@@ -679,7 +680,7 @@
                                     },
                                     {
                                       "id": "58250d7e829",
-                                      "text": " {record.product_name}",
+                                      "text": " {$it.record.product_name}",
                                       "type": "text",
                                       "theme": {
                                         "text": {
@@ -760,7 +761,7 @@
                           "children": [
                             {
                               "id": "4ee7f67b70b",
-                              "url": "{record.image}",
+                              "url": "{$it.record.image}",
                               "type": "img",
                               "style": {
                                 "objectFit": "contain"
@@ -775,8 +776,8 @@
                               "$expanded": false,
                               "boxStyles": {
                                 "style": {
-                                  "width": "307px",
-                                  "height": "113px",
+                                  "width": "328px",
+                                  "height": "136px",
                                   "flexGrow": "0",
                                   "flexBasis": "auto",
                                   "flexShrink": "0"
@@ -824,7 +825,7 @@
               "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
-                "description": "Standard page following the company template."
+                "description": "Standard page"
               }
             },
             "embeddedReportName": null
@@ -842,7 +843,26 @@
               "type": 1,
               "externalDatabaseName": null,
               "config": {
-                "json": "{\r\n  \u0022company_name\u0022: \u0022Tech Distributors Inc.\u0022,\r\n  \u0022address\u0022: {\r\n    \u0022street\u0022: \u0022123 Technology Way\u0022,\r\n    \u0022city\u0022: \u0022Innovate City\u0022,\r\n    \u0022state\u0022: \u0022California\u0022\r\n  },\r\n  \u0022shipment\u0022: {\r\n    \u0022date\u0022: \u00222024-05-21\u0022,\r\n    \u0022time\u0022: \u002214:30\u0022\r\n  },\r\n  \u0022person_in_charge\u0022: \u0022Jane Doe\u0022,\r\n  \u0022paid\u0022: \u0022Yes\u0022,\r\n  \u0022products\u0022: [\r\n    {\r\n      \u0022number\u0022: \u00221.\u0022,\r\n      \u0022product_code\u0022: \u0022124578\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech MK270 Wireless Keyboard\u0022,\r\n      \u0022serial_number\u0022: \u0022MK270-ABC123456\u0022,\r\n      \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/keyboard.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00222.\u0022,\r\n      \u0022product_code\u0022: \u0022235689\u0022,\r\n      \u0022product_name\u0022: \u0022WD 2TB Elements Portable External Hard Drive - USB 3.0 - WDBU6Y0020BBK\u0022,\r\n      \u0022serial_number\u0022: \u0022WDBU6Y0020BBK-XYZ987654\u0022,\r\n      \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/exthd.svg\u0022\r\n\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00223.\u0022,\r\n      \u0022product_code\u0022: \u0022346790\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech Brio 101 Full HD 1080p Webcam\u0022,\r\n      \u0022serial_number\u0022: \u0022BRIO101-HJK765432\u0022,\r\n      \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/camera.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00224.\u0022,\r\n      \u0022product_code\u0022: \u0022457891\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech Combo Touch Keyboard Folio for iPad Pro 12.9\\\u0022 (5th\u00266thGen) Oxford Gray\u0022,\r\n      \u0022serial_number\u0022: \u0022COMBOTOUCH-FGH123987\u0022,\r\n      \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/ipad.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00225.\u0022,\r\n      \u0022product_code\u0022: \u0022568912\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech MX Master 3S - Wireless Performance Mouse, Ergo, 8K DPI\u0022,\r\n      \u0022serial_number\u0022: \u0022MXMASTER3S-MNB654321\u0022,\r\n      \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/mouse.svg\u0022\r\n    }\r\n  ]\r\n}"
+                "json": "{\r\n    \u0022company_name\u0022: \u0022Tech Distributors Inc.\u0022,\r\n    \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022123 Technology Way\u0022,\r\n        \u0022city\u0022: \u0022Innovate City\u0022,\r\n        \u0022state\u0022: \u0022California\u0022\r\n    },\r\n    \u0022shipment\u0022: {\r\n        \u0022date\u0022: \u00222024-05-21\u0022,\r\n        \u0022time\u0022: \u002214:30\u0022\r\n    },\r\n    \u0022person_in_charge\u0022: \u0022Jane Doe\u0022,\r\n    \u0022paid\u0022: \u0022Yes\u0022,\r\n    \u0022products\u0022: [\r\n        {\r\n            \u0022number\u0022: \u00221.\u0022,\r\n            \u0022product_code\u0022: \u0022124578\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech MK270 Wireless Keyboard\u0022,\r\n            \u0022serial_number\u0022: \u0022MK270-ABC123456\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/keyboard.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00222.\u0022,\r\n            \u0022product_code\u0022: \u0022235689\u0022,\r\n            \u0022product_name\u0022: \u0022WD 2TB Elements Portable External Hard Drive - USB 3.0 - WDBU6Y0020BBK\u0022,\r\n            \u0022serial_number\u0022: \u0022WDBU6Y0020BBK-XYZ987654\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/exthd.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00223.\u0022,\r\n            \u0022product_code\u0022: \u0022346790\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech Brio 101 Full HD 1080p Webcam\u0022,\r\n            \u0022serial_number\u0022: \u0022BRIO101-HJK765432\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/camera.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00224.\u0022,\r\n            \u0022product_code\u0022: \u0022457891\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech Combo Touch Keyboard Folio for iPad Pro 12.9\\\u0022 (5th\u00266thGen) Oxford Gray\u0022,\r\n            \u0022serial_number\u0022: \u0022COMBOTOUCH-FGH123987\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/ipad.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00225.\u0022,\r\n            \u0022product_code\u0022: \u0022568912\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech MX Master 3S - Wireless Performance Mouse, Ergo, 8K DPI\u0022,\r\n            \u0022serial_number\u0022: \u0022MXMASTER3S-MNB654321\u0022,\r\n            \u0022image\u0022: \u0022rudi\u0022\r\n        }\r\n    ]\r\n}\r\n"
+              },
+              "resultType": 0,
+              "detectObjectsFromFieldNames": false
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "delete_me",
+            "parametersMapping": null,
+            "globalDataSourceDefinitionName": null,
+            "localDataSourceDefinition": {
+              "displayName": "Delete Me",
+              "type": 1,
+              "externalDatabaseName": null,
+              "config": {
+                "json": "{}"
               },
               "resultType": 0,
               "detectObjectsFromFieldNames": false
@@ -868,7 +888,7 @@
             "description": "Standard page following the company template.",
             "pageType": {
               "name": "Standard page",
-              "description": "Standard page following the company template."
+              "description": "Standard page"
             },
             "inactive": false,
             "isCountable": false,
@@ -1289,11 +1309,42 @@
         "code": "operations-logistics"
       }
     ],
-    "languages": null,
+    "languages": [
+      {
+        "name": "English",
+        "code": "en",
+        "cultureCode": "en"
+      },
+      {
+        "name": "Srpski",
+        "code": "sr",
+        "cultureCode": "sr"
+      }
+    ],
     "pageTypes": [
       {
         "name": "Standard page",
-        "description": "Standard page following the company template."
+        "description": "Standard page"
+      },
+      {
+        "name": "Rotated page",
+        "description": "Rotated page"
+      },
+      {
+        "name": "Chapter",
+        "description": "a4"
+      },
+      {
+        "name": "Cover Page",
+        "description": "Cover page"
+      },
+      {
+        "name": "Blue header",
+        "description": "Blue Heder"
+      },
+      {
+        "name": "Back Cover Page",
+        "description": "Cover"
       }
     ],
     "parametersDefinitions": null,

@@ -14,7 +14,7 @@
         "reportLanguageCode": null,
         "reportPageContainers": [
           {
-            "number": 1.0000,
+            "number": 1.0,
             "name": "Modern Concert Ticket",
             "configuration": null,
             "page": {
@@ -201,7 +201,7 @@
                                       "children": [
                                         {
                                           "id": "e7f0e3a9947",
-                                          "url": "/logo.png",
+                                          "url": "/rhythmix-logo-white.png",
                                           "type": "img",
                                           "style": {
                                             "objectFit": "scale-down"
