@@ -14,7 +14,7 @@
         "reportLanguageCode": null,
         "reportPageContainers": [
           {
-            "number": 1.0000,
+            "number": 1.0,
             "name": "New Page 1",
             "configuration": null,
             "page": {
@@ -2154,7 +2154,7 @@
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
         "defaultPaperSize": 0,
         "defaultPaperOrientation": 0,
-        "themeName": "Modern Boarding Pass",
+        "themeName": "Classic Boarding Pass",
         "pages": [
           {
             "name": "Standard Page",
