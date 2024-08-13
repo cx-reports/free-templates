@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-08-12T11:53:19.8494805+02:00",
+  "created": "2024-08-13T08:58:28.0360722+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -228,7 +228,7 @@
                         }
                       ],
                       "hideExpr": null,
-                      "$expanded": true,
+                      "$expanded": false,
                       "boxStyles": {
                         "style": {
                           "paddingTop": "24px",
@@ -984,7 +984,7 @@
                         }
                       ],
                       "hideExpr": null,
-                      "$expanded": true,
+                      "$expanded": false,
                       "boxStyles": {
                         "style": {
                           "height": "190px",
@@ -1003,7 +1003,7 @@
                         "orientation": "vertical"
                       },
                       "layout": {
-                        "gap": "2px"
+                        "gap": null
                       },
                       "repeat": {
                         "alias": null,
@@ -1079,7 +1079,6 @@
                           "size": null,
                           "type": "separator",
                           "style": {
-                            "height": null,
                             "background": "var(--white)"
                           },
                           "$level": 2,
@@ -1134,7 +1133,7 @@
                                   }
                                 }
                               },
-                              "$level": 2,
+                              "$level": 3,
                               "layout": {
                                 "optionsCollapsed": false,
                                 "formattingCollapsed": false,
@@ -1431,17 +1430,23 @@
                             }
                           ],
                           "hideExpr": null,
-                          "$expanded": false
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
                         }
                       ],
                       "hideExpr": null,
-                      "$expanded": true,
+                      "$expanded": false,
                       "boxStyles": {
                         "style": {
                           "flexGrow": 1,
                           "flexBasis": "0",
                           "marginTop": "16px",
-                          "--flow-gap": "2px"
+                          "--flow-gap": null
                         }
                       }
                     }
@@ -1656,8 +1661,8 @@
     "languages": null,
     "pageTypes": [
       {
-        "name": "Standard Report Page",
-        "description": "Standard Report Page"
+        "name": "Standard page",
+        "description": "Standard page following the company template."
       }
     ],
     "parametersDefinitions": null,
