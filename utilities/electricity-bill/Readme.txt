@@ -1,7 +1,7 @@
 Follow these steps to successfully add this report to your workspace:
 
 1. Log in to your local CxReport instance
-2. Upload the logo.png logo to Reporting > File Management
+2. Upload the electravolt-logo.png logo to Reporting > File Management
 3. Go to Workspace Configuration > Data Import and import the CxReportsExport.json
 4. Find the new report at the Reporting > Reports page
 

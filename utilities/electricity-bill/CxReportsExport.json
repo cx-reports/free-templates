@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-09-03T12:08:15.0013006+02:00",
+  "created": "2024-09-03T12:13:11.8142019+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -85,9 +85,14 @@
                                   "children": [
                                     {
                                       "id": "e1bc1383903",
-                                      "url": "/logo.png",
+                                      "url": "/electravolt-logo.png",
                                       "type": "img",
                                       "$level": 5,
+                                      "layout": {
+                                        "collapsibleSections": {
+                                          "imageOptions": false
+                                        }
+                                      },
                                       "repeat": {
                                         "alias": null,
                                         "dataSource": null,
