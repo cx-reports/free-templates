@@ -1,19 +1,20 @@
 {
   "check": "CxReports",
-  "created": "2024-02-21T10:47:36.8072553+01:00",
+  "created": "2024-09-05T11:40:07.2798372+02:00",
   "version": "1",
   "data": {
     "reports": [
       {
-        "name": "Striking Invoice",
+        "name": "Invoice",
         "isEmbeddable": false,
         "themeName": "Invoice Theme",
         "reportTypeCode": "other",
         "reportTypeName": "Other",
         "reportTemplateName": "Invoice",
+        "reportLanguageCode": null,
         "reportPageContainers": [
           {
-            "number": 1.0,
+            "number": 1.0000,
             "name": "Invoice",
             "configuration": {
               "pageVisibilityExpr": null
@@ -36,6 +37,7 @@
                       "config": {
                         "orientation": "horizontal"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "db869ec0db9",
@@ -50,6 +52,12 @@
                             },
                             "hideComponentExprCollapsed": true
                           },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
                           "children": [
                             {
                               "id": "a83db869ec0",
@@ -57,6 +65,7 @@
                               "config": {
                                 "orientation": "vertical"
                               },
+                              "version": 3,
                               "hideExpr": null,
                               "boxStyles": {
                                 "style": {
@@ -100,11 +109,12 @@
                               },
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null
                                   }
                                 }
                               },
+                              "version": 1,
                               "hideExpr": null,
                               "boxStyles": {
                                 "style": {
@@ -136,6 +146,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "ab196748d06",
@@ -148,6 +159,10 @@
                                 "textAlign": "center",
                                 "fontWeight": "bold"
                               },
+                              "theme": {
+                                "text": {}
+                              },
+                              "version": 1,
                               "hideExpr": null,
                               "boxStyles": {
                                 "style": {
@@ -192,6 +207,12 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
                       "children": [
                         {
                           "id": "5255c664c1a",
@@ -200,6 +221,7 @@
                           "config": {
                             "orientation": "horizontal"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "3ba633a0646",
@@ -208,6 +230,7 @@
                               "config": {
                                 "orientation": "vertical"
                               },
+                              "version": 3,
                               "children": [
                                 {
                                   "id": "9b8174c273b",
@@ -218,7 +241,11 @@
                                     "fontWeight": "bold",
                                     "textTransform": "uppercase"
                                   },
+                                  "theme": {
+                                    "text": {}
+                                  },
                                   "$level": 4,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -235,14 +262,23 @@
                                   },
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": null
                                       }
                                     }
                                   },
                                   "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
                                   "hideExpr": null,
-                                  "$expanded": false
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "cssClasses": null
+                                  }
                                 },
                                 {
                                   "id": "8174c273ba6",
@@ -254,12 +290,18 @@
                                   },
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": null
                                       }
                                     }
                                   },
                                   "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -279,42 +321,56 @@
                               }
                             },
                             {
-                              "id": "9ec0db9e410",
+                              "id": "a472eb9bd45",
                               "data": [
                                 {
                                   "id": "947864656e6",
-                                  "key": "{$dict.invoiceNo}:",
+                                  "key": "{$dict.invoiceNo}",
                                   "value": "{$data.invoice.invoice_number}",
                                   "hideexpr": null
                                 },
                                 {
                                   "id": "47864656e6b",
-                                  "key": "{$dict.date}:",
+                                  "key": "{$dict.date}",
                                   "value": "{$data.invoice.date:d}",
                                   "hideexpr": null
                                 },
                                 {
                                   "id": "7864656e6b1",
-                                  "key": "{$dict.dueDate}:",
+                                  "key": "{$dict.dueDate}",
                                   "value": "{$data.invoice.due_date:d}",
                                   "hideexpr": null
                                 }
                               ],
                               "type": "key-value-grid",
                               "theme": {
-                                "text": {
-                                  "key-value-grid-key": {
-                                    "color": null
+                                "keyValueGrid": {
+                                  "key": {
+                                    "color": null,
+                                    "width": null
+                                  },
+                                  "row": {
+                                    "height": "25px"
+                                  },
+                                  "value": {
+                                    "textAlign": "right",
+                                    "fontFamily": null
+                                  },
+                                  "divider": {
+                                    "width": "20px"
                                   }
                                 }
                               },
                               "$level": 3,
                               "layout": {
-                                "keyWidth": "110px",
-                                "rowHeight": "25px",
-                                "dividerText": null,
-                                "dividerWidth": "0px"
+                                "dividerText": ":"
                               },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 2,
                               "hideExpr": null,
                               "$expanded": true,
                               "boxStyles": {
@@ -322,7 +378,8 @@
                                   "border": "1px dashed lightgray",
                                   "padding": "20px"
                                 },
-                                "cssClasses": null
+                                "cssClasses": null,
+                                "additionalCss": []
                               },
                               "keyValueGridStyle": "key-value-grid-key"
                             }
@@ -359,10 +416,23 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "664c1aab196",
                               "type": "data-table",
+                              "theme": {
+                                "table": {
+                                  "cell": {
+                                    "color": null,
+                                    "borderTop-cell": null,
+                                    "backgroundColor": null,
+                                    "borderLeft-cell": null,
+                                    "borderRight-cell": null,
+                                    "borderBottom-cell": null
+                                  }
+                                }
+                              },
                               "$level": 3,
                               "$theme": {
                                 "table": {
@@ -381,6 +451,11 @@
                                 "optionsCollapsed": false,
                                 "hideComponentExprCollapsed": false
                               },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
                               "columns": [
                                 {
                                   "field": "item_id",
@@ -388,13 +463,16 @@
                                   "footer": {
                                     "tpl": null,
                                     "text": null,
-                                    "htmlTpl": null
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
                                   },
                                   "header": {
                                     "tpl": "{$dict.sku}",
-                                    "text": null,
-                                    "type": "tpl",
-                                    "htmlTpl": null
+                                    "text": "{$dict.sku}",
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
                                   },
                                   "valueType": "value",
                                   "aggregateAlias": null,
@@ -402,7 +480,8 @@
                                   "styleExpression": null,
                                   "valueExpression": null,
                                   "formatExpression": null,
-                                  "visibleExpression": null
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
                                 },
                                 {
                                   "field": "description",
@@ -410,19 +489,23 @@
                                   "footer": {
                                     "tpl": null,
                                     "text": null,
-                                    "htmlTpl": null
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
                                   },
                                   "header": {
                                     "tpl": "{$dict.description}",
                                     "text": "{$dict.description}",
-                                    "type": "tpl",
-                                    "htmlTpl": null
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
                                   },
                                   "valueType": "value",
                                   "aggregateAlias": null,
                                   "valueExpression": null,
                                   "formatExpression": null,
-                                  "visibleExpression": null
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
                                 },
                                 {
                                   "align": "right",
@@ -431,13 +514,16 @@
                                   "footer": {
                                     "tpl": null,
                                     "text": null,
-                                    "htmlTpl": null
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
                                   },
                                   "header": {
                                     "tpl": "{$dict.quantity}",
                                     "text": "{$dict.quantity}",
-                                    "type": "tpl",
-                                    "htmlTpl": null
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
                                   },
                                   "valueType": "value",
                                   "aggregateAlias": null,
@@ -445,7 +531,8 @@
                                   "styleExpression": null,
                                   "valueExpression": null,
                                   "formatExpression": null,
-                                  "visibleExpression": null
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
                                 },
                                 {
                                   "align": "right",
@@ -454,14 +541,17 @@
                                   "footer": {
                                     "tpl": null,
                                     "text": null,
-                                    "htmlTpl": null
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
                                   },
                                   "format": "currency;EUR;2",
                                   "header": {
                                     "tpl": "{$dict.unitPrice}",
                                     "text": "{$dict.unitPrice}",
-                                    "type": "tpl",
-                                    "htmlTpl": null
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
                                   },
                                   "valueType": "value",
                                   "formatType": "custom",
@@ -470,7 +560,8 @@
                                   "styleExpression": null,
                                   "valueExpression": null,
                                   "formatExpression": null,
-                                  "visibleExpression": null
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
                                 },
                                 {
                                   "align": "right",
@@ -480,14 +571,17 @@
                                     "tpl": null,
                                     "show": true,
                                     "text": null,
-                                    "htmlTpl": null
+                                    "htmlTpl": null,
+                                    "conditionalStyling": []
                                   },
                                   "format": "currency;EUR;2",
                                   "header": {
                                     "tpl": "{$dict.subtotal}",
                                     "text": "{$dict.subtotal}",
-                                    "type": "tpl",
-                                    "htmlTpl": null
+                                    "type": "text",
+                                    "htmlTpl": null,
+                                    "conditinalStyling": [],
+                                    "conditionalStyling": []
                                   },
                                   "aggregate": "sum",
                                   "valueType": "value",
@@ -497,9 +591,11 @@
                                   "styleExpression": null,
                                   "valueExpression": null,
                                   "formatExpression": null,
-                                  "visibleExpression": null
+                                  "visibleExpression": null,
+                                  "conditionalStyling": []
                                 }
                               ],
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -537,6 +633,7 @@
                               "config": {
                                 "orientation": "horizontal"
                               },
+                              "version": 3,
                               "children": [
                                 {
                                   "id": "48cf98e701a",
@@ -561,6 +658,7 @@
                                   "config": {
                                     "orientation": "vertical"
                                   },
+                                  "version": 3,
                                   "children": [
                                     {
                                       "id": "8cf98e701a3",
@@ -569,6 +667,7 @@
                                       "config": {
                                         "orientation": "horizontal"
                                       },
+                                      "version": 3,
                                       "children": [
                                         {
                                           "id": "cf98e701a34",
@@ -578,7 +677,11 @@
                                             "textAlign": "right",
                                             "fontWeight": "bold"
                                           },
+                                          "theme": {
+                                            "text": {}
+                                          },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": true,
                                           "boxStyles": {
@@ -602,12 +705,13 @@
                                           },
                                           "theme": {
                                             "text": {
-                                              "p": {
+                                              "span": {
                                                 "color": null
                                               }
                                             }
                                           },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -642,6 +746,7 @@
                                       "config": {
                                         "orientation": "horizontal"
                                       },
+                                      "version": 3,
                                       "children": [
                                         {
                                           "id": "341e7e4a70e",
@@ -653,12 +758,13 @@
                                           },
                                           "theme": {
                                             "text": {
-                                              "p": {
+                                              "span": {
                                                 "color": null
                                               }
                                             }
                                           },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -680,7 +786,11 @@
                                             "fontWeight": "bold",
                                             "paddingRight": "14px"
                                           },
+                                          "theme": {
+                                            "text": {}
+                                          },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -716,6 +826,7 @@
                                       "config": {
                                         "orientation": "horizontal"
                                       },
+                                      "version": 3,
                                       "children": [
                                         {
                                           "id": "c619b530433",
@@ -725,7 +836,11 @@
                                             "textAlign": "right",
                                             "fontWeight": "bold"
                                           },
+                                          "theme": {
+                                            "text": {}
+                                          },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -747,7 +862,11 @@
                                             "fontWeight": "bold",
                                             "paddingRight": "14px"
                                           },
+                                          "theme": {
+                                            "text": {}
+                                          },
                                           "$level": 6,
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -800,6 +919,7 @@
                               "config": {
                                 "orientation": "horizontal"
                               },
+                              "version": 3,
                               "children": [
                                 {
                                   "id": "2a4aaa48cf9",
@@ -825,12 +945,25 @@
                                   "style": {
                                     "alignSelf": "center"
                                   },
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "color": "rgba(255,255,255,1)"
+                                      }
+                                    }
+                                  },
                                   "$level": 4,
                                   "layout": {
                                     "collapsibleSections": {
                                       "boxStyleCollapsed": false
                                     }
                                   },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -851,12 +984,13 @@
                                   },
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": "rgba(255,255,255,1)"
                                       }
                                     }
                                   },
                                   "$level": 4,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -924,6 +1058,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "af346534692",
@@ -934,7 +1069,11 @@
                                 "fontWeight": "bold",
                                 "textTransform": "uppercase"
                               },
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -951,12 +1090,13 @@
                               },
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null
                                   }
                                 }
                               },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -996,6 +1136,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "692ee8e54eb",
@@ -1006,7 +1147,11 @@
                                 "fontWeight": "bold",
                                 "textTransform": "uppercase"
                               },
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 4,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1021,6 +1166,10 @@
                                 "color": "gray",
                                 "fontSize": "10px"
                               },
+                              "theme": {
+                                "text": {}
+                              },
+                              "version": 1,
                               "hideExpr": null,
                               "boxStyles": {
                                 "style": {
@@ -1061,6 +1210,7 @@
                       "config": {
                         "orientation": "horizontal"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "38dccc9efe9",
@@ -1069,6 +1219,7 @@
                           "config": {
                             "orientation": "horizontal"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "8dccc9efe9f",
@@ -1116,7 +1267,11 @@
                               "style": {
                                 "color": "white"
                               },
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1145,6 +1300,7 @@
                           "config": {
                             "orientation": "horizontal"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "c9efe9faf34",
@@ -1192,7 +1348,11 @@
                               "style": {
                                 "color": "white"
                               },
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1221,6 +1381,7 @@
                           "config": {
                             "orientation": "horizontal"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "e9faf346534",
@@ -1268,7 +1429,11 @@
                               "style": {
                                 "color": "white"
                               },
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1331,7 +1496,11 @@
             "isGlobal": false,
             "languageConfiguration": {
               "defaultCode": "en",
-              "codes": ["en", "sr"]
+              "codes": [
+                "en",
+                "sr",
+                "de"
+              ]
             },
             "entryConfiguration": [
               {
@@ -1344,6 +1513,10 @@
                   {
                     "value": "Primalac",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Rechnung An",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1357,6 +1530,10 @@
                   {
                     "value": "FAKTURA",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "RECHNUG",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1370,6 +1547,10 @@
                   {
                     "value": "Datum",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Datum",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1383,6 +1564,10 @@
                   {
                     "value": "Platiti do",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "F\u00E4lligkeitsdatum",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1396,6 +1581,10 @@
                   {
                     "value": "Broj fakture",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Rechnungsnummer",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1409,6 +1598,10 @@
                   {
                     "value": "Kod",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Artikelnummer",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1422,6 +1615,10 @@
                   {
                     "value": "Opis",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Beschreibung",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1435,6 +1632,10 @@
                   {
                     "value": "Koli\u010Dina",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Menge",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1448,6 +1649,10 @@
                   {
                     "value": "Iznos",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Zwischensumme",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1461,6 +1666,10 @@
                   {
                     "value": "Jed. cijena",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "St\u00FCckpreis",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1474,6 +1683,10 @@
                   {
                     "value": "Porez",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Steuer",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1487,6 +1700,10 @@
                   {
                     "value": "Dostava",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Versandkosten",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1500,6 +1717,10 @@
                   {
                     "value": "Ukupno",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Gesamt",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1513,6 +1734,10 @@
                   {
                     "value": "Napomene",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Hinweise",
+                    "languageCode": "de"
                   }
                 ]
               },
@@ -1526,6 +1751,10 @@
                   {
                     "value": "Uslovi",
                     "languageCode": "sr"
+                  },
+                  {
+                    "value": "Gesch\u00E4ftsbedingungen",
+                    "languageCode": "de"
                   }
                 ]
               }
@@ -1585,7 +1814,7 @@
         "pages": [
           {
             "name": "Standard page",
-            "description": "Standard page",
+            "description": null,
             "pageType": {
               "name": "Standard page",
               "description": "Standard page"
@@ -1699,6 +1928,11 @@
         "name": "Srpski",
         "code": "sr",
         "cultureCode": "sr"
+      },
+      {
+        "name": "Deutsch",
+        "code": "de",
+        "cultureCode": "de"
       }
     ],
     "pageTypes": [
@@ -1710,6 +1944,7 @@
     "parametersDefinitions": null,
     "additionalDataSources": null,
     "globalDataSources": null,
-    "dictionaries": null
+    "dictionaries": null,
+    "parameterGroups": null
   }
 }
