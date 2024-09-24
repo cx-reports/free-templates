@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-09-05T11:40:07.2798372+02:00",
+  "created": "2024-09-24T13:37:23.4241435+02:00",
   "version": "1",
   "data": {
     "reports": [
@@ -370,7 +370,7 @@
                                 "dataSource": null,
                                 "repeatable": false
                               },
-                              "version": 2,
+                              "version": 3,
                               "hideExpr": null,
                               "$expanded": true,
                               "boxStyles": {
@@ -595,7 +595,7 @@
                                   "conditionalStyling": []
                                 }
                               ],
-                              "version": 1,
+                              "version": 2,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -604,7 +604,7 @@
                               },
                               "stylingFor": "cell",
                               "gridOptions": {
-                                "dataSource": "invoiceItems",
+                                "dataSource": "{$data.invoiceItems}",
                                 "groupingConfig": [
                                   {
                                     "enabled": false,
@@ -1532,7 +1532,7 @@
                     "languageCode": "sr"
                   },
                   {
-                    "value": "RECHNUG",
+                    "value": "RECHNUNG",
                     "languageCode": "de"
                   }
                 ]
@@ -1719,7 +1719,7 @@
                     "languageCode": "sr"
                   },
                   {
-                    "value": "Gesamt",
+                    "value": "Gesamtbetrag",
                     "languageCode": "de"
                   }
                 ]
