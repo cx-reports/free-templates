@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-08-13T08:58:28.0360722+02:00",
-  "version": "1",
+  "created": "2024-11-25T11:24:35.8355058+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Bank Account Statement Blue",
-        "isEmbeddable": false,
         "themeName": "Bank Account Statement Blue",
         "reportTypeCode": "BR",
-        "reportTypeName": "Bank Reports",
-        "reportTemplateName": "Bank Account Statement",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "reportTemplateName": "Bank Account Statement Blue",
+        "pages": [
           {
             "number": 1.0000,
             "name": "New Page 1",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -175,33 +171,36 @@
                               ],
                               "type": "key-value-grid",
                               "theme": {
-                                "text": {
-                                  "key-value-grid-key": {
+                                "keyValueGrid": {
+                                  "key": {
                                     "color": null,
+                                    "width": "160px",
                                     "fontWeight": null
                                   },
-                                  "key-value-grid-value": {
+                                  "row": {
+                                    "height": "24px"
+                                  },
+                                  "value": {
                                     "color": null,
                                     "marginTop": null,
                                     "fontWeight": "700",
                                     "lineHeight": null,
                                     "marginBottom": null
                                   },
-                                  "key-value-grid-common": {
+                                  "common": {
                                     "marginTop": "14px"
-                                  }
+                                  },
+                                  "divider": {}
                                 }
                               },
                               "$level": 3,
-                              "layout": {
-                                "keyWidth": "160px",
-                                "rowHeight": "24px"
-                              },
+                              "layout": {},
                               "repeat": {
                                 "alias": null,
                                 "dataSource": null,
                                 "repeatable": false
                               },
+                              "version": 3,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -361,7 +360,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "fontWeight": "700",
                                         "textTransform": "UPPERCASE"
                                       }
@@ -373,7 +372,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -390,7 +389,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "textTransform": "UPPERCASE"
                                       }
                                     }
@@ -401,7 +400,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -419,7 +418,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "textTransform": "UPPERCASE"
                                       }
                                     }
@@ -430,7 +429,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -611,7 +610,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null
                                           }
                                         }
@@ -622,6 +621,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -642,7 +642,7 @@
                                       },
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontWeight": null
                                           }
@@ -654,6 +654,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -697,7 +698,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null
                                           }
                                         }
@@ -708,6 +709,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -728,7 +730,7 @@
                                       },
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontWeight": null
                                           }
@@ -740,6 +742,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -782,7 +785,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null
                                           }
                                         }
@@ -793,6 +796,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -813,7 +817,7 @@
                                       },
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontWeight": null
                                           }
@@ -825,6 +829,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -889,7 +894,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontWeight": "700"
                                           }
@@ -901,6 +906,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -921,7 +927,7 @@
                                       },
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontWeight": "700"
                                           }
@@ -933,6 +939,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": true,
                                       "boxStyles": {
@@ -1386,7 +1393,7 @@
                                   "conditionalStyling": []
                                 }
                               ],
-                              "version": 1,
+                              "version": 2,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1394,7 +1401,7 @@
                               },
                               "stylingFor": "table",
                               "gridOptions": {
-                                "dataSource": "statement.transactions",
+                                "dataSource": "{$data.statement.transactions}",
                                 "groupingConfig": [
                                   {
                                     "keys": [],
@@ -1457,32 +1464,26 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "statement",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Statement",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\r\n  \u0022accountNumber\u0022: \u00221234567890\u0022,\r\n  \u0022customerName\u0022: \u0022John Doe\u0022,\r\n  \u0022address\u0022: {\r\n    \u0022street\u0022: \u0022123 Elm Street\u0022,\r\n    \u0022city\u0022: \u0022Springfield\u0022,\r\n    \u0022state\u0022: \u0022SP\u0022,\r\n    \u0022zipCode\u0022: \u002212345\u0022,\r\n    \u0022country\u0022: \u0022USA\u0022\r\n  },\r\n  \u0022statementPeriod\u0022: {\r\n    \u0022from\u0022: \u00222024-01-01\u0022,\r\n    \u0022to\u0022: \u00222024-01-31\u0022\r\n  },\r\n  \u0022transactions\u0022: [\r\n    {\r\n      \u0022date\u0022: \u00222024-01-01\u0022,\r\n      \u0022description\u0022: \u0022ATM Withdrawal at Bank Branch\u0022,\r\n      \u0022debit\u0022: 100,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022ATM Withdrawal\u0022,\r\n      \u0022balance\u0022: 5221\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-02\u0022,\r\n      \u0022description\u0022: \u0022Coffee at Central Perk Cafe\u0022,\r\n      \u0022debit\u0022: 5.75,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 5215.25\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-03\u0022,\r\n      \u0022description\u0022: \u0022Groceries at Daily Mart\u0022,\r\n      \u0022debit\u0022: 60,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Groceries\u0022,\r\n      \u0022balance\u0022: 5155.25\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-04\u0022,\r\n      \u0022description\u0022: \u0022Netflix Monthly Subscription\u0022,\r\n      \u0022debit\u0022: 12.99,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 5142.26\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-05\u0022,\r\n      \u0022description\u0022: \u0022Monthly Salary Deposit from Acme Corp\u0022,\r\n      \u0022debit\u0022: null,\r\n      \u0022credit\u0022: 2000,\r\n      \u0022category\u0022: \u0022Salary\u0022,\r\n      \u0022balance\u0022: 7142.26\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-06\u0022,\r\n      \u0022description\u0022: \u0022Dinner at Italiano Restaurant\u0022,\r\n      \u0022debit\u0022: 45.2,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 7097.06\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-07\u0022,\r\n      \u0022description\u0022: \u0022Fuel at Green Gas Station\u0022,\r\n      \u0022debit\u0022: 35,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Transportation\u0022,\r\n      \u0022balance\u0022: 7062.06\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-08\u0022,\r\n      \u0022description\u0022: \u0022Medication from HealthPlus Pharmacy\u0022,\r\n      \u0022debit\u0022: 23.5,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Healthcare\u0022,\r\n      \u0022balance\u0022: 7038.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-09\u0022,\r\n      \u0022description\u0022: \u0022Books from ReadMore Bookstore\u0022,\r\n      \u0022debit\u0022: 30,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Education\u0022,\r\n      \u0022balance\u0022: 7008.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-10\u0022,\r\n      \u0022description\u0022: \u0022Transfer to Savings Account #987654321\u0022,\r\n      \u0022debit\u0022: 500,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Savings\u0022,\r\n      \u0022balance\u0022: 6508.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-11\u0022,\r\n      \u0022description\u0022: \u0022Gift Purchase at GiftGalore Store\u0022,\r\n      \u0022debit\u0022: 80,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Gifts\u0022,\r\n      \u0022balance\u0022: 6428.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-12\u0022,\r\n      \u0022description\u0022: \u0022Refund from Electronics Store\u0022,\r\n      \u0022debit\u0022: null,\r\n      \u0022credit\u0022: 150,\r\n      \u0022category\u0022: \u0022Refunds\u0022,\r\n      \u0022balance\u0022: 6578.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-13\u0022,\r\n      \u0022description\u0022: \u0022Movie Theater Tickets at CineMax\u0022,\r\n      \u0022debit\u0022: 25,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 6553.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-14\u0022,\r\n      \u0022description\u0022: \u0022Utility Bill Payment to City Utilities\u0022,\r\n      \u0022debit\u0022: 110,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Utilities\u0022,\r\n      \u0022balance\u0022: 6443.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-15\u0022,\r\n      \u0022description\u0022: \u0022Gym Membership at FitNow Gym\u0022,\r\n      \u0022debit\u0022: 45,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Fitness\u0022,\r\n      \u0022balance\u0022: 6398.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-16\u0022,\r\n      \u0022description\u0022: \u0022Car Loan Repayment to AutoBank\u0022,\r\n      \u0022debit\u0022: 250,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Loan Payment\u0022,\r\n      \u0022balance\u0022: 6148.56\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-17\u0022,\r\n      \u0022description\u0022: \u0022Music Purchase at Online Music Store\u0022,\r\n      \u0022debit\u0022: 15.99,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 6132.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-18\u0022,\r\n      \u0022description\u0022: \u0022Train Ticket for City Transit\u0022,\r\n      \u0022debit\u0022: 30,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Transportation\u0022,\r\n      \u0022balance\u0022: 6102.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-19\u0022,\r\n      \u0022description\u0022: \u0022Online Shopping at eShop.com\u0022,\r\n      \u0022debit\u0022: 120,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Shopping\u0022,\r\n      \u0022balance\u0022: 5982.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-20\u0022,\r\n      \u0022description\u0022: \u0022Hair Salon Appointment at GlamHair\u0022,\r\n      \u0022debit\u0022: 70,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Personal Care\u0022,\r\n      \u0022balance\u0022: 5912.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-21\u0022,\r\n      \u0022description\u0022: \u0022Pet Supplies from PetWorld\u0022,\r\n      \u0022debit\u0022: 50,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Pet Care\u0022,\r\n      \u0022balance\u0022: 5862.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-22\u0022,\r\n      \u0022description\u0022: \u0022Dental Checkup at BrightSmile Clinic\u0022,\r\n      \u0022debit\u0022: 85,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Healthcare\u0022,\r\n      \u0022balance\u0022: 5777.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-23\u0022,\r\n      \u0022description\u0022: \u0022Insurance Premium to SafeLife Insurance\u0022,\r\n      \u0022debit\u0022: 200,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Insurance\u0022,\r\n      \u0022balance\u0022: 5577.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-24\u0022,\r\n      \u0022description\u0022: \u0022Home Decor Purchase at DecorPlus\u0022,\r\n      \u0022debit\u0022: 150,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Home Improvement\u0022,\r\n      \u0022balance\u0022: 5427.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-25\u0022,\r\n      \u0022description\u0022: \u0022Theater Tickets for Broadway Show\u0022,\r\n      \u0022debit\u0022: 180,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Entertainment\u0022,\r\n      \u0022balance\u0022: 5247.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-26\u0022,\r\n      \u0022description\u0022: \u0022Grocery Shopping at FreshFoods Market\u0022,\r\n      \u0022debit\u0022: 95,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Groceries\u0022,\r\n      \u0022balance\u0022: 5152.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-27\u0022,\r\n      \u0022description\u0022: \u0022Electronics Purchase at TechWorld\u0022,\r\n      \u0022debit\u0022: 220,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Electronics\u0022,\r\n      \u0022balance\u0022: 4932.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-28\u0022,\r\n      \u0022description\u0022: \u0022Dining at Chez Gourmet Restaurant\u0022,\r\n      \u0022debit\u0022: 130,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Dining\u0022,\r\n      \u0022balance\u0022: 4802.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-29\u0022,\r\n      \u0022description\u0022: \u0022Yoga Studio Membership at ZenYoga\u0022,\r\n      \u0022debit\u0022: 60,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Fitness\u0022,\r\n      \u0022balance\u0022: 4742.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-30\u0022,\r\n      \u0022description\u0022: \u0022Art Supplies from CreativeArts Store\u0022,\r\n      \u0022debit\u0022: 45,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Hobbies\u0022,\r\n      \u0022balance\u0022: 4697.570000000001\r\n    },\r\n    {\r\n      \u0022date\u0022: \u00222024-01-31\u0022,\r\n      \u0022description\u0022: \u0022Charity Donation to HelpFund\u0022,\r\n      \u0022debit\u0022: 100,\r\n      \u0022credit\u0022: null,\r\n      \u0022category\u0022: \u0022Charity\u0022,\r\n      \u0022balance\u0022: 4597.570000000001\r\n    }\r\n  ],\r\n  \u0022closingBalance\u0022: 4597.570000000001,\r\n  \u0022startingBalance\u0022: 5321,\r\n  \u0022debitTotal\u0022: 2873.4300000000003,\r\n  \u0022creditTotal\u0022: 2150\r\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1491,41 +1492,34 @@
           },
           {
             "name": "expenseCategories",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Expense Categories",
-              "type": 4,
-              "externalDatabaseName": null,
+              "type": "js",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "js": "($params, $data) =\u003E {\r\n let cats = {};\r\n  for (let t of ($data?.statement?.transactions ?? [])) {\r\n    if (t.debit) \r\n    \tcats[t.category] = (cats[t.category] ?? 0) \u002B t.debit;\r\n  }\r\n  let result = Object.keys(cats).map(k =\u003E ({ category: k, amount: cats[k] }));\r\n  result.sort((a, b) =\u003E a.amount - b.amount);\r\n  return result;  \r\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
-        "name": "Bank Account Statement",
+        "name": "Bank Account Statement Blue",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Bank Account Statement Blue",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page following the company template.",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page following the company template."
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -1541,8 +1535,7 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -1581,22 +1574,22 @@
             "cell": {
               "fontSize": "14px",
               "fontFamily": "roboto",
-              "paddingTop-cell": "9px",
-              "paddingBottom-cell": "9px"
+              "paddingTop": "9px",
+              "paddingBottom": "9px"
             },
             "table": {
               "fontSize": null,
               "fontFamily": null,
+              "paddingTop": null,
               "evenRowColor": "#f1f1f1",
-              "paddingTop-table": null,
-              "paddingBottom-table": null
+              "paddingBottom": null
             },
             "header": {
               "color": "rgba(255,255,255,1)",
               "backgroundColor": "var(--dark-slate-blue)"
             },
             "footer1": {
-              "borderTop-footer1": "1px solid "
+              "borderTop": "1px solid "
             }
           },
           "legend": {
@@ -1646,29 +1639,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Bank Reports",
-        "description": "Bank Reports",
-        "code": "BR"
+        "code": "BR",
+        "description": "Bank Reports"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
         "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-09-03T12:13:11.8142019+02:00",
-  "version": "1",
+  "created": "2024-11-25T15:00:10.9913695+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Electricity bill",
-        "isEmbeddable": false,
         "themeName": "Electricity Bill Theme",
         "reportTypeCode": "bill",
-        "reportTypeName": "Bill",
         "reportTemplateName": "Electricity bill",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "Electricity Bill",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -4751,56 +4747,46 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard Report Page",
                 "description": "Standard Report Page"
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "data",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\r\n        \u0022company_info\u0022: {\r\n            \u0022phone_number\u0022: \u0022755 322 8130\u0022,\r\n            \u0022web_contact\u0022: \u0022electravolt.com/contact\u0022,\r\n            \u0022emergency_contact\u0022: \u0022755 864 352\u0022\r\n        },\r\n        \u0022billing_details\u0022: {\r\n            \u0022name\u0022: \u0022John Doe\u0022,\r\n            \u0022street_address\u0022: \u0022123 Elm Street\u0022,\r\n            \u0022city_state_zip\u0022: \u0022Springfield, IL 62704\u0022,\r\n            \u0022period\u0022: \u002201 July 24 - 31 July 24\u0022,\r\n            \u0022billed_date\u0022: \u00221 Aug 2024\u0022,\r\n            \u0022customer_account_number\u0022: \u0022123456789\u0022,\r\n            \u0022due_date\u0022: \u00222024-08-10\u0022,\r\n            \u0022customer_reference_number\u0022: \u0022A123456\u0022\r\n        },\r\n        \u0022payments_breakdown\u0022: {\r\n            \u0022electric_account_number\u0022: \u0022987654321\u0022,\r\n            \u0022service_address\u0022: \u0022123 Elm Street, Springfield, IL 62704\u0022,\r\n            \u0022previous_balance\u0022: 120.75,\r\n            \u0022payment_received_through_date\u0022: \u00222024-07-20\u0022,\r\n            \u0022balance_forward\u0022: 0,\r\n            \u0022basic_charge\u0022: 15.5,\r\n            \u0022total_kwh_usage\u0022: 830,\r\n            \u0022period\u0022: \u002207-01 to 07-31\u0022,\r\n            \u0022price_per_kwh\u0022: 0.12,\r\n            \u0022state_sales_tax\u0022: 5.25,\r\n            \u0022wright_transit_tax\u0022: 1.1,\r\n            \u0022operation_round_up\u0022: 0.75,\r\n            \u0022total_payment\u0022: 122.2,\r\n            \u0022payment_due\u0022: \u002208 Aug 2024\u0022\r\n        },\r\n        \u0022meter_reading_summary\u0022: {\r\n            \u0022type\u0022: \u0022Energy\u0022,\r\n            \u0022meter_number\u0022: \u002212345678\u0022,\r\n            \u0022present_reading\u0022: 10450,\r\n            \u0022previous_reading\u0022: 9630,\r\n            \u0022usage\u0022: 820,\r\n            \u0022days_of_service\u0022: 30,\r\n            \u0022average_temperature_c\u0022: {\r\n                \u0022current_year\u0022: 2024,\r\n                \u0022previous_year\u0022: 2023,\r\n                \u0022current_year_temp_value\u0022: 27,\r\n                \u0022previous_year_temp_value\u0022: 29\r\n            },\r\n            \u0022average_kwh_rate\u0022: 0.12534\r\n        },\r\n        \u0022monthly_usage\u0022: {\r\n            \u0022data_2022\u0022: [\r\n                {\r\n                    \u0022y\u0022: 830,\r\n                    \u0022x\u0022: \u0022Aug\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 790,\r\n                    \u0022x\u0022: \u0022Sep\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 825,\r\n                    \u0022x\u0022: \u0022Oct\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 835,\r\n                    \u0022x\u0022: \u0022Nov\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 925,\r\n                    \u0022x\u0022: \u0022Dec\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 900,\r\n                    \u0022x\u0022: \u0022Jan\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 915,\r\n                    \u0022x\u0022: \u0022Feb\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 895,\r\n                    \u0022x\u0022: \u0022Mar\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 875,\r\n                    \u0022x\u0022: \u0022Apr\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 800,\r\n                    \u0022x\u0022: \u0022May\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 860,\r\n                    \u0022x\u0022: \u0022Jun\u0022\r\n                }\r\n            ],\r\n            \u0022data_2023\u0022: [\r\n                {\r\n                    \u0022y\u0022: 850,\r\n                    \u0022x\u0022: \u0022Aug\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 890,\r\n                    \u0022x\u0022: \u0022Sep\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 845,\r\n                    \u0022x\u0022: \u0022Oct\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 875,\r\n                    \u0022x\u0022: \u0022Nov\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 935,\r\n                    \u0022x\u0022: \u0022Dec\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 910,\r\n                    \u0022x\u0022: \u0022Jan\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 905,\r\n                    \u0022x\u0022: \u0022Feb\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 885,\r\n                    \u0022x\u0022: \u0022Mar\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 865,\r\n                    \u0022x\u0022: \u0022Apr\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 810,\r\n                    \u0022x\u0022: \u0022May\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 830,\r\n                    \u0022x\u0022: \u0022Jun\u0022\r\n                },\r\n                {\r\n                    \u0022y\u0022: 825,\r\n                    \u0022x\u0022: \u0022Jul\u0022\r\n                }\r\n            ],\r\n            \u0022data_2024\u0022: [\r\n                {\r\n                    \u0022y\u0022: 820,\r\n                    \u0022x\u0022: \u0022Jul\u0022\r\n                }\r\n            ]\r\n        },\r\n        \u0022comparison\u0022: [{\r\n            \u0022x\u0022: 3.031,\r\n            \u0022y\u0022: \u0022Efficient homes\u0022\r\n        },\r\n        {\r\n            \u0022x\u0022: 4.191,\r\n            \u0022y\u0022: \u0022Your home\u0022\r\n        },\r\n        {\r\n            \u0022x\u0022: 5.352, \r\n            \u0022y\u0022: \u0022Similar homes\u0022\r\n        }],\r\n        \u0022period_comparison\u0022: \u00222023-12-20 to 2024-01-20\u0022,\r\n        \u0022images\u0022: {\r\n            \u0022emoji_bad\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/emoji-bad.png\u0022,\r\n            \u0022emoji_good\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/emoji-good.png\u0022,\r\n            \u0022emoji_great\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/emoji-great.png\u0022,\r\n            \u0022direct_debit\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/heroicons-direct-debit.png\u0022,\r\n            \u0022outline_creditcard\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/heroicons-outline_credit-card.png\u0022,\r\n            \u0022computer_desktop\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/heroicons_computer-desktop.png\u0022,\r\n            \u0022mobile_phone\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/bills/electricity-bill/images/heroicons_device-phone-mobile.png\u0022\r\n        }\r\n    }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Electricity bill",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Electricity Bill Theme",
         "pages": [
           {
-            "name": "Standard Report Page",
-            "description": "Standard Report Page",
-            "pageType": {
-              "name": "Standard Report Page",
-              "description": "Standard Report Page"
-            },
+            "pageType": "Standard Report Page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -4816,8 +4802,7 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -4971,29 +4956,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Bill",
-        "description": "A type of any sort of bill",
-        "code": "bill"
+        "code": "bill",
+        "description": "A type of any sort of bill"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard Report Page",
         "description": "Standard Report Page"
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

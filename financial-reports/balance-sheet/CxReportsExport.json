@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-25T13:52:14.6575024+02:00",
-  "version": "1",
+  "created": "2024-11-25T11:57:28.1366031+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Balance Sheet Report",
-        "isEmbeddable": false,
         "themeName": "Orange Theme",
-        "reportTypeCode": "other",
-        "reportTypeName": "Other",
+        "reportTypeCode": "financial",
         "reportTemplateName": "Orange Finance",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 3.0000,
             "name": "Liabilities",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -277,460 +273,15 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page"
               }
-            },
-            "embeddedReportName": null
-          },
-          {
-            "number": 1.5000,
-            "name": "Balance Sheet",
-            "configuration": null,
-            "page": {
-              "content": [
-                {
-                  "id": "ffd692e4a1e",
-                  "type": "content",
-                  "$level": 0,
-                  "config": {
-                    "name": "master",
-                    "breakable": true
-                  },
-                  "children": [
-                    {
-                      "id": "d692e4a1e28",
-                      "tag": "h2",
-                      "text": "Balance Sheet",
-                      "type": "heading",
-                      "style": null,
-                      "theme": {
-                        "text": {
-                          "h2": {
-                            "color": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "$theme": {
-                        "text": {
-                          "h2": {
-                            "marginTop": "10px",
-                            "fontFamily": null,
-                            "marginBottom": null
-                          }
-                        }
-                      },
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "includeInTOC": true
-                    },
-                    {
-                      "id": "2e4a1e2886a",
-                      "text": "A balance sheet is a financial statement that provides a snapshot of a company\u0027s financial condition at a specific moment in time, detailing its assets, liabilities, and shareholders\u0027 equity. ",
-                      "type": "text",
-                      "style": null,
-                      "theme": {
-                        "text": {
-                          "p": {
-                            "color": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "boxStyles": {
-                        "style": {
-                          "flexShrink": "0"
-                        },
-                        "cssClasses": null
-                      }
-                    },
-                    {
-                      "id": "3beb2e6c14c",
-                      "tag": "h4",
-                      "text": "Assets",
-                      "type": "heading",
-                      "theme": {
-                        "text": {
-                          "h4": {
-                            "color": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "includeInTOC": true
-                    },
-                    {
-                      "id": "9c5cf790e41",
-                      "type": "generic-chart",
-                      "theme": {
-                        "chart": {
-                          "colorA": {
-                            "fill": null
-                          },
-                          "colorB": {
-                            "fill": "rgba(226,72,23,0.52)"
-                          },
-                          "colorC": {
-                            "fill": null
-                          },
-                          "colorD": {
-                            "fill": null
-                          },
-                          "colorE": {
-                            "fill": null
-                          },
-                          "colorF": {
-                            "fill": null
-                          },
-                          "colorG": {
-                            "fill": null
-                          },
-                          "colorH": {
-                            "fill": null
-                          },
-                          "colorI": {
-                            "fill": null
-                          },
-                          "colorJ": {
-                            "fill": null
-                          },
-                          "colorK": {
-                            "fill": null
-                          },
-                          "colorL": {
-                            "fill": null
-                          },
-                          "colorM": {
-                            "fill": null
-                          },
-                          "colorN": {
-                            "fill": null
-                          },
-                          "colorO": {
-                            "fill": null
-                          },
-                          "colorP": {
-                            "fill": null
-                          }
-                        },
-                        "legend": {
-                          "shape": "null",
-                          "config": {}
-                        },
-                        "pieLabel": {
-                          "axisLabels": {
-                            "fontSize": "12px"
-                          }
-                        },
-                        "guideline": {
-                          "border": {
-                            "stroke": null
-                          }
-                        },
-                        "chartLabel": {
-                          "text": {},
-                          "axisLabels": {
-                            "fontSize": "12px"
-                          }
-                        },
-                        "zeroMarker": {
-                          "showX": false,
-                          "showY": false,
-                          "zeroMarkerX": {
-                            "stroke": null
-                          },
-                          "zeroMarkerY": {
-                            "stroke": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "layout": {
-                        "axes": {
-                          "x": {
-                            "type": "numeric",
-                            "format": "currency;USD;0;2;c",
-                            "inverted": false,
-                            "labelOffset": 10
-                          },
-                          "y": {
-                            "type": "category",
-                            "inverted": true,
-                            "vertical": true,
-                            "labelOffset": 10
-                          }
-                        },
-                        "chart": {
-                          "offset": "10 -40 -40 200",
-                          "autoSize": true,
-                          "showVerticalGridLines": true,
-                          "showHorizontalGridLines": true
-                        },
-                        "legendConfig": {
-                          "align": "center",
-                          "vAlign": "bottom",
-                          "vertical": false,
-                          "hideLegend": false
-                        }
-                      },
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "series": [
-                        {
-                          "id": "fd0e0579-3842-4820-89de-c81dcf166427",
-                          "name": "This Year",
-                          "size": 0.5,
-                          "offset": null,
-                          "xField": "balance",
-                          "yField": "item_title",
-                          "chartType": "bar",
-                          "dataSource": "assetsSorted"
-                        },
-                        {
-                          "id": "995f2cec-e836-4e70-a2fd-7eb45352c55f",
-                          "name": "Last Year",
-                          "size": 0.5,
-                          "offset": null,
-                          "xField": "last_year_balance",
-                          "yField": "item_title",
-                          "chartType": "bar",
-                          "dataSource": "assetsSorted"
-                        }
-                      ],
-                      "colorMap": {
-                        "colorMapName": "default",
-                        "useSpecificColorMap": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "boxStyles": {
-                        "style": "height:400px",
-                        "cssClasses": null
-                      }
-                    },
-                    {
-                      "id": "eb2e6c14cf1",
-                      "tag": "h4",
-                      "text": "Liabilities",
-                      "type": "heading",
-                      "theme": {
-                        "text": {
-                          "h4": {
-                            "color": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "includeInTOC": true
-                    },
-                    {
-                      "id": "c5cf790e415",
-                      "type": "generic-chart",
-                      "theme": {
-                        "chart": {
-                          "colorA": {
-                            "fill": null
-                          },
-                          "colorB": {
-                            "fill": "rgba(226,72,23,0.52)"
-                          },
-                          "colorC": {
-                            "fill": null
-                          },
-                          "colorD": {
-                            "fill": null
-                          },
-                          "colorE": {
-                            "fill": null
-                          },
-                          "colorF": {
-                            "fill": null
-                          },
-                          "colorG": {
-                            "fill": null
-                          },
-                          "colorH": {
-                            "fill": null
-                          },
-                          "colorI": {
-                            "fill": null
-                          },
-                          "colorJ": {
-                            "fill": null
-                          },
-                          "colorK": {
-                            "fill": null
-                          },
-                          "colorL": {
-                            "fill": null
-                          },
-                          "colorM": {
-                            "fill": null
-                          },
-                          "colorN": {
-                            "fill": null
-                          },
-                          "colorO": {
-                            "fill": null
-                          },
-                          "colorP": {
-                            "fill": null
-                          }
-                        },
-                        "legend": {
-                          "shape": "null",
-                          "config": {}
-                        },
-                        "pieLabel": {
-                          "axisLabels": {
-                            "fontSize": "12px"
-                          }
-                        },
-                        "guideline": {
-                          "border": {
-                            "stroke": null
-                          }
-                        },
-                        "chartLabel": {
-                          "text": {},
-                          "axisLabels": {
-                            "fontSize": "12px"
-                          }
-                        },
-                        "zeroMarker": {
-                          "showX": false,
-                          "showY": false,
-                          "zeroMarkerX": {
-                            "stroke": null
-                          },
-                          "zeroMarkerY": {
-                            "stroke": null
-                          }
-                        }
-                      },
-                      "$level": 1,
-                      "layout": {
-                        "axes": {
-                          "x": {
-                            "type": "numeric",
-                            "format": "currency;USD;0;2;c",
-                            "inverted": false,
-                            "labelOffset": 10
-                          },
-                          "y": {
-                            "type": "category",
-                            "inverted": true,
-                            "vertical": true,
-                            "labelOffset": 10
-                          }
-                        },
-                        "chart": {
-                          "offset": "10 -40 -40 200",
-                          "autoSize": true,
-                          "showVerticalGridLines": true,
-                          "showHorizontalGridLines": true
-                        },
-                        "legendConfig": {
-                          "align": "center",
-                          "vAlign": "bottom",
-                          "vertical": false,
-                          "hideLegend": false
-                        }
-                      },
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "series": [
-                        {
-                          "id": "fd0e0579-3842-4820-89de-c81dcf166427",
-                          "name": "This Year",
-                          "size": 0.5,
-                          "offset": null,
-                          "xField": "balance",
-                          "yField": "item_title",
-                          "chartType": "bar",
-                          "dataSource": "liabilitiesSorted"
-                        },
-                        {
-                          "id": "995f2cec-e836-4e70-a2fd-7eb45352c55f",
-                          "name": "Last Year",
-                          "size": 0.5,
-                          "offset": null,
-                          "xField": "last_year_balance",
-                          "yField": "item_title",
-                          "chartType": "bar",
-                          "dataSource": "liabilitiesSorted"
-                        }
-                      ],
-                      "colorMap": {
-                        "colorMapName": "default",
-                        "useSpecificColorMap": false
-                      },
-                      "hideExpr": null,
-                      "$expanded": false,
-                      "boxStyles": {
-                        "style": "height:400px",
-                        "cssClasses": null
-                      }
-                    }
-                  ],
-                  "hideExpr": null,
-                  "$expanded": true,
-                  "boxStyles": {
-                    "cssClasses": null
-                  }
-                }
-              ],
-              "isCountable": true,
-              "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
-              "pageType": {
-                "name": "Standard page",
-                "description": "Standard page"
-              }
-            },
-            "embeddedReportName": null
+            }
           },
           {
             "number": 2.0000,
             "name": "Assets",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -997,32 +548,466 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page"
               }
-            },
-            "embeddedReportName": null
+            }
+          },
+          {
+            "number": 1.5000,
+            "name": "Balance Sheet",
+            "page": {
+              "content": [
+                {
+                  "id": "ffd692e4a1e",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": true
+                  },
+                  "children": [
+                    {
+                      "id": "d692e4a1e28",
+                      "tag": "h2",
+                      "text": "Balance Sheet",
+                      "type": "heading",
+                      "style": null,
+                      "theme": {
+                        "text": {
+                          "h2": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "$theme": {
+                        "text": {
+                          "h2": {
+                            "marginTop": "10px",
+                            "fontFamily": null,
+                            "marginBottom": null
+                          }
+                        }
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "2e4a1e2886a",
+                      "text": "A balance sheet is a financial statement that provides a snapshot of a company\u0027s financial condition at a specific moment in time, detailing its assets, liabilities, and shareholders\u0027 equity. ",
+                      "type": "text",
+                      "style": null,
+                      "theme": {
+                        "text": {
+                          "span": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 1,
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "flexShrink": "0"
+                        },
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "3beb2e6c14c",
+                      "tag": "h4",
+                      "text": "Assets",
+                      "type": "heading",
+                      "theme": {
+                        "text": {
+                          "h4": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "9c5cf790e41",
+                      "type": "generic-chart",
+                      "theme": {
+                        "chart": {
+                          "colorA": {
+                            "fill": null
+                          },
+                          "colorB": {
+                            "fill": "rgba(226,72,23,0.52)"
+                          },
+                          "colorC": {
+                            "fill": null
+                          },
+                          "colorD": {
+                            "fill": null
+                          },
+                          "colorE": {
+                            "fill": null
+                          },
+                          "colorF": {
+                            "fill": null
+                          },
+                          "colorG": {
+                            "fill": null
+                          },
+                          "colorH": {
+                            "fill": null
+                          },
+                          "colorI": {
+                            "fill": null
+                          },
+                          "colorJ": {
+                            "fill": null
+                          },
+                          "colorK": {
+                            "fill": null
+                          },
+                          "colorL": {
+                            "fill": null
+                          },
+                          "colorM": {
+                            "fill": null
+                          },
+                          "colorN": {
+                            "fill": null
+                          },
+                          "colorO": {
+                            "fill": null
+                          },
+                          "colorP": {
+                            "fill": null
+                          }
+                        },
+                        "legend": {
+                          "shape": "null",
+                          "config": {}
+                        },
+                        "pieLabel": {
+                          "axisLabels": {
+                            "fontSize": "12px"
+                          }
+                        },
+                        "guideline": {
+                          "border": {
+                            "stroke": null
+                          }
+                        },
+                        "chartLabel": {
+                          "text": {},
+                          "axisLabels": {
+                            "fontSize": "12px"
+                          }
+                        },
+                        "zeroMarker": {
+                          "showX": false,
+                          "showY": false,
+                          "zeroMarkerX": {
+                            "stroke": null
+                          },
+                          "zeroMarkerY": {
+                            "stroke": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "layout": {
+                        "axes": {
+                          "x": {
+                            "type": "numeric",
+                            "format": "currency;USD;0;2;c",
+                            "inverted": false,
+                            "labelOffset": 10
+                          },
+                          "y": {
+                            "type": "category",
+                            "inverted": true,
+                            "vertical": true,
+                            "labelOffset": 10
+                          }
+                        },
+                        "chart": {
+                          "offset": "10 -40 -40 200",
+                          "autoSize": true,
+                          "showVerticalGridLines": true,
+                          "showHorizontalGridLines": true
+                        },
+                        "legendConfig": {
+                          "align": "center",
+                          "vAlign": "bottom",
+                          "vertical": false,
+                          "hideLegend": false
+                        }
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "series": [
+                        {
+                          "id": "fd0e0579-3842-4820-89de-c81dcf166427",
+                          "name": "This Year",
+                          "size": 0.5,
+                          "offset": null,
+                          "xField": "balance",
+                          "yField": "item_title",
+                          "chartType": "bar",
+                          "dataSource": "{$data.assetsSorted}"
+                        },
+                        {
+                          "id": "995f2cec-e836-4e70-a2fd-7eb45352c55f",
+                          "name": "Last Year",
+                          "size": 0.5,
+                          "offset": null,
+                          "xField": "last_year_balance",
+                          "yField": "item_title",
+                          "chartType": "bar",
+                          "dataSource": "{$data.assetsSorted}"
+                        }
+                      ],
+                      "version": 1,
+                      "colorMap": {
+                        "colorMapName": "default",
+                        "useSpecificColorMap": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": "height:400px",
+                        "cssClasses": null
+                      }
+                    },
+                    {
+                      "id": "eb2e6c14cf1",
+                      "tag": "h4",
+                      "text": "Liabilities",
+                      "type": "heading",
+                      "theme": {
+                        "text": {
+                          "h4": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "includeInTOC": true
+                    },
+                    {
+                      "id": "c5cf790e415",
+                      "type": "generic-chart",
+                      "theme": {
+                        "chart": {
+                          "colorA": {
+                            "fill": null
+                          },
+                          "colorB": {
+                            "fill": "rgba(226,72,23,0.52)"
+                          },
+                          "colorC": {
+                            "fill": null
+                          },
+                          "colorD": {
+                            "fill": null
+                          },
+                          "colorE": {
+                            "fill": null
+                          },
+                          "colorF": {
+                            "fill": null
+                          },
+                          "colorG": {
+                            "fill": null
+                          },
+                          "colorH": {
+                            "fill": null
+                          },
+                          "colorI": {
+                            "fill": null
+                          },
+                          "colorJ": {
+                            "fill": null
+                          },
+                          "colorK": {
+                            "fill": null
+                          },
+                          "colorL": {
+                            "fill": null
+                          },
+                          "colorM": {
+                            "fill": null
+                          },
+                          "colorN": {
+                            "fill": null
+                          },
+                          "colorO": {
+                            "fill": null
+                          },
+                          "colorP": {
+                            "fill": null
+                          }
+                        },
+                        "legend": {
+                          "shape": "null",
+                          "config": {}
+                        },
+                        "pieLabel": {
+                          "axisLabels": {
+                            "fontSize": "12px"
+                          }
+                        },
+                        "guideline": {
+                          "border": {
+                            "stroke": null
+                          }
+                        },
+                        "chartLabel": {
+                          "text": {},
+                          "axisLabels": {
+                            "fontSize": "12px"
+                          }
+                        },
+                        "zeroMarker": {
+                          "showX": false,
+                          "showY": false,
+                          "zeroMarkerX": {
+                            "stroke": null
+                          },
+                          "zeroMarkerY": {
+                            "stroke": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "layout": {
+                        "axes": {
+                          "x": {
+                            "type": "numeric",
+                            "format": "currency;USD;0;2;c",
+                            "inverted": false,
+                            "labelOffset": 10
+                          },
+                          "y": {
+                            "type": "category",
+                            "inverted": true,
+                            "vertical": true,
+                            "labelOffset": 10
+                          }
+                        },
+                        "chart": {
+                          "offset": "10 -40 -40 200",
+                          "autoSize": true,
+                          "showVerticalGridLines": true,
+                          "showHorizontalGridLines": true
+                        },
+                        "legendConfig": {
+                          "align": "center",
+                          "vAlign": "bottom",
+                          "vertical": false,
+                          "hideLegend": false
+                        }
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "series": [
+                        {
+                          "id": "fd0e0579-3842-4820-89de-c81dcf166427",
+                          "name": "This Year",
+                          "size": 0.5,
+                          "offset": null,
+                          "xField": "balance",
+                          "yField": "item_title",
+                          "chartType": "bar",
+                          "dataSource": "{$data.liabilitiesSorted}"
+                        },
+                        {
+                          "id": "995f2cec-e836-4e70-a2fd-7eb45352c55f",
+                          "name": "Last Year",
+                          "size": 0.5,
+                          "offset": null,
+                          "xField": "last_year_balance",
+                          "yField": "item_title",
+                          "chartType": "bar",
+                          "dataSource": "{$data.liabilitiesSorted}"
+                        }
+                      ],
+                      "version": 1,
+                      "colorMap": {
+                        "colorMapName": "default",
+                        "useSpecificColorMap": false
+                      },
+                      "hideExpr": null,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": "height:400px",
+                        "cssClasses": null
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true,
+                  "boxStyles": {
+                    "cssClasses": null
+                  }
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "balanceSheet",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Balance Sheet",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n  {\n    \u0022item_id\u0022: \u0022ITM001\u0022,\n    \u0022item_title\u0022: \u0022Cash and Cash Equivalents\u0022,\n    \u0022item_description\u0022: \u0022Includes physical currency, bank accounts, and short-term investments that are easily convertible to known amounts of cash.\u0022,\n    \u0022item_category\u0022: \u0022Current Assets\u0022,\n    \u0022balance\u0022: 75000.00,\n    \u0022last_year_balance\u0022: 80000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM002\u0022,\n    \u0022item_title\u0022: \u0022Short-Term Investments\u0022,\n    \u0022item_description\u0022: \u0022Investments that are expected to be converted into cash within one year.\u0022,\n    \u0022item_category\u0022: \u0022Current Assets\u0022,\n    \u0022balance\u0022: 20000.00,\n    \u0022last_year_balance\u0022: 15000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM003\u0022,\n    \u0022item_title\u0022: \u0022Accounts Receivable\u0022,\n    \u0022item_description\u0022: \u0022Money owed to the company by customers for sales made on credit.\u0022,\n    \u0022item_category\u0022: \u0022Current Assets\u0022,\n    \u0022balance\u0022: 60000.00,\n    \u0022last_year_balance\u0022: 55000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM004\u0022,\n    \u0022item_title\u0022: \u0022Inventory\u0022,\n    \u0022item_description\u0022: \u0022The cost of products that are ready for sale.\u0022,\n    \u0022item_category\u0022: \u0022Current Assets\u0022,\n    \u0022balance\u0022: 50000.00,\n    \u0022last_year_balance\u0022: 45000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM005\u0022,\n    \u0022item_title\u0022: \u0022Prepaid Expenses\u0022,\n    \u0022item_description\u0022: \u0022Payments made for expenses which are not yet incurred.\u0022,\n    \u0022item_category\u0022: \u0022Current Assets\u0022,\n    \u0022balance\u0022: 10000.00,\n    \u0022last_year_balance\u0022: 8000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM006\u0022,\n    \u0022item_title\u0022: \u0022Property, Plant, and Equipment\u0022,\n    \u0022item_description\u0022: \u0022Long-term assets like buildings, machinery, and equipment used for operations.\u0022,\n    \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n    \u0022balance\u0022: 250000.00,\n    \u0022last_year_balance\u0022: 245000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM007\u0022,\n    \u0022item_title\u0022: \u0022Goodwill\u0022,\n    \u0022item_description\u0022: \u0022An intangible asset that arises when a business is acquired for more than the fair value of its net identifiable assets.\u0022,\n    \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n    \u0022balance\u0022: 30000.00,\n    \u0022last_year_balance\u0022: 30000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM008\u0022,\n    \u0022item_title\u0022: \u0022Intangible Assets\u0022,\n    \u0022item_description\u0022: \u0022Non-physical assets like patents, copyrights, and trademarks.\u0022,\n    \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n    \u0022balance\u0022: 40000.00,\n    \u0022last_year_balance\u0022: 35000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM009\u0022,\n    \u0022item_title\u0022: \u0022Accounts Payable\u0022,\n    \u0022item_description\u0022: \u0022Obligations to pay for goods or services that have been acquired from suppliers on credit.\u0022,\n    \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n    \u0022balance\u0022: 30000.00,\n    \u0022last_year_balance\u0022: 25000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM010\u0022,\n    \u0022item_title\u0022: \u0022Short-Term Debt\u0022,\n    \u0022item_description\u0022: \u0022Debt due to be paid within one year.\u0022,\n    \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n    \u0022balance\u0022: 20000.00,\n    \u0022last_year_balance\u0022: 15000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM011\u0022,\n    \u0022item_title\u0022: \u0022Accrued Liabilities\u0022,\n    \u0022item_description\u0022: \u0022Expenses that have been incurred but not yet paid.\u0022,\n    \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n    \u0022balance\u0022: 10000.00,\n    \u0022last_year_balance\u0022: 12000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM012\u0022,\n    \u0022item_title\u0022: \u0022Long-Term Debt\u0022,\n    \u0022item_description\u0022: \u0022Debt that is not due within the next year.\u0022,\n    \u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n    \u0022balance\u0022: 100000.00,\n    \u0022last_year_balance\u0022: 95000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM013\u0022,\n    \u0022item_title\u0022: \u0022Deferred Tax Liabilities\u0022,\n    \u0022item_description\u0022: \u0022Taxes that have been accrued but will not be paid for until a future period.\u0022,\n    \u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n    \u0022balance\u0022: 15000.00,\n    \u0022last_year_balance\u0022: 14000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM014\u0022,\n    \u0022item_title\u0022: \u0022Share Capital\u0022,\n    \u0022item_description\u0022: \u0022Funds raised by issuing shares in return for cash or other considerations.\u0022,\n    \u0022item_category\u0022: \u0022Equity\u0022,\n    \u0022balance\u0022: 50000.00,\n    \u0022last_year_balance\u0022: 50000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM015\u0022,\n    \u0022item_title\u0022: \u0022Retained Earnings\u0022,\n    \u0022item_description\u0022: \u0022The cumulative net income minus any dividends paid to shareholders.\u0022,\n    \u0022item_category\u0022: \u0022Equity\u0022,\n    \u0022balance\u0022: 120000.00,\n    \u0022last_year_balance\u0022: 110000.00\n  },\n  {\n    \u0022item_id\u0022: \u0022ITM016\u0022,\n    \u0022item_title\u0022: \u0022Other Comprehensive Income\u0022,\n    \u0022item_description\u0022: \u0022Revenues, expenses, gains, and losses that are excluded from net income on the income statement.\u0022,\n    \u0022item_category\u0022: \u0022Equity\u0022,\n    \u0022balance\u0022: 5000.00,\n    \u0022last_year_balance\u0022: 3000.00\n  }\n]\n"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1031,17 +1016,14 @@
           },
           {
             "name": "assets",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Assets",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\n      \u0022item_id\u0022: \u0022ITM001\u0022,\n      \u0022item_title\u0022: \u0022Cash and Cash Equivalents\u0022,\n      \u0022item_description\u0022: \u0022Includes physical currency, bank accounts, and short-term investments that are easily convertible to known amounts of cash.\u0022,\n      \u0022item_category\u0022: \u0022Current Assets\u0022,\n      \u0022balance\u0022: 75000.00,\n      \u0022last_year_balance\u0022: 80000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM002\u0022,\n      \u0022item_title\u0022: \u0022Short-Term Investments\u0022,\n      \u0022item_description\u0022: \u0022Investments that are expected to be converted into cash within one year.\u0022,\n      \u0022item_category\u0022: \u0022Current Assets\u0022,\n      \u0022balance\u0022: 20000.00,\n      \u0022last_year_balance\u0022: 15000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM003\u0022,\n      \u0022item_title\u0022: \u0022Accounts Receivable\u0022,\n      \u0022item_description\u0022: \u0022Money owed to the company by customers for sales made on credit.\u0022,\n      \u0022item_category\u0022: \u0022Current Assets\u0022,\n      \u0022balance\u0022: 60000.00,\n      \u0022last_year_balance\u0022: 55000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM004\u0022,\n      \u0022item_title\u0022: \u0022Inventory\u0022,\n      \u0022item_description\u0022: \u0022The cost of products that are ready for sale.\u0022,\n      \u0022item_category\u0022: \u0022Current Assets\u0022,\n      \u0022balance\u0022: 50000.00,\n      \u0022last_year_balance\u0022: 45000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM005\u0022,\n      \u0022item_title\u0022: \u0022Prepaid Expenses\u0022,\n      \u0022item_description\u0022: \u0022Payments made for expenses which are not yet incurred.\u0022,\n      \u0022item_category\u0022: \u0022Current Assets\u0022,\n      \u0022balance\u0022: 10000.00,\n      \u0022last_year_balance\u0022: 8000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM006\u0022,\n      \u0022item_title\u0022: \u0022Property, Plant, and Equipment\u0022,\n      \u0022item_description\u0022: \u0022Long-term assets like buildings, machinery, and equipment used for operations.\u0022,\n      \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n      \u0022balance\u0022: 250000.00,\n      \u0022last_year_balance\u0022: 245000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM007\u0022,\n      \u0022item_title\u0022: \u0022Goodwill\u0022,\n      \u0022item_description\u0022: \u0022An intangible asset that arises when a business is acquired for more than the fair value of its net identifiable assets.\u0022,\n      \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n      \u0022balance\u0022: 30000.00,\n      \u0022last_year_balance\u0022: 30000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM008\u0022,\n      \u0022item_title\u0022: \u0022Intangible Assets\u0022,\n      \u0022item_description\u0022: \u0022Non-physical assets like patents, copyrights, and trademarks.\u0022,\n      \u0022item_category\u0022: \u0022Non-current Assets\u0022,\n      \u0022balance\u0022: 40000.00,\n      \u0022last_year_balance\u0022: 35000.00\n    }    \n  ]\n  "
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1050,17 +1032,14 @@
           },
           {
             "name": "liabilities",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Liabilities",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\n      \u0022item_id\u0022: \u0022ITM009\u0022,\n      \u0022item_title\u0022: \u0022Accounts Payable\u0022,\n      \u0022item_description\u0022: \u0022Obligations to pay for goods or services that have been acquired from suppliers on credit.\u0022,\n      \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n      \u0022balance\u0022: 30000.00,\n      \u0022last_year_balance\u0022: 25000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM010\u0022,\n      \u0022item_title\u0022: \u0022Short-Term Debt\u0022,\n      \u0022item_description\u0022: \u0022Debt due to be paid within one year.\u0022,\n      \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n      \u0022balance\u0022: 20000.00,\n      \u0022last_year_balance\u0022: 15000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM011\u0022,\n      \u0022item_title\u0022: \u0022Accrued Liabilities\u0022,\n      \u0022item_description\u0022: \u0022Expenses that have been incurred but not yet paid.\u0022,\n      \u0022item_category\u0022: \u0022Current Liabilities\u0022,\n      \u0022balance\u0022: 10000.00,\n      \u0022last_year_balance\u0022: 12000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM012\u0022,\n      \u0022item_title\u0022: \u0022Long-Term Debt\u0022,\n      \u0022item_description\u0022: \u0022Debt that is not due within the next year.\u0022,\n      \u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n      \u0022balance\u0022: 100000.00,\n      \u0022last_year_balance\u0022: 95000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM013\u0022,\n      \u0022item_title\u0022: \u0022Deferred Tax Liabilities\u0022,\n      \u0022item_description\u0022: \u0022Taxes that have been accrued but will not be paid for until a future period.\u0022,\n      \u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n      \u0022balance\u0022: 15000.00,\n      \u0022last_year_balance\u0022: 14000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM014\u0022,\n      \u0022item_title\u0022: \u0022Share Capital\u0022,\n      \u0022item_description\u0022: \u0022Funds raised by issuing shares in return for cash or other considerations.\u0022,\n      \u0022item_category\u0022: \u0022Equity\u0022,\n      \u0022balance\u0022: 150000.00,\n      \u0022last_year_balance\u0022: 150000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM015\u0022,\n      \u0022item_title\u0022: \u0022Retained Earnings\u0022,\n      \u0022item_description\u0022: \u0022The cumulative net income minus any dividends paid to shareholders.\u0022,\n      \u0022item_category\u0022: \u0022Equity\u0022,\n      \u0022balance\u0022: 205000.00,\n      \u0022last_year_balance\u0022: 195000.00\n    },\n    {\n      \u0022item_id\u0022: \u0022ITM016\u0022,\n      \u0022item_title\u0022: \u0022Other Comprehensive Income\u0022,\n      \u0022item_description\u0022: \u0022Revenues, expenses, gains, and losses that are excluded from net income on the income statement.\u0022,\n      \u0022item_category\u0022: \u0022Equity\u0022,\n      \u0022balance\u0022: 5000.00,\n      \u0022last_year_balance\u0022: 7000.00\n    }\n  ]\n  "
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1069,17 +1048,14 @@
           },
           {
             "name": "assetsSorted",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Assets sorted",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM006\u0022,\n\t\t\u0022item_title\u0022: \u0022Property, Plant, and Equipment\u0022,\n\t\t\u0022item_description\u0022: \u0022Long-term assets like buildings, machinery, and equipment used for operations.\u0022,\n\t\t\u0022item_category\u0022: \u0022Non-current Assets\u0022,\n\t\t\u0022balance\u0022: 250000,\n\t\t\u0022last_year_balance\u0022: 245000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM001\u0022,\n\t\t\u0022item_title\u0022: \u0022Cash and Cash Equivalents\u0022,\n\t\t\u0022item_description\u0022: \u0022Includes physical currency, bank accounts, and short-term investments that are easily convertible to known amounts of cash.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Assets\u0022,\n\t\t\u0022balance\u0022: 75000,\n\t\t\u0022last_year_balance\u0022: 80000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM003\u0022,\n\t\t\u0022item_title\u0022: \u0022Accounts Receivable\u0022,\n\t\t\u0022item_description\u0022: \u0022Money owed to the company by customers for sales made on credit.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Assets\u0022,\n\t\t\u0022balance\u0022: 60000,\n\t\t\u0022last_year_balance\u0022: 55000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM004\u0022,\n\t\t\u0022item_title\u0022: \u0022Inventory\u0022,\n\t\t\u0022item_description\u0022: \u0022The cost of products that are ready for sale.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Assets\u0022,\n\t\t\u0022balance\u0022: 50000,\n\t\t\u0022last_year_balance\u0022: 45000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM008\u0022,\n\t\t\u0022item_title\u0022: \u0022Intangible Assets\u0022,\n\t\t\u0022item_description\u0022: \u0022Non-physical assets like patents, copyrights, and trademarks.\u0022,\n\t\t\u0022item_category\u0022: \u0022Non-current Assets\u0022,\n\t\t\u0022balance\u0022: 40000,\n\t\t\u0022last_year_balance\u0022: 35000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM007\u0022,\n\t\t\u0022item_title\u0022: \u0022Goodwill\u0022,\n\t\t\u0022item_description\u0022: \u0022An intangible asset that arises when a business is acquired for more than the fair value of its net identifiable assets.\u0022,\n\t\t\u0022item_category\u0022: \u0022Non-current Assets\u0022,\n\t\t\u0022balance\u0022: 30000,\n\t\t\u0022last_year_balance\u0022: 30000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM002\u0022,\n\t\t\u0022item_title\u0022: \u0022Short-Term Investments\u0022,\n\t\t\u0022item_description\u0022: \u0022Investments that are expected to be converted into cash within one year.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Assets\u0022,\n\t\t\u0022balance\u0022: 20000,\n\t\t\u0022last_year_balance\u0022: 15000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM005\u0022,\n\t\t\u0022item_title\u0022: \u0022Prepaid Expenses\u0022,\n\t\t\u0022item_description\u0022: \u0022Payments made for expenses which are not yet incurred.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Assets\u0022,\n\t\t\u0022balance\u0022: 10000,\n\t\t\u0022last_year_balance\u0022: 8000\n\t}\n]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1088,41 +1064,34 @@
           },
           {
             "name": "liabilitiesSorted",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Liabilities Sorted",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM015\u0022,\n\t\t\u0022item_title\u0022: \u0022Retained Earnings\u0022,\n\t\t\u0022item_description\u0022: \u0022The cumulative net income minus any dividends paid to shareholders.\u0022,\n\t\t\u0022item_category\u0022: \u0022Equity\u0022,\n\t\t\u0022balance\u0022: 205000,\n\t\t\u0022last_year_balance\u0022: 195000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM014\u0022,\n\t\t\u0022item_title\u0022: \u0022Share Capital\u0022,\n\t\t\u0022item_description\u0022: \u0022Funds raised by issuing shares in return for cash or other considerations.\u0022,\n\t\t\u0022item_category\u0022: \u0022Equity\u0022,\n\t\t\u0022balance\u0022: 150000,\n\t\t\u0022last_year_balance\u0022: 150000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM012\u0022,\n\t\t\u0022item_title\u0022: \u0022Long-Term Debt\u0022,\n\t\t\u0022item_description\u0022: \u0022Debt that is not due within the next year.\u0022,\n\t\t\u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n\t\t\u0022balance\u0022: 100000,\n\t\t\u0022last_year_balance\u0022: 95000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM009\u0022,\n\t\t\u0022item_title\u0022: \u0022Accounts Payable\u0022,\n\t\t\u0022item_description\u0022: \u0022Obligations to pay for goods or services that have been acquired from suppliers on credit.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Liabilities\u0022,\n\t\t\u0022balance\u0022: 30000,\n\t\t\u0022last_year_balance\u0022: 25000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM010\u0022,\n\t\t\u0022item_title\u0022: \u0022Short-Term Debt\u0022,\n\t\t\u0022item_description\u0022: \u0022Debt due to be paid within one year.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Liabilities\u0022,\n\t\t\u0022balance\u0022: 20000,\n\t\t\u0022last_year_balance\u0022: 15000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM013\u0022,\n\t\t\u0022item_title\u0022: \u0022Deferred Tax Liabilities\u0022,\n\t\t\u0022item_description\u0022: \u0022Taxes that have been accrued but will not be paid for until a future period.\u0022,\n\t\t\u0022item_category\u0022: \u0022Non-current Liabilities\u0022,\n\t\t\u0022balance\u0022: 15000,\n\t\t\u0022last_year_balance\u0022: 14000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM011\u0022,\n\t\t\u0022item_title\u0022: \u0022Accrued Liabilities\u0022,\n\t\t\u0022item_description\u0022: \u0022Expenses that have been incurred but not yet paid.\u0022,\n\t\t\u0022item_category\u0022: \u0022Current Liabilities\u0022,\n\t\t\u0022balance\u0022: 10000,\n\t\t\u0022last_year_balance\u0022: 12000\n\t},\n\t{\n\t\t\u0022item_id\u0022: \u0022ITM016\u0022,\n\t\t\u0022item_title\u0022: \u0022Other Comprehensive Income\u0022,\n\t\t\u0022item_description\u0022: \u0022Revenues, expenses, gains, and losses that are excluded from net income on the income statement.\u0022,\n\t\t\u0022item_category\u0022: \u0022Equity\u0022,\n\t\t\u0022balance\u0022: 5000,\n\t\t\u0022last_year_balance\u0022: 7000\n\t}\n]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Orange Finance",
         "defaultPaperMargins": "12.7mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Orange Theme",
         "pages": [
           {
-            "name": "Cover page",
-            "description": "Cover page",
-            "pageType": {
-              "name": "Cover Page",
-              "description": "Cover page"
-            },
+            "pageType": "Cover Page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -1138,16 +1107,10 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           },
           {
-            "name": "Rotated page",
-            "description": "Rotated page",
-            "pageType": {
-              "name": "Rotated page",
-              "description": "Rotated page"
-            },
+            "pageType": "Rotated page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -1261,15 +1224,10 @@
                 }
               }
             ],
-            "paperOrientation": 1
+            "paperOrientation": "landscape"
           },
           {
-            "name": "Standard page",
-            "description": "Standard page",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page"
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -1354,8 +1312,7 @@
                   "cssClasses": null
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -1491,19 +1448,16 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
-        "name": "Other",
-        "description": "Default",
-        "code": "other"
+        "name": "Financial",
+        "code": "financial",
+        "description": "A type of reports which usually have financial references"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
@@ -1514,30 +1468,8 @@
         "description": "Rotated page"
       },
       {
-        "name": "Chapter",
-        "description": "a4"
-      },
-      {
         "name": "Cover Page",
         "description": "Cover page"
-      },
-      {
-        "name": "Blue header",
-        "description": "Blue Heder"
-      },
-      {
-        "name": "Back Cover Page",
-        "description": "Cover"
-      }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": [
-      {
-        "name": "Default",
-        "orderIndex": 0
       }
     ]
   }

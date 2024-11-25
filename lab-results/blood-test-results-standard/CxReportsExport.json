@@ -1,21 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-02-21T13:03:04.1254338+01:00",
-  "version": "1",
+  "created": "2024-11-25T12:35:32.760006+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Blood Test Results",
-        "isEmbeddable": false,
         "themeName": "Hemolab",
-        "reportTypeCode": "other",
-        "reportTypeName": "Other",
+        "reportTypeCode": "lab",
         "reportTemplateName": "Hemolab",
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "Lab results",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -25,6 +22,11 @@
                   "config": {
                     "name": "master",
                     "breakable": true
+                  },
+                  "repeat": {
+                    "alias": null,
+                    "dataSource": null,
+                    "repeatable": false
                   },
                   "children": [
                     {
@@ -52,6 +54,11 @@
                         }
                       },
                       "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
                       "hideExpr": null,
                       "$expanded": false,
                       "boxStyles": {
@@ -62,8 +69,7 @@
                           "marginTop": "0",
                           "flexShrink": "0",
                           "paddingTop": "0"
-                        },
-                        "cssClasses": null
+                        }
                       },
                       "includeInTOC": true
                     },
@@ -101,6 +107,7 @@
                       "config": {
                         "orientation": "horizontal"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "d9721972129",
@@ -109,6 +116,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "219721296c2",
@@ -116,7 +124,7 @@
                               "type": "text",
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null,
                                     "fontFamily": null,
                                     "fontWeight": "700"
@@ -124,6 +132,7 @@
                                 }
                               },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -173,25 +182,28 @@
                               ],
                               "type": "key-value-grid",
                               "theme": {
-                                "text": {
-                                  "key-value-grid-key": {
+                                "keyValueGrid": {
+                                  "key": {
                                     "color": null,
+                                    "width": "60px",
                                     "fontSize": "12px",
                                     "lineHeight": "16px"
                                   },
-                                  "key-value-grid-value": {
+                                  "row": {},
+                                  "value": {
                                     "color": null,
                                     "fontSize": "12px",
                                     "fontWeight": "700",
                                     "lineHeight": "16px"
-                                  }
+                                  },
+                                  "divider": {}
                                 }
                               },
                               "$level": 3,
                               "layout": {
-                                "keyWidth": "60px",
                                 "dividerText": null
                               },
+                              "version": 3,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -208,8 +220,7 @@
                               "flexBasis": "0",
                               "flexShrink": 1,
                               "backgroundColor": null
-                            },
-                            "cssClasses": null
+                            }
                           }
                         },
                         {
@@ -219,6 +230,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "784f1f48298",
@@ -226,7 +238,7 @@
                               "type": "text",
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null,
                                     "fontFamily": null,
                                     "fontWeight": "700"
@@ -234,6 +246,7 @@
                                 }
                               },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -285,25 +298,28 @@
                               ],
                               "type": "key-value-grid",
                               "theme": {
-                                "text": {
-                                  "key-value-grid-key": {
+                                "keyValueGrid": {
+                                  "key": {
                                     "color": null,
+                                    "width": "80px",
                                     "fontSize": "12px",
                                     "lineHeight": "16px"
                                   },
-                                  "key-value-grid-value": {
+                                  "row": {},
+                                  "value": {
                                     "color": null,
                                     "fontSize": "12px",
                                     "fontWeight": "700",
                                     "lineHeight": "16px"
-                                  }
+                                  },
+                                  "divider": {}
                                 }
                               },
                               "$level": 3,
                               "layout": {
-                                "keyWidth": "80px",
                                 "dividerText": null
                               },
+                              "version": 3,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -331,6 +347,7 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "version": 3,
                           "children": [
                             {
                               "id": "33fe8406c27",
@@ -338,7 +355,7 @@
                               "type": "text",
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null,
                                     "fontFamily": null,
                                     "fontWeight": "700"
@@ -346,6 +363,7 @@
                                 }
                               },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -361,13 +379,14 @@
                               },
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": null,
                                     "fontSize": "12px"
                                   }
                                 }
                               },
                               "$level": 3,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -425,6 +444,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "98af6959b96",
@@ -464,8 +484,7 @@
                           "boxStyles": {
                             "style": {
                               "paddingLeft": "4px"
-                            },
-                            "cssClasses": null
+                            }
                           },
                           "includeInTOC": true
                         },
@@ -473,6 +492,11 @@
                           "id": "e5fde984977",
                           "type": "data-table",
                           "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
                           "columns": [
                             {
                               "field": "testName",
@@ -480,13 +504,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -494,7 +521,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -503,13 +531,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -517,7 +548,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -526,13 +558,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -541,7 +576,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -550,13 +586,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -565,7 +604,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -574,13 +614,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -588,13 +631,15 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "gridOptions": {
-                            "dataSource": "bloodTest.hematology"
+                            "dataSource": "{$data.bloodTest.hematology}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -619,6 +664,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "e984977f287",
@@ -657,6 +703,11 @@
                           "id": "984977f2878",
                           "type": "data-table",
                           "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
                           "columns": [
                             {
                               "field": "testName",
@@ -664,13 +715,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -678,7 +732,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -687,13 +742,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -701,7 +759,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -710,13 +769,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -725,7 +787,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -734,13 +797,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -749,7 +815,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -758,13 +825,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -772,13 +842,15 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "gridOptions": {
-                            "dataSource": "bloodTest.biochemistry"
+                            "dataSource": "{$data.bloodTest.biochemistry}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -802,6 +874,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "954cfe93f8c",
@@ -847,13 +920,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -861,7 +937,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -870,13 +947,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -884,7 +964,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -893,13 +974,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -908,7 +992,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -917,13 +1002,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -932,7 +1020,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -941,13 +1030,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -955,13 +1047,15 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "gridOptions": {
-                            "dataSource": "bloodTest.liverFunctionTests"
+                            "dataSource": "{$data.bloodTest.liverFunctionTests}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -985,6 +1079,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "cfe93f8ca3b",
@@ -1030,13 +1125,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1044,7 +1142,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1053,13 +1152,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1067,7 +1169,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1076,13 +1179,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1091,7 +1197,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1100,13 +1207,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1115,7 +1225,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1124,13 +1235,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1138,13 +1252,15 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "gridOptions": {
-                            "dataSource": "bloodTest.kidneyFunctionTests"
+                            "dataSource": "{$data.bloodTest.kidneyFunctionTests}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -1168,6 +1284,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "93f8ca3bd97",
@@ -1213,13 +1330,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1227,7 +1347,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1236,13 +1357,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1250,7 +1374,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1259,13 +1384,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1274,7 +1402,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1283,13 +1412,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1298,7 +1430,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1307,13 +1440,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1321,13 +1457,15 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "gridOptions": {
-                            "dataSource": "bloodTest.electrolytes"
+                            "dataSource": "{$data.bloodTest.electrolytes}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -1351,6 +1489,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "8ca3bd97219",
@@ -1408,13 +1547,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1422,7 +1564,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1431,13 +1574,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1445,7 +1591,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1454,13 +1601,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1469,7 +1619,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1478,13 +1629,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1493,7 +1647,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1502,13 +1657,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1516,9 +1674,11 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -1526,7 +1686,7 @@
                           },
                           "stylingFor": "header",
                           "gridOptions": {
-                            "dataSource": "bloodTest.thyroidFunctionTests"
+                            "dataSource": "{$data.bloodTest.thyroidFunctionTests}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -1550,6 +1710,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "3bd97219721",
@@ -1607,13 +1768,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Test",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1621,7 +1785,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1630,13 +1795,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Unit",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1644,7 +1812,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1653,13 +1822,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Reference Range",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1668,7 +1840,8 @@
                               "styleExpression": null,
                               "valueExpression": "\u0060${{$record.referenceRangeLow:n}} - ${{$record.referenceRangeHigh:n}}\u0060",
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1677,13 +1850,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "formatType": "number",
@@ -1692,7 +1868,8 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             },
                             {
                               "align": "center",
@@ -1701,13 +1878,16 @@
                               "footer": {
                                 "tpl": null,
                                 "text": null,
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditionalStyling": []
                               },
                               "header": {
                                 "tpl": null,
                                 "text": "Result Status",
                                 "type": "text",
-                                "htmlTpl": null
+                                "htmlTpl": null,
+                                "conditinalStyling": [],
+                                "conditionalStyling": []
                               },
                               "valueType": "value",
                               "aggregateAlias": null,
@@ -1715,9 +1895,11 @@
                               "styleExpression": null,
                               "valueExpression": null,
                               "formatExpression": null,
-                              "visibleExpression": null
+                              "visibleExpression": null,
+                              "conditionalStyling": []
                             }
                           ],
+                          "version": 2,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -1725,7 +1907,7 @@
                           },
                           "stylingFor": "header",
                           "gridOptions": {
-                            "dataSource": "bloodTest.lipidProfile"
+                            "dataSource": "{$data.bloodTest.lipidProfile}"
                           },
                           "formatOptions": {
                             "date": null,
@@ -1749,6 +1931,7 @@
                       "config": {
                         "orientation": "vertical"
                       },
+                      "version": 3,
                       "children": [
                         {
                           "id": "4266900c0c0",
@@ -1789,13 +1972,14 @@
                           "type": "text",
                           "theme": {
                             "text": {
-                              "p": {
+                              "span": {
                                 "color": null,
                                 "fontSize": "13px"
                               }
                             }
                           },
                           "$level": 2,
+                          "version": 1,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -1822,39 +2006,31 @@
                   ],
                   "hideExpr": null,
                   "$expanded": true,
-                  "boxStyles": {
-                    "cssClasses": null
-                  }
+                  "boxStyles": {}
                 }
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
-                "description": "Standard page"
+                "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "bloodTest",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Blood Test Results",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n    \u0022hematology\u0022: [\n      {\n        \u0022testName\u0022: \u0022White Blood Cell Count\u0022,\n        \u0022result\u0022: 7.2,\n        \u0022referenceRangeLow\u0022: 4.0,\n        \u0022referenceRangeHigh\u0022: 11.0,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Red Blood Cell Count\u0022,\n        \u0022result\u0022: 4.5,\n        \u0022referenceRangeLow\u0022: 4.2,\n        \u0022referenceRangeHigh\u0022: 5.9,\n        \u0022unit\u0022: \u0022x10^12/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hemoglobin\u0022,\n        \u0022result\u0022: 13.5,\n        \u0022referenceRangeLow\u0022: 13.2,\n        \u0022referenceRangeHigh\u0022: 16.6,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hematocrit\u0022,\n        \u0022result\u0022: 40.1,\n        \u0022referenceRangeLow\u0022: 38.3,\n        \u0022referenceRangeHigh\u0022: 48.6,\n        \u0022unit\u0022: \u0022%\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Platelet Count\u0022,\n        \u0022result\u0022: 250,\n        \u0022referenceRangeLow\u0022: 150,\n        \u0022referenceRangeHigh\u0022: 450,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022biochemistry\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glucose\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 70,\n        \u0022referenceRangeHigh\u0022: 99,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Creatinine\u0022,\n        \u0022result\u0022: 0.9,\n        \u0022referenceRangeLow\u0022: 0.6,\n        \u0022referenceRangeHigh\u0022: 1.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Urea\u0022,\n        \u0022result\u0022: 29,\n        \u0022referenceRangeLow\u0022: 15,\n        \u0022referenceRangeHigh\u0022: 50,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alanine Aminotransferase (ALT)\u0022,\n        \u0022result\u0022: 25,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 56,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022liverFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Aspartate Aminotransferase (AST)\u0022,\n        \u0022result\u0022: 30,\n        \u0022referenceRangeLow\u0022: 8,\n        \u0022referenceRangeHigh\u0022: 48,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alkaline Phosphatase (ALP)\u0022,\n        \u0022result\u0022: 70,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 129,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Bilirubin\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.3,\n        \u0022referenceRangeHigh\u0022: 1.9,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Albumin\u0022,\n        \u0022result\u0022: 4.5,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.5,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022kidneyFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glomerular Filtration Rate (GFR)\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 60,\n        \u0022referenceRangeHigh\u0022: 120,\n        \u0022unit\u0022: \u0022mL/min/1.73m\u00B2\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Blood Urea Nitrogen (BUN)\u0022,\n        \u0022result\u0022: 14,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 20,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022electrolytes\u0022: [\n      {\n        \u0022testName\u0022: \u0022Sodium\u0022,\n        \u0022result\u0022: 140,\n        \u0022referenceRangeLow\u0022: 135,\n        \u0022referenceRangeHigh\u0022: 145,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Potassium\u0022,\n        \u0022result\u0022: 4.2,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.1,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Calcium\u0022,\n        \u0022result\u0022: 9.5,\n        \u0022referenceRangeLow\u0022: 8.6,\n        \u0022referenceRangeHigh\u0022: 10.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022thyroidFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Thyroid Stimulating Hormone (TSH)\u0022,\n        \u0022result\u0022: 2.1,\n        \u0022referenceRangeLow\u0022: 0.5,\n        \u0022referenceRangeHigh\u0022: 4.5,\n        \u0022unit\u0022: \u0022\u03BCIU/mL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Free Thyroxine (FT4)\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.9,\n        \u0022referenceRangeHigh\u0022: 1.7,\n        \u0022unit\u0022: \u0022ng/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022lipidProfile\u0022: [\n      {\n        \u0022testName\u0022: \u0022Total Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Low-Density Lipoprotein (LDL)\u0022,\n        \u0022result\u0022: 100,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 100,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022High-Density Lipoprotein (HDL)\u0022,\n        \u0022result\u0022: 55,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 60,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Triglycerides\u0022,\n        \u0022result\u0022: 150,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 150,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ]\n  }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1863,20 +2039,17 @@
           },
           {
             "name": "patientDetails",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Patient Details",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "csv": {
                   "delimiter": ","
                 },
                 "json": "{\n    \u0022name\u0022: \u0022Johnatan Doe\u0022,\n    \u0022age\u0022: 30,\n    \u0022gender\u0022: \u0022Male\u0022,\n    \u0022email\u0022: \u0022johndoe@example.com\u0022\n  }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1885,17 +2058,14 @@
           },
           {
             "name": "labDetails",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Lab Details",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n    \u0022labName\u0022: \u0022Central Health Laboratory\u0022,\n    \u0022address\u0022: {\n      \u0022street\u0022: \u0022123 Health Ave\u0022,\n      \u0022city\u0022: \u0022Medicity\u0022,\n      \u0022state\u0022: \u0022Wellbeing\u0022,\n      \u0022zipCode\u0022: \u002212345\u0022,\n      \u0022country\u0022: \u0022Healthland\u0022\n    }\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1904,41 +2074,34 @@
           },
           {
             "name": "time",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Time",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n    \u0022sampleCollection\u0022: \u00222024-01-20 08:30 AM\u0022,\n    \u0022resultCompletion\u0022: \u00222024-01-22 03:00 PM\u0022,\n    \u0022doctor\u0022: \u0022Dr. Emily Johnson\u0022\n  }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Hemolab",
-        "defaultPaperMargins": "12.7mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperMargins": "12.7mm 12.7mm 12.7mm 12.7mm",
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Hemolab",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page"
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -1949,6 +2112,12 @@
                 "config": {
                   "orientation": "horizontal"
                 },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
                 "children": [
                   {
                     "id": "d978edfc83e",
@@ -1958,6 +2127,11 @@
                       "objectFit": "contain"
                     },
                     "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
                     "hideExpr": null,
                     "$expanded": false,
                     "boxStyles": {
@@ -1976,6 +2150,11 @@
                     "size": "normal",
                     "type": "spacer",
                     "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
                     "hideExpr": null,
                     "$expanded": false,
                     "boxStyles": {
@@ -2002,6 +2181,11 @@
                       }
                     },
                     "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
                     "hideExpr": null,
                     "$expanded": false
                   }
@@ -2020,6 +2204,11 @@
                 "size": "normal",
                 "type": "spacer",
                 "$level": 0,
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
                 "hideExpr": null,
                 "$expanded": false,
                 "boxStyles": {
@@ -2066,6 +2255,11 @@
                   }
                 },
                 "$level": 0,
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
                 "hideExpr": null,
                 "$expanded": false,
                 "boxStyles": {
@@ -2079,8 +2273,7 @@
                   "cssClasses": null
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -2189,43 +2382,43 @@
           "table": {
             "cell": {
               "color": null,
-              "borderTop-cell": null,
-              "backgroundColor": null,
-              "borderLeft-cell": null,
-              "paddingTop-cell": "2px",
-              "borderRight-cell": null,
-              "paddingLeft-cell": "4px",
-              "borderBottom-cell": null,
-              "paddingRight-cell": "4px",
-              "paddingBottom-cell": "2px"
+              "borderTop": null,
+              "borderLeft": null,
+              "paddingTop": "2px",
+              "borderRight": null,
+              "paddingLeft": "4px",
+              "borderBottom": null,
+              "paddingRight": "4px",
+              "paddingBottom": "2px",
+              "backgroundColor": null
             },
             "table": {
               "color": null,
               "fontSize": "12px",
+              "borderTop": null,
+              "borderLeft": null,
               "fontFamily": null,
+              "borderRight": null,
               "oddRowColor": null,
+              "borderBottom": null,
               "evenRowColor": null,
-              "backgroundColor": null,
-              "borderTop-table": null,
-              "borderLeft-table": null,
-              "borderRight-table": null,
-              "borderBottom-table": null
+              "backgroundColor": null
             },
             "header": {
               "color": "var(--primary)",
               "fontSize": "11px",
+              "borderTop": null,
+              "borderLeft": null,
               "fontFamily": null,
               "fontWeight": "700",
+              "paddingTop": "2px",
+              "borderRight": null,
+              "paddingLeft": "4px",
+              "borderBottom": null,
+              "paddingRight": "4px",
+              "paddingBottom": "2px",
               "textTransform": "uppercase",
-              "backgroundColor": null,
-              "borderTop-header": null,
-              "borderLeft-header": null,
-              "paddingTop-header": "2px",
-              "borderRight-header": null,
-              "paddingLeft-header": "4px",
-              "borderBottom-header": null,
-              "paddingRight-header": "4px",
-              "paddingBottom-header": "2px"
+              "backgroundColor": null
             }
           },
           "legend": {
@@ -2265,28 +2458,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
-        "name": "Other",
-        "description": "Default",
-        "code": "other"
+        "name": "Lab Results",
+        "code": "lab",
+        "description": "A type of reports related to any kind of lab work"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
-        "description": "Standard page"
+        "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null
+    ]
   }
 }

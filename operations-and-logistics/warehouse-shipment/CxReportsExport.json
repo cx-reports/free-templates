@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-08-06T10:16:28.5597683+02:00",
-  "version": "1",
+  "created": "2024-11-25T13:32:52.6296935+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Warehouse shipment",
-        "isEmbeddable": false,
         "themeName": "Warehouse",
-        "reportTypeCode": "operations-logistics",
-        "reportTypeName": "Operation and Logistics",
+        "reportTypeCode": "operations",
         "reportTemplateName": "Warehouse",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
-            "number": 2.0,
+            "number": 2.0000,
             "name": "Warehouse",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -153,7 +149,7 @@
                                   "children": [
                                     {
                                       "id": "da1cb275827",
-                                      "url": "/logo.png",
+                                      "url": "/Group%2048.png",
                                       "type": "img",
                                       "style": {
                                         "objectFit": "fill"
@@ -195,7 +191,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": null,
                                         "fontSize": "10px",
                                         "fontFamily": null,
@@ -210,6 +206,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false
                                 },
@@ -234,7 +231,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontSize": "8px",
                                             "fontWeight": "400",
@@ -248,6 +245,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -260,7 +258,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontSize": "8px",
                                             "fontWeight": "400",
@@ -274,6 +272,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -286,7 +285,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontSize": "8px",
                                             "fontWeight": "400",
@@ -300,6 +299,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false
                                     }
@@ -468,7 +468,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": null
                                       }
                                     }
@@ -479,6 +479,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -526,9 +527,8 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "content": "{$it.record.serial_number}",
+                                  "content": "{record.serial_number}",
                                   "hideExpr": null,
-                                  "rotation": "none",
                                   "showText": false,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -577,7 +577,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontSize": "10px",
                                             "fontWeight": "700",
@@ -591,6 +591,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -599,11 +600,11 @@
                                     },
                                     {
                                       "id": "f9da418184e",
-                                      "text": " {$it.record.product_code}",
+                                      "text": " {record.product_code}",
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null
                                           }
                                         }
@@ -614,6 +615,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -655,7 +657,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null,
                                             "fontSize": "10px",
                                             "fontWeight": "700",
@@ -669,6 +671,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -680,11 +683,11 @@
                                     },
                                     {
                                       "id": "58250d7e829",
-                                      "text": " {$it.record.product_name}",
+                                      "text": " {record.product_name}",
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": null
                                           }
                                         }
@@ -695,6 +698,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -761,7 +765,7 @@
                           "children": [
                             {
                               "id": "4ee7f67b70b",
-                              "url": "{$it.record.image}",
+                              "url": "{record.image}",
                               "type": "img",
                               "style": {
                                 "objectFit": "contain"
@@ -776,8 +780,8 @@
                               "$expanded": false,
                               "boxStyles": {
                                 "style": {
-                                  "width": "328px",
-                                  "height": "136px",
+                                  "width": "307px",
+                                  "height": "113px",
                                   "flexGrow": "0",
                                   "flexBasis": "auto",
                                   "flexShrink": "0"
@@ -821,75 +825,46 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page"
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "data",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
-                "json": "{\r\n    \u0022company_name\u0022: \u0022Tech Distributors Inc.\u0022,\r\n    \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022123 Technology Way\u0022,\r\n        \u0022city\u0022: \u0022Innovate City\u0022,\r\n        \u0022state\u0022: \u0022California\u0022\r\n    },\r\n    \u0022shipment\u0022: {\r\n        \u0022date\u0022: \u00222024-05-21\u0022,\r\n        \u0022time\u0022: \u002214:30\u0022\r\n    },\r\n    \u0022person_in_charge\u0022: \u0022Jane Doe\u0022,\r\n    \u0022paid\u0022: \u0022Yes\u0022,\r\n    \u0022products\u0022: [\r\n        {\r\n            \u0022number\u0022: \u00221.\u0022,\r\n            \u0022product_code\u0022: \u0022124578\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech MK270 Wireless Keyboard\u0022,\r\n            \u0022serial_number\u0022: \u0022MK270-ABC123456\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/keyboard.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00222.\u0022,\r\n            \u0022product_code\u0022: \u0022235689\u0022,\r\n            \u0022product_name\u0022: \u0022WD 2TB Elements Portable External Hard Drive - USB 3.0 - WDBU6Y0020BBK\u0022,\r\n            \u0022serial_number\u0022: \u0022WDBU6Y0020BBK-XYZ987654\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/exthd.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00223.\u0022,\r\n            \u0022product_code\u0022: \u0022346790\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech Brio 101 Full HD 1080p Webcam\u0022,\r\n            \u0022serial_number\u0022: \u0022BRIO101-HJK765432\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/camera.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00224.\u0022,\r\n            \u0022product_code\u0022: \u0022457891\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech Combo Touch Keyboard Folio for iPad Pro 12.9\\\u0022 (5th\u00266thGen) Oxford Gray\u0022,\r\n            \u0022serial_number\u0022: \u0022COMBOTOUCH-FGH123987\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/ipad.svg\u0022\r\n        },\r\n        {\r\n            \u0022number\u0022: \u00225.\u0022,\r\n            \u0022product_code\u0022: \u0022568912\u0022,\r\n            \u0022product_name\u0022: \u0022Logitech MX Master 3S - Wireless Performance Mouse, Ergo, 8K DPI\u0022,\r\n            \u0022serial_number\u0022: \u0022MXMASTER3S-MNB654321\u0022,\r\n            \u0022image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/operations-and-logistics/warehouse-shipment/images/mouse.svg\u0022\r\n        }\r\n    ]\r\n}\r\n"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
-            },
-            "reportDataSourceParametersLabels": [],
-            "reportDataSourceNames": [],
-            "reportDataSourceDependencyGlobalParameterLabels": [],
-            "reportDataSourceDependencyGlobalSourceNames": []
-          },
-          {
-            "name": "delete_me",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
-              "displayName": "Delete Me",
-              "type": 1,
-              "externalDatabaseName": null,
-              "config": {
-                "json": "{}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+                "json": "{\r\n  \u0022company_name\u0022: \u0022Tech Distributors Inc.\u0022,\r\n  \u0022address\u0022: {\r\n    \u0022street\u0022: \u0022123 Technology Way\u0022,\r\n    \u0022city\u0022: \u0022Innovate City\u0022,\r\n    \u0022state\u0022: \u0022California\u0022\r\n  },\r\n  \u0022shipment\u0022: {\r\n    \u0022date\u0022: \u00222024-05-21\u0022,\r\n    \u0022time\u0022: \u002214:30\u0022\r\n  },\r\n  \u0022person_in_charge\u0022: \u0022Jane Doe\u0022,\r\n  \u0022paid\u0022: \u0022Yes\u0022,\r\n  \u0022products\u0022: [\r\n    {\r\n      \u0022number\u0022: \u00221.\u0022,\r\n      \u0022product_code\u0022: \u0022124578\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech MK270 Wireless Keyboard\u0022,\r\n      \u0022serial_number\u0022: \u0022MK270-ABC123456\u0022,\r\n      \u0022image\u0022: \u0022/keyboard.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00222.\u0022,\r\n      \u0022product_code\u0022: \u0022235689\u0022,\r\n      \u0022product_name\u0022: \u0022WD 2TB Elements Portable External Hard Drive - USB 3.0 - WDBU6Y0020BBK\u0022,\r\n      \u0022serial_number\u0022: \u0022WDBU6Y0020BBK-XYZ987654\u0022,\r\n      \u0022image\u0022: \u0022/exthd.svg\u0022\r\n\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00223.\u0022,\r\n      \u0022product_code\u0022: \u0022346790\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech Brio 101 Full HD 1080p Webcam\u0022,\r\n      \u0022serial_number\u0022: \u0022BRIO101-HJK765432\u0022,\r\n      \u0022image\u0022: \u0022/camera.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00224.\u0022,\r\n      \u0022product_code\u0022: \u0022457891\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech Combo Touch Keyboard Folio for iPad Pro 12.9\\\u0022 (5th\u00266thGen) Oxford Gray\u0022,\r\n      \u0022serial_number\u0022: \u0022COMBOTOUCH-FGH123987\u0022,\r\n      \u0022image\u0022: \u0022/ipad.svg\u0022\r\n    },\r\n    {\r\n      \u0022number\u0022: \u00225.\u0022,\r\n      \u0022product_code\u0022: \u0022568912\u0022,\r\n      \u0022product_name\u0022: \u0022Logitech MX Master 3S - Wireless Performance Mouse, Ergo, 8K DPI\u0022,\r\n      \u0022serial_number\u0022: \u0022MXMASTER3S-MNB654321\u0022,\r\n      \u0022image\u0022: \u0022/mouse.svg\u0022\r\n    }\r\n  ]\r\n}\r\n"
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Warehouse",
         "defaultPaperMargins": "12.7mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Warehouse",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page following the company template.",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page"
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -1233,8 +1208,7 @@
                   "cssClasses": null
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -1281,11 +1255,11 @@
           "table": {
             "header": {
               "color": null,
-              "backgroundColor": null,
-              "borderTop-header": null,
-              "borderLeft-header": null,
-              "borderRight-header": null,
-              "borderBottom-header": null
+              "borderTop": null,
+              "borderLeft": null,
+              "borderRight": null,
+              "borderBottom": null,
+              "backgroundColor": null
             }
           },
           "palette": {
@@ -1297,60 +1271,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
-        "name": "Operation and Logistics",
-        "description": "A type of reports which category is related to different operations and logistics",
-        "code": "operations-logistics"
-      }
-    ],
-    "languages": [
-      {
-        "name": "English",
-        "code": "en",
-        "cultureCode": "en"
-      },
-      {
-        "name": "Srpski",
-        "code": "sr",
-        "cultureCode": "sr"
+        "name": "Operations \u0026 Logistics",
+        "code": "operations",
+        "description": "A type of reports that are related to operations and logistics"
       }
     ],
     "pageTypes": [
       {
         "name": "Standard page",
         "description": "Standard page"
-      },
-      {
-        "name": "Rotated page",
-        "description": "Rotated page"
-      },
-      {
-        "name": "Chapter",
-        "description": "a4"
-      },
-      {
-        "name": "Cover Page",
-        "description": "Cover page"
-      },
-      {
-        "name": "Blue header",
-        "description": "Blue Heder"
-      },
-      {
-        "name": "Back Cover Page",
-        "description": "Cover"
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

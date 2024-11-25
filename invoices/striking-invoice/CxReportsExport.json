@@ -1,18 +1,15 @@
 {
   "check": "CxReports",
-  "created": "2024-09-24T13:37:23.4241435+02:00",
-  "version": "1",
+  "created": "2024-11-25T10:55:48.6088795+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
-        "name": "Invoice",
-        "isEmbeddable": false,
+        "name": "Striking Invoice",
         "themeName": "Invoice Theme",
-        "reportTypeCode": "other",
-        "reportTypeName": "Other",
+        "reportTypeCode": "invoice",
         "reportTemplateName": "Invoice",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "Invoice",
@@ -51,11 +48,6 @@
                               "styling": true
                             },
                             "hideComponentExprCollapsed": true
-                          },
-                          "repeat": {
-                            "alias": null,
-                            "dataSource": null,
-                            "repeatable": false
                           },
                           "version": 3,
                           "children": [
@@ -207,11 +199,6 @@
                       "config": {
                         "orientation": "vertical"
                       },
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
                       "version": 3,
                       "children": [
                         {
@@ -268,17 +255,9 @@
                                     }
                                   },
                                   "$level": 4,
-                                  "repeat": {
-                                    "alias": null,
-                                    "dataSource": null,
-                                    "repeatable": false
-                                  },
                                   "version": 1,
                                   "hideExpr": null,
-                                  "$expanded": false,
-                                  "boxStyles": {
-                                    "cssClasses": null
-                                  }
+                                  "$expanded": false
                                 },
                                 {
                                   "id": "8174c273ba6",
@@ -296,11 +275,6 @@
                                     }
                                   },
                                   "$level": 4,
-                                  "repeat": {
-                                    "alias": null,
-                                    "dataSource": null,
-                                    "repeatable": false
-                                  },
                                   "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
@@ -321,23 +295,23 @@
                               }
                             },
                             {
-                              "id": "a472eb9bd45",
+                              "id": "9ec0db9e410",
                               "data": [
                                 {
                                   "id": "947864656e6",
-                                  "key": "{$dict.invoiceNo}",
+                                  "key": "{$dict.invoiceNo}:",
                                   "value": "{$data.invoice.invoice_number}",
                                   "hideexpr": null
                                 },
                                 {
                                   "id": "47864656e6b",
-                                  "key": "{$dict.date}",
+                                  "key": "{$dict.date}:",
                                   "value": "{$data.invoice.date:d}",
                                   "hideexpr": null
                                 },
                                 {
                                   "id": "7864656e6b1",
-                                  "key": "{$dict.dueDate}",
+                                  "key": "{$dict.dueDate}:",
                                   "value": "{$data.invoice.due_date:d}",
                                   "hideexpr": null
                                 }
@@ -347,28 +321,20 @@
                                 "keyValueGrid": {
                                   "key": {
                                     "color": null,
-                                    "width": null
+                                    "width": "110px"
                                   },
                                   "row": {
                                     "height": "25px"
                                   },
-                                  "value": {
-                                    "textAlign": "right",
-                                    "fontFamily": null
-                                  },
+                                  "value": {},
                                   "divider": {
-                                    "width": "20px"
+                                    "width": "0px"
                                   }
                                 }
                               },
                               "$level": 3,
                               "layout": {
-                                "dividerText": ":"
-                              },
-                              "repeat": {
-                                "alias": null,
-                                "dataSource": null,
-                                "repeatable": false
+                                "dividerText": null
                               },
                               "version": 3,
                               "hideExpr": null,
@@ -378,8 +344,7 @@
                                   "border": "1px dashed lightgray",
                                   "padding": "20px"
                                 },
-                                "cssClasses": null,
-                                "additionalCss": []
+                                "cssClasses": null
                               },
                               "keyValueGridStyle": "key-value-grid-key"
                             }
@@ -421,18 +386,6 @@
                             {
                               "id": "664c1aab196",
                               "type": "data-table",
-                              "theme": {
-                                "table": {
-                                  "cell": {
-                                    "color": null,
-                                    "borderTop-cell": null,
-                                    "backgroundColor": null,
-                                    "borderLeft-cell": null,
-                                    "borderRight-cell": null,
-                                    "borderBottom-cell": null
-                                  }
-                                }
-                              },
                               "$level": 3,
                               "$theme": {
                                 "table": {
@@ -633,6 +586,11 @@
                               "config": {
                                 "orientation": "horizontal"
                               },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
                               "version": 3,
                               "children": [
                                 {
@@ -640,6 +598,11 @@
                                   "size": "normal",
                                   "type": "spacer",
                                   "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -657,6 +620,11 @@
                                   "$level": 4,
                                   "config": {
                                     "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
                                   },
                                   "version": 3,
                                   "children": [
@@ -681,6 +649,11 @@
                                             "text": {}
                                           },
                                           "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
                                           "version": 1,
                                           "hideExpr": null,
                                           "$expanded": true,
@@ -746,6 +719,11 @@
                                       "config": {
                                         "orientation": "horizontal"
                                       },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
                                       "version": 3,
                                       "children": [
                                         {
@@ -764,6 +742,11 @@
                                             }
                                           },
                                           "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
                                           "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
@@ -790,6 +773,11 @@
                                             "text": {}
                                           },
                                           "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
                                           "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
@@ -826,6 +814,11 @@
                                       "config": {
                                         "orientation": "horizontal"
                                       },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
                                       "version": 3,
                                       "children": [
                                         {
@@ -840,6 +833,11 @@
                                             "text": {}
                                           },
                                           "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
                                           "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
@@ -866,6 +864,11 @@
                                             "text": {}
                                           },
                                           "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
                                           "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
@@ -946,22 +949,13 @@
                                     "alignSelf": "center"
                                   },
                                   "theme": {
-                                    "text": {
-                                      "span": {
-                                        "color": "rgba(255,255,255,1)"
-                                      }
-                                    }
+                                    "text": {}
                                   },
                                   "$level": 4,
                                   "layout": {
                                     "collapsibleSections": {
                                       "boxStyleCollapsed": false
                                     }
-                                  },
-                                  "repeat": {
-                                    "alias": null,
-                                    "dataSource": null,
-                                    "repeatable": false
                                   },
                                   "version": 1,
                                   "hideExpr": null,
@@ -1058,6 +1052,11 @@
                           "config": {
                             "orientation": "vertical"
                           },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
                           "version": 3,
                           "children": [
                             {
@@ -1073,6 +1072,11 @@
                                 "text": {}
                               },
                               "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
                               "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
@@ -1096,6 +1100,11 @@
                                 }
                               },
                               "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
                               "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
@@ -1135,6 +1144,11 @@
                           "$level": 2,
                           "config": {
                             "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
                           },
                           "version": 3,
                           "children": [
@@ -1478,304 +1492,237 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
-                "description": "Standard page"
+                "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [
+        "dictionaries": [
           {
-            "key": null,
             "active": true,
             "dictionaryName": "Invoice",
             "isGlobal": false,
-            "languageConfiguration": {
-              "defaultCode": "en",
-              "codes": [
+            "localDictionary": {
+              "name": "Invoice",
+              "defaultLanguageCode": "en",
+              "entries": [
+                {
+                  "key": "invoiceTo",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Invoice To"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Primalac"
+                    }
+                  ]
+                },
+                {
+                  "key": "invoice",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "INVOICE"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "FAKTURA"
+                    }
+                  ]
+                },
+                {
+                  "key": "date",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Date"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Datum"
+                    }
+                  ]
+                },
+                {
+                  "key": "dueDate",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Due Date"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Platiti do"
+                    }
+                  ]
+                },
+                {
+                  "key": "invoiceNo",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Invoice No."
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Broj fakture"
+                    }
+                  ]
+                },
+                {
+                  "key": "sku",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "SKU"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Kod"
+                    }
+                  ]
+                },
+                {
+                  "key": "description",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Description"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Opis"
+                    }
+                  ]
+                },
+                {
+                  "key": "quantity",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Quantity"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Koli\u010Dina"
+                    }
+                  ]
+                },
+                {
+                  "key": "subtotal",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Subtotal"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Iznos"
+                    }
+                  ]
+                },
+                {
+                  "key": "unitPrice",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Unit Price"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Jed. cijena"
+                    }
+                  ]
+                },
+                {
+                  "key": "tax",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Tax"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Porez"
+                    }
+                  ]
+                },
+                {
+                  "key": "shippingFee",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Shipping Fee"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Dostava"
+                    }
+                  ]
+                },
+                {
+                  "key": "total",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Total"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Ukupno"
+                    }
+                  ]
+                },
+                {
+                  "key": "notes",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Notes"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Napomene"
+                    }
+                  ]
+                },
+                {
+                  "key": "termsAndConditions",
+                  "translations": [
+                    {
+                      "languageCode": "en",
+                      "translation": "Terms and Conditions"
+                    },
+                    {
+                      "languageCode": "sr",
+                      "translation": "Uslovi"
+                    }
+                  ]
+                }
+              ],
+              "languages": [
                 "en",
-                "sr",
-                "de"
+                "sr"
               ]
-            },
-            "entryConfiguration": [
-              {
-                "key": "invoiceTo",
-                "translations": [
-                  {
-                    "value": "Invoice To",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Primalac",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Rechnung An",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "invoice",
-                "translations": [
-                  {
-                    "value": "INVOICE",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "FAKTURA",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "RECHNUNG",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "date",
-                "translations": [
-                  {
-                    "value": "Date",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Datum",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Datum",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "dueDate",
-                "translations": [
-                  {
-                    "value": "Due Date",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Platiti do",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "F\u00E4lligkeitsdatum",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "invoiceNo",
-                "translations": [
-                  {
-                    "value": "Invoice No.",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Broj fakture",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Rechnungsnummer",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "sku",
-                "translations": [
-                  {
-                    "value": "SKU",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Kod",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Artikelnummer",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "description",
-                "translations": [
-                  {
-                    "value": "Description",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Opis",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Beschreibung",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "quantity",
-                "translations": [
-                  {
-                    "value": "Quantity",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Koli\u010Dina",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Menge",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "subtotal",
-                "translations": [
-                  {
-                    "value": "Subtotal",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Iznos",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Zwischensumme",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "unitPrice",
-                "translations": [
-                  {
-                    "value": "Unit Price",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Jed. cijena",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "St\u00FCckpreis",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "tax",
-                "translations": [
-                  {
-                    "value": "Tax",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Porez",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Steuer",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "shippingFee",
-                "translations": [
-                  {
-                    "value": "Shipping Fee",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Dostava",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Versandkosten",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "total",
-                "translations": [
-                  {
-                    "value": "Total",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Ukupno",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Gesamtbetrag",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "notes",
-                "translations": [
-                  {
-                    "value": "Notes",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Napomene",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Hinweise",
-                    "languageCode": "de"
-                  }
-                ]
-              },
-              {
-                "key": "termsAndConditions",
-                "translations": [
-                  {
-                    "value": "Terms and Conditions",
-                    "languageCode": "en"
-                  },
-                  {
-                    "value": "Uslovi",
-                    "languageCode": "sr"
-                  },
-                  {
-                    "value": "Gesch\u00E4ftsbedingungen",
-                    "languageCode": "de"
-                  }
-                ]
-              }
-            ]
+            }
           }
         ],
-        "reportParameters": [],
-        "reportDataSources": [
+        "parameters": [],
+        "dataSources": [
           {
             "name": "invoice",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Invoice Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n  \u0022invoice_number\u0022: \u00222023-ABC-123456\u0022,\n  \u0022date\u0022: \u00222023-11-03\u0022,\n  \u0022due_date\u0022: \u00222023-11-17\u0022,\n  \u0022bill_to\u0022: {\n    \u0022company_name\u0022: \u0022Tech Solutions Inc.\u0022,\n    \u0022address\u0022: \u0022123 Tech Street\u0022,\n    \u0022city\u0022: \u0022Innovate City\u0022,\n    \u0022state\u0022: \u0022Techsylvania\u0022,\n    \u0022zip\u0022: \u002212345\u0022,\n    \u0022country\u0022: \u0022USA\u0022\n  },\n  \u0022ship_to\u0022: {\n    \u0022company_name\u0022: \u0022Tech Solutions Inc.\u0022,\n    \u0022address\u0022: \u0022456 Solution Ave\u0022,\n    \u0022city\u0022: \u0022Progress Town\u0022,\n    \u0022state\u0022: \u0022Techsylvania\u0022,\n    \u0022zip\u0022: \u002267890\u0022,\n    \u0022country\u0022: \u0022USA\u0022\n  },\n  \u0022items\u0022: [\n    {\n      \u0022item_id\u0022: \u0022CPU001\u0022,\n      \u0022description\u0022: \u0022Quad-core CPU 3.6 GHz\u0022,\n      \u0022unit_price\u0022: 250.00,\n      \u0022quantity\u0022: 2,\n      \u0022subtotal\u0022: 500.00\n    },\n    {\n      \u0022item_id\u0022: \u0022RAM002\u0022,\n      \u0022description\u0022: \u002216GB DDR4 RAM\u0022,\n      \u0022unit_price\u0022: 90.00,\n      \u0022quantity\u0022: 4,\n      \u0022subtotal\u0022: 360.00\n    },\n    {\n      \u0022item_id\u0022: \u0022HDD003\u0022,\n      \u0022description\u0022: \u00221TB SSD Hard Drive\u0022,\n      \u0022unit_price\u0022: 150.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 150.00\n    },\n    {\n      \u0022item_id\u0022: \u0022GPU004\u0022,\n      \u0022description\u0022: \u0022Gaming Graphics Card\u0022,\n      \u0022unit_price\u0022: 400.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 400.00\n    },\n    {\n      \u0022item_id\u0022: \u0022PSU005\u0022,\n      \u0022description\u0022: \u0022750W Power Supply Unit\u0022,\n      \u0022unit_price\u0022: 80.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 80.00\n    },\n    {\n      \u0022item_id\u0022: \u0022CASE006\u0022,\n      \u0022description\u0022: \u0022Mid Tower Computer Case\u0022,\n      \u0022unit_price\u0022: 120.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 120.00\n    }\n  ],\n  \u0022subtotals\u0022: {\n    \u0022items_total\u0022: 1610.00,\n    \u0022tax_rate\u0022: 0.07,\n    \u0022tax_amount\u0022: 112.70,\n    \u0022shipping_fee\u0022: 25.00,\n    \u0022discount\u0022: 0.00\n  },\n  \u0022total_due\u0022: 1747.70,\n  \u0022notes\u0022: \u0022Thank you for your business!\u0022\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1784,58 +1731,53 @@
           },
           {
             "name": "invoiceItems",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Invoice Items",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\n      \u0022item_id\u0022: \u0022CPU001\u0022,\n      \u0022description\u0022: \u0022Quad-core CPU 3.6 GHz\u0022,\n      \u0022unit_price\u0022: 250.00,\n      \u0022quantity\u0022: 2,\n      \u0022subtotal\u0022: 500.00\n    },\n    {\n      \u0022item_id\u0022: \u0022RAM002\u0022,\n      \u0022description\u0022: \u002216GB DDR4 RAM\u0022,\n      \u0022unit_price\u0022: 90.00,\n      \u0022quantity\u0022: 4,\n      \u0022subtotal\u0022: 360.00\n    },\n    {\n      \u0022item_id\u0022: \u0022HDD003\u0022,\n      \u0022description\u0022: \u00221TB SSD Hard Drive\u0022,\n      \u0022unit_price\u0022: 150.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 150.00\n    },\n    {\n      \u0022item_id\u0022: \u0022GPU004\u0022,\n      \u0022description\u0022: \u0022Gaming Graphics Card\u0022,\n      \u0022unit_price\u0022: 400.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 400.00\n    },\n    {\n      \u0022item_id\u0022: \u0022PSU005\u0022,\n      \u0022description\u0022: \u0022750W Power Supply Unit\u0022,\n      \u0022unit_price\u0022: 80.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 80.00\n    },\n    {\n      \u0022item_id\u0022: \u0022CASE006\u0022,\n      \u0022description\u0022: \u0022Mid Tower Computer Case\u0022,\n      \u0022unit_price\u0022: 120.00,\n      \u0022quantity\u0022: 1,\n      \u0022subtotal\u0022: 120.00\n    }\n  ]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Invoice",
         "defaultPaperMargins": "0mm 0mm 0mm 0mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Invoice Theme",
         "pages": [
           {
-            "name": "Standard page",
-            "description": null,
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page"
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
               {
                 "id": "2e5a8a54399",
                 "type": "content-placeholder",
+                "$level": 0,
                 "config": {
                   "name": "master"
                 },
+                "children": [],
+                "$expanded": false,
                 "boxStyles": {
                   "style": {
                     "flex": "1 1 0"
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -1906,16 +1848,14 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
-        "name": "Other",
-        "description": "Default",
-        "code": "other"
+        "name": "Invoice",
+        "code": "invoice",
+        "description": "Invoices"
       }
     ],
     "languages": [
@@ -1928,23 +1868,13 @@
         "name": "Srpski",
         "code": "sr",
         "cultureCode": "sr"
-      },
-      {
-        "name": "Deutsch",
-        "code": "de",
-        "cultureCode": "de"
       }
     ],
     "pageTypes": [
       {
         "name": "Standard page",
-        "description": "Standard page"
+        "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

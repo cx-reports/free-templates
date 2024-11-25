@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-24T15:20:57.7165468+02:00",
-  "version": "1",
+  "created": "2024-11-25T12:33:49.9091982+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Blood Test Result - Red",
-        "isEmbeddable": false,
         "themeName": "Blood Test Result - Red",
         "reportTypeCode": "lab",
-        "reportTypeName": "Lab Results",
         "reportTemplateName": "Blood Test Result - Red",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "Blood Test Result - Red",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -167,7 +163,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "fontSize": "13px",
                                         "fontFamily": null,
                                         "fontWeight": "700"
@@ -180,7 +176,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false
                                 },
@@ -190,7 +186,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "fontSize": "13px"
                                       }
                                     }
@@ -201,7 +197,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false
                                 },
@@ -211,7 +207,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "fontSize": "13px"
                                       }
                                     }
@@ -222,7 +218,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false
                                 },
@@ -232,7 +228,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "fontSize": "13px"
                                       }
                                     }
@@ -243,7 +239,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false
                                 }
@@ -396,7 +392,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "fontWeight": "700"
                                           }
                                         }
@@ -407,7 +403,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
-                                      "version": 0,
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -451,13 +447,16 @@
                                               "id": "84329f3d0d1",
                                               "text": "Age:",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -465,13 +464,16 @@
                                               "id": "4329f3d0d19",
                                               "text": "Gender:",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -479,13 +481,16 @@
                                               "id": "329f3d0d19a",
                                               "text": "Email: ",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -522,7 +527,7 @@
                                               "type": "text",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -533,7 +538,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -543,7 +548,7 @@
                                               "type": "text",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -554,7 +559,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -564,7 +569,7 @@
                                               "type": "text",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -575,7 +580,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -632,7 +637,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "fontWeight": "700"
                                           }
                                         }
@@ -643,7 +648,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
-                                      "version": 0,
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -687,13 +692,16 @@
                                               "id": "0d19a492e0d",
                                               "text": "Sample:",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -701,13 +709,16 @@
                                               "id": "d19a492e0d2",
                                               "text": "Results:",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -715,13 +726,16 @@
                                               "id": "19a492e0d2d",
                                               "text": "Verified by:",
                                               "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
                                               "$level": 7,
                                               "repeat": {
                                                 "alias": null,
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -758,7 +772,7 @@
                                               "type": "date-time",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -772,7 +786,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -782,7 +796,7 @@
                                               "type": "date-time",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -796,7 +810,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -806,7 +820,7 @@
                                               "type": "text",
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "fontWeight": "700"
                                                   }
                                                 }
@@ -817,7 +831,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -1132,11 +1146,11 @@
                                       ]
                                     }
                                   ],
-                                  "version": 1,
+                                  "version": 2,
                                   "hideExpr": null,
                                   "$expanded": true,
                                   "gridOptions": {
-                                    "dataSource": "boodTest.hematology",
+                                    "dataSource": "{$data.boodTest.hematology}",
                                     "line3VisibleExpression": null
                                   },
                                   "formatOptions": {
@@ -1345,11 +1359,11 @@
                                       ]
                                     }
                                   ],
-                                  "version": 1,
+                                  "version": 2,
                                   "hideExpr": null,
                                   "$expanded": true,
                                   "gridOptions": {
-                                    "dataSource": "boodTest.biochemistry",
+                                    "dataSource": "{$data.boodTest.biochemistry}",
                                     "line3VisibleExpression": null
                                   },
                                   "formatOptions": {
@@ -1558,11 +1572,11 @@
                                       ]
                                     }
                                   ],
-                                  "version": 1,
+                                  "version": 2,
                                   "hideExpr": null,
                                   "$expanded": true,
                                   "gridOptions": {
-                                    "dataSource": "boodTest.liverFunctionTests",
+                                    "dataSource": "{$data.boodTest.liverFunctionTests}",
                                     "line3VisibleExpression": null
                                   },
                                   "formatOptions": {
@@ -1771,11 +1785,11 @@
                                       ]
                                     }
                                   ],
-                                  "version": 1,
+                                  "version": 2,
                                   "hideExpr": null,
                                   "$expanded": true,
                                   "gridOptions": {
-                                    "dataSource": "boodTest.thyroidFunctionTests",
+                                    "dataSource": "{$data.boodTest.thyroidFunctionTests}",
                                     "line3VisibleExpression": null
                                   },
                                   "formatOptions": {
@@ -1884,56 +1898,46 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "boodTest",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Bood Test",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n    \u0022hematology\u0022: [\n      {\n        \u0022testName\u0022: \u0022White Blood Cell Count\u0022,\n        \u0022result\u0022: 7.2,\n        \u0022referenceRangeLow\u0022: 4.0,\n        \u0022referenceRangeHigh\u0022: 11.0,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Red Blood Cell Count\u0022,\n        \u0022result\u0022: 14.5,\n        \u0022referenceRangeLow\u0022: 4.2,\n        \u0022referenceRangeHigh\u0022: 5.9,\n        \u0022unit\u0022: \u0022x10^12/L\u0022,\n        \u0022resultStatus\u0022: \u0022Elevated\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hemoglobin\u0022,\n        \u0022result\u0022: 13.5,\n        \u0022referenceRangeLow\u0022: 13.2,\n        \u0022referenceRangeHigh\u0022: 16.6,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Hematocrit\u0022,\n        \u0022result\u0022: 40.1,\n        \u0022referenceRangeLow\u0022: 38.3,\n        \u0022referenceRangeHigh\u0022: 48.6,\n        \u0022unit\u0022: \u0022%\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Platelet Count\u0022,\n        \u0022result\u0022: 250,\n        \u0022referenceRangeLow\u0022: 150,\n        \u0022referenceRangeHigh\u0022: 450,\n        \u0022unit\u0022: \u0022x10^9/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022biochemistry\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glucose\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 70,\n        \u0022referenceRangeHigh\u0022: 99,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Creatinine\u0022,\n        \u0022result\u0022: 0.9,\n        \u0022referenceRangeLow\u0022: 0.6,\n        \u0022referenceRangeHigh\u0022: 1.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Urea\u0022,\n        \u0022result\u0022: 29,\n        \u0022referenceRangeLow\u0022: 15,\n        \u0022referenceRangeHigh\u0022: 50,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alanine Aminotransferase (ALT)\u0022,\n        \u0022result\u0022: 25,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 56,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022liverFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Aspartate Aminotransferase (AST)\u0022,\n        \u0022result\u0022: 30,\n        \u0022referenceRangeLow\u0022: 8,\n        \u0022referenceRangeHigh\u0022: 48,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Alkaline Phosphatase (ALP)\u0022,\n        \u0022result\u0022: 70,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 129,\n        \u0022unit\u0022: \u0022U/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Bilirubin\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.3,\n        \u0022referenceRangeHigh\u0022: 1.9,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Albumin\u0022,\n        \u0022result\u0022: 4.5,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.5,\n        \u0022unit\u0022: \u0022g/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022kidneyFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Glomerular Filtration Rate (GFR)\u0022,\n        \u0022result\u0022: 90,\n        \u0022referenceRangeLow\u0022: 60,\n        \u0022referenceRangeHigh\u0022: 120,\n        \u0022unit\u0022: \u0022mL/min/1.73m\u00B2\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Blood Urea Nitrogen (BUN)\u0022,\n        \u0022result\u0022: 14,\n        \u0022referenceRangeLow\u0022: 7,\n        \u0022referenceRangeHigh\u0022: 20,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022electrolytes\u0022: [\n      {\n        \u0022testName\u0022: \u0022Sodium\u0022,\n        \u0022result\u0022: 140,\n        \u0022referenceRangeLow\u0022: 135,\n        \u0022referenceRangeHigh\u0022: 145,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Potassium\u0022,\n        \u0022result\u0022: 4.2,\n        \u0022referenceRangeLow\u0022: 3.5,\n        \u0022referenceRangeHigh\u0022: 5.1,\n        \u0022unit\u0022: \u0022mmol/L\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Calcium\u0022,\n        \u0022result\u0022: 9.5,\n        \u0022referenceRangeLow\u0022: 8.6,\n        \u0022referenceRangeHigh\u0022: 10.2,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022thyroidFunctionTests\u0022: [\n      {\n        \u0022testName\u0022: \u0022Thyroid Stimulating Hormone (TSH)\u0022,\n        \u0022result\u0022: 2.1,\n        \u0022referenceRangeLow\u0022: 0.5,\n        \u0022referenceRangeHigh\u0022: 4.5,\n        \u0022unit\u0022: \u0022\u03BCIU/mL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Free Thyroxine (FT4)\u0022,\n        \u0022result\u0022: 1.2,\n        \u0022referenceRangeLow\u0022: 0.9,\n        \u0022referenceRangeHigh\u0022: 1.7,\n        \u0022unit\u0022: \u0022ng/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ],\n    \u0022lipidProfile\u0022: [\n      {\n        \u0022testName\u0022: \u0022Total Cholesterol\u0022,\n        \u0022result\u0022: 185,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 200,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Low-Density Lipoprotein (LDL)\u0022,\n        \u0022result\u0022: 100,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 100,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022High-Density Lipoprotein (HDL)\u0022,\n        \u0022result\u0022: 55,\n        \u0022referenceRangeLow\u0022: 40,\n        \u0022referenceRangeHigh\u0022: 60,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      },\n      {\n        \u0022testName\u0022: \u0022Triglycerides\u0022,\n        \u0022result\u0022: 150,\n        \u0022referenceRangeLow\u0022: 0,\n        \u0022referenceRangeHigh\u0022: 150,\n        \u0022unit\u0022: \u0022mg/dL\u0022,\n        \u0022resultStatus\u0022: \u0022Normal\u0022\n      }\n    ]\n  }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Blood Test Result - Red",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Blood Test Result - Red",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page following the company template.",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page following the company template."
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -2010,8 +2014,7 @@
                   "justifyContent": "center"
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -2032,8 +2035,8 @@
           "table": {
             "header": {
               "fontWeight": "700",
-              "textTransform": "UPPERCASE",
-              "borderBottom-header": "1px solid var(--gray)"
+              "borderBottom": "1px solid var(--gray)",
+              "textTransform": "UPPERCASE"
             }
           },
           "custom": ".cxb-grid table tbody:nth-of-type(2) tr td{\n    padding-top: 12px; \n}\n\n.cxb-grid table tbody tr td {\n    line-height: 13px;\n}",
@@ -2076,29 +2079,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Lab Results",
-        "description": "A type of reports related to any kind of lab work",
-        "code": "lab"
+        "code": "lab",
+        "description": "A type of reports related to any kind of lab work"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
         "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

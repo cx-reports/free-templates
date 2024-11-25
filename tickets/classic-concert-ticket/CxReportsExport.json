@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-25T15:21:44.2182075+02:00",
-  "version": "1",
+  "created": "2024-11-25T13:47:46.3039453+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Classic Concert Ticket",
-        "isEmbeddable": false,
         "themeName": "Classic Ticket Theme",
         "reportTypeCode": "ticket",
-        "reportTypeName": "Ticket",
         "reportTemplateName": "Tickets Template",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
-            "number": 1.0,
+            "number": 1.0000,
             "name": "Classic Concert Ticket",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -201,7 +197,7 @@
                                       "children": [
                                         {
                                           "id": "e7f0e3a9947",
-                                          "url": "/rhythmix-logo-black.png",
+                                          "url": "/logo.png",
                                           "type": "img",
                                           "style": {
                                             "objectFit": "scale-down"
@@ -319,12 +315,16 @@
                                           ],
                                           "type": "key-value-grid",
                                           "theme": {
-                                            "text": {
-                                              "key-value-grid-common": {
+                                            "keyValueGrid": {
+                                              "key": {},
+                                              "row": {},
+                                              "value": {},
+                                              "common": {
                                                 "fontSize": "18px",
                                                 "fontFamily": "\u0027Source Sans 3\u0027",
                                                 "lineHeight": "22.63px"
-                                              }
+                                              },
+                                              "divider": {}
                                             }
                                           },
                                           "$level": 6,
@@ -333,7 +333,7 @@
                                             "dataSource": null,
                                             "repeatable": false
                                           },
-                                          "version": 0,
+                                          "version": 3,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -432,12 +432,16 @@
                                           ],
                                           "type": "key-value-grid",
                                           "theme": {
-                                            "text": {
-                                              "key-value-grid-common": {
+                                            "keyValueGrid": {
+                                              "key": {},
+                                              "row": {},
+                                              "value": {},
+                                              "common": {
                                                 "fontSize": "18px",
                                                 "fontFamily": "\u0027Source Sans 3\u0027",
                                                 "lineHeight": "22.63px"
-                                              }
+                                              },
+                                              "divider": {}
                                             }
                                           },
                                           "$level": 6,
@@ -446,7 +450,7 @@
                                             "dataSource": null,
                                             "repeatable": false
                                           },
-                                          "version": 0,
+                                          "version": 3,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -594,7 +598,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "fontSize": "13px"
                                           }
                                         }
@@ -605,6 +609,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -1327,7 +1332,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "fontSize": "13px"
                                           }
                                         }
@@ -1338,6 +1343,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -1395,56 +1401,46 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard Report Page",
                 "description": "Standard Report Page"
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "data",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\r\n  \u0022booking_details\u0022: {\r\n    \u0022name\u0022: \u0022John\u0022,\r\n    \u0022surname\u0022: \u0022Doe\u0022,\r\n    \u0022order_number\u0022: \u0022ORD123456789\u0022,\r\n    \u0022booking\u0022: {\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022time\u0022: \u002215:30\u0022\r\n    },\r\n    \u0022ticket_code\u0022: \u0022TCKT987654321\u0022,\r\n    \u0022method_of_payment\u0022: \u0022Credit Card\u0022\r\n  },\r\n  \u0022concert_information\u0022: {\r\n    \u0022performer\u0022: \u0022The Rolling Stones\u0022,\r\n    \u0022type_of_concert\u0022: \u0022World Tour\u0022,\r\n    \u0022performance\u0022: {\r\n      \u0022date\u0022: \u002217. June, 2024.\u0022,\r\n      \u0022time\u0022: \u002219:00\u0022\r\n    },\r\n    \u0022place_of_performance\u0022: \u0022Madison Square Garden, New York, NY\u0022,\r\n    \u0022gate\u0022: \u0022A\u0022,\r\n    \u0022row\u0022: \u002215\u0022,\r\n    \u0022seat\u0022: \u002222\u0022,\r\n    \u0022full_price\u0022: \u0022\u20AC150.00\u0022\r\n  }\r\n}\r\n"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Tickets Template",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Classic Ticket Theme",
         "pages": [
           {
-            "name": "Standard Report Page",
-            "description": "Standard Report Page",
-            "pageType": {
-              "name": "Standard Report Page",
-              "description": "Standard Report Page"
-            },
+            "pageType": "Standard Report Page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -2039,8 +2035,7 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -2127,29 +2122,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Ticket",
-        "description": "A type of any sort of ticket",
-        "code": "ticket"
+        "code": "ticket",
+        "description": "A type of any sort of ticket"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard Report Page",
         "description": "Standard Report Page"
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

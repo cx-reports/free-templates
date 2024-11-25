@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-25T13:54:32.0385389+02:00",
-  "version": "1",
+  "created": "2024-11-25T12:00:12.9096219+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Cash Flow Report",
-        "isEmbeddable": false,
         "themeName": "Orange Theme",
-        "reportTypeCode": "other",
-        "reportTypeName": "Other",
+        "reportTypeCode": "financial",
         "reportTemplateName": "Orange Finance",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 5.0000,
             "name": "Cash Flow",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -161,11 +157,11 @@
                           "conditionalStyling": []
                         }
                       ],
-                      "version": 1,
+                      "version": 2,
                       "hideExpr": null,
                       "$expanded": false,
                       "gridOptions": {
-                        "dataSource": "cashFlow"
+                        "dataSource": "{$data.cashFlow}"
                       },
                       "formatOptions": {
                         "date": "d",
@@ -179,56 +175,46 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page"
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "cashFlow",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "CashFlow",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n  {\n    \u0022section_id\u0022: \u0022CF001\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Operating Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports a company\u0027s net cash from operating activities, it is concerned with the transactions and events that enter into the determination of net income.\u0022,\n    \u0022current_period\u0022: 120000.00,\n    \u0022previous_period\u0022: 115000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF002\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Investing Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports a company\u0027s purchases and sales of long-term investments, property, plant, and equipment.\u0022,\n    \u0022current_period\u0022: -50000.00,\n    \u0022previous_period\u0022: -75000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF003\u0022,\n    \u0022section_title\u0022: \u0022Cash Flows from Financing Activities\u0022,\n    \u0022section_description\u0022: \u0022This section reports the net flows of cash that are used to fund the company overall, including dividends, equity, and debt.\u0022,\n    \u0022current_period\u0022: -30000.00,\n    \u0022previous_period\u0022: -25000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF004\u0022,\n    \u0022section_title\u0022: \u0022Net Increase in Cash\u0022,\n    \u0022section_description\u0022: \u0022This section reports the net changes in cash and cash equivalents, summing up the cash flows from operating, investing, and financing activities.\u0022,\n    \u0022current_period\u0022: 40000.00,\n    \u0022previous_period\u0022: 15000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF005\u0022,\n    \u0022section_title\u0022: \u0022Cash at Beginning of Period\u0022,\n    \u0022section_description\u0022: \u0022This section reports the amount of cash and cash equivalents at the beginning of the reporting period.\u0022,\n    \u0022current_period\u0022: 50000.00,\n    \u0022previous_period\u0022: 35000.00\n  },\n  {\n    \u0022section_id\u0022: \u0022CF006\u0022,\n    \u0022section_title\u0022: \u0022Cash at End of Period\u0022,\n    \u0022section_description\u0022: \u0022This section reports the total amount of cash and cash equivalents at the end of the reporting period.\u0022,\n    \u0022current_period\u0022: 90000.00,\n    \u0022previous_period\u0022: 50000.00\n  }\n]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Orange Finance",
         "defaultPaperMargins": "12.7mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Orange Theme",
         "pages": [
           {
-            "name": "Cover page",
-            "description": "Cover page",
-            "pageType": {
-              "name": "Cover Page",
-              "description": "Cover page"
-            },
+            "pageType": "Cover Page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -244,16 +230,10 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           },
           {
-            "name": "Rotated page",
-            "description": "Rotated page",
-            "pageType": {
-              "name": "Rotated page",
-              "description": "Rotated page"
-            },
+            "pageType": "Rotated page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -367,15 +347,10 @@
                 }
               }
             ],
-            "paperOrientation": 1
+            "paperOrientation": "landscape"
           },
           {
-            "name": "Standard page",
-            "description": "Standard page",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page"
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -460,8 +435,7 @@
                   "cssClasses": null
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -597,19 +571,16 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
-        "name": "Other",
-        "description": "Default",
-        "code": "other"
+        "name": "Financial",
+        "code": "financial",
+        "description": "A type of reports which usually have financial references"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
@@ -620,30 +591,8 @@
         "description": "Rotated page"
       },
       {
-        "name": "Chapter",
-        "description": "a4"
-      },
-      {
         "name": "Cover Page",
         "description": "Cover page"
-      },
-      {
-        "name": "Blue header",
-        "description": "Blue Heder"
-      },
-      {
-        "name": "Back Cover Page",
-        "description": "Cover"
-      }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": [
-      {
-        "name": "Default",
-        "orderIndex": 0
       }
     ]
   }

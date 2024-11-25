@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-08-16T13:06:15.625995+02:00",
-  "version": "1",
+  "created": "2024-11-25T10:44:04.4145035+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Fancy Invoice",
-        "isEmbeddable": false,
         "themeName": "Fancy Invoice Theme",
         "reportTypeCode": "invoice",
-        "reportTypeName": "Invoice",
         "reportTemplateName": "Fancy Invoice Template",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "Minimalist Invoice",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -210,7 +206,7 @@
                               {
                                 "id": "b31b4945-3bfe-45d5-be9b-5dec9e7e662a",
                                 "class": null,
-                                "style": "padding-left: 70px;\nbackground-color: #F2D951;",
+                                "style": "padding-left: 30px;\nbackground-color: #F2D951;",
                                 "expression": null,
                                 "useExpression": false
                               }
@@ -230,7 +226,7 @@
                           "conditionalStyling": []
                         }
                       ],
-                      "version": 1,
+                      "version": 2,
                       "hideExpr": null,
                       "$expanded": false,
                       "boxStyles": {
@@ -238,7 +234,7 @@
                       },
                       "gridOptions": {
                         "isTree": false,
-                        "dataSource": "data.invoice.items"
+                        "dataSource": "{$data.data.invoice.items}"
                       },
                       "formatOptions": {
                         "date": "d",
@@ -515,7 +511,7 @@
                                       "style": null,
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": "var(--black)",
                                             "fontFamily": null,
                                             "fontWeight": "700"
@@ -528,6 +524,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -572,7 +569,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "fontWeight": "700"
                                           }
                                         }
@@ -588,6 +585,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -658,7 +656,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": "var(--black)",
                                             "fontFamily": null,
                                             "fontWeight": "700"
@@ -671,6 +669,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false
                                     }
@@ -710,7 +709,7 @@
                                       "type": "text",
                                       "theme": {
                                         "text": {
-                                          "p": {
+                                          "span": {
                                             "color": "var(--black)",
                                             "fontWeight": "700"
                                           }
@@ -722,6 +721,7 @@
                                         "dataSource": null,
                                         "repeatable": false
                                       },
+                                      "version": 1,
                                       "hideExpr": null,
                                       "$expanded": false,
                                       "boxStyles": {
@@ -857,7 +857,7 @@
                                           "type": "text",
                                           "theme": {
                                             "text": {
-                                              "p": {
+                                              "span": {
                                                 "color": "var(--black)",
                                                 "fontWeight": "700"
                                               }
@@ -869,6 +869,7 @@
                                             "dataSource": null,
                                             "repeatable": false
                                           },
+                                          "version": 1,
                                           "hideExpr": null,
                                           "$expanded": false,
                                           "boxStyles": {
@@ -1040,13 +1041,16 @@
                               "id": "a888a597f5e",
                               "text": "Lorem ipsum dolor sit amet consectetur. Nisi pharetra pellentesque feugiat diam a phasellus etiam eget convallis. Risus placerat turpis massa nulla feugiat adipiscing ut fermentum scelerisque. ",
                               "type": "text",
+                              "theme": {
+                                "text": {}
+                              },
                               "$level": 3,
                               "repeat": {
                                 "alias": null,
                                 "dataSource": null,
                                 "repeatable": false
                               },
-                              "version": 0,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1205,7 +1209,7 @@
                               },
                               "theme": {
                                 "text": {
-                                  "p": {
+                                  "span": {
                                     "color": "var(--black)",
                                     "fontSize": "18px",
                                     "marginTop": null,
@@ -1226,7 +1230,7 @@
                                 "dataSource": null,
                                 "repeatable": false
                               },
-                              "version": 0,
+                              "version": 1,
                               "hideExpr": null,
                               "$expanded": false,
                               "boxStyles": {
@@ -1272,32 +1276,26 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "data",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
-                "json": "{\r\n  \u0022invoice\u0022: {\r\n    \u0022company\u0022: {\r\n      \u0022name\u0022: \u0022Tech Solutions Inc.\u0022,\r\n      \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022456 Innovation Drive\u0022,\r\n        \u0022zipcode_city\u0022: \u002294016 San Francisco\u0022,\r\n        \u0022state_county\u0022: \u0022California\u0022\r\n      },\r\n      \u0022contact\u0022: {\r\n        \u0022phone_number\u0022: \u0022\u002B1 555-789-0123\u0022,\r\n        \u0022email\u0022: \u0022info@techsolutions.com\u0022,\r\n        \u0022city\u0022: \u0022San Francisco\u0022\r\n      }\r\n    },\r\n    \u0022invoice_details\u0022: {\r\n      \u0022invoice_no\u0022: \u0022INV-2024-00789\u0022,\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022due_date\u0022: \u00222024-08-11\u0022,\r\n      \u0022tax\u0022: 0.07,\r\n      \u0022shipping_fee\u0022: 25\r\n    },\r\n    \u0022items\u0022: [\r\n      {\r\n        \u0022sku\u0022: \u0022200001\u0022,\r\n        \u0022description\u0022: \u0022Intel Core i9-12900K Processor\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 500.00,\r\n        \u0022subtotal\u0022: 2500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200002\u0022,\r\n        \u0022description\u0022: \u0022ASUS ROG Strix Z690-E Gaming WiFi 6E LGA 1700 ATX Motherboard\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 350.00,\r\n        \u0022subtotal\u0022: 1750.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200003\u0022,\r\n        \u0022description\u0022: \u0022Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16 Desktop Memory\u0022,\r\n        \u0022quantity\u0022: 10,\r\n        \u0022unit_price\u0022: 150.00,\r\n        \u0022subtotal\u0022: 1500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200004\u0022,\r\n        \u0022description\u0022: \u0022Samsung 970 EVO Plus SSD 2TB - NVMe M.2\u0022,\r\n        \u0022quantity\u0022: 6,\r\n        \u0022unit_price\u0022: 230.00,\r\n        \u0022subtotal\u0022: 1380.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200005\u0022,\r\n        \u0022description\u0022: \u0022EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12GB GDDR6X\u0022,\r\n        \u0022quantity\u0022: 3,\r\n        \u0022unit_price\u0022: 1200.00,\r\n        \u0022subtotal\u0022: 3600.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200006\u0022,\r\n        \u0022description\u0022: \u0022Corsair RM850x, 850 Watt, 80\u002B Gold Certified, Fully Modular Power Supply\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 140.00,\r\n        \u0022subtotal\u0022: 700.00\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+                "json": "{\r\n  \u0022invoice\u0022: {\r\n    \u0022company\u0022: {\r\n      \u0022name\u0022: \u0022Tech Solutions Inc.\u0022,\r\n      \u0022address\u0022: {\r\n        \u0022street\u0022: \u0022456 Innovation Drive\u0022,\r\n        \u0022zipcode_city\u0022: \u002294016 San Francisco\u0022,\r\n        \u0022state_county\u0022: \u0022California\u0022,\r\n        \u0022location_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/location-marker.png\u0022\r\n      },\r\n      \u0022contact\u0022: {\r\n        \u0022phone_number\u0022: \u0022\u002B1 555-789-0123\u0022,\r\n        \u0022phone_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/phone.png\u0022,\r\n        \u0022email\u0022: \u0022info@techsolutions.com\u0022,\r\n        \u0022email_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/invoices/fancy-invoice/images/mail.png\u0022,\r\n        \u0022city\u0022: \u0022San Francisco\u0022\r\n      }\r\n    },\r\n    \u0022invoice_details\u0022: {\r\n      \u0022invoice_no\u0022: \u0022INV-2024-00789\u0022,\r\n      \u0022date\u0022: \u00222024-07-11\u0022,\r\n      \u0022due_date\u0022: \u00222024-08-11\u0022,\r\n      \u0022tax\u0022: 0.07,\r\n      \u0022shipping_fee\u0022: 25\r\n    },\r\n    \u0022items\u0022: [\r\n      {\r\n        \u0022sku\u0022: \u0022200001\u0022,\r\n        \u0022description\u0022: \u0022Intel Core i9-12900K Processor\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 500.00,\r\n        \u0022subtotal\u0022: 2500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200002\u0022,\r\n        \u0022description\u0022: \u0022ASUS ROG Strix Z690-E Gaming WiFi 6E LGA 1700 ATX Motherboard\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 350.00,\r\n        \u0022subtotal\u0022: 1750.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200003\u0022,\r\n        \u0022description\u0022: \u0022Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16 Desktop Memory\u0022,\r\n        \u0022quantity\u0022: 10,\r\n        \u0022unit_price\u0022: 150.00,\r\n        \u0022subtotal\u0022: 1500.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200004\u0022,\r\n        \u0022description\u0022: \u0022Samsung 970 EVO Plus SSD 2TB - NVMe M.2\u0022,\r\n        \u0022quantity\u0022: 6,\r\n        \u0022unit_price\u0022: 230.00,\r\n        \u0022subtotal\u0022: 1380.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200005\u0022,\r\n        \u0022description\u0022: \u0022EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12GB GDDR6X\u0022,\r\n        \u0022quantity\u0022: 3,\r\n        \u0022unit_price\u0022: 1200.00,\r\n        \u0022subtotal\u0022: 3600.00\r\n      },\r\n      {\r\n        \u0022sku\u0022: \u0022200006\u0022,\r\n        \u0022description\u0022: \u0022Corsair RM850x, 850 Watt, 80\u002B Gold Certified, Fully Modular Power Supply\u0022,\r\n        \u0022quantity\u0022: 5,\r\n        \u0022unit_price\u0022: 140.00,\r\n        \u0022subtotal\u0022: 700.00\r\n      }\r\n    ]\r\n  }\r\n}\r\n"
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -1306,42 +1304,35 @@
           },
           {
             "name": "Tax",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Tax",
-              "type": 4,
-              "externalDatabaseName": null,
+              "type": "js",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "js": "({$params: params, $data: data}) =\u003E {\r\n    let subtotal = 0;\r\n    data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}",
                 "json": "(params, data) =\u003E {\r\n    let subtotal = 0;\r\n    data.data.invoice.items.forEach((item) =\u003E subtotal \u002B= item.subtotal);\r\n    return subtotal\r\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Fancy Invoice Template",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Fancy Invoice Theme",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page following the company template.",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page following the company template."
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -1851,16 +1842,39 @@
                         "children": [
                           {
                             "id": "59b6481e549",
-                            "html": "\u003Csvg width=\u002220\u0022 height=\u002219\u0022 viewBox=\u00220 0 20 19\u0022 fill=\u0022none\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003E\n\u003Cpath d=\u0022M19.9884 14.3525C19.81 15.6398 19.1446 16.8214 18.1162 17.6767C17.0879 18.5319 15.767 19.0023 14.4003 19C6.46012 19 9.0488e-06 12.8629 9.0488e-06 5.31986C-0.00244097 4.02147 0.492705 2.76664 1.39297 1.78972C2.29323 0.812796 3.53704 0.180601 4.89209 0.0112079C5.23475 -0.0285396 5.58175 0.0380569 5.8813 0.201056C6.18084 0.364056 6.41686 0.614715 6.55412 0.915617L8.66616 5.39491V5.40631C8.77125 5.63664 8.81465 5.88812 8.79249 6.13827C8.77032 6.38842 8.68329 6.62947 8.53916 6.83987C8.52116 6.86552 8.50216 6.88927 8.48215 6.91302L6.40012 9.25765C7.14913 10.7036 8.74116 12.2027 10.2832 12.9161L12.7172 10.9487C12.7411 10.9296 12.7662 10.9118 12.7922 10.8955C13.0135 10.7552 13.2681 10.6697 13.533 10.6464C13.7979 10.6232 14.0647 10.6631 14.3093 10.7625L14.3223 10.7682L19.0333 12.7736C19.3506 12.9036 19.6151 13.1276 19.7873 13.4122C19.9594 13.6968 20.03 14.0267 19.9884 14.3525Z\u0022 fill=\u0022#212030\u0022/\u003E\n\u003C/svg\u003E\n",
-                            "type": "html",
+                            "type": "flow",
                             "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
                             "repeat": {
                               "alias": null,
                               "dataSource": null,
                               "repeatable": false
                             },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "9b6481e5494",
+                                "url": "{$data.data.invoice.company.contact.phone_icon}",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
                             "hideExpr": null,
-                            "$expanded": false,
+                            "$expanded": true,
                             "boxStyles": {
                               "style": {
                                 "flexGrow": "0",
@@ -1869,8 +1883,7 @@
                               },
                               "alignItems": "flex-start",
                               "justifyContent": "center"
-                            },
-                            "editorMode": "rich"
+                            }
                           },
                           {
                             "id": "b6481e54943",
@@ -1917,7 +1930,7 @@
                           }
                         ],
                         "hideExpr": null,
-                        "$expanded": true,
+                        "$expanded": false,
                         "boxStyles": {
                           "style": {
                             "flexGrow": 1,
@@ -1962,16 +1975,39 @@
                         "children": [
                           {
                             "id": "81e5494372a",
-                            "html": "\u003Csvg width=\u002220\u0022 height=\u002215\u0022 viewBox=\u00220 0 20 15\u0022 fill=\u0022none\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003E\n\u003Cpath d=\u0022M18 0H2C0.9 0 0.00999999 0.84375 0.00999999 1.875L0 13.125C0 14.1562 0.9 15 2 15H18C19.1 15 20 14.1562 20 13.125V1.875C20 0.84375 19.1 0 18 0ZM17.6 3.98438L10.53 8.12813C10.21 8.31563 9.79 8.31563 9.47 8.12813L2.4 3.98438C2.29973 3.9316 2.21192 3.86031 2.14189 3.7748C2.07186 3.68929 2.02106 3.59135 1.99258 3.48691C1.96409 3.38247 1.9585 3.27369 1.97616 3.16716C1.99381 3.06064 2.03434 2.95858 2.09528 2.86716C2.15623 2.77574 2.23632 2.69686 2.33073 2.63531C2.42513 2.57375 2.53187 2.53079 2.6445 2.50903C2.75712 2.48727 2.87328 2.48716 2.98595 2.5087C3.09863 2.53025 3.20546 2.573 3.3 2.63437L10 6.5625L16.7 2.63437C16.7945 2.573 16.9014 2.53025 17.014 2.5087C17.1267 2.48716 17.2429 2.48727 17.3555 2.50903C17.4681 2.53079 17.5749 2.57375 17.6693 2.63531C17.7637 2.69686 17.8438 2.77574 17.9047 2.86716C17.9657 2.95858 18.0062 3.06064 18.0238 3.16716C18.0415 3.27369 18.0359 3.38247 18.0074 3.48691C17.9789 3.59135 17.9281 3.68929 17.8581 3.7748C17.7881 3.86031 17.7003 3.9316 17.6 3.98438Z\u0022 fill=\u0022#212030\u0022/\u003E\n\u003C/svg\u003E\n",
-                            "type": "html",
+                            "type": "flow",
                             "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
                             "repeat": {
                               "alias": null,
                               "dataSource": null,
                               "repeatable": false
                             },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "1e5494372aa",
+                                "url": "{$data.data.invoice.company.contact.email_icon}",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
                             "hideExpr": null,
-                            "$expanded": false,
+                            "$expanded": true,
                             "boxStyles": {
                               "style": {
                                 "width": "34px",
@@ -1981,8 +2017,7 @@
                               },
                               "alignItems": "flex-start",
                               "justifyContent": "center"
-                            },
-                            "editorMode": "rich"
+                            }
                           },
                           {
                             "id": "e5494372aa6",
@@ -2029,7 +2064,7 @@
                           }
                         ],
                         "hideExpr": null,
-                        "$expanded": true,
+                        "$expanded": false,
                         "boxStyles": {
                           "style": {
                             "flexGrow": "1",
@@ -2074,16 +2109,39 @@
                         "children": [
                           {
                             "id": "94372aa632f",
-                            "html": "\u003Csvg width=\u002212\u0022 height=\u002216\u0022 viewBox=\u00220 0 12 16\u0022 fill=\u0022none\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003E\n\u003Cpath d=\u0022M5.79672 7.6C5.24766 7.6 4.72108 7.38929 4.33283 7.01421C3.94458 6.63914 3.72647 6.13043 3.72647 5.6C3.72647 5.06957 3.94458 4.56086 4.33283 4.18579C4.72108 3.81071 5.24766 3.6 5.79672 3.6C6.34579 3.6 6.87237 3.81071 7.26062 4.18579C7.64887 4.56086 7.86698 5.06957 7.86698 5.6C7.86698 5.86264 7.81344 6.12272 7.70939 6.36537C7.60535 6.60802 7.45286 6.8285 7.26062 7.01421C7.06838 7.19993 6.84015 7.34725 6.58898 7.44776C6.3378 7.54827 6.06859 7.6 5.79672 7.6ZM5.79672 0C4.25934 0 2.78492 0.589998 1.69782 1.6402C0.610725 2.69041 0 4.11479 0 5.6C0 9.8 5.79672 16 5.79672 16C5.79672 16 11.5934 9.8 11.5934 5.6C11.5934 4.11479 10.9827 2.69041 9.89563 1.6402C8.80853 0.589998 7.33411 0 5.79672 0Z\u0022 fill=\u0022#212030\u0022/\u003E\n\u003C/svg\u003E\n",
-                            "type": "html",
+                            "type": "flow",
                             "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
                             "repeat": {
                               "alias": null,
                               "dataSource": null,
                               "repeatable": false
                             },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "4372aa632fc",
+                                "url": "{$data.data.invoice.company.address.location_icon}",
+                                "type": "img",
+                                "$level": 4,
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "hideExpr": null,
+                                "$expanded": false,
+                                "boxStyles": {
+                                  "style": {
+                                    "height": "20px"
+                                  }
+                                }
+                              }
+                            ],
                             "hideExpr": null,
-                            "$expanded": false,
+                            "$expanded": true,
                             "boxStyles": {
                               "style": {
                                 "flexGrow": "0",
@@ -2092,8 +2150,7 @@
                               },
                               "alignItems": "flex-start",
                               "justifyContent": "center"
-                            },
-                            "editorMode": "rich"
+                            }
                           },
                           {
                             "id": "372aa632fc9",
@@ -2139,7 +2196,7 @@
                           }
                         ],
                         "hideExpr": null,
-                        "$expanded": true,
+                        "$expanded": false,
                         "boxStyles": {
                           "style": {
                             "flexGrow": 1,
@@ -2169,8 +2226,7 @@
                   "style": {}
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -2222,15 +2278,15 @@
               "fontSize": "14px",
               "fontFamily": "\u0027Montserrat\u0027",
               "fontWeight": "500",
-              "paddingTop-cell": "3.5px",
-              "paddingLeft-cell": "14px",
-              "paddingRight-cell": "14px",
-              "paddingBottom-cell": "3.5px"
+              "paddingTop": "3.5px",
+              "paddingLeft": "14px",
+              "paddingRight": "14px",
+              "paddingBottom": "3.5px"
             },
             "table": {
+              "paddingTop": null,
               "oddRowColor": "var(--white-smoke)",
-              "paddingTop-table": null,
-              "paddingBottom-table": null
+              "paddingBottom": null
             },
             "group1": {
               "fontFamily": "\u0027Montserrat\u0027"
@@ -2240,19 +2296,19 @@
               "fontSize": "13px",
               "fontFamily": "\u0027Montserrat\u0027",
               "fontWeight": "700",
+              "paddingTop": "14px",
+              "paddingLeft": "14px",
+              "paddingRight": "14px",
+              "paddingBottom": "14px",
               "textTransform": "UPPERCASE",
-              "backgroundColor": "var(--gray49)",
-              "paddingTop-header": "14px",
-              "paddingLeft-header": "14px",
-              "paddingRight-header": "14px",
-              "paddingBottom-header": "14px"
+              "backgroundColor": "var(--gray49)"
             },
             "footer1": {
               "fontFamily": "\u0027Montserrat\u0027",
-              "paddingTop-footer1": "11.5px",
-              "paddingLeft-footer1": null,
-              "paddingRight-footer1": "14px",
-              "paddingBottom-footer1": "11.5px"
+              "paddingTop": "11.5px",
+              "paddingLeft": null,
+              "paddingRight": "14px",
+              "paddingBottom": "11.5px"
             }
           },
           "custom": null,
@@ -2315,29 +2371,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Invoice",
-        "description": "Invoices",
-        "code": "invoice"
+        "code": "invoice",
+        "description": "Invoices"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
         "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

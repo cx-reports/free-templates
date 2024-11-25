@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-19T08:54:58.573062+02:00",
-  "version": "1",
+  "created": "2024-11-25T13:40:46.2847024+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Quarterly Portfolio Performance Report",
-        "isEmbeddable": false,
         "themeName": "Nebula Nexus Theme",
         "reportTypeCode": "perforval",
-        "reportTypeName": "Performance Valuation",
         "reportTemplateName": "Nebula Nexus",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 3.0000,
             "name": "About",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -89,19 +85,15 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           },
           {
             "number": 5.0000,
             "name": "Asset Allocation",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -1555,19 +1547,15 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           },
           {
             "number": 4.0000,
             "name": "Performance Analysis",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -3884,19 +3872,15 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           },
           {
             "number": 7.0000,
             "name": "Transactions",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -4228,19 +4212,15 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Rotated page",
                 "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
               }
-            },
-            "embeddedReportName": null
+            }
           },
           {
             "number": 6.0000,
             "name": "Exposure",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -5483,19 +5463,70 @@
               ],
               "isCountable": true,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
+          },
+          {
+            "number": 2.0000,
+            "name": "Contents",
+            "page": {
+              "content": [
+                {
+                  "id": "9e84acfc0dd",
+                  "type": "content",
+                  "config": {
+                    "name": "master"
+                  },
+                  "children": [
+                    {
+                      "id": "e84acfc0dd4",
+                      "tag": "h1",
+                      "text": "Contents",
+                      "type": "heading",
+                      "theme": {
+                        "text": {
+                          "h1": {
+                            "color": null
+                          },
+                          "h3": {
+                            "color": null
+                          }
+                        }
+                      },
+                      "hideExpr": null,
+                      "includeInTOC": false
+                    },
+                    {
+                      "id": "84acfc0dd4b",
+                      "type": "toc",
+                      "style": {
+                        "fontSize": null,
+                        "lineHeight": null
+                      },
+                      "hideExpr": null,
+                      "tabLeader": "dots",
+                      "rightAlign": true,
+                      "showLevels": 2,
+                      "showPageNames": false,
+                      "showPageNumber": true
+                    }
+                  ]
+                }
+              ],
+              "isCountable": true,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            }
           },
           {
             "number": 1.0000,
             "name": "Cover page",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -5566,7 +5597,7 @@
                           "type": "text",
                           "theme": {
                             "text": {
-                              "p": {
+                              "span": {
                                 "color": "rgba(226,235,251,1)",
                                 "fontSize": "48px",
                                 "fontFamily": null,
@@ -5576,6 +5607,7 @@
                             }
                           },
                           "$level": 1,
+                          "version": 1,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -5587,6 +5619,11 @@
                           "size": "normal",
                           "type": "spacer",
                           "$level": 1,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -5609,7 +5646,7 @@
                           },
                           "theme": {
                             "text": {
-                              "p": {
+                              "span": {
                                 "color": "rgba(255,255,255,1)",
                                 "fontSize": "48px",
                                 "fontFamily": null,
@@ -5619,6 +5656,7 @@
                             }
                           },
                           "$level": 1,
+                          "version": 1,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -5651,7 +5689,7 @@
                           },
                           "theme": {
                             "text": {
-                              "p": {
+                              "span": {
                                 "color": "rgba(7,235,177,1)",
                                 "fontSize": "48px",
                                 "fontFamily": null,
@@ -5661,6 +5699,7 @@
                             }
                           },
                           "$level": 1,
+                          "version": 1,
                           "hideExpr": null,
                           "$expanded": false,
                           "boxStyles": {
@@ -5705,91 +5744,26 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Cover page",
                 "description": "The first page of a larger report."
               }
-            },
-            "embeddedReportName": null
-          },
-          {
-            "number": 2.0000,
-            "name": "Contents",
-            "configuration": null,
-            "page": {
-              "content": [
-                {
-                  "id": "9e84acfc0dd",
-                  "type": "content",
-                  "config": {
-                    "name": "master"
-                  },
-                  "children": [
-                    {
-                      "id": "e84acfc0dd4",
-                      "tag": "h1",
-                      "text": "Contents",
-                      "type": "heading",
-                      "theme": {
-                        "text": {
-                          "h1": {
-                            "color": null
-                          },
-                          "h3": {
-                            "color": null
-                          }
-                        }
-                      },
-                      "hideExpr": null,
-                      "includeInTOC": false
-                    },
-                    {
-                      "id": "84acfc0dd4b",
-                      "type": "toc",
-                      "style": {
-                        "fontSize": null,
-                        "lineHeight": null
-                      },
-                      "hideExpr": null,
-                      "tabLeader": "dots",
-                      "rightAlign": true,
-                      "showLevels": 2,
-                      "showPageNames": false,
-                      "showPageNumber": true
-                    }
-                  ]
-                }
-              ],
-              "isCountable": true,
-              "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
-              "pageType": {
-                "name": "Standard page",
-                "description": "Standard page following the company template."
-              }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "asset_allocation",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Asset Allocation",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\n      \u0022asset_class\u0022: \u0022Equities\u0022,\n      \u0022share\u0022: 0.55,\n      \u0022starting_amount\u0022: 220150000,\n      \u0022ending_amount\u0022: 225750000,\n      \u0022change\u0022: 0.0254\n    },\n    {\n      \u0022asset_class\u0022: \u0022Bonds\u0022,\n      \u0022share\u0022: 0.25,\n      \u0022starting_amount\u0022: 101200000,\n      \u0022ending_amount\u0022: 99180000,\n      \u0022change\u0022: -0.0199\n    },\n    {\n      \u0022asset_class\u0022: \u0022Real Estate\u0022,\n      \u0022share\u0022: 0.10,\n      \u0022starting_amount\u0022: 40500000,\n      \u0022ending_amount\u0022: 41100000,\n      \u0022change\u0022: 0.0105\n    },\n    {\n      \u0022asset_class\u0022: \u0022Alternative Investments\u0022,\n      \u0022share\u0022: 0.10,\n      \u0022starting_amount\u0022: 40000000,\n      \u0022ending_amount\u0022: 40000000,\n      \u0022change\u0022: 0.0\n    }\n  ]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5798,17 +5772,14 @@
           },
           {
             "name": "equities",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Equities",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\n      \u0022position\u0022: \u0022TechCorp Inc\u0022,\n      \u0022share\u0022: 0.3,\n      \u0022starting_amount\u0022: 66045000,\n      \u0022ending_amount\u0022: 69287295,\n      \u0022change\u0022: 0.049\n    },\n    {\n      \u0022position\u0022: \u0022HealthGen Solutions\u0022,\n      \u0022share\u0022: 0.25,\n      \u0022starting_amount\u0022: 55037500,\n      \u0022ending_amount\u0022: 57489125,\n      \u0022change\u0022: 0.044\n    },\n    {\n      \u0022position\u0022: \u0022EnviroResource Ltd\u0022,\n      \u0022share\u0022: 0.15,\n      \u0022starting_amount\u0022: 33022500,\n      \u0022ending_amount\u0022: 33332775,\n      \u0022change\u0022: 0.009\n    },\n    {\n      \u0022position\u0022: \u0022Innovatech International\u0022,\n      \u0022share\u0022: 0.2,\n      \u0022starting_amount\u0022: 44030000,\n      \u0022ending_amount\u0022: 46515000,\n      \u0022change\u0022: 0.056\n    },\n    {\n      \u0022position\u0022: \u0022Global Financiers\u0022,\n      \u0022share\u0022: 0.1,\n      \u0022starting_amount\u0022: 22015000,\n      \u0022ending_amount\u0022: 22344805,\n      \u0022change\u0022: 0.015\n    }\n  ]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5817,19 +5788,16 @@
           },
           {
             "name": "positions",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Positions",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n    \u0022equities\u0022: [\n      {\n        \u0022position\u0022: \u0022TechCorp Inc\u0022,\n        \u0022share\u0022: 0.3,\n        \u0022startingAmount\u0022: 66045000,\n        \u0022endingAmount\u0022: 69287295,\n        \u0022change\u0022: 0.049\n      },\n      {\n        \u0022position\u0022: \u0022HealthGen Solutions\u0022,\n        \u0022share\u0022: 0.25,\n        \u0022startingAmount\u0022: 55037500,\n        \u0022endingAmount\u0022: 57489125,\n        \u0022change\u0022: 0.044\n      },\n      {\n        \u0022position\u0022: \u0022EnviroResource Ltd\u0022,\n        \u0022share\u0022: 0.15,\n        \u0022startingAmount\u0022: 33022500,\n        \u0022endingAmount\u0022: 33332775,\n        \u0022change\u0022: 0.009\n      },\n      {\n        \u0022position\u0022: \u0022Innovatech International\u0022,\n        \u0022share\u0022: 0.2,\n        \u0022startingAmount\u0022: 44030000,\n        \u0022endingAmount\u0022: 46515000,\n        \u0022change\u0022: 0.056\n      },\n      {\n        \u0022position\u0022: \u0022Global Financiers\u0022,\n        \u0022share\u0022: 0.1,\n        \u0022startingAmount\u0022: 22015000,\n        \u0022endingAmount\u0022: 22344805,\n        \u0022change\u0022: 0.015\n      }\n    ],\n    \u0022bonds\u0022: [\n      {\n        \u0022position\u0022: \u0022Government Bonds\u0022,\n        \u0022share\u0022: 0.4,\n        \u0022startingAmount\u0022: 40480000,\n        \u0022endingAmount\u0022: 40683600,\n        \u0022change\u0022: 0.005\n      },\n      {\n        \u0022position\u0022: \u0022Municipal Bonds\u0022,\n        \u0022share\u0022: 0.3,\n        \u0022startingAmount\u0022: 30360000,\n        \u0022endingAmount\u0022: 30462720,\n        \u0022change\u0022: 0.003\n      },\n      {\n        \u0022position\u0022: \u0022Corporate Bonds\u0022,\n        \u0022share\u0022: 0.3,\n        \u0022startingAmount\u0022: 30360000,\n        \u0022endingAmount\u0022: 30106800,\n        \u0022change\u0022: -0.008\n      }\n    ],\n    \u0022realEstate\u0022: [\n      {\n        \u0022position\u0022: \u0022Commercial Properties\u0022,\n        \u0022share\u0022: 0.5,\n        \u0022startingAmount\u0022: 20250000,\n        \u0022endingAmount\u0022: 20452500,\n        \u0022change\u0022: 0.01\n      },\n      {\n        \u0022position\u0022: \u0022Residential Properties\u0022,\n        \u0022share\u0022: 0.5,\n        \u0022startingAmount\u0022: 20250000,\n        \u0022endingAmount\u0022: 20377500,\n        \u0022change\u0022: 0.006\n      }\n    ],\n    \u0022alternativeInvestments\u0022: [\n      {\n        \u0022position\u0022: \u0022Hedge Funds\u0022,\n        \u0022share\u0022: 0.5,\n        \u0022startingAmount\u0022: 20000000,\n        \u0022endingAmount\u0022: 20100000,\n        \u0022change\u0022: 0.005\n      },\n      {\n        \u0022position\u0022: \u0022Private Equity\u0022,\n        \u0022share\u0022: 0.3,\n        \u0022startingAmount\u0022: 12000000,\n        \u0022endingAmount\u0022: 12036000,\n        \u0022change\u0022: 0.003\n      },\n      {\n        \u0022position\u0022: \u0022Commodities\u0022,\n        \u0022share\u0022: 0.2,\n        \u0022startingAmount\u0022: 8000000,\n        \u0022endingAmount\u0022: 7984000,\n        \u0022change\u0022: -0.002\n      }\n    ]\n  }",
                 "idField": "id",
                 "valueField": "name"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5838,18 +5806,15 @@
           },
           {
             "name": "performance",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Performance",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "js": null,
                 "json": "{\n    \u0022overallPerformance\u0022: {\n      \u0022portfolioReturn\u0022: 0.057,\n      \u0022volatility\u0022: 0.012,\n      \u0022totalValue\u0022: 225750000\n    },\n    \u0022benchmarkComparison\u0022: [\n      {\n        \u0022benchmark\u0022: \u0022S\u0026P 500\u0022,\n        \u0022benchmarkReturn\u0022: 0.045,\n        \u0022relativePerformance\u0022: 0.012\n      },\n      {\n        \u0022benchmark\u0022: \u0022NASDAQ Composite\u0022,\n        \u0022benchmarkReturn\u0022: 0.065,\n        \u0022relativePerformance\u0022: -0.008\n      },\n      {\n        \u0022benchmark\u0022: \u0022Russell 2000\u0022,\n        \u0022benchmarkReturn\u0022: 0.039,\n        \u0022relativePerformance\u0022: 0.018\n      }\n    ],\n    \u0022riskAdjustedReturns\u0022: {\n      \u0022sharpeRatio\u0022: 1.25,\n      \u0022sortinoRatio\u0022: 1.75\n    },\n    \u0022drawdownAnalysis\u0022: {\n      \u0022maximumDrawdown\u0022: -0.052,\n      \u0022drawdownDuration\u0022: 90  \n    },\n   \u0022contributionAnalysis\u0022: [\n      {\n        \u0022assetClass\u0022: \u0022Equities\u0022,\n        \u0022returnContribution\u0022: 0.032,\n        \u0022riskContribution\u0022: 0.7\n      },\n      {\n        \u0022assetClass\u0022: \u0022Bonds\u0022,\n        \u0022returnContribution\u0022: 0.012,\n        \u0022riskContribution\u0022: 0.2\n      },\n      {\n        \u0022assetClass\u0022: \u0022Real Estate\u0022,\n        \u0022returnContribution\u0022: 0.008,\n        \u0022riskContribution\u0022: 0.05\n      },\n      {\n        \u0022assetClass\u0022: \u0022Alternative Investments\u0022,\n        \u0022returnContribution\u0022: 0.005,\n        \u0022riskContribution\u0022: 0.05\n      }\n    ],\n    \u0022comparativeRatios\u0022: {\n      \u0022beta\u0022: 0.98,\n      \u0022alpha\u0022: 0.03\n    },\n    \u0022liquidityAnalysis\u0022: {\n      \u0022averageDailyVolume\u0022: {\n        \u0022equities\u0022: 5000000,  \n        \u0022bonds\u0022: 2000000  \n      },\n      \u0022cashHoldings\u0022: 30000000\n    },\n    \u0022stressTesting\u0022: {\n      \u0022historicalStressEvents\u0022: {\n        \u0022FinancialCrisis2008\u0022: -0.3,\n        \u0022COVID19Pandemic\u0022: -0.15\n      },\n      \u0022hypotheticalScenarios\u0022: {\n        \u0022interestRateHike\u0022: -0.05,\n        \u0022recession\u0022: -0.1\n      }\n    },\n    \u0022expenseAndFeeAnalysis\u0022: {\n      \u0022expenseRatios\u0022: {\n        \u0022equities\u0022: 0.002,\n        \u0022bonds\u0022: 0.0015,\n        \u0022realEstate\u0022: 0.0025,\n        \u0022alternativeInvestments\u0022: 0.003\n      },\n      \u0022impactOfFeesOnReturn\u0022: -0.01 \n    },\n    \u0022qualitativeCommentary\u0022: {\n      \u0022marketOverview\u0022: \u0022The market experienced significant volatility with a focus on tech and healthcare sectors.\u0022,\n      \u0022strategyReview\u0022: \u0022The active management strategy adapted to market changes, focusing on long-term growth and stability.\u0022\n    },\n\u0022performanceByAssetClass\u0022: [\n      {\n        \u0022assetClass\u0022: \u0022Equities\u0022,\n        \u0022return\u0022: 0.062,\n        \u0022proportionOfPortfolio\u0022: 0.55,\n        \u0022topPerformers\u0022: [\u0022TechCorp Inc\u0022, \u0022Innovatech International\u0022]\n      },\n      {\n        \u0022assetClass\u0022: \u0022Bonds\u0022,\n        \u0022return\u0022: 0.028,\n        \u0022proportionOfPortfolio\u0022: 0.25,\n        \u0022topPerformers\u0022: [\u0022Government Bonds\u0022]\n      },\n      {\n        \u0022assetClass\u0022: \u0022Real Estate\u0022,\n        \u0022return\u0022: 0.033,\n        \u0022proportionOfPortfolio\u0022: 0.10,\n        \u0022topPerformers\u0022: [\u0022Commercial Properties\u0022]\n      },\n      {\n        \u0022assetClass\u0022: \u0022Alternative Investments\u0022,\n        \u0022return\u0022: 0.04,\n        \u0022proportionOfPortfolio\u0022: 0.10,\n        \u0022topPerformers\u0022: [\u0022Hedge Funds\u0022, \u0022Private Equity\u0022]\n      }\n    ]\n  }"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5858,17 +5823,14 @@
           },
           {
             "name": "transactions",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Transactions",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n  {\n    \u0022date\u0022:\u00222024-06-09\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:732,\n    \u0022pricePerUnit\u0022:144.36,\n    \u0022totalAmount\u0022:474362.46,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:560.13,\n    \u0022netAmount\u0022:474922.59,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-15\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:326,\n    \u0022pricePerUnit\u0022:250.7,\n    \u0022totalAmount\u0022:476986.33,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:714.71,\n    \u0022netAmount\u0022:476271.62,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-11\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:104,\n    \u0022pricePerUnit\u0022:256.15,\n    \u0022totalAmount\u0022:437653.11,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:775.92,\n    \u0022netAmount\u0022:436877.19,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-29\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Private Equity\u0022,\n    \u0022quantity\u0022:535,\n    \u0022pricePerUnit\u0022:216.64,\n    \u0022totalAmount\u0022:254175.37,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:94.4,\n    \u0022netAmount\u0022:254269.77,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-08\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:160,\n    \u0022pricePerUnit\u0022:77.35,\n    \u0022totalAmount\u0022:421492.67,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:39.99,\n    \u0022netAmount\u0022:421532.66,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-10\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Hedge Funds\u0022,\n    \u0022quantity\u0022:306,\n    \u0022pricePerUnit\u0022:232.39,\n    \u0022totalAmount\u0022:288005.35,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:151.19,\n    \u0022netAmount\u0022:288156.54,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-29\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:555,\n    \u0022pricePerUnit\u0022:168.08,\n    \u0022totalAmount\u0022:492138.08,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:245.95,\n    \u0022netAmount\u0022:492384.03,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-20\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:660,\n    \u0022pricePerUnit\u0022:190.53,\n    \u0022totalAmount\u0022:136482.55,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:14.05,\n    \u0022netAmount\u0022:136468.5,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-28\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:309,\n    \u0022pricePerUnit\u0022:228.43,\n    \u0022totalAmount\u0022:322517.04,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:475.17,\n    \u0022netAmount\u0022:322041.87,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-05\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Hedge Funds\u0022,\n    \u0022quantity\u0022:855,\n    \u0022pricePerUnit\u0022:152.47,\n    \u0022totalAmount\u0022:266098.72,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:998.73,\n    \u0022netAmount\u0022:267097.44999999995,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-17\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:126,\n    \u0022pricePerUnit\u0022:285.27,\n    \u0022totalAmount\u0022:419331.25,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:59.12,\n    \u0022netAmount\u0022:419390.37,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-12\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Private Equity\u0022,\n    \u0022quantity\u0022:946,\n    \u0022pricePerUnit\u0022:51.05,\n    \u0022totalAmount\u0022:450008.34,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:275.06,\n    \u0022netAmount\u0022:449733.28,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-20\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:131,\n    \u0022pricePerUnit\u0022:122.15,\n    \u0022totalAmount\u0022:62799.21,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:709.5,\n    \u0022netAmount\u0022:63508.71,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-15\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:793,\n    \u0022pricePerUnit\u0022:241.79,\n    \u0022totalAmount\u0022:60464.13,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:536.67,\n    \u0022netAmount\u0022:61000.799999999996,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-16\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Municipal Bonds\u0022,\n    \u0022quantity\u0022:205,\n    \u0022pricePerUnit\u0022:106.66,\n    \u0022totalAmount\u0022:378098.11,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:559.9,\n    \u0022netAmount\u0022:377538.20999999996,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-07\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:573,\n    \u0022pricePerUnit\u0022:240.95,\n    \u0022totalAmount\u0022:188003.5,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:591.67,\n    \u0022netAmount\u0022:188595.17,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-15\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:36,\n    \u0022pricePerUnit\u0022:160.4,\n    \u0022totalAmount\u0022:343489.33,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:573.94,\n    \u0022netAmount\u0022:342915.39,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-10\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:234,\n    \u0022pricePerUnit\u0022:170.11,\n    \u0022totalAmount\u0022:150383,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:970.58,\n    \u0022netAmount\u0022:149412.42,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-22\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022EnviroResource Ltd\u0022,\n    \u0022quantity\u0022:686,\n    \u0022pricePerUnit\u0022:142.54,\n    \u0022totalAmount\u0022:260035.94,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:724.79,\n    \u0022netAmount\u0022:260760.73,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-18\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Innovatech International\u0022,\n    \u0022quantity\u0022:705,\n    \u0022pricePerUnit\u0022:241.96,\n    \u0022totalAmount\u0022:365872.56,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:684.37,\n    \u0022netAmount\u0022:366556.93,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-22\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Hedge Funds\u0022,\n    \u0022quantity\u0022:758,\n    \u0022pricePerUnit\u0022:232.03,\n    \u0022totalAmount\u0022:494542.37,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:478.81,\n    \u0022netAmount\u0022:494063.56,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-12\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:375,\n    \u0022pricePerUnit\u0022:238.36,\n    \u0022totalAmount\u0022:164415.54,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:870.54,\n    \u0022netAmount\u0022:163545,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-18\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Government Bonds\u0022,\n    \u0022quantity\u0022:50,\n    \u0022pricePerUnit\u0022:111.74,\n    \u0022totalAmount\u0022:48980.69,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:343.91,\n    \u0022netAmount\u0022:49324.600000000006,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-04\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:433,\n    \u0022pricePerUnit\u0022:136.54,\n    \u0022totalAmount\u0022:488274.68,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:715.81,\n    \u0022netAmount\u0022:488990.49,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-23\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Hedge Funds\u0022,\n    \u0022quantity\u0022:720,\n    \u0022pricePerUnit\u0022:260.55,\n    \u0022totalAmount\u0022:395354.64,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:810.24,\n    \u0022netAmount\u0022:394544.4,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-24\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Hedge Funds\u0022,\n    \u0022quantity\u0022:1000,\n    \u0022pricePerUnit\u0022:54.45,\n    \u0022totalAmount\u0022:248736.72,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:495.33,\n    \u0022netAmount\u0022:249232.05,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-27\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Private Equity\u0022,\n    \u0022quantity\u0022:810,\n    \u0022pricePerUnit\u0022:150.34,\n    \u0022totalAmount\u0022:274167.82,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:29,\n    \u0022netAmount\u0022:274138.82,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-17\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:530,\n    \u0022pricePerUnit\u0022:216.38,\n    \u0022totalAmount\u0022:427137.45,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:537.36,\n    \u0022netAmount\u0022:426600.09,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-11\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022HealthGen Solutions\u0022,\n    \u0022quantity\u0022:773,\n    \u0022pricePerUnit\u0022:227.13,\n    \u0022totalAmount\u0022:14486.59,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:770.96,\n    \u0022netAmount\u0022:13715.630000000001,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-29\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:778,\n    \u0022pricePerUnit\u0022:286.03,\n    \u0022totalAmount\u0022:190116.22,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:605.85,\n    \u0022netAmount\u0022:190722.07,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-15\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:809,\n    \u0022pricePerUnit\u0022:269.53,\n    \u0022totalAmount\u0022:317527.63,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:893.57,\n    \u0022netAmount\u0022:318421.2,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-18\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Municipal Bonds\u0022,\n    \u0022quantity\u0022:545,\n    \u0022pricePerUnit\u0022:171.57,\n    \u0022totalAmount\u0022:485551.04,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:740.11,\n    \u0022netAmount\u0022:484810.93,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-29\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Private Equity\u0022,\n    \u0022quantity\u0022:702,\n    \u0022pricePerUnit\u0022:79.37,\n    \u0022totalAmount\u0022:75188.99,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:910.28,\n    \u0022netAmount\u0022:74278.71,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-03\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:870,\n    \u0022pricePerUnit\u0022:182.79,\n    \u0022totalAmount\u0022:54217.81,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:684.5,\n    \u0022netAmount\u0022:53533.31,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-18\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Corporate Bonds\u0022,\n    \u0022quantity\u0022:868,\n    \u0022pricePerUnit\u0022:160.7,\n    \u0022totalAmount\u0022:134153.72,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:121.68,\n    \u0022netAmount\u0022:134275.4,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-19\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Innovatech International\u0022,\n    \u0022quantity\u0022:764,\n    \u0022pricePerUnit\u0022:63.85,\n    \u0022totalAmount\u0022:482487.07,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:867.42,\n    \u0022netAmount\u0022:483354.49,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-21\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Corporate Bonds\u0022,\n    \u0022quantity\u0022:631,\n    \u0022pricePerUnit\u0022:88.08,\n    \u0022totalAmount\u0022:219317.22,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:965.76,\n    \u0022netAmount\u0022:218351.46,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-28\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:729,\n    \u0022pricePerUnit\u0022:288,\n    \u0022totalAmount\u0022:111524.88,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:300.9,\n    \u0022netAmount\u0022:111223.98000000001,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-12\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Innovatech International\u0022,\n    \u0022quantity\u0022:262,\n    \u0022pricePerUnit\u0022:190.1,\n    \u0022totalAmount\u0022:238586.93,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:375.31,\n    \u0022netAmount\u0022:238211.62,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-28\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Municipal Bonds\u0022,\n    \u0022quantity\u0022:771,\n    \u0022pricePerUnit\u0022:180.28,\n    \u0022totalAmount\u0022:24080.32,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:895.32,\n    \u0022netAmount\u0022:24975.64,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-20\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Private Equity\u0022,\n    \u0022quantity\u0022:30,\n    \u0022pricePerUnit\u0022:129.57,\n    \u0022totalAmount\u0022:409313.71,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:791.06,\n    \u0022netAmount\u0022:410104.77,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-29\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:907,\n    \u0022pricePerUnit\u0022:210.05,\n    \u0022totalAmount\u0022:315524.3,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:885.85,\n    \u0022netAmount\u0022:314638.45,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-15\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Corporate Bonds\u0022,\n    \u0022quantity\u0022:199,\n    \u0022pricePerUnit\u0022:194.28,\n    \u0022totalAmount\u0022:280747.01,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:663.17,\n    \u0022netAmount\u0022:280083.84,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-14\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Commercial Properties\u0022,\n    \u0022quantity\u0022:289,\n    \u0022pricePerUnit\u0022:216.4,\n    \u0022totalAmount\u0022:215280.43,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:778.83,\n    \u0022netAmount\u0022:214501.6,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-04\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022HealthGen Solutions\u0022,\n    \u0022quantity\u0022:12,\n    \u0022pricePerUnit\u0022:78.92,\n    \u0022totalAmount\u0022:167512.56,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:305.12,\n    \u0022netAmount\u0022:167207.44,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-23\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Innovatech International\u0022,\n    \u0022quantity\u0022:829,\n    \u0022pricePerUnit\u0022:213.89,\n    \u0022totalAmount\u0022:495152.39,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:219.93,\n    \u0022netAmount\u0022:494932.46,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-08\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Innovatech International\u0022,\n    \u0022quantity\u0022:777,\n    \u0022pricePerUnit\u0022:93.49,\n    \u0022totalAmount\u0022:14391.85,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:558.9,\n    \u0022netAmount\u0022:13832.95,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-28\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:706,\n    \u0022pricePerUnit\u0022:80.84,\n    \u0022totalAmount\u0022:468109.76,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:487.05,\n    \u0022netAmount\u0022:468596.81,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-13\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:135,\n    \u0022pricePerUnit\u0022:237.77,\n    \u0022totalAmount\u0022:167627.35,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:39.5,\n    \u0022netAmount\u0022:167666.85,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-18\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Government Bonds\u0022,\n    \u0022quantity\u0022:547,\n    \u0022pricePerUnit\u0022:136.97,\n    \u0022totalAmount\u0022:400497.65,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:653.16,\n    \u0022netAmount\u0022:401150.81,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-06\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022Global Financiers\u0022,\n    \u0022quantity\u0022:528,\n    \u0022pricePerUnit\u0022:178.73,\n    \u0022totalAmount\u0022:69435.44,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:461.58,\n    \u0022netAmount\u0022:69897.02,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-26\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022EnviroResource Ltd\u0022,\n    \u0022quantity\u0022:886,\n    \u0022pricePerUnit\u0022:66.22,\n    \u0022totalAmount\u0022:97983.12,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:515.63,\n    \u0022netAmount\u0022:97467.48999999999,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-23\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Real Estate\u0022,\n    \u0022assetName\u0022:\u0022Residential Properties\u0022,\n    \u0022quantity\u0022:534,\n    \u0022pricePerUnit\u0022:221.18,\n    \u0022totalAmount\u0022:392914.59,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:403.35,\n    \u0022netAmount\u0022:392511.24000000005,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-06-02\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Corporate Bonds\u0022,\n    \u0022quantity\u0022:556,\n    \u0022pricePerUnit\u0022:253.36,\n    \u0022totalAmount\u0022:456501.58,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:250.34,\n    \u0022netAmount\u0022:456251.24,\n    \u0022purpose\u0022:\u0022Diversification\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-04\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Government Bonds\u0022,\n    \u0022quantity\u0022:647,\n    \u0022pricePerUnit\u0022:86.13,\n    \u0022totalAmount\u0022:360234.57,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:613.89,\n    \u0022netAmount\u0022:359620.68,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-21\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Bonds\u0022,\n    \u0022assetName\u0022:\u0022Corporate Bonds\u0022,\n    \u0022quantity\u0022:416,\n    \u0022pricePerUnit\u0022:203.59,\n    \u0022totalAmount\u0022:144101.17,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:987.4,\n    \u0022netAmount\u0022:145088.57,\n    \u0022purpose\u0022:\u0022Rebalancing\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-05-06\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022HealthGen Solutions\u0022,\n    \u0022quantity\u0022:106,\n    \u0022pricePerUnit\u0022:255.89,\n    \u0022totalAmount\u0022:340458.18,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:205.52,\n    \u0022netAmount\u0022:340252.66,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-02\u0022,\n    \u0022transactionType\u0022:\u0022Sell\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:990,\n    \u0022pricePerUnit\u0022:224.07,\n    \u0022totalAmount\u0022:160452.97,\n    \u0022broker\u0022:\u0022Broker B\u0022,\n    \u0022commission\u0022:543.53,\n    \u0022netAmount\u0022:159909.44,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-08\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Equities\u0022,\n    \u0022assetName\u0022:\u0022HealthGen Solutions\u0022,\n    \u0022quantity\u0022:390,\n    \u0022pricePerUnit\u0022:102.81,\n    \u0022totalAmount\u0022:319093.99,\n    \u0022broker\u0022:\u0022Broker A\u0022,\n    \u0022commission\u0022:274.42,\n    \u0022netAmount\u0022:319368.41,\n    \u0022purpose\u0022:\u0022Income\u0022\n  },\n  {\n    \u0022date\u0022:\u00222024-04-07\u0022,\n    \u0022transactionType\u0022:\u0022Buy\u0022,\n    \u0022assetClass\u0022:\u0022Alternative Investments\u0022,\n    \u0022assetName\u0022:\u0022Commodities\u0022,\n    \u0022quantity\u0022:574,\n    \u0022pricePerUnit\u0022:81.47,\n    \u0022totalAmount\u0022:181007.96,\n    \u0022broker\u0022:\u0022Broker C\u0022,\n    \u0022commission\u0022:882.9,\n    \u0022netAmount\u0022:181890.86,\n    \u0022purpose\u0022:\u0022Growth\u0022\n  }\n]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5877,17 +5839,14 @@
           },
           {
             "name": "portfolioValueHistory",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Portfolio Value History",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "[\n    {\u0022date\u0022: \u00222024-04-01\u0022, \u0022portfolioValue\u0022: 401850000.0},\n    {\u0022date\u0022: \u00222024-04-02\u0022, \u0022portfolioValue\u0022: 399298101.51},\n    {\u0022date\u0022: \u00222024-04-03\u0022, \u0022portfolioValue\u0022: 402794175.07},\n    {\u0022date\u0022: \u00222024-04-04\u0022, \u0022portfolioValue\u0022: 407162005.6},\n    {\u0022date\u0022: \u00222024-04-05\u0022, \u0022portfolioValue\u0022: 405194153.79},\n    {\u0022date\u0022: \u00222024-04-06\u0022, \u0022portfolioValue\u0022: 406105587.55},\n    {\u0022date\u0022: \u00222024-04-07\u0022, \u0022portfolioValue\u0022: 403193406.2},\n    {\u0022date\u0022: \u00222024-04-08\u0022, \u0022portfolioValue\u0022: 401263220.17},\n    {\u0022date\u0022: \u00222024-04-09\u0022, \u0022portfolioValue\u0022: 401560266.18},\n    {\u0022date\u0022: \u00222024-04-10\u0022, \u0022portfolioValue\u0022: 405014068.93},\n    {\u0022date\u0022: \u00222024-04-11\u0022, \u0022portfolioValue\u0022: 411192649.86},\n    {\u0022date\u0022: \u00222024-04-12\u0022, \u0022portfolioValue\u0022: 413013842.59},\n    {\u0022date\u0022: \u00222024-04-13\u0022, \u0022portfolioValue\u0022: 409520863.79},\n    {\u0022date\u0022: \u00222024-04-14\u0022, \u0022portfolioValue\u0022: 408647643.37},\n    {\u0022date\u0022: \u00222024-04-15\u0022, \u0022portfolioValue\u0022: 413728616.37},\n    {\u0022date\u0022: \u00222024-04-16\u0022, \u0022portfolioValue\u0022: 413022266.36},\n    {\u0022date\u0022: \u00222024-04-17\u0022, \u0022portfolioValue\u0022: 411450679.09},\n    {\u0022date\u0022: \u00222024-04-18\u0022, \u0022portfolioValue\u0022: 415055652.98},\n    {\u0022date\u0022: \u00222024-04-19\u0022, \u0022portfolioValue\u0022: 414428657.07},\n    {\u0022date\u0022: \u00222024-04-20\u0022, \u0022portfolioValue\u0022: 414191242.19},\n    {\u0022date\u0022: \u00222024-04-21\u0022, \u0022portfolioValue\u0022: 418853055.19},\n    {\u0022date\u0022: \u00222024-04-22\u0022, \u0022portfolioValue\u0022: 417393754.13},\n    {\u0022date\u0022: \u00222024-04-23\u0022, \u0022portfolioValue\u0022: 415106492.07},\n    {\u0022date\u0022: \u00222024-04-24\u0022, \u0022portfolioValue\u0022: 410689069.88},\n    {\u0022date\u0022: \u00222024-04-25\u0022, \u0022portfolioValue\u0022: 406390945.85},\n    {\u0022date\u0022: \u00222024-04-26\u0022, \u0022portfolioValue\u0022: 412010021.84},\n    {\u0022date\u0022: \u00222024-04-27\u0022, \u0022portfolioValue\u0022: 415835112.46},\n    {\u0022date\u0022: \u00222024-04-28\u0022, \u0022portfolioValue\u0022: 413734447.11},\n    {\u0022date\u0022: \u00222024-04-29\u0022, \u0022portfolioValue\u0022: 411638877.32},\n    {\u0022date\u0022: \u00222024-04-30\u0022, \u0022portfolioValue\u0022: 409538161.32},\n    {\u0022date\u0022: \u00222024-05-01\u0022, \u0022portfolioValue\u0022: 393824092.66},\n    {\u0022date\u0022: \u00222024-05-02\u0022, \u0022portfolioValue\u0022: 391495611.5},\n    {\u0022date\u0022: \u00222024-05-03\u0022, \u0022portfolioValue\u0022: 386863999.75},\n    {\u0022date\u0022: \u00222024-05-04\u0022, \u0022portfolioValue\u0022: 382972929.42},\n    {\u0022date\u0022: \u00222024-05-05\u0022, \u0022portfolioValue\u0022: 380316115.54},\n    {\u0022date\u0022: \u00222024-05-06\u0022, \u0022portfolioValue\u0022: 381810073.94},\n    {\u0022date\u0022: \u00222024-05-07\u0022, \u0022portfolioValue\u0022: 381224519.5},\n    {\u0022date\u0022: \u00222024-05-08\u0022, \u0022portfolioValue\u0022: 389484433.2},\n    {\u0022date\u0022: \u00222024-05-09\u0022, \u0022portfolioValue\u0022: 388723945.25},\n    {\u0022date\u0022: \u00222024-05-10\u0022, \u0022portfolioValue\u0022: 391423162.14},\n    {\u0022date\u0022: \u00222024-05-11\u0022, \u0022portfolioValue\u0022: 387946357.19},\n    {\u0022date\u0022: \u00222024-05-12\u0022, \u0022portfolioValue\u0022: 391178797.68},\n    {\u0022date\u0022: \u00222024-05-13\u0022, \u0022portfolioValue\u0022: 391646771.2},\n    {\u0022date\u0022: \u00222024-05-14\u0022, \u0022portfolioValue\u0022: 389587088.41},\n    {\u0022date\u0022: \u00222024-05-15\u0022, \u0022portfolioValue\u0022: 386055947.81},\n    {\u0022date\u0022: \u00222024-05-16\u0022, \u0022portfolioValue\u0022: 390951575.81},\n    {\u0022date\u0022: \u00222024-05-17\u0022, \u0022portfolioValue\u0022: 392315900.16},\n    {\u0022date\u0022: \u00222024-05-18\u0022, \u0022portfolioValue\u0022: 394253051.31},\n    {\u0022date\u0022: \u00222024-05-19\u0022, \u0022portfolioValue\u0022: 396917773.84},\n    {\u0022date\u0022: \u00222024-05-20\u0022, \u0022portfolioValue\u0022: 389717046.46},\n    {\u0022date\u0022: \u00222024-05-21\u0022, \u0022portfolioValue\u0022: 388065254.62},\n    {\u0022date\u0022: \u00222024-05-22\u0022, \u0022portfolioValue\u0022: 393207999.99},\n    {\u0022date\u0022: \u00222024-05-23\u0022, \u0022portfolioValue\u0022: 389464332.5},\n    {\u0022date\u0022: \u00222024-05-24\u0022, \u0022portfolioValue\u0022: 380808731.07},\n    {\u0022date\u0022: \u00222024-05-25\u0022, \u0022portfolioValue\u0022: 376597633.04},\n    {\u0022date\u0022: \u00222024-05-26\u0022, \u0022portfolioValue\u0022: 382794660.79},\n    {\u0022date\u0022: \u00222024-05-27\u0022, \u0022portfolioValue\u0022: 384769697.85},\n    {\u0022date\u0022: \u00222024-05-28\u0022, \u0022portfolioValue\u0022: 379602369.47},\n    {\u0022date\u0022: \u00222024-05-29\u0022, \u0022portfolioValue\u0022: 382488728.56},\n    {\u0022date\u0022: \u00222024-05-30\u0022, \u0022portfolioValue\u0022: 380678530.01},\n    {\u0022date\u0022: \u00222024-05-31\u0022, \u0022portfolioValue\u0022: 377519043.62},\n    {\u0022date\u0022: \u00222024-06-01\u0022, \u0022portfolioValue\u0022: 381299698.75},\n    {\u0022date\u0022: \u00222024-06-02\u0022, \u0022portfolioValue\u0022: 381542483.78},\n    {\u0022date\u0022: \u00222024-06-03\u0022, \u0022portfolioValue\u0022: 394762584.28},\n    {\u0022date\u0022: \u00222024-06-04\u0022, \u0022portfolioValue\u0022: 398940736.27},\n    {\u0022date\u0022: \u00222024-06-05\u0022, \u0022portfolioValue\u0022: 399970881.58},\n    {\u0022date\u0022: \u00222024-06-06\u0022, \u0022portfolioValue\u0022: 405060193.05},\n    {\u0022date\u0022: \u00222024-06-07\u0022, \u0022portfolioValue\u0022: 398402105.57},\n    {\u0022date\u0022: \u00222024-06-08\u0022, \u0022portfolioValue\u0022: 404235198.24},\n    {\u0022date\u0022: \u00222024-06-09\u0022, \u0022portfolioValue\u0022: 406030000.0}\n  ]"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
@@ -5896,41 +5855,34 @@
           },
           {
             "name": "exposure",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Exposure Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\n  \u0022geographicalExposure\u0022: [\n    {\u0022region\u0022: \u0022North America\u0022, \u0022exposure\u0022: 0.3331, \u0022change\u0022: -0.0208},\n    {\u0022region\u0022: \u0022Europe\u0022, \u0022exposure\u0022: 0.2763, \u0022change\u0022: -0.0134},\n    {\u0022region\u0022: \u0022Asia\u0022, \u0022exposure\u0022: 0.2346, \u0022change\u0022: -0.0044},\n    {\u0022region\u0022: \u0022Emerging Markets\u0022, \u0022exposure\u0022: 0.1331, \u0022change\u0022: 0.0285},\n    {\u0022region\u0022: \u0022Others\u0022, \u0022exposure\u0022: 0.0229, \u0022change\u0022: -0.03}\n  ],\n  \u0022sectorExposure\u0022: [\n    {\u0022sector\u0022: \u0022Technology\u0022, \u0022exposure\u0022: 0.1312, \u0022change\u0022: 0.0014},\n    {\u0022sector\u0022: \u0022Healthcare\u0022, \u0022exposure\u0022: 0.0587, \u0022change\u0022: 0.0092},\n    {\u0022sector\u0022: \u0022Financials\u0022, \u0022exposure\u0022: 0.23, \u0022change\u0022: -0.0454},\n    {\u0022sector\u0022: \u0022Energy\u0022, \u0022exposure\u0022: 0.1101, \u0022change\u0022: 0.0108},\n    {\u0022sector\u0022: \u0022Industrials\u0022, \u0022exposure\u0022: 0.1708, \u0022change\u0022: -0.0329},\n    {\u0022sector\u0022: \u0022Consumer Goods\u0022, \u0022exposure\u0022: 0.1021, \u0022change\u0022: -0.0435},\n    {\u0022sector\u0022: \u0022Others\u0022, \u0022exposure\u0022: 0.197, \u0022change\u0022: 0.0449}\n  ],\n  \u0022assetClassExposure\u0022: [\n    {\u0022assetClass\u0022: \u0022Equities\u0022, \u0022exposure\u0022: 0.5757, \u0022change\u0022: 0.0466},\n    {\u0022assetClass\u0022: \u0022Bonds\u0022, \u0022exposure\u0022: 0.2464, \u0022change\u0022: 0.0308},\n    {\u0022assetClass\u0022: \u0022Real Estate\u0022, \u0022exposure\u0022: 0.0693, \u0022change\u0022: -0.0195},\n    {\u0022assetClass\u0022: \u0022Commodities\u0022, \u0022exposure\u0022: 0.0269, \u0022change\u0022: -0.0402},\n    {\u0022assetClass\u0022: \u0022Alternative Investments\u0022, \u0022exposure\u0022: 0.0817, \u0022change\u0022: 0.0184}\n  ],\n  \u0022currencyExposure\u0022: [\n    {\u0022currency\u0022: \u0022USD\u0022, \u0022exposure\u0022: 0.5827, \u0022change\u0022: -0.006},\n    {\u0022currency\u0022: \u0022EUR\u0022, \u0022exposure\u0022: 0.1948, \u0022change\u0022: -0.0378},\n    {\u0022currency\u0022: \u0022JPY\u0022, \u0022exposure\u0022: 0.0827, \u0022change\u0022: -0.0005},\n    {\u0022currency\u0022: \u0022GBP\u0022, \u0022exposure\u0022: 0.1162, \u0022change\u0022: -0.0466},\n    {\u0022currency\u0022: \u0022Others\u0022, \u0022exposure\u0022: 0.0236, \u0022change\u0022: 0.0409}\n  ]\n}\n"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Nebula Nexus",
         "defaultPaperMargins": "0mm 0mm 0mm 0mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Nebula Nexus Theme",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page following the company template."
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -6001,16 +5953,10 @@
                   "cssClasses": null
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           },
           {
-            "name": "Cover page",
-            "description": "Cover page",
-            "pageType": {
-              "name": "Cover page",
-              "description": "The first page of a larger report."
-            },
+            "pageType": "Cover page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -6026,16 +5972,10 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           },
           {
-            "name": "Rotated page",
-            "description": "Rotated page",
-            "pageType": {
-              "name": "Rotated page",
-              "description": "A page of non-standard rotation used to display wide tables or other content that is not suitable for standard pages."
-            },
+            "pageType": "Rotated page",
             "inactive": false,
             "isCountable": true,
             "content": [
@@ -6106,7 +6046,7 @@
                 }
               }
             ],
-            "paperOrientation": 1
+            "paperOrientation": "landscape"
           }
         ]
       }
@@ -6215,33 +6155,33 @@
           "table": {
             "cell": {
               "color": null,
-              "borderTop-cell": null,
-              "backgroundColor": null,
-              "borderLeft-cell": null,
-              "borderRight-cell": null,
-              "borderBottom-cell": "1px dashed var(--starlight-silver)"
+              "borderTop": null,
+              "borderLeft": null,
+              "borderRight": null,
+              "borderBottom": "1px dashed var(--starlight-silver)",
+              "backgroundColor": null
             },
             "table": {
               "color": null,
               "fontSize": "12px",
+              "borderTop": null,
+              "borderLeft": null,
               "fontFamily": null,
+              "borderRight": null,
               "oddRowColor": null,
+              "borderBottom": null,
               "evenRowColor": null,
-              "backgroundColor": null,
-              "borderTop-table": null,
-              "borderLeft-table": null,
-              "borderRight-table": null,
-              "borderBottom-table": null
+              "backgroundColor": null
             },
             "header": {
               "color": "var(--cosmic-teal)",
+              "borderTop": null,
+              "borderLeft": null,
               "fontFamily": null,
               "fontWeight": "700",
-              "backgroundColor": null,
-              "borderTop-header": null,
-              "borderLeft-header": null,
-              "borderRight-header": null,
-              "borderBottom-header": "1px solid var(--cosmic-teal)"
+              "borderRight": null,
+              "borderBottom": "1px solid var(--cosmic-teal)",
+              "backgroundColor": null
             }
           },
           "palette": {
@@ -6313,19 +6253,16 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Performance Valuation",
-        "description": "A comprehensive report that assesses the economic value of a business, asset, or investment portfolio",
-        "code": "perforval"
+        "code": "perforval",
+        "description": "A comprehensive report that assesses the economic value of a business, asset, or investment portfolio"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
@@ -6339,11 +6276,6 @@
         "name": "Cover page",
         "description": "The first page of a larger report."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }

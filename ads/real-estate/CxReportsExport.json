@@ -1,22 +1,18 @@
 {
   "check": "CxReports",
-  "created": "2024-07-24T15:07:45.8340618+02:00",
-  "version": "1",
+  "created": "2024-11-25T11:07:03.9447577+01:00",
+  "version": "2",
   "data": {
     "reports": [
       {
         "name": "Real Estate",
-        "isEmbeddable": false,
         "themeName": "Real Estate",
         "reportTypeCode": "Ads",
-        "reportTypeName": "Ads",
         "reportTemplateName": "Real Estate",
-        "reportLanguageCode": null,
-        "reportPageContainers": [
+        "pages": [
           {
             "number": 1.0000,
             "name": "House For Sale",
-            "configuration": null,
             "page": {
               "content": [
                 {
@@ -840,7 +836,7 @@
                                   "type": "text",
                                   "theme": {
                                     "text": {
-                                      "p": {
+                                      "span": {
                                         "color": "var(--black)",
                                         "fontSize": "16px",
                                         "fontFamily": "Roboto",
@@ -855,7 +851,7 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 0,
+                                  "version": 1,
                                   "hideExpr": null,
                                   "$expanded": false,
                                   "boxStyles": {
@@ -1021,7 +1017,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1036,7 +1032,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1047,7 +1043,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1062,7 +1058,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1073,7 +1069,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1088,7 +1084,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1099,7 +1095,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1114,7 +1110,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -1181,7 +1177,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1196,7 +1192,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1207,7 +1203,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1222,7 +1218,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1233,7 +1229,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1248,7 +1244,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             },
@@ -1259,7 +1255,7 @@
                                               "style": null,
                                               "theme": {
                                                 "text": {
-                                                  "p": {
+                                                  "span": {
                                                     "color": "var(--dark-blue)",
                                                     "fontSize": "16px",
                                                     "fontFamily": "Roboto",
@@ -1274,7 +1270,7 @@
                                                 "dataSource": null,
                                                 "repeatable": false
                                               },
-                                              "version": 0,
+                                              "version": 1,
                                               "hideExpr": null,
                                               "$expanded": false
                                             }
@@ -1705,56 +1701,46 @@
               ],
               "isCountable": false,
               "isLocked": false,
-              "paperOrientation": null,
-              "paperMargins": null,
               "pageType": {
                 "name": "Standard page",
                 "description": "Standard page following the company template."
               }
-            },
-            "embeddedReportName": null
+            }
           }
         ],
-        "reportDictionaries": [],
-        "reportParameters": [],
-        "reportDataSources": [
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
           {
             "name": "data",
-            "parametersMapping": null,
-            "globalDataSourceDefinitionName": null,
-            "localDataSourceDefinition": {
+            "privateDataSourceDefinition": {
               "displayName": "Data",
-              "type": 1,
-              "externalDatabaseName": null,
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
               "config": {
                 "json": "{\r\n  \u0022real_estate\u0022: {\r\n    \u0022property_type\u0022: \u0022HOUSE\u0022,\r\n    \u0022sale_type\u0022: \u0022SALE\u0022,\r\n    \u0022location\u0022: \u0022123 Seaside Avenue, Malibu, California\u0022,\r\n    \u0022starting_price\u0022: \u0022$1,500,000\u0022,\r\n    \u0022images\u0022: {\r\n      \u0022main\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image_main.png\u0022,\r\n      \u0022image1\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image1.png\u0022,\r\n      \u0022image2\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image2.png\u0022,\r\n      \u0022image3\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/image3.png\u0022,\r\n      \u0022location_icon\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/d8832675054b99103a68ed952c5b5458416cd9ba/ads/real-estate/images/Location%20icon.svg\u0022\r\n    },\r\n    \u0022realtor\u0022: {\r\n      \u0022name\u0022: \u0022Madelyn Vetrovs\u0022,\r\n      \u0022realtor_image\u0022: \u0022https://raw.githubusercontent.com/cx-reports/free-templates/main/ads/real-estate/images/RealtorImage.png\u0022,\r\n      \u0022occupation\u0022: \u0022Realtor\u0022,\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022madelyn.v@realestate.com\u0022\r\n    },\r\n    \u0022agency\u0022: {\r\n      \u0022phone_number\u0022: \u0022123-456-789\u0022,\r\n      \u0022email\u0022: \u0022real.estate@listing.com\u0022,\r\n      \u0022address\u0022: \u0022Horizon Street 15, San Francisco 9416\u0022,\r\n      \u0022company_logo\u0022: \u0022/RealEstateCompanyLogo.png\u0022\r\n    },\r\n    \u0022property_features\u0022: {\r\n      \u0022bedrooms\u0022: \u00226 Bedrooms\u0022,\r\n      \u0022bathrooms\u0022: \u00224 Bathrooms\u0022,\r\n      \u0022kitchen\u0022: \u0022Indoor \u0026 Outdoor Kitchen\u0022,\r\n      \u0022swimming_pool\u0022: \u0022Swimming Pool\u0022,\r\n      \u0022laundry_room\u0022: \u0022Laundry Room\u0022,\r\n      \u0022outdoor_dining\u0022: \u0022Outdoor Dinning\u0022,\r\n      \u0022guest_room\u0022: \u0022Guest Room\u0022,\r\n      \u0022area_sqft\u0022: \u0022420sqft\u0022\r\n    }\r\n  }\r\n}"
-              },
-              "resultType": 0,
-              "detectObjectsFromFieldNames": false
+              }
             },
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
             "reportDataSourceDependencyGlobalSourceNames": []
           }
-        ]
+        ],
+        "customComponents": []
       }
     ],
     "templates": [
       {
         "name": "Real Estate",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
-        "defaultPaperSize": 0,
-        "defaultPaperOrientation": 0,
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
         "themeName": "Real Estate",
         "pages": [
           {
-            "name": "Standard page",
-            "description": "Standard page following the company template.",
-            "pageType": {
-              "name": "Standard page",
-              "description": "Standard page following the company template."
-            },
+            "pageType": "Standard page",
             "inactive": false,
             "isCountable": false,
             "content": [
@@ -3514,8 +3500,7 @@
                   }
                 }
               }
-            ],
-            "paperOrientation": null
+            ]
           }
         ]
       }
@@ -3613,29 +3598,21 @@
               }
             ]
           }
-        },
-        "config": null
+        }
       }
     ],
-    "globalParameters": null,
     "reportTypes": [
       {
         "name": "Ads",
-        "description": "A type of report which category is related to any sort of ad material",
-        "code": "Ads"
+        "code": "Ads",
+        "description": "A type of report which category is related to any sort of ad material"
       }
     ],
-    "languages": null,
     "pageTypes": [
       {
         "name": "Standard page",
         "description": "Standard page following the company template."
       }
-    ],
-    "parametersDefinitions": null,
-    "additionalDataSources": null,
-    "globalDataSources": null,
-    "dictionaries": null,
-    "parameterGroups": null
+    ]
   }
 }
