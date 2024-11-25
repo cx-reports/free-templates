@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2024-11-25T14:03:47.3710382+01:00",
+  "created": "2024-11-25T15:14:14.5712204+01:00",
   "version": "2",
   "data": {
     "reports": [
@@ -2252,12 +2252,6 @@
         "name": "Ticket",
         "code": "ticket",
         "description": "A type of any sort of ticket"
-      }
-    ],
-    "pageTypes": [
-      {
-        "name": "Standard Page",
-        "description": "Standard Page"
       }
     ]
   }
