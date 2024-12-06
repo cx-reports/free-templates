@@ -1,0 +1,2873 @@
+{
+  "check": "CxReports",
+  "created": "2024-12-05T09:06:25.4427951+01:00",
+  "version": "2",
+  "data": {
+    "reports": [
+      {
+        "name": "Express Worldwide",
+        "themeName": "Express Paperwork",
+        "reportTypeCode": "operations-logistics",
+        "reportTemplateName": "Express Worldwide",
+        "pages": [
+          {
+            "number": 1.0000,
+            "name": "New Page 1",
+            "page": {
+              "content": [
+                {
+                  "id": "993fc93f355",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "master",
+                    "breakable": false
+                  },
+                  "children": [
+                    {
+                      "id": "93fc93f355d",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "3fc93f355dc",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "fc93f355dca",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "c93f355dca6",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "93f355dca6a",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "4a0c32893b3",
+                                          "url": "/express_logo.png",
+                                          "type": "img",
+                                          "style": {
+                                            "objectFit": "contain"
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "width": "69px",
+                                              "height": "50px",
+                                              "margin": "12px"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {}
+                                      }
+                                    },
+                                    {
+                                      "id": "3f355dca6a9",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "334a0c32893",
+                                          "text": "EXPRESS WORLDWIDE",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "color": "#333333",
+                                                "fontSize": "16px",
+                                                "fontWeight": "700",
+                                                "lineHeight": "18.4px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "34a0c32893b",
+                                          "text": "Text",
+                                          "type": "date-time",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "color": "#333333",
+                                                "fontSize": "12px",
+                                                "fontWeight": "400",
+                                                "lineHeight": "13.8px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "layout": {
+                                            "dateFormat": "d"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "margin": "12px",
+                                          "flexGrow": "1",
+                                          "flexBasis": "0",
+                                          "flexShrink": "1"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "alignItems": "center"
+                                  }
+                                },
+                                {
+                                  "id": "f355dca6a92",
+                                  "tag": "h3",
+                                  "text": "From:",
+                                  "type": "heading",
+                                  "style": {
+                                    "alignSelf": "center",
+                                    "marginTop": "3px",
+                                    "textAlign": "left",
+                                    "marginLeft": "12px",
+                                    "marginBottom": "3px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "h3": {
+                                        "color": "rgba(255,255,255,1)",
+                                        "fontSize": "14px;",
+                                        "fontWeight": "700",
+                                        "lineHeight": "16.1px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "backgroundColor": "#121144"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                },
+                                {
+                                  "id": "355dca6a92b",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "55dca6a92be",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "5dca6a92bec",
+                                          "tag": "h3",
+                                          "text": "{$data.data.shipping_information.shipper_info.name_surname}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "fontSize": "14px",
+                                                "fontWeight": "700",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "dca6a92bec8",
+                                          "text": "{$data.data.shipping_information.shipper_info.phone_number}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "fontSize": "14px",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "ca6a92bec81",
+                                          "text": "{$data.data.shipping_information.shipper_info.street_number}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "fontSize": "14px",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "a6a92bec815",
+                                          "text": "{$data.data.shipping_information.shipper_info.city_zip}",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "fontSize": "14px",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "6a92bec8151",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "19b08519219",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            },
+                                            "alignItems": "flex-end"
+                                          }
+                                        },
+                                        {
+                                          "id": "bd08b396ce4",
+                                          "text": "Origin:",
+                                          "type": "text",
+                                          "style": {
+                                            "alignSelf": "flex-end"
+                                          },
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "fontSize": "10px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "height": "16px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "9b08519219b",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "8519219bd08",
+                                              "text": "{$data.data.shipping_information.shipper_info.origin}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "span": {
+                                                    "fontSize": "14px",
+                                                    "fontWeight": "700",
+                                                    "lineHeight": "16.1px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "marginLeft": "4px"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {}
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginTop": "12px",
+                                      "marginLeft": "12px",
+                                      "marginRight": "12px",
+                                      "marginBottom": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "69bd02ebee4",
+                                  "tag": "h3",
+                                  "text": "From:",
+                                  "type": "heading",
+                                  "style": {
+                                    "alignSelf": "center",
+                                    "marginTop": "3px",
+                                    "textAlign": "left",
+                                    "marginLeft": "12px",
+                                    "marginBottom": "3px"
+                                  },
+                                  "theme": {
+                                    "text": {
+                                      "h3": {
+                                        "color": "rgba(255,255,255,1)",
+                                        "fontSize": "14px;",
+                                        "fontWeight": "700",
+                                        "lineHeight": "16.1px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "backgroundColor": "#121144"
+                                    }
+                                  },
+                                  "includeInTOC": false
+                                },
+                                {
+                                  "id": "92bec815109",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "2bec8151094",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "bec81510948",
+                                          "tag": "h3",
+                                          "text": "{$data.data.shipping_information.recipient_info.name_surname}",
+                                          "type": "heading",
+                                          "theme": {
+                                            "text": {
+                                              "h3": {
+                                                "fontSize": "14px",
+                                                "fontWeight": "700",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "includeInTOC": true
+                                        },
+                                        {
+                                          "id": "ec815109480",
+                                          "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.shipping_information.recipient_info.street_number}\u003C/span\u003E\u003C/p\u003E",
+                                          "type": "rich-text-editor",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "fontSize": "14px",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "c8151094805",
+                                          "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.shipping_information.recipient_info.city_zip}\u003C/strong\u003E\u003C/b\u003E\u003C/p\u003E",
+                                          "type": "rich-text-editor",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "fontSize": "14px",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        },
+                                        {
+                                          "id": "8151094805c",
+                                          "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E{$data.data.shipping_information.recipient_info.state}\u003C/span\u003E\u003C/p\u003E",
+                                          "type": "rich-text-editor",
+                                          "theme": {
+                                            "text": {
+                                              "p": {
+                                                "fontSize": "14px",
+                                                "fontWeight": "700",
+                                                "lineHeight": "16.1px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 0,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "9bd08b396ce",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "horizontal"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "19219bd08b3",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "9219bd08b39",
+                                              "text": "Contact:",
+                                              "type": "text",
+                                              "style": {
+                                                "alignSelf": "flex-end"
+                                              },
+                                              "theme": {
+                                                "text": {
+                                                  "span": {
+                                                    "fontSize": "10px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "height": "17px",
+                                                  "flexGrow": "0",
+                                                  "flexBasis": "auto",
+                                                  "flexShrink": "0"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {
+                                              "flexGrow": 1,
+                                              "flexBasis": "0",
+                                              "flexShrink": 1
+                                            },
+                                            "alignItems": "flex-end"
+                                          }
+                                        },
+                                        {
+                                          "id": "219bd08b396",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "vertical"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "19bd08b396c",
+                                              "text": "{$data.data.shipping_information.recipient_info.contact}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "span": {
+                                                    "fontSize": "14px",
+                                                    "fontWeight": "700",
+                                                    "lineHeight": "16.1px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false,
+                                              "boxStyles": {
+                                                "style": {
+                                                  "marginLeft": "4px"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {}
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": true,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "flexShrink": 1
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginTop": "12px",
+                                      "marginLeft": "12px",
+                                      "marginRight": "12px",
+                                      "marginBottom": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "1094805c949",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "ca71ab69bd0",
+                                      "tag": "h3",
+                                      "text": "{$data.data.shipping_information.package_info.package_id}",
+                                      "type": "heading",
+                                      "style": {
+                                        "alignSelf": "center",
+                                        "marginTop": "3px",
+                                        "textAlign": "left",
+                                        "marginLeft": "8px",
+                                        "marginRight": "17px",
+                                        "marginBottom": "3px"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": "rgba(255,255,255,1)",
+                                            "fontSize": "21px",
+                                            "fontWeight": "700",
+                                            "lineHeight": "24.15px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "backgroundColor": "#121144"
+                                        }
+                                      },
+                                      "includeInTOC": false
+                                    },
+                                    {
+                                      "id": "94805c9498e",
+                                      "type": "spacer",
+                                      "style": null,
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      }
+                                    },
+                                    {
+                                      "id": "ebee4396283",
+                                      "tag": "h3",
+                                      "text": "{$data.data.shipping_information.package_info.package_serial}",
+                                      "type": "heading",
+                                      "style": {
+                                        "alignSelf": "center",
+                                        "marginTop": "3px",
+                                        "textAlign": "left",
+                                        "marginLeft": "8px",
+                                        "marginBottom": "3px"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": "rgba(255,255,255,1)",
+                                            "fontSize": "21px",
+                                            "fontWeight": "700",
+                                            "lineHeight": "24.15px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "backgroundColor": "#121144"
+                                        }
+                                      },
+                                      "includeInTOC": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "1cac1f9b0f2",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "bee43962834",
+                                      "type": "table",
+                                      "theme": {
+                                        "table": {
+                                          "table": {
+                                            "paddingTop": null,
+                                            "paddingLeft": null,
+                                            "borderBottom": "12px",
+                                            "paddingRight": null,
+                                            "paddingBottom": null,
+                                            "backgroundColor": "#E8E8ED"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "tableContent": [
+                                        {
+                                          "id": "e069f124",
+                                          "type": "header",
+                                          "level": 1,
+                                          "theme": {
+                                            "table": {
+                                              "element": {
+                                                "fontSize": "12px",
+                                                "backgroundColor": "#E8E8ED"
+                                              }
+                                            }
+                                          },
+                                          "$level": 0,
+                                          "repeat": {
+                                            "dataSource": null
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "69f1241b",
+                                              "type": "cell",
+                                              "value": "Day",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "092dab1c",
+                                              "type": "cell",
+                                              "value": "Time",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "2dab1cac",
+                                              "type": "cell",
+                                              "value": "Pce/Shpt Weight",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "ab1cac1f",
+                                              "type": "cell",
+                                              "value": "Piece",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "$expanded": true
+                                        },
+                                        {
+                                          "id": "069f1241",
+                                          "type": "data",
+                                          "level": 1,
+                                          "theme": {
+                                            "table": {
+                                              "element": {
+                                                "fontSize": "14px",
+                                                "fontFamily": null,
+                                                "fontWeight": "700",
+                                                "backgroundColor": "#E8E8ED"
+                                              }
+                                            }
+                                          },
+                                          "$level": 0,
+                                          "repeat": {
+                                            "dataSource": null
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "9f1241b2",
+                                              "type": "cell",
+                                              "theme": {
+                                                "table": {
+                                                  "element": {
+                                                    "fontSize": null
+                                                  }
+                                                }
+                                              },
+                                              "value": "{$data.data.shipping_information.product_info.day}",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "92dab1ca",
+                                              "type": "cell",
+                                              "value": "{$data.data.shipping_information.product_info.time}",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "dab1cac1",
+                                              "type": "cell",
+                                              "theme": {
+                                                "table": {
+                                                  "element": {
+                                                    "fontSize": "14px"
+                                                  }
+                                                }
+                                              },
+                                              "value": "{$data.data.shipping_information.product_info.package_weight}",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            },
+                                            {
+                                              "id": "b1cac1f9",
+                                              "type": "cell",
+                                              "theme": {
+                                                "table": {
+                                                  "element": {
+                                                    "fontSize": "14px"
+                                                  }
+                                                }
+                                              },
+                                              "value": "{$data.data.shipping_information.product_info.piece}",
+                                              "$level": 1,
+                                              "repeat": {
+                                                "dataSource": null
+                                              },
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "$expanded": true
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "paddingTop": "12px",
+                                      "paddingLeft": "12px",
+                                      "paddingRight": "12px",
+                                      "paddingBottom": "12px",
+                                      "backgroundColor": "#E8E8ED"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "d445d756151",
+                                  "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022 style=\u0022text-align: center;\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EAccount {$data.data.shipping_information.account_information.account_id}       REF:{$data.data.shipping_information.account_information.reference_number}\u003C/span\u003E\u003C/p\u003E",
+                                  "type": "rich-text-editor",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "fontSize": "16px",
+                                        "lineHeight": "18.4px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "margin": "12px"
+                                    }
+                                  },
+                                  "updateCounter": 3
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "border": "1px solid black",
+                                  "marginRight": "97px",
+                                  "borderRadius": "8px",
+                                  "marginBottom": "14px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "5c9498e8b0c",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "17b20975901",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "c2b7e579c2d",
+                                      "tag": "h3",
+                                      "text": "Items",
+                                      "type": "heading",
+                                      "style": {
+                                        "margin": "12px"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": "#212030",
+                                            "fontSize": "13px",
+                                            "fontFamily": null,
+                                            "fontWeight": "700",
+                                            "lineHeight": "14.95px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 4,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "includeInTOC": true
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "borderRadius": "8px 8px 0px 0px",
+                                      "backgroundColor": "#E8E8ED"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "2b7e579c2d0",
+                                  "type": "barcode",
+                                  "$level": 4,
+                                  "format": "CODE128",
+                                  "margin": 12,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "content": "{$data.data.shipping_information.items.item1}",
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "rotation": "none",
+                                  "showText": true,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": 1,
+                                      "flexBasis": "0"
+                                    }
+                                  },
+                                  "codeColor": null,
+                                  "textAlign": "center",
+                                  "backgroundColor": null
+                                },
+                                {
+                                  "id": "8017b209759",
+                                  "type": "barcode",
+                                  "$level": 4,
+                                  "format": "CODE128",
+                                  "margin": 12,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "content": "{$data.data.shipping_information.items.item2}",
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "rotation": "none",
+                                  "showText": true,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "70px",
+                                      "flexGrow": 1,
+                                      "flexBasis": "0"
+                                    }
+                                  },
+                                  "codeColor": null,
+                                  "textAlign": "center",
+                                  "backgroundColor": null
+                                },
+                                {
+                                  "id": "017b2097590",
+                                  "type": "barcode",
+                                  "$level": 4,
+                                  "format": "CODE128",
+                                  "margin": 12,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "content": "{$data.data.shipping_information.items.item3}",
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "rotation": "none",
+                                  "showText": true,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "height": "70px",
+                                      "flexGrow": 1,
+                                      "flexBasis": "0"
+                                    }
+                                  },
+                                  "codeColor": null,
+                                  "textAlign": "center",
+                                  "backgroundColor": null
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "border": "1px solid black",
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "1",
+                                  "marginRight": "97px",
+                                  "borderRadius": "8px"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        },
+                        {
+                          "id": "c9498e8b0cc",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "9498e8b0cc7",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "90197586f92",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "590197586f9",
+                                      "tag": "h3",
+                                      "text": "A. Customer instructions",
+                                      "type": "heading",
+                                      "style": {
+                                        "margin": "12px"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": "#212030",
+                                            "fontSize": "21px",
+                                            "fontFamily": null,
+                                            "fontWeight": "700",
+                                            "lineHeight": "24.15px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 4,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "includeInTOC": true
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "borderRadius": "8px 8px 0px 0px",
+                                      "backgroundColor": "#E8E8ED"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "a389cf67b67",
+                                  "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EDear Customer,\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ETo ensure the smooth collection of your shipment by EXPRESS on January 30, 2024, between 10:00 and 15:00, please follow these instructions:\u003C/span\u003E\u003C/p\u003E",
+                                  "type": "rich-text-editor",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "7b67f22f85d",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "f67b67f22f8",
+                                  "text": "1. For Assistance:",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "389cf67b67f",
+                                  "type": "list",
+                                  "$level": 4,
+                                  "config": {
+                                    "start": 1,
+                                    "listStyle": {
+                                      "listItemType": "disc",
+                                      "listStyleType": "disc",
+                                      "paddingInlineStart": "40px"
+                                    },
+                                    "listItemStyle": null
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "children": [
+                                    {
+                                      "id": "89cf67b67f2",
+                                      "text": "To change a collection.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "9cf67b67f22",
+                                      "text": "To re-book a collection if missed.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "cf67b67f22f",
+                                      "text": "For any other collection-related inquiries.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "7f22f85db32",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "version": 0,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "67f22f85db3",
+                                  "text": "Please email Innovatech at innovatech.returns.uk@express.com and quote    reference:{$data.data.shipping_information.customer_instructions.reference_number}..",
+                                  "type": "text",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "35px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "22f85db3209",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "2f85db3209f",
+                                  "text": "2. Packaging Instructions:",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "f85db3209fa",
+                                  "type": "list",
+                                  "$level": 4,
+                                  "config": {
+                                    "start": null,
+                                    "listStyle": {
+                                      "listItemType": "disc",
+                                      "listStyleType": "disc",
+                                      "paddingInlineStart": "40px"
+                                    }
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "children": [
+                                    {
+                                      "id": "85db3209fa0",
+                                      "text": "If you have a dedicated packing box or are using your own, do not seal it before the EXPRESS driver arrives.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "2px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "5db3209fa0d",
+                                      "text": "When the driver arrives, both you and the driver will sign a security sticker. This sticker will then be used to seal the box or flyer.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    },
+                                    {
+                                      "id": "db3209fa0dd",
+                                      "text": "Ensure the driver signs your copy of the label as proof of collection.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "b3209fa0dd7",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "3209fa0dd7b",
+                                  "text": "3. Important Notice:",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "fontWeight": "700"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "209fa0dd7be",
+                                  "type": "list",
+                                  "$level": 4,
+                                  "config": {
+                                    "start": 0,
+                                    "listStyle": {
+                                      "listItemType": "disc",
+                                      "listStyleType": "disc",
+                                      "paddingInlineStart": "40px"
+                                    }
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "children": [
+                                    {
+                                      "id": "09fa0dd7bed",
+                                      "text": "Batteries that are damaged or defective are prohibited from air transport and will not be accepted by EXPRESS.",
+                                      "type": "text",
+                                      "theme": {
+                                        "text": {
+                                          "span": {
+                                            "marginTop": "3px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 1,
+                                      "hideExpr": null,
+                                      "$expanded": false
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "0dd7bedadf0",
+                                  "type": "spacer",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false
+                                },
+                                {
+                                  "id": "d7bedadf066",
+                                  "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EThank you for using our service.\u003C/span\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EINNOVATECH\u003C/span\u003E\u003C/p\u003E",
+                                  "type": "rich-text-editor",
+                                  "theme": {
+                                    "text": {
+                                      "p": {
+                                        "marginTop": "10px",
+                                        "marginBottom": "10px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "border": "1px solid black",
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "borderRadius": "8px",
+                                  "marginBottom": "14px"
+                                }
+                              }
+                            },
+                            {
+                              "id": "97590197586",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "586f92c9d16",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "86f92c9d16f",
+                                      "tag": "h3",
+                                      "text": "B. Courier instructions",
+                                      "type": "heading",
+                                      "style": {
+                                        "margin": "12px"
+                                      },
+                                      "theme": {
+                                        "text": {
+                                          "h3": {
+                                            "color": "#212030",
+                                            "fontSize": "21px",
+                                            "fontFamily": null,
+                                            "fontWeight": "700",
+                                            "lineHeight": "24.15px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 4,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      },
+                                      "includeInTOC": true
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "borderRadius": "8px 8px 0px 0px",
+                                      "backgroundColor": "#E8E8ED"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "f92c9d16fec",
+                                  "text": "For EXPRESS internal purposes only:",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "fontSize": "13px",
+                                        "marginTop": "12px",
+                                        "fontWeight": "700",
+                                        "lineHeight": "14.95px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "92c9d16fec8",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "horizontal"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "2c9d16fec86",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "6fec8685f8a",
+                                          "text": "Shipper info:",
+                                          "type": "text",
+                                          "theme": {
+                                            "text": {
+                                              "span": {
+                                                "fontSize": "13px",
+                                                "fontWeight": "700",
+                                                "lineHeight": "14.95px"
+                                              }
+                                            }
+                                          },
+                                          "$level": 6,
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 1,
+                                          "hideExpr": null,
+                                          "$expanded": false
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {}
+                                      }
+                                    },
+                                    {
+                                      "id": "c9d16fec868",
+                                      "type": "flow",
+                                      "$level": 5,
+                                      "config": {
+                                        "orientation": "vertical"
+                                      },
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 3,
+                                      "children": [
+                                        {
+                                          "id": "9d16fec8685",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "horizontal"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "fec8685f8aa",
+                                              "text": "{$data.data.shipping_information.shipper_info.name_surname}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "span": {
+                                                    "marginBottom": "5px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": false,
+                                          "boxStyles": {
+                                            "style": {
+                                              "marginBottom": null
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "id": "d16fec8685f",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "horizontal"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "ec8685f8aae",
+                                              "text": "{$data.data.shipping_information.shipper_info.phone_number}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {
+                                                  "span": {
+                                                    "marginBottom": "5px"
+                                                  }
+                                                }
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {},
+                                            "alignItems": "center",
+                                            "justifyContent": "flex-start"
+                                          }
+                                        },
+                                        {
+                                          "id": "16fec8685f8",
+                                          "type": "flow",
+                                          "$level": 6,
+                                          "config": {
+                                            "orientation": "horizontal"
+                                          },
+                                          "repeat": {
+                                            "alias": null,
+                                            "dataSource": null,
+                                            "repeatable": false
+                                          },
+                                          "version": 3,
+                                          "children": [
+                                            {
+                                              "id": "c8685f8aaef",
+                                              "text": "{$data.data.shipping_information.shipper_info.city_zip} {$data.data.shipping_information.shipper_info.street_number}",
+                                              "type": "text",
+                                              "theme": {
+                                                "text": {}
+                                              },
+                                              "$level": 7,
+                                              "repeat": {
+                                                "alias": null,
+                                                "dataSource": null,
+                                                "repeatable": false
+                                              },
+                                              "version": 1,
+                                              "hideExpr": null,
+                                              "$expanded": false
+                                            }
+                                          ],
+                                          "hideExpr": null,
+                                          "$expanded": true,
+                                          "boxStyles": {
+                                            "style": {}
+                                          }
+                                        }
+                                      ],
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": {
+                                          "flexGrow": 1,
+                                          "flexBasis": "0",
+                                          "marginLeft": "11px"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginTop": "12px",
+                                      "marginLeft": "12px",
+                                      "marginBottom": "12px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "ef71cbd31f0",
+                                  "type": "flow",
+                                  "$level": 4,
+                                  "config": {
+                                    "orientation": "vertical"
+                                  },
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 3,
+                                  "children": [
+                                    {
+                                      "id": "aef71cbd31f",
+                                      "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ERMA: {$data.data.shipping_information.additional_info.rma}\u003C/span\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EAWB: {$data.data.shipping_information.additional_info.awb}\u003C/span\u003E\u003C/p\u003E",
+                                      "type": "rich-text-editor",
+                                      "theme": {
+                                        "text": {
+                                          "p": {
+                                            "fontSize": "13px",
+                                            "marginTop": "12px",
+                                            "lineHeight": "14.95px",
+                                            "marginBottom": "12px"
+                                          }
+                                        }
+                                      },
+                                      "$level": 5,
+                                      "repeat": {
+                                        "alias": null,
+                                        "dataSource": null,
+                                        "repeatable": false
+                                      },
+                                      "version": 0,
+                                      "hideExpr": null,
+                                      "$expanded": false,
+                                      "boxStyles": {
+                                        "style": null
+                                      }
+                                    }
+                                  ],
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "borderTop": "1px dotted black",
+                                      "marginLeft": "12px",
+                                      "borderBottom": "1px dotted black"
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "85f8aaef71c",
+                                  "text": "Box type: {$data.data.shipping_information.additional_info.box_type}",
+                                  "type": "text",
+                                  "theme": {
+                                    "text": {
+                                      "span": {
+                                        "marginTop": "12px",
+                                        "marginBottom": "12px"
+                                      }
+                                    }
+                                  },
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 1,
+                                  "hideExpr": null,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  }
+                                }
+                              ],
+                              "hideExpr": null,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "border": "1px solid black",
+                                  "borderRadius": "8px"
+                                }
+                              }
+                            }
+                          ],
+                          "hideExpr": null,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0"
+                            }
+                          }
+                        }
+                      ],
+                      "hideExpr": null,
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0"
+                        }
+                      }
+                    }
+                  ],
+                  "hideExpr": null,
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page following the company template."
+              }
+            }
+          }
+        ],
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
+          {
+            "name": "data",
+            "privateDataSourceDefinition": {
+              "displayName": "Data",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n  \u0022shipping_information\u0022: {\r\n    \u0022shipper_info\u0022: {\r\n      \u0022name_surname\u0022: \u0022John Doe\u0022,\r\n      \u0022phone_number\u0022: \u0022\u002B1-234-567-8901\u0022,\r\n      \u0022street_number\u0022: \u0022123 Elm Street\u0022,\r\n      \u0022city_zip\u0022: \u0022Metropolis, 54321\u0022,\r\n      \u0022origin\u0022: \u0022NYC\u0022\r\n    },\r\n    \u0022recipient_info\u0022: {\r\n      \u0022name_surname\u0022: \u0022Jane Smith\u0022,\r\n      \u0022street_number\u0022: \u0022456 Oak Avenue\u0022,\r\n      \u0022city_zip\u0022: \u0022Smallville, 67890\u0022,\r\n      \u0022state\u0022: \u0022Kansas\u0022,\r\n      \u0022contact\u0022: \u0022N/A\u0022\r\n    },\r\n    \u0022product_info\u0022: {\r\n      \u0022day\u0022: \u0022\u0022,\r\n      \u0022time\u0022: \u0022\u0022,\r\n      \u0022package_weight\u0022: \u00222.5kg\u0022,\r\n      \u0022piece\u0022: \u00221/1\u0022\r\n    },\r\n    \u0022package_info\u0022:{\r\n      \u0022package_id\u0022: \u0022B - 0 8 M\u0022,\r\n      \u0022package_serial\u0022: \u0022F089 ES-LCN-CWX\u0022\r\n    },\r\n    \u0022account_information\u0022: {\r\n      \u0022account_id\u0022: \u0022123456789\u0022,\r\n      \u0022reference_number\u0022: \u0022987654321\u0022\r\n    },\r\n    \u0022additional_info\u0022: {\r\n      \u0022rma\u0022: \u0022RMA12345\u0022,\r\n      \u0022awb\u0022: \u0022AWB54321\u0022,\r\n      \u0022box_type\u0022: \u0022Standard\u0022\r\n    },\r\n    \u0022customer_instructions\u0022: {\r\n      \u0022pickup_date\u0022: \u00222024-12-05\u0022,\r\n      \u0022time_between\u0022: \u002210:00 AM - 12:00 PM\u0022,\r\n      \u0022reference_number\u0022: \u0022CUST12345\u0022,\r\n      \u0022email_address\u0022: \u0022jane.smith@example.com\u0022\r\n    },\r\n    \u0022items\u0022: {\r\n      \u0022item1\u0022: \u002223468924578930245\u0022,\r\n      \u0022item2\u0022: \u002223566929501930785\u0022,\r\n      \u0022item3\u0022: \u002223731229506341890\u0022\r\n    }\r\n  }\r\n}"
+              }
+            },
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ],
+        "customComponents": []
+      }
+    ],
+    "templates": [
+      {
+        "name": "Express Worldwide",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
+        "themeName": "Express Paperwork",
+        "pages": [
+          {
+            "pageType": "Standard page",
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "8dd4fb66ef0",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "master"
+                },
+                "children": [
+                  {
+                    "id": "b66ef04fe2b",
+                    "type": "flow",
+                    "$level": 1,
+                    "config": {
+                      "orientation": "horizontal"
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 3,
+                    "children": [
+                      {
+                        "id": "66ef04fe2b8",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "ef04fe2b859",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "fe2b859e5a2",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "201ee993fc9",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "01ee993fc93",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "version": 3,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true
+                              },
+                              {
+                                "id": "2b859e5a207",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "859e5a2076b",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [],
+                                    "hideExpr": null,
+                                    "$expanded": false,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "59e5a2076ba",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true
+                              },
+                              {
+                                "id": "823a365fec0",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [
+                                  {
+                                    "id": "6ba41cf823a",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "cf823a365fe",
+                                    "type": "flow",
+                                    "$level": 5,
+                                    "config": {
+                                      "orientation": "vertical"
+                                    },
+                                    "repeat": {
+                                      "alias": null,
+                                      "dataSource": null,
+                                      "repeatable": false
+                                    },
+                                    "version": 3,
+                                    "children": [],
+                                    "hideExpr": null,
+                                    "$expanded": true,
+                                    "boxStyles": {
+                                      "style": {
+                                        "flexGrow": 1,
+                                        "flexBasis": "0",
+                                        "flexShrink": 1
+                                      }
+                                    }
+                                  }
+                                ],
+                                "hideExpr": null,
+                                "$expanded": true
+                              },
+                              {
+                                "id": "23a365fec05",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "children": [],
+                                "hideExpr": null,
+                                "$expanded": true
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "width": "347px",
+                                "border": "1px solid black",
+                                "height": "415px",
+                                "marginRight": "97px",
+                                "borderRadius": "8px",
+                                "marginBottom": "14px"
+                              }
+                            }
+                          },
+                          {
+                            "id": "f04fe2b859e",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "vertical"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "children": [
+                              {
+                                "id": "071b1dbbacd",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "repeat": {
+                                  "alias": null,
+                                  "dataSource": null,
+                                  "repeatable": false
+                                },
+                                "version": 3,
+                                "hideExpr": null,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": 1,
+                                    "flexBasis": "0",
+                                    "flexShrink": 1
+                                  }
+                                }
+                              },
+                              {
+                                "id": "71b1dbbacd8",
+                                "type": "flow",
+                                "$level": 4,
+                                "config": {
+                                  "orientation": "horizontal"
+                                },
+                                "version": 3,
+                                "$expanded": true,
+                                "boxStyles": {
+                                  "style": {
+                                    "flexGrow": 1,
+                                    "flexBasis": "0",
+                                    "flexShrink": 1
+                                  }
+                                }
+                              }
+                            ],
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "border": "1px solid black",
+                                "flexGrow": "1",
+                                "flexBasis": "0",
+                                "flexShrink": "1",
+                                "marginRight": "97px",
+                                "borderRadius": "8px"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          }
+                        }
+                      },
+                      {
+                        "id": "6ef04fe2b85",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "04fe2b859e5",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "horizontal"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "border": "1px solid black",
+                                "flexGrow": "1",
+                                "flexBasis": "0",
+                                "flexShrink": "1",
+                                "borderRadius": "8px",
+                                "marginBottom": "14px"
+                              }
+                            }
+                          },
+                          {
+                            "id": "4fe2b859e5a",
+                            "type": "flow",
+                            "$level": 3,
+                            "config": {
+                              "orientation": "horizontal"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "hideExpr": null,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "border": "1px solid black",
+                                "flexGrow": "1",
+                                "flexBasis": "0",
+                                "flexShrink": "1",
+                                "borderRadius": "8px"
+                              }
+                            }
+                          }
+                        ],
+                        "hideExpr": null,
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "flexShrink": 1
+                          }
+                        }
+                      }
+                    ],
+                    "hideExpr": null,
+                    "$expanded": true,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0"
+                      }
+                    }
+                  }
+                ],
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "flex": "1 1 0"
+                  }
+                }
+              }
+            ],
+            "paperOrientation": "landscape"
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Express Paperwork",
+        "content": {
+          "text": {
+            "body": {
+              "color": "var(--black)",
+              "fontSize": "13px",
+              "fontFamily": null,
+              "fontWeight": "400",
+              "lineHeight": "14.95px"
+            }
+          },
+          "palette": {
+            "colors": [
+              {
+                "name": "--dark-blue",
+                "value": "#121144",
+                "displayName": "Dark blue"
+              },
+              {
+                "name": "--black",
+                "value": "#212030",
+                "displayName": "Black"
+              },
+              {
+                "name": "--brownish",
+                "value": "#333333",
+                "displayName": "Brownish"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "reportTypes": [
+      {
+        "name": "Operation and Logistics",
+        "code": "operations-logistics",
+        "description": "A type of reports which category is related to different operations and logistics"
+      }
+    ],
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page following the company template."
+      }
+    ]
+  }
+}
