@@ -1,13 +1,15 @@
 {
   "check": "CxReports",
-  "created": "2025-06-10T11:21:34.9446994+02:00",
+  "created": "2025-06-10T10:42:16.2905854+00:00",
   "version": "2",
   "data": {
     "reports": [
       {
-        "name": "Insurance Policy Report",
+        "name": "Car Insurance Policy",
+        "themeName": "Car Insurance Policy Theme",
         "reportTypeCode": "misc",
-        "reportTemplateName": "Insurance Policy Template",
+        "reportTemplateName": "Car Insurance Policy Template",
+        "languageCode": "en",
         "pages": [
           {
             "number": 3.0000,
@@ -2045,7 +2047,7 @@
                                 },
                                 {
                                   "id": "784b28cf5da",
-                                  "key": "Digiral Signature",
+                                  "key": "Digital Signature",
                                   "value": "{$data.policy.policyDocumentationDelivery.digitalSignature}"
                                 },
                                 {
@@ -2187,7 +2189,7 @@
                                 {
                                   "id": "item1",
                                   "key": "European Cover",
-                                  "value": "europeanCover}"
+                                  "value": "{$data.policy.greenCardInternationalUse.europeanCover}"
                                 },
                                 {
                                   "id": "784b28cf5da",
@@ -2835,6 +2837,13 @@
                                           "paddingLeft": "5mm"
                                         },
                                         "useExpression": false
+                                      },
+                                      {
+                                        "id": "2cb15b5f292",
+                                        "style": {
+                                          "height": "fit-content"
+                                        },
+                                        "useExpression": false
                                       }
                                     ]
                                   },
@@ -2880,10 +2889,17 @@
                                           "paddingLeft": "5mm"
                                         },
                                         "useExpression": false
+                                      },
+                                      {
+                                        "id": "b15b5f292fd",
+                                        "style": {
+                                          "height": "fit-content"
+                                        },
+                                        "useExpression": false
                                       }
                                     ]
                                   },
-                                  "format": null,
+                                  "format": "currency;GBP;2",
                                   "header": {
                                     "show": true,
                                     "text": "Amount (GBP)",
@@ -3054,7 +3070,7 @@
                             {
                               "id": "0709fb80300",
                               "type": "flow",
-                              "$level": 2,
+                              "$level": 3,
                               "config": {
                                 "orientation": "vertical"
                               },
@@ -3099,6 +3115,7 @@
                                       }
                                     }
                                   },
+                                  "$level": 4,
                                   "layout": {
                                     "dividerText": ":"
                                   },
@@ -3107,7 +3124,8 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 3
+                                  "version": 3,
+                                  "$expanded": true
                                 }
                               ],
                               "$expanded": true,
@@ -3122,7 +3140,7 @@
                             {
                               "id": "709fb803003",
                               "type": "flow",
-                              "$level": 2,
+                              "$level": 3,
                               "config": {
                                 "orientation": "vertical"
                               },
@@ -3168,6 +3186,7 @@
                                       }
                                     }
                                   },
+                                  "$level": 4,
                                   "layout": {
                                     "dividerText": ":"
                                   },
@@ -3176,7 +3195,8 @@
                                     "dataSource": null,
                                     "repeatable": false
                                   },
-                                  "version": 3
+                                  "version": 3,
+                                  "$expanded": false
                                 }
                               ],
                               "$expanded": true,
@@ -3190,12 +3210,12 @@
                               }
                             }
                           ],
-                          "$expanded": false,
+                          "$expanded": true,
                           "boxStyles": {
                             "style": {
                               "height": "41px",
                               "flexGrow": "0",
-                              "borderTop": "1px solid var(--gray)",
+                              "borderTop": null,
                               "flexBasis": "auto",
                               "--flow-gap": "5mm",
                               "flexShrink": "0"
@@ -3682,11 +3702,11 @@
               "resultType": "array",
               "detectObjectsFromFieldNames": false,
               "config": {
-                "json": "{\r\n  \u0022policyholderDetails\u0022: {\r\n    \u0022name\u0022: \u0022Mark Johnson\u0022,\r\n    \u0022occupation\u0022: \u0022Software Engineer\u0022,\r\n    \u0022dateOfBirth\u0022: \u002212 March 1988\u0022,\r\n    \u0022noClaimsBonus\u0022: \u00225 Years\u0022,\r\n    \u0022address\u0022: \u002245 Greenhill Road, London, SW18 3RQ\u0022,\r\n    \u0022drivingLicenceHeldSince\u0022: \u0022May 2009 (Full UK Licence)\u0022,\r\n    \u0022phone\u0022: \u0022\u002B44 7512 987654\u0022,\r\n    \u0022previousInsurer\u0022: \u0022Direct Line\u0022,\r\n    \u0022email\u0022: \u0022mark.johnson@example.co.uk\u0022,\r\n    \u0022claimsHistory\u0022: \u0022None\u0022\r\n  },\r\n  \u0022vehicleDetails\u0022: {\r\n    \u0022makeAndModel\u0022: \u0022BMWW 320d M Sport\u0022,\r\n    \u0022engineSize\u0022: \u00221995 cc\u0022,\r\n    \u0022bhp\u0022: \u0022190\u0022,\r\n    \u0022yearOfManufacture\u0022: \u00222018\u0022,\r\n    \u0022annualMileage\u0022: \u002212,000\u0022,\r\n    \u0022registrationNumber\u0022: \u0022LJ18 ABC\u0022,\r\n    \u0022ownership\u0022: \u0022Owned outright\u0022,\r\n    \u0022vinChassisNumber\u0022: \u0022WBA8D92030F123456\u0022,\r\n    \u0022keptOvernight\u0022: \u0022Locked garage\u0022,\r\n    \u0022fuelType\u0022: \u0022Diesel\u0022,\r\n    \u0022modifications\u0022: \u0022None\u0022,\r\n    \u0022transmission\u0022: \u0022Automatic\u0022\r\n  },\r\n  \u0022namedDrivers\u0022: [\r\n    {\r\n      \u0022name\u0022: \u0022Anna Johnson\u0022,\r\n      \u0022dateOfBirth\u0022: \u002215 Jan 1990\u0022,\r\n      \u0022licenceHeldSince\u0022: \u00222010\u0022,\r\n      \u0022relationship\u0022: \u0022Spouse\u0022\r\n    },\r\n    {\r\n      \u0022name\u0022: \u0022Jake Johnson\u0022,\r\n      \u0022dateOfBirth\u0022: \u002202 Jun 2003\u0022,\r\n      \u0022licenceHeldSince\u0022: \u00222022\u0022,\r\n      \u0022relationship\u0022: \u0022Son\u0022\r\n    }\r\n  ],\r\n  \u0022coverageIncludedLeft\u0022: [\r\n    {\r\n      \u0022Feature\u0022: \u0022Comprehensive Cover\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Courtesy Car\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Windscreen Cover\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Legal Expenses (up to \u00A3100,000)\u0022,\r\n      \u0022Included\u0022: true\r\n    }\r\n  ],\r\n  \u0022coverageIncludedRight\u0022: [\r\n    {\r\n      \u0022Feature\u0022: \u0022Roadside Assistance (UK \u0026 EU)\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Protected No Claims Discount\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Personal Accident Cover (\u00A310,000)\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Third-Party Liability\u0022,\r\n      \u0022Included\u0022: true\r\n    }\r\n  ],\r\n  \u0022useOfVehicle\u0022: [\r\n    {\r\n      \u0022Usage\u0022: \u0022Social, Domestic \u0026 Pleasure only\u0022\r\n    },\r\n    {\r\n      \u0022Usage\u0022: \u0022Commuting to a single place of work\u0022\r\n    },\r\n    {\r\n      \u0022Usage\u0022: \u0022Business use (Class 1, 2, or 3)\u0022\r\n    }\r\n  ],\r\n  \u0022drivingRestrictions\u0022: [\r\n    {\r\n      \u0022Restriction\u0022: \u0022Excludes drivers under 25\u0022,\r\n      \u0022Applicable\u0022: false\r\n    },\r\n    {\r\n      \u0022Restriction\u0022: \u0022Excludes drivers with \u003C2 years licence\u0022,\r\n      \u0022Applicable\u0022: false\r\n    },\r\n    {\r\n      \u0022Restriction\u0022: \u0022Cover applies only to named drivers\u0022,\r\n      \u0022Applicable\u0022: true\r\n    }\r\n  ],\r\n  \u0022estimatedPremiumSummary\u0022: {\r\n    \u0022coverageType\u0022: [\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Comprehensive Cover\u0022,\r\n        \u0022Amount (GBP)\u0022: 620.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Breakdown (UK \u0026 EU)\u0022,\r\n        \u0022Amount (GBP)\u0022: 45.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Legal Protection\u0022,\r\n        \u0022Amount (GBP)\u0022: 30.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Protected NCB\u0022,\r\n        \u0022Amount (GBP)\u0022: 25.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Personal Accident Cover\u0022,\r\n        \u0022Amount (GBP)\u0022: 20.00\r\n      }\r\n    ]\r\n  },\r\n  \u0022policyDocumentationDelivery\u0022: {\r\n    \u0022deliveryMethod\u0022: \u0022Email (PDF)\u0022,\r\n    \u0022digitalSignature\u0022: \u0022Enabled\u0022,\r\n    \u0022qrCodeForClaimsApp\u0022: \u0022Optional for mobile users\u0022\r\n  },\r\n  \u0022greenCardInternationalUse\u0022: {\r\n    \u0022europeanCover\u0022: \u0022Included\u0022,\r\n    \u0022countriesCovered\u0022: \u0022All EU \u002B EEA \u002B Andorra\u0022,\r\n    \u0022greenCardRequired\u0022: \u0022Only if travelling outside EEA\u0022\r\n  },\r\n  \u0022exclusionsAndConditions\u0022: [\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Driving under the influence\u0022,\r\n      \u0022summary\u0022: \u0022No cover while intoxicated\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Use outside stated purpose\u0022,\r\n      \u0022summary\u0022: \u0022Not covered for hire or courier use\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Unauthorised drivers\u0022,\r\n      \u0022summary\u0022: \u0022Only named drivers are covered\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Wear \u0026 tear\u0022,\r\n      \u0022summary\u0022: \u0022Not covered under any policy section\u0022\r\n    }\r\n  ],\r\n  \u0022paymentPlanAndMethod\u0022: {\r\n    \u0022paymentType\u0022: \u0022Annual / Monthly Direct Debit\u0022,\r\n    \u0022depositPaid\u0022: \u0022\u00A3100\u0022,\r\n    \u0022monthlyInstalment\u0022: \u0022\u00A358.33 (for 11 months)\u0022,\r\n    \u0022cancellationTerms\u0022: {\r\n      \u0022coolingOffPeriod\u0022: \u002214 days from start date\u0022,\r\n      \u0022cancellationFee\u0022: \u0022\u00A350 (outside cooling-off)\u0022,\r\n      \u0022refundPolicy\u0022: \u0022Pro-rata refund minus admin fees\u0022\r\n    }\r\n  },\r\n  \u0022policyDetails\u0022: {\r\n    \u0022coverStartDate\u0022: \u0022Saturday, 1st June 2025\u0022,\r\n    \u0022coverEndDate\u0022: \u0022Sunday, 31st May 2026\u0022\r\n  },\r\n  \u0022signatures\u0022: {\r\n    \u0022authorisedRepresentativeInsurer\u0022: {\r\n      \u0022name\u0022: \u0022Sarah Williams\u0022,\r\n      \u0022position\u0022: \u0022Motor Insurance Manager\u0022\r\n    },\r\n    \u0022policyholderVehicleOwner\u0022: {\r\n      \u0022name\u0022: \u0022Mark Johnson\u0022\r\n    }\r\n  }\r\n}"
+                "json": "{\r\n  \u0022policyholderDetails\u0022: {\r\n    \u0022name\u0022: \u0022Mark Johnson\u0022,\r\n    \u0022occupation\u0022: \u0022Software Engineer\u0022,\r\n    \u0022dateOfBirth\u0022: \u002212 March 1988\u0022,\r\n    \u0022noClaimsBonus\u0022: \u00225 Years\u0022,\r\n    \u0022address\u0022: \u002245 Greenhill Road, London, SW18 3RQ\u0022,\r\n    \u0022drivingLicenceHeldSince\u0022: \u0022May 2009 (Full UK Licence)\u0022,\r\n    \u0022phone\u0022: \u0022\u002B44 7512 987654\u0022,\r\n    \u0022previousInsurer\u0022: \u0022Direct Line\u0022,\r\n    \u0022email\u0022: \u0022mark.johnson@example.co.uk\u0022,\r\n    \u0022claimsHistory\u0022: \u0022None\u0022\r\n  },\r\n  \u0022vehicleDetails\u0022: {\r\n    \u0022makeAndModel\u0022: \u0022BMW 320d M Sport\u0022,\r\n    \u0022engineSize\u0022: \u00221995 cc\u0022,\r\n    \u0022bhp\u0022: \u0022190\u0022,\r\n    \u0022yearOfManufacture\u0022: \u00222018\u0022,\r\n    \u0022annualMileage\u0022: \u002212,000\u0022,\r\n    \u0022registrationNumber\u0022: \u0022LJ18 ABC\u0022,\r\n    \u0022ownership\u0022: \u0022Owned outright\u0022,\r\n    \u0022vinChassisNumber\u0022: \u0022WBA8D92030F123456\u0022,\r\n    \u0022keptOvernight\u0022: \u0022Locked garage\u0022,\r\n    \u0022fuelType\u0022: \u0022Diesel\u0022,\r\n    \u0022modifications\u0022: \u0022None\u0022,\r\n    \u0022transmission\u0022: \u0022Automatic\u0022\r\n  },\r\n  \u0022namedDrivers\u0022: [\r\n    {\r\n      \u0022name\u0022: \u0022Anna Johnson\u0022,\r\n      \u0022dateOfBirth\u0022: \u002215 Jan 1990\u0022,\r\n      \u0022licenceHeldSince\u0022: \u00222010\u0022,\r\n      \u0022relationship\u0022: \u0022Spouse\u0022\r\n    },\r\n    {\r\n      \u0022name\u0022: \u0022Jake Johnson\u0022,\r\n      \u0022dateOfBirth\u0022: \u002202 Jun 2003\u0022,\r\n      \u0022licenceHeldSince\u0022: \u00222022\u0022,\r\n      \u0022relationship\u0022: \u0022Son\u0022\r\n    }\r\n  ],\r\n  \u0022coverageIncludedLeft\u0022: [\r\n    {\r\n      \u0022Feature\u0022: \u0022Comprehensive Cover\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Courtesy Car\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Windscreen Cover\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Legal Expenses (up to \u00A3100,000)\u0022,\r\n      \u0022Included\u0022: true\r\n    }\r\n  ],\r\n  \u0022coverageIncludedRight\u0022: [\r\n    {\r\n      \u0022Feature\u0022: \u0022Roadside Assistance (UK \u0026 EU)\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Protected No Claims Discount\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Personal Accident Cover (\u00A310,000)\u0022,\r\n      \u0022Included\u0022: true\r\n    },\r\n    {\r\n      \u0022Feature\u0022: \u0022Third-Party Liability\u0022,\r\n      \u0022Included\u0022: true\r\n    }\r\n  ],\r\n  \u0022useOfVehicle\u0022: [\r\n    {\r\n      \u0022Usage\u0022: \u0022Social, Domestic \u0026 Pleasure only\u0022\r\n    },\r\n    {\r\n      \u0022Usage\u0022: \u0022Commuting to a single place of work\u0022\r\n    },\r\n    {\r\n      \u0022Usage\u0022: \u0022Business use (Class 1, 2, or 3)\u0022\r\n    }\r\n  ],\r\n  \u0022drivingRestrictions\u0022: [\r\n    {\r\n      \u0022Restriction\u0022: \u0022Excludes drivers under 25\u0022,\r\n      \u0022Applicable\u0022: false\r\n    },\r\n    {\r\n      \u0022Restriction\u0022: \u0022Excludes drivers with \u003C2 years licence\u0022,\r\n      \u0022Applicable\u0022: false\r\n    },\r\n    {\r\n      \u0022Restriction\u0022: \u0022Cover applies only to named drivers\u0022,\r\n      \u0022Applicable\u0022: true\r\n    }\r\n  ],\r\n  \u0022estimatedPremiumSummary\u0022: {\r\n    \u0022coverageType\u0022: [\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Comprehensive Cover\u0022,\r\n        \u0022Amount (GBP)\u0022: 620.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Breakdown (UK \u0026 EU)\u0022,\r\n        \u0022Amount (GBP)\u0022: 45.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Legal Protection\u0022,\r\n        \u0022Amount (GBP)\u0022: 30.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Protected NCB\u0022,\r\n        \u0022Amount (GBP)\u0022: 25.00\r\n      },\r\n      {\r\n        \u0022Coverage Type\u0022: \u0022Personal Accident Cover\u0022,\r\n        \u0022Amount (GBP)\u0022: 20.00\r\n      }\r\n    ]\r\n  },\r\n  \u0022policyDocumentationDelivery\u0022: {\r\n    \u0022deliveryMethod\u0022: \u0022Email (PDF)\u0022,\r\n    \u0022digitalSignature\u0022: \u0022Enabled\u0022,\r\n    \u0022qrCodeForClaimsApp\u0022: \u0022Optional for mobile users\u0022\r\n  },\r\n  \u0022greenCardInternationalUse\u0022: {\r\n    \u0022europeanCover\u0022: \u0022Included\u0022,\r\n    \u0022countriesCovered\u0022: \u0022All EU \u002B EEA \u002B Andorra\u0022,\r\n    \u0022greenCardRequired\u0022: \u0022Only if travelling outside EEA\u0022\r\n  },\r\n  \u0022exclusionsAndConditions\u0022: [\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Driving under the influence\u0022,\r\n      \u0022summary\u0022: \u0022No cover while intoxicated\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Use outside stated purpose\u0022,\r\n      \u0022summary\u0022: \u0022Not covered for hire or courier use\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Unauthorised drivers\u0022,\r\n      \u0022summary\u0022: \u0022Only named drivers are covered\u0022\r\n    },\r\n    {\r\n      \u0022exclusionArea\u0022: \u0022Wear \u0026 tear\u0022,\r\n      \u0022summary\u0022: \u0022Not covered under any policy section\u0022\r\n    }\r\n  ],\r\n  \u0022paymentPlanAndMethod\u0022: {\r\n    \u0022paymentType\u0022: \u0022Annual / Monthly Direct Debit\u0022,\r\n    \u0022depositPaid\u0022: \u0022\u00A3100\u0022,\r\n    \u0022monthlyInstalment\u0022: \u0022\u00A358.33 (for 11 months)\u0022,\r\n    \u0022cancellationTerms\u0022: {\r\n      \u0022coolingOffPeriod\u0022: \u002214 days from start date\u0022,\r\n      \u0022cancellationFee\u0022: \u0022\u00A350 (outside cooling-off)\u0022,\r\n      \u0022refundPolicy\u0022: \u0022Pro-rata refund minus admin fees\u0022\r\n    }\r\n  },\r\n  \u0022policyDetails\u0022: {\r\n    \u0022coverStartDate\u0022: \u0022Saturday, 1st June 2025\u0022,\r\n    \u0022coverEndDate\u0022: \u0022Sunday, 31st May 2026\u0022\r\n  },\r\n  \u0022signatures\u0022: {\r\n    \u0022authorisedRepresentativeInsurer\u0022: {\r\n      \u0022name\u0022: \u0022Sarah Williams\u0022,\r\n      \u0022position\u0022: \u0022Motor Insurance Manager\u0022\r\n    },\r\n    \u0022policyholderVehicleOwner\u0022: {\r\n      \u0022name\u0022: \u0022Mark Johnson\u0022\r\n    }\r\n  }\r\n}"
               }
             },
             "isDataAttachment": false,
-            "dataAttachmentFormat": "csv",
+            "dataAttachmentFormat": "json",
             "reportDataSourceParametersLabels": [],
             "reportDataSourceNames": [],
             "reportDataSourceDependencyGlobalParameterLabels": [],
@@ -3698,11 +3718,11 @@
     ],
     "templates": [
       {
-        "name": "Insurance Policy Template",
+        "name": "Car Insurance Policy Template",
         "defaultPaperMargins": "5mm 5mm 5mm 5mm",
         "defaultPaperSize": "a4",
         "defaultPaperOrientation": "portrait",
-        "themeName": "Insurance Policy",
+        "themeName": "Car Insurance Policy Theme",
         "pages": [
           {
             "pageType": "Blank page",
@@ -3951,7 +3971,7 @@
     ],
     "themes": [
       {
-        "name": "Insurance Policy",
+        "name": "Car Insurance Policy Theme",
         "content": {
           "text": {
             "a": {
