@@ -1,0 +1,3116 @@
+{
+  "check": "CxReports",
+  "created": "2025-08-05T14:41:50.766868+02:00",
+  "version": "2",
+  "data": {
+    "reports": [
+      {
+        "name": "Home Insurance Policy",
+        "reportTypeCode": "insurance",
+        "reportTemplateName": "Home Insurance Policy",
+        "pages": [
+          {
+            "number": 1.5000,
+            "name": "New Page 1",
+            "page": {
+              "content": [
+                {
+                  "id": "0bb75eb6081",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Header",
+                    "breakable": false
+                  },
+                  "children": [
+                    {
+                      "id": "bb75eb6081d",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "b75eb6081d6",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "75eb6081d63",
+                              "tag": "h1",
+                              "text": "HOME INSURANCE POLICY",
+                              "type": "heading",
+                              "theme": {
+                                "text": {
+                                  "h1": {
+                                    "fontSize": null,
+                                    "lineHeight": "1em"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "5eb6081d637",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Policy Number",
+                                  "value": "CH-HOME-2025-00789342"
+                                },
+                                {
+                                  "id": "038758867bc",
+                                  "key": "Insurer",
+                                  "value": "NovaSwiss Insurance Group"
+                                },
+                                {
+                                  "id": "38758867bce",
+                                  "key": "Issue Date",
+                                  "value": "23 June 2025"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "fontWeight": "600"
+                                  },
+                                  "row": {
+                                    "height": "20px"
+                                  },
+                                  "frame": {
+                                    "rowGap": null
+                                  },
+                                  "divider": {
+                                    "width": "10px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "dividerText": ":"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "flexShrink": 0
+                                }
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "marginTop": null,
+                              "flexShrink": 0,
+                              "paddingTop": "22px",
+                              "paddingLeft": "22px",
+                              "paddingRight": "22px",
+                              "paddingBottom": "22px"
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "150px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "backgroundColor": "var(--light-blue)"
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": false
+                },
+                {
+                  "id": "eb6081d637a",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Body",
+                    "breakable": false
+                  },
+                  "children": [
+                    {
+                      "id": "e8f92d3bf34",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "081d637a9d4",
+                          "tag": "h3",
+                          "text": "POLICYHOLDER DETAILS",
+                          "type": "heading",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "marginLeft": "12px"
+                            }
+                          },
+                          "includeInTOC": true
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "2.5rem",
+                          "borderTop": "1px solid var(--dark-gray)",
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)",
+                          "backgroundColor": "var(--blue)"
+                        },
+                        "alignItems": "center"
+                      }
+                    },
+                    {
+                      "id": "f92d3bf3420",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "6fc10e8e0a6",
+                          "data": [
+                            {
+                              "id": "item1",
+                              "key": "Name:",
+                              "value": "{$data.insurance.name}"
+                            },
+                            {
+                              "id": "99e15b3bd06",
+                              "key": "Date of Birth:",
+                              "value": "{$data.insurance.date_of_birth}"
+                            },
+                            {
+                              "id": "9e15b3bd06a",
+                              "key": "Address:",
+                              "value": "{$data.insurance.address}"
+                            },
+                            {
+                              "id": "e15b3bd06a8",
+                              "key": "Phone:",
+                              "value": "{$data.insurance.phone}"
+                            }
+                          ],
+                          "type": "key-value-grid",
+                          "theme": {
+                            "keyValueGrid": {
+                              "key": {
+                                "width": "150px",
+                                "fontFamily": null,
+                                "fontWeight": "600",
+                                "paddingLeft": "12px"
+                              },
+                              "row": {
+                                "height": null,
+                                "borderLeft": null,
+                                "borderBottom": "1px solid var(--dark-gray)",
+                                "outerBorderColor": "transparent",
+                                "collapsedBorderColor": null
+                              },
+                              "divider": {
+                                "width": null
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "fc10e8e0a6e",
+                          "data": [
+                            {
+                              "id": "item1",
+                              "key": "Email:",
+                              "value": "{$data.insurance.email}\r\n"
+                            },
+                            {
+                              "id": "d53dfae8219",
+                              "key": "Ownership:",
+                              "value": "{$data.insurance.ownership}\r\n"
+                            },
+                            {
+                              "id": "53dfae82195",
+                              "key": "No. of Previous \r\nClaims:",
+                              "value": "{$data.insurance.number_of_previous_claims}\r\n"
+                            },
+                            {
+                              "id": "3dfae821950",
+                              "key": "Previous Insurer:",
+                              "value": "{$data.insurance.previous_insurer}\r\n"
+                            }
+                          ],
+                          "type": "key-value-grid",
+                          "theme": {
+                            "keyValueGrid": {
+                              "key": {
+                                "width": "150px",
+                                "fontSize": "15px",
+                                "marginTop": null,
+                                "fontFamily": "Open Sans",
+                                "fontWeight": "600",
+                                "lineHeight": "20px"
+                              },
+                              "row": {
+                                "height": null,
+                                "borderLeft": "1px solid var(--dark-gray)",
+                                "borderRight": null,
+                                "borderBottom": "1px solid var(--dark-gray)",
+                                "outerBorderColor": "transparent",
+                                "collapsedBorderColor": null
+                              },
+                              "common": {
+                                "paddingLeft": "12px",
+                                "paddingRight": "0"
+                              },
+                              "divider": {
+                                "width": null
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "92d3bf34202",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "a9d42f569cb",
+                          "tag": "h3",
+                          "text": "PROPERTY DETAILS",
+                          "type": "heading",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "marginLeft": "12px"
+                            }
+                          },
+                          "includeInTOC": true
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "2.5rem",
+                          "borderTop": "1px solid var(--dark-gray)",
+                          "flexBasis": "auto",
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)",
+                          "backgroundColor": "var(--blue)"
+                        },
+                        "alignItems": "center"
+                      }
+                    },
+                    {
+                      "id": "d3bf3420257",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "c10e8e0a6e0",
+                          "data": [
+                            {
+                              "id": "item1",
+                              "key": "Property Type:",
+                              "value": "{$data.insurance.property_type}"
+                            },
+                            {
+                              "id": "c86dbd699e1",
+                              "key": "Construction Year:",
+                              "value": "{$data.insurance.construction_year}\r\n"
+                            },
+                            {
+                              "id": "86dbd699e15",
+                              "key": "Material:",
+                              "value": "{$data.insurance.material}\r\n"
+                            },
+                            {
+                              "id": "6dbd699e15b",
+                              "key": "Living Area:",
+                              "value": "{$data.insurance.living_area_m2}\r\n"
+                            }
+                          ],
+                          "type": "key-value-grid",
+                          "theme": {
+                            "keyValueGrid": {
+                              "key": {
+                                "width": "150px",
+                                "fontSize": null,
+                                "fontWeight": "600",
+                                "lineHeight": null
+                              },
+                              "row": {
+                                "height": null,
+                                "borderLeft": null,
+                                "borderBottom": "1px solid var(--dark-gray)",
+                                "outerBorderColor": "transparent",
+                                "collapsedBorderColor": null
+                              },
+                              "common": {
+                                "paddingLeft": "12px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "10e8e0a6e0e",
+                          "data": [
+                            {
+                              "id": "item1",
+                              "key": "Floors:",
+                              "value": "{$data.insurance.floors}"
+                            },
+                            {
+                              "id": "dbd699e15b3",
+                              "key": "Heating System:",
+                              "value": "{$data.insurance.heating_system}"
+                            },
+                            {
+                              "id": "bd699e15b3b",
+                              "key": "Security: ",
+                              "value": "{$data.insurance.security}"
+                            },
+                            {
+                              "id": "d699e15b3bd",
+                              "key": "Use:",
+                              "value": "{$data.insurance.use}"
+                            }
+                          ],
+                          "type": "key-value-grid",
+                          "theme": {
+                            "keyValueGrid": {
+                              "key": {
+                                "width": "150px",
+                                "marginTop": null,
+                                "fontWeight": "600",
+                                "lineHeight": null
+                              },
+                              "row": {
+                                "height": null,
+                                "borderLeft": "1px solid var(--dark-gray)",
+                                "borderRight": null,
+                                "borderBottom": "1px solid var(--dark-gray)",
+                                "outerBorderColor": "transparent",
+                                "collapsedBorderColor": null
+                              },
+                              "common": {
+                                "paddingLeft": "12px",
+                                "paddingRight": "5px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)"
+                        }
+                      }
+                    },
+                    {
+                      "id": "3bf34202576",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "layout": {
+                        "gap": "2px",
+                        "collapsibleSections": {
+                          "breakableContent": false
+                        }
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "69cb79afc81",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "0e8e0a6e0e9",
+                              "url": "https://github.com/cx-reports/free-templates/blob/main/insurance/home-insurance-policy/house-side.jpg?raw=true",
+                              "type": "img",
+                              "style": {},
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 1,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "borderRight": null
+                            }
+                          }
+                        },
+                        {
+                          "id": "cb79afc810a",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "b79afc810a3",
+                              "url": "https://github.com/cx-reports/free-templates/blob/main/insurance/home-insurance-policy/house-front.jpg?raw=true",
+                              "type": "img",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 1,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": "1",
+                                  "flexBasis": "0",
+                                  "flexShrink": "0"
+                                }
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "226px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "marginTop": null,
+                          "--flow-gap": "2px",
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "flexShrink": "0",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)",
+                          "marginBottom": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "34202576c66",
+                      "type": "spacer",
+                      "style": {
+                        "height": "12px"
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "$expanded": false
+                    },
+                    {
+                      "id": "4202576c66e",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "afc810a3fae",
+                          "tag": "h3",
+                          "text": "COVERAGE OVERVIEW",
+                          "type": "heading",
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "marginLeft": "12px"
+                            }
+                          },
+                          "includeInTOC": true
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "2.5rem",
+                          "borderTop": "1px solid var(--dark-gray)",
+                          "flexBasis": "auto",
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "backgroundColor": "var(--orange)"
+                        },
+                        "alignItems": "center"
+                      }
+                    },
+                    {
+                      "id": "02576c66e4e",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "0a6e0e9d47c",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "cell": {
+                                "fontWeight": null,
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              },
+                              "table": {
+                                "fontWeight": "600"
+                              },
+                              "header": {
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "field": "label",
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": "Label",
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null,
+                              "conditionalStyling": [
+                                {
+                                  "id": "a6b1e10577b",
+                                  "style": {
+                                    "fontWeight": "600"
+                                  },
+                                  "useExpression": false
+                                }
+                              ]
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "value",
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": null,
+                                "type": "text",
+                                "align": "right"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            }
+                          ],
+                          "version": 2,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          },
+                          "gridOptions": {
+                            "dataSource": "{$data.coverage.buildings_insurance}"
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;0;6",
+                            "percent": "p;0;2"
+                          }
+                        },
+                        {
+                          "id": "a6e0e9d47c9",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "cell": {
+                                "fontWeight": null,
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              },
+                              "table": {
+                                "borderLeft": "1px solid var(--dark-gray)",
+                                "fontWeight": "600",
+                                "paddingLeft": null
+                              },
+                              "header": {
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "field": "label",
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": "Contents Insurance ",
+                                "type": "text",
+                                "conditionalStyling": []
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null,
+                              "conditionalStyling": [
+                                {
+                                  "id": "77b7ec97d3c",
+                                  "style": {
+                                    "fontWeight": "600"
+                                  },
+                                  "useExpression": false
+                                }
+                              ]
+                            },
+                            {
+                              "line": "line1",
+                              "align": "right",
+                              "field": "value",
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": null,
+                                "type": "text",
+                                "align": "right"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null
+                            }
+                          ],
+                          "version": 2,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          },
+                          "gridOptions": {
+                            "dataSource": "{$data.coverage.contents_insurance}"
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;0;6",
+                            "percent": "p;0;2"
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "2576c66e4e7",
+                      "type": "data-table",
+                      "theme": {
+                        "table": {
+                          "cell": {
+                            "paddingLeft": "12px",
+                            "paddingRight": "12px"
+                          },
+                          "table": {
+                            "borderLeft": "1px solid var(--dark-gray)",
+                            "paddingTop": null,
+                            "borderRight": "1px solid var(--dark-gray)",
+                            "paddingLeft": null,
+                            "paddingRight": null
+                          },
+                          "header": {
+                            "paddingTop": null,
+                            "paddingLeft": "12px",
+                            "paddingRight": null,
+                            "paddingBottom": null
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "layout": {
+                        "repeatCollapsed": true,
+                        "optionsCollapsed": false,
+                        "collapsibleSections": {
+                          "advanced": true,
+                          "breakableContent": true
+                        },
+                        "formattingCollapsed": false
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "columns": [
+                        {
+                          "line": "line1",
+                          "field": "label",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": "Personal Liability",
+                            "type": "text"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": [
+                            {
+                              "id": "6ca0d9a78e4",
+                              "style": {
+                                "fontWeight": "600"
+                              },
+                              "useExpression": false
+                            }
+                          ]
+                        },
+                        {
+                          "line": "line1",
+                          "align": "right",
+                          "field": "value",
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": null,
+                            "type": "text",
+                            "align": "right"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null
+                        }
+                      ],
+                      "version": 2,
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "flexShrink": 0
+                        }
+                      },
+                      "gridOptions": {
+                        "dataSource": "{$data.coverage.personal_liability}"
+                      },
+                      "formatOptions": {
+                        "date": "d",
+                        "number": "n;0;6",
+                        "percent": "p;0;2"
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            }
+          },
+          {
+            "number": 2.0000,
+            "name": "New Page 2",
+            "page": {
+              "content": [
+                {
+                  "id": "ca0d9a78e41",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Header"
+                  },
+                  "children": [
+                    {
+                      "id": "a0d9a78e41e",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "d9a78e41e28",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "9a78e41e28b",
+                              "tag": "h1",
+                              "text": "HOME INSURANCE POLICY",
+                              "type": "heading",
+                              "theme": {
+                                "text": {
+                                  "h1": {
+                                    "fontSize": null,
+                                    "lineHeight": "1em"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "a78e41e28b0",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Policy Number",
+                                  "value": "CH-HOME-2025-00789342"
+                                },
+                                {
+                                  "id": "038758867bc",
+                                  "key": "Insurer",
+                                  "value": "NovaSwiss Insurance Group"
+                                },
+                                {
+                                  "id": "38758867bce",
+                                  "key": "Issue Date",
+                                  "value": "23 June 2025"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "fontWeight": "600"
+                                  },
+                                  "row": {
+                                    "height": "20px"
+                                  },
+                                  "frame": {
+                                    "rowGap": null
+                                  },
+                                  "divider": {
+                                    "width": "10px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "dividerText": ":"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "flexShrink": 0
+                                }
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "marginTop": null,
+                              "flexShrink": 0,
+                              "paddingTop": "22px",
+                              "paddingLeft": "22px",
+                              "paddingRight": "22px",
+                              "paddingBottom": "22px"
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "150px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "backgroundColor": "var(--light-blue)"
+                        }
+                      }
+                    },
+                    {
+                      "id": "8cc98fceda3",
+                      "type": "spacer",
+                      "style": {
+                        "height": "12px"
+                      },
+                      "$level": 2,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "$expanded": false
+                    }
+                  ],
+                  "$expanded": false
+                },
+                {
+                  "id": "8e41e28b0a2",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Body",
+                    "breakable": false
+                  },
+                  "children": [
+                    {
+                      "id": "9a3c38cc98f",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "beca70c7fe5",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "25d52611180",
+                              "tag": "h3",
+                              "text": "EXCESS",
+                              "type": "heading",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "includeInTOC": true
+                            }
+                          ],
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "height": "2.5rem",
+                              "borderTop": "1px solid var(--dark-gray)",
+                              "flexBasis": "auto",
+                              "borderLeft": "1px solid var(--dark-gray)",
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "backgroundColor": "var(--orange)"
+                            },
+                            "alignItems": "center"
+                          }
+                        },
+                        {
+                          "id": "dbeca70c7fe",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "cell": {
+                                "borderRight": "1px solid var(--dark-gray)",
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              },
+                              "table": {
+                                "borderLeft": "1px solid var(--dark-gray)"
+                              },
+                              "header": {
+                                "borderRight": "1px solid var(--dark-gray)",
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "field": "label",
+                              "width": 50,
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": "Type of Claim",
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "line": "line1",
+                              "field": "value",
+                              "width": 50,
+                              "format": "currency;CHF;2",
+                              "header": {
+                                "show": true,
+                                "text": "Excess (CHF)",
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null,
+                              "conditionalStyling": []
+                            }
+                          ],
+                          "version": 2,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "{$data.excess.claim_excess_table}"
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;0;6",
+                            "percent": "p;0;2"
+                          }
+                        }
+                      ],
+                      "$expanded": true
+                    },
+                    {
+                      "id": "3c38cc98fce",
+                      "type": "spacer",
+                      "style": {
+                        "height": "12px"
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "$expanded": false
+                    },
+                    {
+                      "id": "c38cc98fced",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "vertical"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "a70c7fe5451",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "horizontal"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "70c7fe5451a",
+                              "tag": "h3",
+                              "text": "PREMIUM SUMMARY",
+                              "type": "heading",
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "marginLeft": "12px"
+                                }
+                              },
+                              "includeInTOC": true
+                            }
+                          ],
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "height": "2.5rem",
+                              "borderTop": "1px solid var(--dark-gray)",
+                              "flexBasis": "auto",
+                              "borderLeft": "1px solid var(--dark-gray)",
+                              "flexShrink": "0",
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "backgroundColor": "var(--orange)"
+                            },
+                            "alignItems": "center",
+                            "justifyContent": "flex-start"
+                          }
+                        },
+                        {
+                          "id": "0c7fe5451a8",
+                          "type": "data-table",
+                          "theme": {
+                            "table": {
+                              "cell": {
+                                "borderRight": "1px solid var(--dark-gray)",
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              },
+                              "table": {
+                                "borderLeft": "1px solid var(--dark-gray)"
+                              },
+                              "header": {
+                                "borderRight": "1px solid var(--dark-gray)",
+                                "paddingLeft": "12px",
+                                "paddingRight": "12px"
+                              },
+                              "footer1": {
+                                "fontWeight": "600",
+                                "borderRight": "1px solid var(--dark-gray)",
+                                "paddingLeft": "12px",
+                                "borderBottom": "1px solid var(--dark-gray)",
+                                "paddingRight": "12px",
+                                "backgroundColor": "var(--blue)"
+                              }
+                            }
+                          },
+                          "$level": 2,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "columns": [
+                            {
+                              "line": "line1",
+                              "field": "label",
+                              "width": 50,
+                              "footer": {
+                                "show": true,
+                                "text": "Total Annual Premium"
+                              },
+                              "format": null,
+                              "header": {
+                                "show": true,
+                                "text": "Coverage Type",
+                                "type": "text"
+                              },
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateField": null,
+                              "conditionalStyling": []
+                            },
+                            {
+                              "line": "line1",
+                              "field": "value",
+                              "width": 50,
+                              "footer": {
+                                "show": true,
+                                "format": "currency;CHF;2",
+                                "formatType": "custom",
+                                "formatExpression": null
+                              },
+                              "format": "currency;CHF;2",
+                              "header": {
+                                "show": true,
+                                "text": "Annual Premium(CHF)",
+                                "type": "text"
+                              },
+                              "aggregate": "sum",
+                              "formatType": "custom",
+                              "weightField": null,
+                              "aggregateAlias": null,
+                              "aggregateField": "value",
+                              "conditionalStyling": []
+                            }
+                          ],
+                          "version": 2,
+                          "$expanded": false,
+                          "gridOptions": {
+                            "dataSource": "{$data.summary.coverage_table}"
+                          },
+                          "formatOptions": {
+                            "date": "d",
+                            "number": "n;0;6",
+                            "percent": "p;0;2"
+                          }
+                        }
+                      ],
+                      "$expanded": true
+                    },
+                    {
+                      "id": "cc98fceda31",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "d3a515da063",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "15da063110c",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "vertical"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "5da063110c9",
+                                  "tag": "h3",
+                                  "text": "PAYMENT TERMS",
+                                  "type": "heading",
+                                  "style": {},
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "$expanded": true,
+                                  "boxStyles": {
+                                    "style": {
+                                      "flexGrow": "1",
+                                      "flexBasis": "0",
+                                      "flexShrink": "0",
+                                      "paddingLeft": "12px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "2.5rem",
+                                  "flexGrow": "1",
+                                  "flexBasis": "auto",
+                                  "borderBottom": "1px solid var(--dark-gray)",
+                                  "backgroundColor": "var(--orange)"
+                                },
+                                "justifyContent": "center"
+                              }
+                            },
+                            {
+                              "id": "82cbde2eecf",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Payment Frequency:",
+                                  "value": "{$data.terms.payment_terms.payment_frequency}"
+                                },
+                                {
+                                  "id": "99e15b3bd06",
+                                  "key": "Payment Method:",
+                                  "value": "{$data.terms.payment_terms.payment_method}"
+                                },
+                                {
+                                  "id": "9e15b3bd06a",
+                                  "key": "First Due Date:",
+                                  "value": "{$data.terms.payment_terms.first_due_date}"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "width": "160px",
+                                    "fontFamily": null,
+                                    "fontWeight": "600",
+                                    "paddingLeft": "12px"
+                                  },
+                                  "row": {
+                                    "height": null,
+                                    "borderLeft": null,
+                                    "borderBottom": "1px solid var(--dark-gray)",
+                                    "outerBorderColor": "transparent",
+                                    "collapsedBorderColor": null
+                                  },
+                                  "divider": {
+                                    "width": null
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "borderTop": "1px solid var(--dark-gray)",
+                              "flexBasis": "0",
+                              "borderLeft": "1px solid var(--dark-gray)",
+                              "flexShrink": 1,
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "borderBottom": "1px solid var(--dark-gray)"
+                            }
+                          }
+                        },
+                        {
+                          "id": "3a515da0631",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true
+                    },
+                    {
+                      "id": "98fceda31d9",
+                      "type": "spacer",
+                      "style": {
+                        "height": "12px"
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 0,
+                      "$expanded": false
+                    },
+                    {
+                      "id": "8fceda31d98",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "bde2eecf333",
+                          "tag": "h3",
+                          "text": "SIGNATURES",
+                          "type": "heading",
+                          "$level": 3,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "marginLeft": "12px"
+                            }
+                          },
+                          "includeInTOC": true
+                        },
+                        {
+                          "id": "e2eecf33304",
+                          "type": "spacer",
+                          "$level": 3,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 0,
+                          "$expanded": false,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 0
+                            }
+                          }
+                        },
+                        {
+                          "id": "2eecf33304e",
+                          "text": "Date: 23.06.2025.",
+                          "type": "text",
+                          "style": {
+                            "alignSelf": "center",
+                            "paddingRight": "12px"
+                          },
+                          "$level": 3,
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 1,
+                          "$expanded": false
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "height": "2.8rem",
+                          "borderTop": "1px solid var(--dark-gray)",
+                          "flexBasis": "auto",
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "flexShrink": "0",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)",
+                          "backgroundColor": "var(--orange)"
+                        },
+                        "alignItems": "center"
+                      }
+                    },
+                    {
+                      "id": "ceda31d9805",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "ecf33304e11",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "46c40b80a15",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "6c40b80a152",
+                                  "tag": "h4",
+                                  "text": "Insurer\u0027s Representative",
+                                  "type": "heading",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "2rem",
+                                  "borderBottom": "1px solid var(--dark-gray)",
+                                  "backgroundColor": "var(--blue)"
+                                },
+                                "alignItems": "center"
+                              }
+                            },
+                            {
+                              "id": "da399874167",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Name:",
+                                  "value": "{$data.terms.signatures.insurer_representative.name}"
+                                },
+                                {
+                                  "id": "a399874167d",
+                                  "key": "Position:",
+                                  "value": "{$data.terms.signatures.insurer_representative.position}"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "width": "100px",
+                                    "fontWeight": "600"
+                                  },
+                                  "row": {
+                                    "borderRight": null
+                                  },
+                                  "common": {
+                                    "paddingLeft": "12px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "borderRight": "1px solid var(--dark-gray)"
+                            }
+                          }
+                        },
+                        {
+                          "id": "cf33304e11a",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "40b80a152f4",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "0b80a152f4d",
+                                  "tag": "h4",
+                                  "text": "POLICYHOLDER ",
+                                  "type": "heading",
+                                  "$level": 5,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "2rem",
+                                  "borderLeft": null,
+                                  "borderBottom": "1px solid var(--dark-gray)",
+                                  "backgroundColor": "var(--blue)"
+                                },
+                                "alignItems": "center",
+                                "justifyContent": "flex-start"
+                              }
+                            },
+                            {
+                              "id": "399874167d7",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Name:",
+                                  "value": "{$data.terms.signatures.policyholder.name}"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "width": "100px",
+                                    "fontWeight": "600"
+                                  },
+                                  "row": {
+                                    "borderRight": null
+                                  },
+                                  "common": {
+                                    "paddingLeft": "12px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1
+                            },
+                            "alignItems": "stretch",
+                            "justifyContent": "flex-start"
+                          }
+                        }
+                      ],
+                      "$expanded": false,
+                      "boxStyles": {
+                        "style": {
+                          "borderTop": null,
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": null
+                        }
+                      }
+                    },
+                    {
+                      "id": "a31d9805dda",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "7abca600ad6",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "bca600ad628",
+                              "text": "{$data.terms.signatures.insurer_representative.signature}",
+                              "type": "text",
+                              "style": {
+                                "alignSelf": "center",
+                                "textAlign": "center"
+                              },
+                              "theme": {
+                                "text": {
+                                  "span": {
+                                    "fontSize": "31px",
+                                    "marginTop": null,
+                                    "fontFamily": "Mrs Saint Delafield"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 1,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "paddingTop": "24px",
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "paddingLeft": null,
+                              "paddingRight": null,
+                              "paddingBottom": "12px"
+                            }
+                          }
+                        },
+                        {
+                          "id": "abca600ad62",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ca600ad6280",
+                              "text": "{$data.terms.signatures.policyholder.signature}",
+                              "type": "text",
+                              "style": {
+                                "alignSelf": "center",
+                                "textAlign": "center"
+                              },
+                              "theme": {
+                                "text": {
+                                  "span": {
+                                    "fontSize": "31px",
+                                    "marginTop": null,
+                                    "fontFamily": "WindSong"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 1,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {}
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "flexShrink": 1,
+                              "paddingTop": "24px",
+                              "paddingRight": null,
+                              "paddingBottom": "12px"
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "borderTop": null,
+                          "borderLeft": "1px solid var(--dark-gray)",
+                          "paddingTop": null,
+                          "borderRight": "1px solid var(--dark-gray)",
+                          "borderBottom": "1px solid var(--dark-gray)",
+                          "paddingBottom": null
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            }
+          },
+          {
+            "number": 3.0000,
+            "name": "New Page 3",
+            "page": {
+              "content": [
+                {
+                  "id": "a600ad62808",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Header"
+                  },
+                  "children": [
+                    {
+                      "id": "600ad62808b",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "0ad62808b4b",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ad62808b4b2",
+                              "tag": "h1",
+                              "text": "HOME INSURANCE POLICY",
+                              "type": "heading",
+                              "theme": {
+                                "text": {
+                                  "h1": {
+                                    "fontSize": null,
+                                    "lineHeight": "1em"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "includeInTOC": true
+                            },
+                            {
+                              "id": "d62808b4b23",
+                              "data": [
+                                {
+                                  "id": "item1",
+                                  "key": "Policy Number",
+                                  "value": "CH-HOME-2025-00789342"
+                                },
+                                {
+                                  "id": "038758867bc",
+                                  "key": "Insurer",
+                                  "value": "NovaSwiss Insurance Group"
+                                },
+                                {
+                                  "id": "38758867bce",
+                                  "key": "Issue Date",
+                                  "value": "23 June 2025"
+                                }
+                              ],
+                              "type": "key-value-grid",
+                              "theme": {
+                                "keyValueGrid": {
+                                  "key": {
+                                    "fontWeight": "600"
+                                  },
+                                  "row": {
+                                    "height": "20px"
+                                  },
+                                  "frame": {
+                                    "rowGap": null
+                                  },
+                                  "divider": {
+                                    "width": "10px"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "layout": {
+                                "dividerText": ":"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "flexGrow": 1,
+                                  "flexBasis": "0",
+                                  "flexShrink": 0
+                                }
+                              }
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "flexBasis": "0",
+                              "marginTop": null,
+                              "flexShrink": 0,
+                              "paddingTop": "22px",
+                              "paddingLeft": "22px",
+                              "paddingRight": "22px",
+                              "paddingBottom": "22px"
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "height": "150px",
+                          "flexGrow": "0",
+                          "flexBasis": "auto",
+                          "flexShrink": "0",
+                          "backgroundColor": "var(--light-blue)"
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": false
+                },
+                {
+                  "id": "2808b4b23ca",
+                  "type": "content",
+                  "$level": 0,
+                  "config": {
+                    "name": "Body"
+                  },
+                  "children": [
+                    {
+                      "id": "4b23cab4fba",
+                      "type": "flow",
+                      "$level": 1,
+                      "config": {
+                        "orientation": "horizontal"
+                      },
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "version": 3,
+                      "children": [
+                        {
+                          "id": "b23cab4fbad",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "ddb4499c9fb",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "db4499c9fb3",
+                                  "tag": "h3",
+                                  "text": "Frequently Asked Questions (FAQ)",
+                                  "type": "heading",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "2.5rem",
+                                  "borderTop": null,
+                                  "flexBasis": "auto",
+                                  "borderLeft": null,
+                                  "borderRight": null,
+                                  "borderBottom": "1px solid var(--dark-gray)",
+                                  "backgroundColor": "var(--orange)"
+                                },
+                                "alignItems": "center"
+                              }
+                            },
+                            {
+                              "id": "9c9fb3cf08f",
+                              "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EQ1: Is buildings insurance mandatory in Switzerland?\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EA: \u003C/strong\u003E\u003C/b\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EYes \u2013 in most cantons (e.g., Zurich, Bern), buildings insurance for fire and natural hazards is compulsory and often provided by a cantonal insurance office.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EQ2: What is included under \u201Ccontents insurance\u201D?\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EA:\u003C/strong\u003E\u003C/b\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E It covers movable personal items inside the home (e.g., furniture, electronics, clothes) against fire, theft, water damage, vandalism, and storm.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EQ3: Does my policy cover theft outside the home?\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EA:\u003C/strong\u003E\u003C/b\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E Yes, if you\u2019ve added personal effects or \u201Cworldwide cover\u201D, certain items like bicycles, laptops, or jewellery are insured while temporarily away from the home.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EQ4: What is covered under personal liability?\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EA:\u003C/strong\u003E\u003C/b\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E Damage you or family members unintentionally cause to third parties \u2013 such as water leaks damaging a neighbour\u2019s property or a child breaking a shop window.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EQ5: Is earthquake cover included?\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003EA: \u003C/strong\u003E\u003C/b\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ENo, it is not standard. You must opt for an additional \u201CErdbebendeckung\u201D with its own premium and higher deductible.\u003C/span\u003E\u003C/p\u003E",
+                              "type": "rich-text-editor",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "fontFamily": "Open Sans"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "padding": "12px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "updateCounter": 2
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "borderTop": "1px solid var(--dark-gray)",
+                              "flexBasis": "0",
+                              "borderLeft": "1px solid var(--dark-gray)",
+                              "flexShrink": 1,
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "borderBottom": "1px solid var(--dark-gray)"
+                            }
+                          }
+                        },
+                        {
+                          "id": "23cab4fbad1",
+                          "type": "flow",
+                          "$level": 2,
+                          "config": {
+                            "orientation": "vertical"
+                          },
+                          "repeat": {
+                            "alias": null,
+                            "dataSource": null,
+                            "repeatable": false
+                          },
+                          "version": 3,
+                          "children": [
+                            {
+                              "id": "4499c9fb3cf",
+                              "type": "flow",
+                              "$level": 3,
+                              "config": {
+                                "orientation": "horizontal"
+                              },
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 3,
+                              "children": [
+                                {
+                                  "id": "499c9fb3cf0",
+                                  "tag": "h3",
+                                  "text": "What to Do in Case of Damage or Loss",
+                                  "type": "heading",
+                                  "$level": 4,
+                                  "repeat": {
+                                    "alias": null,
+                                    "dataSource": null,
+                                    "repeatable": false
+                                  },
+                                  "version": 0,
+                                  "$expanded": false,
+                                  "boxStyles": {
+                                    "style": {
+                                      "marginLeft": "12px"
+                                    }
+                                  },
+                                  "includeInTOC": true
+                                }
+                              ],
+                              "$expanded": true,
+                              "boxStyles": {
+                                "style": {
+                                  "height": "2.5rem",
+                                  "borderTop": null,
+                                  "flexBasis": "auto",
+                                  "borderLeft": null,
+                                  "borderRight": null,
+                                  "borderBottom": "1px solid var(--dark-gray)",
+                                  "backgroundColor": "var(--orange)"
+                                },
+                                "alignItems": "center"
+                              }
+                            },
+                            {
+                              "id": "c9fb3cf08f3",
+                              "html": "\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E1. Ensure Safety First\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EIf it\u2019s an emergency (e.g. fire, flood), call 118 (fire brigade) or 117 (police) and evacuate if needed.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E2. Limit Further Damage\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003ETurn off water or electricity sources where necessary. Secure the property from further exposure or theft.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E3. Notify the Insurer Promptly\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EContact your insurance provider as soon as possible \u2013 usually within 5 days for standard claims or 24 hours in case of theft.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E4. Provide the Following Information:\u003C/strong\u003E\u003C/b\u003E\u003C/p\u003E\u003Cul class=\u0022editor-list-ul\u0022\u003E\u003Cli value=\u00221\u0022 class=\u0022editor-listitem\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EPolicy number\u003C/span\u003E\u003C/li\u003E\u003Cli value=\u00222\u0022 class=\u0022editor-listitem\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003E Description of the incident\u003C/span\u003E\u003C/li\u003E\u003Cli value=\u00223\u0022 class=\u0022editor-listitem\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EPhotos/videos of the damage\u003C/span\u003E\u003C/li\u003E\u003Cli value=\u00224\u0022 class=\u0022editor-listitem\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EPolice report (in case of theft or vandalism)\u003C/span\u003E\u003C/li\u003E\u003Cli value=\u00225\u0022 class=\u0022editor-listitem\u0022 dir=\u0022ltr\u0022\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EList of affected items with approximate value\u003C/span\u003E\u003C/li\u003E\u003C/ul\u003E\u003Cp class=\u0022editor-paragraph\u0022\u003E\u003Cbr\u003E\u003C/p\u003E\u003Cp class=\u0022editor-paragraph\u0022 dir=\u0022ltr\u0022\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E5. Allow Inspection (if required)\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EThe insurer may appoint a claims adjuster (\u0022Schadenexperte\u0022) to assess the damage on-site.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E6. Approval and Settlement\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EOnce verified, the insurer will offer compensation, organise repairs, or reimburse you directly to your Swiss bank account.\u003C/span\u003E\u003Cbr\u003E\u003Cbr\u003E\u003Cb\u003E\u003Cstrong class=\u0022editor-text-bold\u0022 style=\u0022white-space: pre-wrap;\u0022\u003E7. Dispute Resolution\u003C/strong\u003E\u003C/b\u003E\u003Cbr\u003E\u003Cspan style=\u0022white-space: pre-wrap;\u0022\u003EUnresolved claims can be referred to Ombudsman der Privatversicherung, or mediated via FINMA consumer services.\u003C/span\u003E\u003C/p\u003E",
+                              "type": "rich-text-editor",
+                              "theme": {
+                                "text": {
+                                  "p": {
+                                    "fontFamily": "Open Sans"
+                                  }
+                                }
+                              },
+                              "$level": 3,
+                              "repeat": {
+                                "alias": null,
+                                "dataSource": null,
+                                "repeatable": false
+                              },
+                              "version": 0,
+                              "$expanded": false,
+                              "boxStyles": {
+                                "style": {
+                                  "padding": "12px",
+                                  "flexGrow": "0",
+                                  "flexBasis": "auto",
+                                  "flexShrink": "0"
+                                }
+                              },
+                              "updateCounter": 7
+                            }
+                          ],
+                          "$expanded": true,
+                          "boxStyles": {
+                            "style": {
+                              "flexGrow": 1,
+                              "borderTop": "1px solid var(--dark-gray)",
+                              "flexBasis": "0",
+                              "borderLeft": null,
+                              "flexShrink": 1,
+                              "borderRight": "1px solid var(--dark-gray)",
+                              "borderBottom": "1px solid var(--dark-gray)"
+                            }
+                          }
+                        }
+                      ],
+                      "$expanded": true,
+                      "boxStyles": {
+                        "style": {
+                          "flexGrow": 1,
+                          "flexBasis": "0",
+                          "flexShrink": 0
+                        }
+                      }
+                    }
+                  ],
+                  "$expanded": true
+                }
+              ],
+              "isCountable": false,
+              "isLocked": false,
+              "pageType": {
+                "name": "Standard page",
+                "description": "Standard page"
+              }
+            }
+          }
+        ],
+        "dictionaries": [],
+        "parameters": [],
+        "dataSources": [
+          {
+            "name": "insurance",
+            "privateDataSourceDefinition": {
+              "displayName": "Insurance",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n    \u0022name\u0022: \u0022Laura Steiner\u0022,\r\n    \u0022date_of_birth\u0022: \u00221986-08-12\u0022,\r\n    \u0022address\u0022: \u0022Weinbergstrasse 22, 8006 Z\u00FCrich\u0022,\r\n    \u0022phone\u0022: \u0022\u002B41 76 123 45 67\u0022,\r\n    \u0022email\u0022: \u0022laura.steiner@example.ch\u0022,\r\n    \u0022ownership\u0022: \u0022Owner-occupied\u0022,\r\n    \u0022number_of_previous_claims\u0022: 0,\r\n    \u0022previous_insurer\u0022: \u0022AXA Winterthur\u0022,\r\n\r\n    \u0022property_type\u0022: \u0022Detached house\u0022,\r\n    \u0022construction_year\u0022: 2011,\r\n    \u0022material\u0022: \u0022Masonry, tile roof\u0022,\r\n    \u0022living_area_m2\u0022: 145,\r\n    \u0022floors\u0022: \u00222 \u002B basement\u0022,\r\n    \u0022heating_system\u0022: \u0022Gas heating\u0022,\r\n    \u0022security\u0022: \u0022Alarm system\u0022,\r\n    \u0022use\u0022: \u0022Permanent residence\u0022,\r\n\r\n    \u0022fire_and_natural_hazards\u0022: true,\r\n    \u0022water_damage\u0022: true,\r\n    \u0022glass_breakage\u0022: \u0022Optional\u0022,\r\n    \u0022earthquake\u0022: \u0022Optional\u0022,\r\n    \u0022insured_rebuild_value_chf\u0022: 950000,\r\n\r\n    \u0022contents_insured_sum_chf\u0022: 75000,\r\n    \u0022contents_theft\u0022: true,\r\n    \u0022contents_fire_water_storm\u0022: true,\r\n    \u0022contents_vandalism\u0022: true,\r\n    \u0022contents_jewellery_declared_chf\u0022: 10000,\r\n\r\n    \u0022personal_liability_chf\u0022: 5000000,\r\n    \u0022damage_to_rented_property\u0022: \u0022Included\u0022,\r\n    \u0022pet_owner_liability\u0022: \u0022Included\u0022,\r\n    \u0022primjer\u0022: [\r\n        {\u0022id\u0022:1, \u0022name\u0022: \u0022Jelena\u0022},\r\n        {\u0022id\u0022:2, \u0022name\u0022: \u0022Marija\u0022}\r\n    ] \r\n}\r\n"
+              }
+            },
+            "isDataAttachment": false,
+            "dataAttachmentFormat": "csv",
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "coverage",
+            "privateDataSourceDefinition": {
+              "displayName": "Coverage",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n  \u0022buildings_insurance\u0022: [\r\n    {\r\n      \u0022label\u0022: \u0022Fire \u0026 Natural Hazards\u0022,\r\n      \u0022value\u0022: \u0022\u2714\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Water Damage\u0022,\r\n      \u0022value\u0022: \u0022\u2714\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Glass Breakage\u0022,\r\n      \u0022value\u0022: \u0022Optional\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Earthquake\u0022,\r\n      \u0022value\u0022: \u0022Optional\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Insured Rebuild Value\u0022,\r\n      \u0022value\u0022: \u0022CHF 950,000\u0022\r\n    }\r\n  ],\r\n  \u0022contents_insurance\u0022: [\r\n    {\r\n      \u0022label\u0022: \u0022Insured Sum\u0022,\r\n      \u0022value\u0022: \u0022CHF 75,000\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Theft\u0022,\r\n      \u0022value\u0022: \u0022\u2714\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Fire, water, storm\u0022,\r\n      \u0022value\u0022: \u0022\u2714\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Vandalism\u0022,\r\n      \u0022value\u0022: \u0022\u2714\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Jewellery (declared)\u0022,\r\n      \u0022value\u0022: \u0022CHF 10,000\u0022\r\n    }\r\n  ],\r\n  \u0022personal_liability\u0022: [\r\n    {\r\n      \u0022label\u0022: \u0022Personal liability\u0022,\r\n      \u0022value\u0022: \u0022CHF 5,000,000\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Damage to rented property\u0022,\r\n      \u0022value\u0022: \u0022Included\u0022\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Pet owner liability\u0022,\r\n      \u0022value\u0022: \u0022Included\u0022\r\n    }\r\n  ]\r\n}\r\n"
+              }
+            },
+            "isDataAttachment": false,
+            "dataAttachmentFormat": "csv",
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "summary",
+            "privateDataSourceDefinition": {
+              "displayName": "Summary",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n  \u0022coverage_table\u0022: [\r\n    {\r\n      \u0022label\u0022: \u0022Buildings Insurance\u0022,\r\n      \u0022value\u0022: 290.00\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Contents Insurance\u0022,\r\n      \u0022value\u0022: 180.00\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Personal Liability Insurance\u0022,\r\n      \u0022value\u0022: 110.00\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Optional Earthquake Cover\u0022,\r\n      \u0022value\u0022: 45.00\r\n    }\r\n\r\n  ]\r\n}\r\n"
+              }
+            },
+            "isDataAttachment": false,
+            "dataAttachmentFormat": "csv",
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "excess",
+            "privateDataSourceDefinition": {
+              "displayName": "Excess",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n  \u0022claim_excess_table\u0022: [\r\n    {\r\n      \u0022label\u0022: \u0022Buildings / Contents\u0022,\r\n      \u0022value\u0022: 200\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Water damage\u0022,\r\n      \u0022value\u0022: 500\r\n    },\r\n    {\r\n      \u0022label\u0022: \u0022Earthquake\u0022,\r\n      \u0022value\u0022: 2500\r\n    }\r\n  ]\r\n}\r\n"
+              }
+            },
+            "isDataAttachment": false,
+            "dataAttachmentFormat": "csv",
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          },
+          {
+            "name": "terms",
+            "privateDataSourceDefinition": {
+              "displayName": "Terms",
+              "type": "json",
+              "resultType": "array",
+              "detectObjectsFromFieldNames": false,
+              "config": {
+                "json": "{\r\n  \u0022payment_terms\u0022: {\r\n    \u0022payment_frequency\u0022: \u0022Annually\u0022,\r\n    \u0022payment_method\u0022: \u0022SEPA Direct Debit (LSV\u002B)\u0022,\r\n    \u0022first_due_date\u0022: \u002223 June 2025\u0022\r\n  },\r\n  \u0022signatures\u0022: {\r\n    \u0022date\u0022: \u002223.06.2025\u0022,\r\n    \u0022insurer_representative\u0022: {\r\n      \u0022name\u0022: \u0022Michael Bachmann\u0022,\r\n      \u0022position\u0022: \u0022Senior Underwriter\u0022,\r\n      \u0022signature\u0022: \u0022Michael Bachmann\u0022\r\n    },\r\n    \u0022policyholder\u0022: {\r\n      \u0022name\u0022: \u0022Laura Steiner\u0022,\r\n      \u0022signature\u0022: \u0022Laura Steiner\u0022\r\n    }\r\n  }\r\n}\r\n"
+              }
+            },
+            "isDataAttachment": false,
+            "dataAttachmentFormat": "csv",
+            "reportDataSourceParametersLabels": [],
+            "reportDataSourceNames": [],
+            "reportDataSourceDependencyGlobalParameterLabels": [],
+            "reportDataSourceDependencyGlobalSourceNames": []
+          }
+        ],
+        "customComponents": []
+      }
+    ],
+    "templates": [
+      {
+        "name": "Home Insurance Policy",
+        "defaultPaperMargins": "5mm 5mm 5mm 5mm",
+        "defaultPaperSize": "a4",
+        "defaultPaperOrientation": "portrait",
+        "themeName": "Home Insurance Policy",
+        "pages": [
+          {
+            "pageType": "Standard page",
+            "inactive": false,
+            "isCountable": false,
+            "content": [
+              {
+                "id": "018fc55be43",
+                "type": "flow",
+                "$level": 0,
+                "config": {
+                  "orientation": "horizontal"
+                },
+                "repeat": {
+                  "alias": null,
+                  "dataSource": null,
+                  "repeatable": false
+                },
+                "version": 3,
+                "children": [
+                  {
+                    "id": "8f22d71822b",
+                    "url": "https://raw.githubusercontent.com/cx-reports/free-templates/refs/heads/main/insurance/home-insurance-policy/NovaSwissLogo.png",
+                    "type": "img",
+                    "$level": 1,
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 1,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "107px",
+                        "height": "108px",
+                        "marginTop": "22px",
+                        "marginLeft": "12px",
+                        "marginBottom": "22px"
+                      }
+                    }
+                  },
+                  {
+                    "id": "55be43481a2",
+                    "type": "content-placeholder",
+                    "$level": 1,
+                    "config": {
+                      "name": "Header"
+                    },
+                    "children": [
+                      {
+                        "id": "5be43481a2a",
+                        "type": "flow",
+                        "$level": 2,
+                        "config": {
+                          "orientation": "vertical"
+                        },
+                        "repeat": {
+                          "alias": null,
+                          "dataSource": null,
+                          "repeatable": false
+                        },
+                        "version": 3,
+                        "children": [
+                          {
+                            "id": "3a577038758",
+                            "tag": "h1",
+                            "text": "HOME INSURANCE POLICY",
+                            "type": "heading",
+                            "theme": {
+                              "text": {
+                                "h1": {
+                                  "fontSize": null,
+                                  "lineHeight": "1em"
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 0,
+                            "$expanded": false,
+                            "includeInTOC": true
+                          },
+                          {
+                            "id": "7038758867b",
+                            "data": [
+                              {
+                                "id": "item1",
+                                "key": "Policy Number",
+                                "value": null
+                              },
+                              {
+                                "id": "038758867bc",
+                                "key": "Insurer",
+                                "value": null
+                              },
+                              {
+                                "id": "38758867bce",
+                                "key": "Issue Date"
+                              }
+                            ],
+                            "type": "key-value-grid",
+                            "theme": {
+                              "keyValueGrid": {
+                                "key": {
+                                  "fontWeight": "600"
+                                },
+                                "row": {
+                                  "height": "20px"
+                                },
+                                "frame": {
+                                  "rowGap": null
+                                },
+                                "divider": {
+                                  "width": "10px"
+                                }
+                              }
+                            },
+                            "$level": 3,
+                            "layout": {
+                              "dividerText": ":"
+                            },
+                            "repeat": {
+                              "alias": null,
+                              "dataSource": null,
+                              "repeatable": false
+                            },
+                            "version": 3,
+                            "$expanded": true,
+                            "boxStyles": {
+                              "style": {
+                                "flexGrow": 1,
+                                "flexBasis": "0",
+                                "flexShrink": 0
+                              }
+                            }
+                          }
+                        ],
+                        "$expanded": true,
+                        "boxStyles": {
+                          "style": {
+                            "flexGrow": 1,
+                            "flexBasis": "0",
+                            "marginTop": null,
+                            "flexShrink": 0,
+                            "paddingTop": "22px",
+                            "paddingLeft": "22px",
+                            "paddingRight": "22px",
+                            "paddingBottom": "22px"
+                          }
+                        }
+                      }
+                    ],
+                    "$expanded": true,
+                    "boxStyles": {
+                      "style": {
+                        "flexGrow": 1,
+                        "flexBasis": "0",
+                        "flexShrink": 0
+                      }
+                    }
+                  },
+                  {
+                    "id": "81a2a544573",
+                    "type": "qr-code",
+                    "color": null,
+                    "$level": 1,
+                    "imgUrl": null,
+                    "layout": {
+                      "collapsibleSections": false
+                    },
+                    "repeat": {
+                      "alias": null,
+                      "dataSource": null,
+                      "repeatable": false
+                    },
+                    "version": 0,
+                    "$expanded": false,
+                    "boxStyles": {
+                      "style": {
+                        "width": "42px",
+                        "height": "42px",
+                        "margin": "20px",
+                        "flexGrow": "0",
+                        "flexBasis": "auto",
+                        "flexShrink": "0"
+                      }
+                    },
+                    "qrCodeData": "https://cx-reports.com/",
+                    "fromFileSystem": false,
+                    "backgroundColor": null
+                  }
+                ],
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "height": "150px",
+                    "flexGrow": "0",
+                    "flexBasis": "auto",
+                    "flexShrink": "0",
+                    "backgroundColor": "var(--light-blue)"
+                  }
+                }
+              },
+              {
+                "id": "f783d704c05",
+                "type": "content-placeholder",
+                "$level": 0,
+                "config": {
+                  "name": "Body"
+                },
+                "version": 0,
+                "$expanded": true,
+                "boxStyles": {
+                  "style": {
+                    "flexGrow": "1",
+                    "flexBasis": "0",
+                    "marginTop": "22px",
+                    "flexShrink": "0"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "name": "Home Insurance Policy",
+        "content": {
+          "text": {
+            "h1": {
+              "color": "rgba(9,19,74,1)",
+              "fontSize": "30px",
+              "marginTop": null,
+              "fontFamily": null,
+              "fontWeight": "800",
+              "lineHeight": "41px",
+              "textTransform": "uppercase"
+            },
+            "h2": {
+              "color": "rgba(9,19,74,1)",
+              "fontSize": "30px",
+              "fontFamily": null,
+              "fontWeight": "400",
+              "lineHeight": "41px",
+              "textTransform": "uppercase"
+            },
+            "h3": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "marginTop": "6px",
+              "fontFamily": null,
+              "fontWeight": "700",
+              "lineHeight": "22px",
+              "marginBottom": "6px",
+              "textTransform": "uppercase"
+            },
+            "h4": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "marginTop": "0",
+              "fontFamily": null,
+              "fontWeight": "600",
+              "lineHeight": "20px",
+              "marginBottom": "0"
+            },
+            "h5": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "marginTop": "0",
+              "fontFamily": null,
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "marginBottom": "0"
+            },
+            "body": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "marginTop": null,
+              "fontFamily": "Open Sans",
+              "fontWeight": "400",
+              "lineHeight": "20px",
+              "marginBottom": null,
+              "textTransform": null
+            }
+          },
+          "table": {
+            "cell": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "borderTop": null,
+              "fontFamily": null,
+              "fontWeight": "400",
+              "paddingTop": null,
+              "borderRight": null,
+              "borderBottom": "1px solid rgba(172,172,172,1)",
+              "paddingBottom": null,
+              "backgroundColor": "rgba(255,255,255,1)"
+            },
+            "table": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "borderLeft": null,
+              "fontFamily": null,
+              "fontWeight": "400",
+              "paddingTop": null,
+              "borderRight": null,
+              "paddingLeft": null,
+              "paddingRight": null,
+              "paddingBottom": null,
+              "backgroundColor": "rgba(255,255,255,1)"
+            },
+            "header": {
+              "color": "rgba(33,32,48,1)",
+              "fontSize": "15px",
+              "borderTop": "1px solid var(--dark-gray)",
+              "borderLeft": null,
+              "fontFamily": null,
+              "fontWeight": "700",
+              "paddingTop": null,
+              "borderRight": null,
+              "paddingLeft": null,
+              "borderBottom": "1px solid rgba(172,172,172,1)",
+              "paddingRight": null,
+              "paddingBottom": null,
+              "textTransform": null,
+              "backgroundColor": "var(--gray)"
+            }
+          },
+          "custom": null,
+          "palette": {
+            "colors": [
+              {
+                "name": "--blue",
+                "value": "rgba(212,228,255,1)",
+                "displayName": "Blue"
+              },
+              {
+                "name": "--orange",
+                "value": "rgba(255,224,189,1)",
+                "displayName": "Orange"
+              },
+              {
+                "name": "--light-blue",
+                "value": "rgba(229,234,244,1)",
+                "displayName": "Light blue"
+              },
+              {
+                "name": "--gray",
+                "value": "rgba(238,238,238,1)",
+                "displayName": "Gray"
+              },
+              {
+                "name": "--dark-gray",
+                "value": "rgba(172,172,172,1)",
+                "displayName": "Dark Gray"
+              }
+            ]
+          },
+          "keyValueGrid": {
+            "common": {
+              "paddingTop": "6px",
+              "paddingRight": null,
+              "paddingBottom": "6px"
+            }
+          },
+          "externallinks": {
+            "links": [
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=WindSong:wght@400;500\u0026display=swap"
+              },
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Mrs\u002BSaint\u002BDelafield\u0026display=swap"
+              },
+              {
+                "externalLink": "https://fonts.googleapis.com/css2?family=Open\u002BSans:ital,wght@0,300..800;1,300..800\u0026display=swap"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "reportTypes": [
+      {
+        "name": "Insurance",
+        "code": "insurance"
+      }
+    ],
+    "pageTypes": [
+      {
+        "name": "Standard page",
+        "description": "Standard page"
+      }
+    ]
+  }
+}
