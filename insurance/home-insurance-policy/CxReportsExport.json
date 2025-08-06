@@ -1,6 +1,6 @@
 {
   "check": "CxReports",
-  "created": "2025-08-05T14:41:50.766868+02:00",
+  "created": "2025-08-06T15:39:29.1644643+02:00",
   "version": "2",
   "data": {
     "reports": [
@@ -285,9 +285,9 @@
                           "$expanded": false,
                           "boxStyles": {
                             "style": {
-                              "flexGrow": 1,
+                              "flexGrow": "1",
                               "flexBasis": "0",
-                              "flexShrink": 0
+                              "flexShrink": "0"
                             }
                           }
                         },
@@ -650,6 +650,7 @@
                               "id": "b79afc810a3",
                               "url": "https://github.com/cx-reports/free-templates/blob/main/insurance/home-insurance-policy/house-front.jpg?raw=true",
                               "type": "img",
+                              "style": {},
                               "$level": 3,
                               "repeat": {
                                 "alias": null,
@@ -1200,21 +1201,6 @@
                           "backgroundColor": "var(--light-blue)"
                         }
                       }
-                    },
-                    {
-                      "id": "8cc98fceda3",
-                      "type": "spacer",
-                      "style": {
-                        "height": "12px"
-                      },
-                      "$level": 2,
-                      "repeat": {
-                        "alias": null,
-                        "dataSource": null,
-                        "repeatable": false
-                      },
-                      "version": 0,
-                      "$expanded": false
                     }
                   ],
                   "$expanded": false
@@ -1289,78 +1275,94 @@
                             },
                             "alignItems": "center"
                           }
-                        },
-                        {
-                          "id": "dbeca70c7fe",
-                          "type": "data-table",
-                          "theme": {
-                            "table": {
-                              "cell": {
-                                "borderRight": "1px solid var(--dark-gray)",
-                                "paddingLeft": "12px",
-                                "paddingRight": "12px"
-                              },
-                              "table": {
-                                "borderLeft": "1px solid var(--dark-gray)"
-                              },
-                              "header": {
-                                "borderRight": "1px solid var(--dark-gray)",
-                                "paddingLeft": "12px",
-                                "paddingRight": "12px"
-                              }
-                            }
-                          },
-                          "$level": 2,
-                          "repeat": {
-                            "alias": null,
-                            "dataSource": null,
-                            "repeatable": false
-                          },
-                          "columns": [
-                            {
-                              "line": "line1",
-                              "field": "label",
-                              "width": 50,
-                              "format": null,
-                              "header": {
-                                "show": true,
-                                "text": "Type of Claim",
-                                "type": "text"
-                              },
-                              "formatType": "custom",
-                              "weightField": null,
-                              "aggregateField": null,
-                              "conditionalStyling": []
-                            },
-                            {
-                              "line": "line1",
-                              "field": "value",
-                              "width": 50,
-                              "format": "currency;CHF;2",
-                              "header": {
-                                "show": true,
-                                "text": "Excess (CHF)",
-                                "type": "text"
-                              },
-                              "formatType": "custom",
-                              "weightField": null,
-                              "aggregateField": null,
-                              "conditionalStyling": []
-                            }
-                          ],
-                          "version": 2,
-                          "$expanded": false,
-                          "gridOptions": {
-                            "dataSource": "{$data.excess.claim_excess_table}"
-                          },
-                          "formatOptions": {
-                            "date": "d",
-                            "number": "n;0;6",
-                            "percent": "p;0;2"
-                          }
                         }
                       ],
                       "$expanded": true
+                    },
+                    {
+                      "id": "7a2cc703c4b",
+                      "type": "data-table",
+                      "theme": {
+                        "table": {
+                          "cell": {
+                            "borderRight": "1px solid var(--dark-gray)",
+                            "paddingLeft": "12px",
+                            "paddingRight": "12px"
+                          },
+                          "table": {
+                            "borderLeft": "1px solid var(--dark-gray)"
+                          },
+                          "header": {
+                            "borderRight": "1px solid var(--dark-gray)",
+                            "paddingLeft": "12px",
+                            "paddingRight": "12px"
+                          }
+                        }
+                      },
+                      "$level": 1,
+                      "repeat": {
+                        "alias": null,
+                        "dataSource": null,
+                        "repeatable": false
+                      },
+                      "columns": [
+                        {
+                          "line": "line1",
+                          "field": "label",
+                          "width": null,
+                          "format": null,
+                          "header": {
+                            "show": true,
+                            "text": "Type of Claim",
+                            "type": "text"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": [
+                            {
+                              "id": "1a64b6d9671",
+                              "style": {
+                                "width": "50%"
+                              },
+                              "useExpression": false
+                            }
+                          ]
+                        },
+                        {
+                          "line": "line1",
+                          "field": "value",
+                          "width": null,
+                          "format": "currency;CHF;2",
+                          "header": {
+                            "show": true,
+                            "text": "Excess (CHF)",
+                            "type": "text"
+                          },
+                          "formatType": "custom",
+                          "weightField": null,
+                          "aggregateField": null,
+                          "conditionalStyling": [
+                            {
+                              "id": "64b6d96718d",
+                              "style": {
+                                "width": "50%"
+                              },
+                              "useExpression": false
+                            }
+                          ]
+                        }
+                      ],
+                      "version": 2,
+                      "$expanded": false,
+                      "gridOptions": {
+                        "dataSource": "{$data.excess.claim_excess_table}"
+                      },
+                      "formatOptions": {
+                        "date": "d",
+                        "number": "n;0;6",
+                        "percent": "p;0;2"
+                      }
                     },
                     {
                       "id": "3c38cc98fce",
@@ -1479,7 +1481,7 @@
                             {
                               "line": "line1",
                               "field": "label",
-                              "width": 50,
+                              "width": null,
                               "footer": {
                                 "show": true,
                                 "text": "Total Annual Premium"
@@ -1493,12 +1495,20 @@
                               "formatType": "custom",
                               "weightField": null,
                               "aggregateField": null,
-                              "conditionalStyling": []
+                              "conditionalStyling": [
+                                {
+                                  "id": "3c4b1e1a64b",
+                                  "style": {
+                                    "width": "50%"
+                                  },
+                                  "useExpression": false
+                                }
+                              ]
                             },
                             {
                               "line": "line1",
                               "field": "value",
-                              "width": 50,
+                              "width": null,
                               "footer": {
                                 "show": true,
                                 "format": "currency;CHF;2",
@@ -1516,7 +1526,15 @@
                               "weightField": null,
                               "aggregateAlias": null,
                               "aggregateField": "value",
-                              "conditionalStyling": []
+                              "conditionalStyling": [
+                                {
+                                  "id": "d96718d0e21",
+                                  "style": {
+                                    "width": "50%"
+                                  },
+                                  "useExpression": false
+                                }
+                              ]
                             }
                           ],
                           "version": 2,
@@ -1613,7 +1631,7 @@
                               }
                             },
                             {
-                              "id": "82cbde2eecf",
+                              "id": "a2cc703c4b1",
                               "data": [
                                 {
                                   "id": "item1",
@@ -1672,7 +1690,7 @@
                               "borderTop": "1px solid var(--dark-gray)",
                               "flexBasis": "0",
                               "borderLeft": "1px solid var(--dark-gray)",
-                              "flexShrink": 1,
+                              "flexShrink": 0,
                               "borderRight": "1px solid var(--dark-gray)",
                               "borderBottom": "1px solid var(--dark-gray)"
                             }
@@ -1694,9 +1712,9 @@
                           "$expanded": true,
                           "boxStyles": {
                             "style": {
-                              "flexGrow": 1,
+                              "flexGrow": "1",
                               "flexBasis": "0",
-                              "flexShrink": 1
+                              "flexShrink": "0"
                             }
                           }
                         }
@@ -2734,7 +2752,7 @@
                 "children": [
                   {
                     "id": "8f22d71822b",
-                    "url": "https://raw.githubusercontent.com/cx-reports/free-templates/refs/heads/main/insurance/home-insurance-policy/NovaSwissLogo.png",
+                    "url": "https://github.com/cx-reports/free-templates/blob/main/insurance/home-insurance-policy/NovaSwissLogo.png?raw=true",
                     "type": "img",
                     "$level": 1,
                     "repeat": {
